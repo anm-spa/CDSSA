@@ -15,18 +15,13 @@ VerifyPhiNodes::VerifyPhiNodes(Function &Func, std::vector<std::pair<std::set<un
     bool bb=false;
     for(auto &BB:Func){
         unsigned id;
-       // if(is_number(BB.getName().str()))
         std::string s=BB.getName().str();
         std::stringstream ss(s);
         ss>>id;
-       
-    //    outs()<<BB.getName().str()<<"\n";
-    //    id=stoi(BB.getName().str());
        if(ss.fail()){
             outs()<< BB.getName().str()<< "cannot be converted to number\n";
            bb=true;
            continue;
-          //  return;
         }
         BB2ID[&BB]=id;
         ID2BB[id]=&BB;
@@ -44,7 +39,6 @@ VerifyPhiNodes::VerifyPhiNodes(Function &Func, std::vector<std::pair<std::set<un
         outs()<<"]\n";
     }
 }
-
 
 unsigned VerifyPhiNodes::isACorrectPhiNode(unsigned n, llvm::BitVector DefVect)
 {
@@ -85,43 +79,7 @@ unsigned VerifyPhiNodes::isACorrectPhiNode(unsigned n, llvm::BitVector DefVect)
     if(counter>1 )
         return 1;
     else if(counter==1 && paths[getBlockID(eB)]!=-1)
-    {
-        //outs()<<n<<" is a necessary PHI node due to undef\n";
         return 2;
-
-    }
-    else {
-       // outs()<<n<<" is not a necessary PHI node\n";
+    else
         return 0;
-    }
-    
 }
-
-
-/*
-bool VerifyPhiNodes::compare_results()
-{
-    for(auto m:Phis)
-    {
-        outs()<<"Comparing function: "<<m.first->getName()<<"Live vs M2R\n";
-        for(unsigned i=0;i<m.second.size();i++)
-        {
-            std::set<unsigned> diff;
-            std::set<unsigned> dual=m.second[i].first;
-            std::set<unsigned> m2r=m.second[i].second;
-            std::set_difference(dual.begin(), dual.end(), m2r.begin(), m2r.end(),
-                                    std::inserter(diff, diff.begin()));
-            
-            if(diff.empty()) outs()<<"Alloca "<<i<< ": subset \n";
-            else {
-                outs()<<" NOT subset";
-                for(auto n:diff)
-                    outs()<<n<<" ";
-                outs()<<"\n";
-            }
-        }
-    }
-    return false;
-}
-*/
-

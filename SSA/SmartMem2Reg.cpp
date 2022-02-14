@@ -549,15 +549,8 @@ void SmartMem2Reg::run(std::vector<std::pair<std::set<unsigned>,BitVector>> *Phi
 
   AllocaInfo Info;
   LargeBlockInfo LBI;
-  //ForwardIDFCalculator IDF(DT);
-
   for (unsigned AllocaNum = 0; AllocaNum != Allocas.size(); ++AllocaNum) {
     AllocaInst *AI = Allocas[AllocaNum];
-      
-    //  outs()<<"\nAlloca: "<<AllocaNum;
-    //  Allocas[AllocaNum]->dump();
-      
-     // if(AllocaNum != 18) continue;
 
     assert(isAllocaPromotable(AI) && "Cannot promote non-promotable alloca!");
     assert(AI->getParent()->getParent() == &F &&
@@ -586,7 +579,6 @@ void SmartMem2Reg::run(std::vector<std::pair<std::set<unsigned>,BitVector>> *Phi
         // The alloca has been processed, move on.
         RemoveFromAllocasList(AllocaNum);
         ++NumSingleStore;
-      //    outs()<<"\nRemoved\n";
         continue;
       }
    //   else Info.DefiningBlocks.emplace_back(&F.getEntryBlock());
@@ -633,15 +625,11 @@ void SmartMem2Reg::run(std::vector<std::pair<std::set<unsigned>,BitVector>> *Phi
     // nodes and see if we can optimize out some work by avoiding insertion of
     // dead phi nodes.
 
- //   if(AllocaNum != 0) continue;
-
-    //outs()<<"\nAlloca: "<<AllocaNum<<" ";
     // Get set of phi nodes based on duality theorem
     SmallVector<BasicBlock *, 32> PHIBlocks;
     CDSSA *ssa=new CDSSA(F,BBNumbers,Info.DefiningBlocks,Info.UsingBlocks, LiveInBlocks,true,liveness);
       ssa->getPhiNodes(PHIBlocks);
       
-     // PhiNodes.push_back(std::set<unsigned>());
       if(PhiNodes){
           unsigned size=BBNumbers.size();
           llvm::BitVector DefVect(size);
@@ -655,6 +643,7 @@ void SmartMem2Reg::run(std::vector<std::pair<std::set<unsigned>,BitVector>> *Phi
         return BBNumbers.find(A)->second < BBNumbers.find(B)->second;
       });
   
+     // Used for debugging purpose
      if(viewCFG){
          outs()<<"\nAlloca: "<<AllocaNum<<" ";
          Allocas[AllocaNum]->dump();
@@ -693,14 +682,9 @@ void SmartMem2Reg::run(std::vector<std::pair<std::set<unsigned>,BitVector>> *Phi
   for (unsigned i = 0, e = Allocas.size(); i != e; ++i)
     Values[i] = UndefValue::get(Allocas[i]->getAllocatedType());
     
-//    outs()<<"Find Varifier 1";
-
   // When handling debug info, treat all incoming values as if they have unknown
   // locations until proven otherwise.
   RenamePassData::LocationVector Locations(Allocas.size());
-    
- //   outs()<<"Find Varifier 2";
-
 
   // Walks all basic blocks in the function performing the SSA rename algorithm
   // and inserting the phi nodes we marked as necessary
@@ -708,18 +692,12 @@ void SmartMem2Reg::run(std::vector<std::pair<std::set<unsigned>,BitVector>> *Phi
   RenamePassWorkList.emplace_back(&F.front(), nullptr, std::move(Values),
                                   std::move(Locations));
     
- //   outs()<<"Find Varifier 3";
-
-    
   do {
     RenamePassData RPD = std::move(RenamePassWorkList.back());
     RenamePassWorkList.pop_back();
     // RenamePass may add new worklist entries.
     RenamePass(RPD.BB, RPD.Pred, RPD.Values, RPD.Locations, RenamePassWorkList);
   } while (!RenamePassWorkList.empty());
-    
-//    outs()<<"Find Varifier 4";
-
 
   // The renamer uses the Visited set to avoid infinite loops.  Clear it now.
   Visited.clear();
@@ -733,14 +711,10 @@ void SmartMem2Reg::run(std::vector<std::pair<std::set<unsigned>,BitVector>> *Phi
       A->replaceAllUsesWith(UndefValue::get(A->getType()));
     A->eraseFromParent();
   }
-//    outs()<<"Find Varifier 5";
-
   // Remove alloca's dbg.declare instrinsics from the function.
   for (auto &Declares : AllocaDbgDeclares)
     for (auto *DII : Declares)
       DII->eraseFromParent();
-
-//    outs()<<"Find Varifier 6";
 
   // Loop over all of the PHI nodes and see if there are any that we can get
   // rid of because they merge all of the same incoming values.  This can
@@ -771,8 +745,6 @@ void SmartMem2Reg::run(std::vector<std::pair<std::set<unsigned>,BitVector>> *Phi
       ++I;
     }
   }
-//    outs()<<"Find Varifier 7";
-
 
   // At this point, the renamer has added entries to PHI nodes for all reachable
   // code.  Unfortunately, there may be unreachable blocks which the renamer
@@ -790,15 +762,11 @@ void SmartMem2Reg::run(std::vector<std::pair<std::set<unsigned>,BitVector>> *Phi
     if (&BB->front() != SomePHI)
       continue;
 
-  //    outs()<<"Find Varifier 7-1";
-
     // Only do work here if there the PHI nodes are missing incoming values.  We
     // know that all PHI nodes that were inserted in a block will have the same
     // number of incoming values, so we can just check any of them.
     if (SomePHI->getNumIncomingValues() == getNumPreds(BB))
       continue;
- //     outs()<<"Find Varifier 7-2\n";
-
     // Get the preds for BB.
     SmallVector<BasicBlock *, 16> Preds(pred_begin(BB), pred_end(BB));
 
@@ -808,8 +776,6 @@ void SmartMem2Reg::run(std::vector<std::pair<std::set<unsigned>,BitVector>> *Phi
     auto CompareBBNumbers = [this](BasicBlock *A, BasicBlock *B) {
       return BBNumbers.find(A)->second < BBNumbers.find(B)->second;
     };
- //     outs()<<"Find Varifier 7-3\n";
-
       
     llvm::sort(Preds, CompareBBNumbers);
 
@@ -825,8 +791,6 @@ void SmartMem2Reg::run(std::vector<std::pair<std::set<unsigned>,BitVector>> *Phi
       // Remove the entry
       Preds.erase(EntIt);
     }
-//      outs()<<"Find Varifier 8";
-
     // At this point, the blocks left in the preds list must have dummy
     // entries inserted into every PHI nodes for the block.  Update all the phi
     // nodes in this block that we are inserting (there could be phis before
@@ -839,11 +803,7 @@ void SmartMem2Reg::run(std::vector<std::pair<std::set<unsigned>,BitVector>> *Phi
       for (BasicBlock *Pred : Preds)
         SomePHI->addIncoming(UndefVal, Pred);
     }
- //     outs()<<"Find Varifier 9";
-
   }
-//    outs()<<"Find Varifier 10";
-
   NewPhiNodes.clear();
     
 }
@@ -891,7 +851,6 @@ void SmartMem2Reg::runOriginal(std::vector<std::pair<std::set<unsigned>,llvm::Bi
         // The alloca has been processed, move on.
         RemoveFromAllocasList(AllocaNum);
         ++NumSingleStore;
-    //      outs()<<"\nRemoved\n";
         continue;
       }
     }
@@ -957,7 +916,7 @@ void SmartMem2Reg::runOriginal(std::vector<std::pair<std::set<unsigned>,llvm::Bi
       return BBNumbers.find(A)->second < BBNumbers.find(B)->second;
     });
     
-   
+   // Used for debugging purpose
     if(viewCFG){
         outs()<<"\nAlloca: "<<AllocaNum<<" ";
         Allocas[AllocaNum]->dump();
@@ -974,17 +933,6 @@ void SmartMem2Reg::runOriginal(std::vector<std::pair<std::set<unsigned>,llvm::Bi
         outs()<<"\n";
      
     }
-    
-      
-    /*
-    // Get set of phi nodes based on duality theorem
-    SmallVector<BasicBlock *, 32> PHIBlocks;
-    CDSSA *ssa=new CDSSA(F,BBNumbers,Info.DefiningBlocks,LiveInBlocks,true);
-    ssa->getPhiNodes(PHIBlocks);
-      llvm::sort(PHIBlocks, [this](BasicBlock *A, BasicBlock *B) {
-        return BBNumbers.find(A)->second < BBNumbers.find(B)->second;
-      });
-     */
       unsigned CurrentVersion = 0;
       for (BasicBlock *BB : PHIBlocks)
         QueuePhiNode(BB, AllocaNum, CurrentVersion);

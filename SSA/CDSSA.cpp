@@ -22,18 +22,13 @@ CDSSA::CDSSA(llvm::Function &Fs,DenseMap<BasicBlock *, unsigned> BBs,SmallVector
         unsigned BBid=BBNumbers[&BB];
         BBIds[BBid]=&BB;
     }
-  //  outs()<<"\nDef Blocks: ";
-
     for(auto B:defBlocks){
         defs.insert(getBlockID(B));
         DefVect[getBlockID(B)]=true;
-    //    outs()<<getBlockID(B)<<" ";
     }
- //   outs()<<"\nLive Blocks: ";
   
     for(auto B:liveBlocks){
         LiveVect[getBlockID(B)]=true;
- //       outs()<<getBlockID(B)<<" ";
     }
     liveness=liveanal;
 }
@@ -66,52 +61,32 @@ CDSSA::CDSSA(llvm::Function &Fs,DenseMap<BasicBlock *, unsigned> BBs,SmallVector
     
     for(auto B:liveBlocks){
         LiveVect[getBlockID(B)]=true;
- //       outs()<<getBlockID(B)<<" ";
     }
     liveness=liveanal;
-   // backwardReachability(UseVect,uses);
 }
-
-
-
 
 void CDSSA::getPhiNodes(SmallVector<BasicBlock *, 32> &PhiBlocks)
 {
     std::map<unsigned,std::set<unsigned> > Res;
     if(!computeSSA) return;
     std::set<unsigned> ssa=overapproxWXFPOptimized();
- //   std::set<unsigned> ssa=overapproxWXFPHeu();
     std::set<unsigned> livessa;
-    
- /*   outs()<<"\nPhi Blocks: ";
-    for(auto n:ssa) outs()<<n<<" ";
-    outs()<<"\n";
- */
-   // if(liveness) //livessa=getReachableNodes(UseVect, ssa);
-  //  outs()<<"\nPhi Blocks (Final): ";
-    
-    if(liveness){
-    for(auto n:ssa)
-        if(LiveVect[n])
-           {
-            PhiBlocks.emplace_back(BBIds[n]);// livessa.insert(n);
-            finalssa.insert(n);
-      //      outs()<<n<<" ";
-        }
+    if(liveness)
+    {
+        for(auto n:ssa)
+            if(LiveVect[n])
+            {
+                PhiBlocks.emplace_back(BBIds[n]);// livessa.insert(n);
+                finalssa.insert(n);
+            }
     }
     else{
         for(auto n:ssa)
-            //if(isACorrectPhiNode(n))
             {
                 PhiBlocks.emplace_back(BBIds[n]);
                 finalssa.insert(n);
             }
     }
-  //      else if(!liveness) PhiBlocks.emplace_back(BBIds[n]);
-  //  for(auto n:livessa){
- //       outs()<<n<<" ";
- //       PhiBlocks.emplace_back(BBIds[n]);
-   // }
 }
 
 std::set<unsigned> CDSSA::getSSA()
@@ -127,7 +102,6 @@ std::set<unsigned>  CDSSA::getWCC()
     llvm::BitVector WgNodes(size);
     for(auto v:defs)
         DefVect[v]=true;
-   // std::set<unsigned> Wg=overapproxWXFP(vDefs);
     std::set<unsigned> Wg=overapproxWXFPHeu();
     for(auto n:Wg)
         WgNodes[n]=1;
@@ -147,7 +121,6 @@ std::set<unsigned> CDSSA::getReachableNodes(llvm::BitVector reachableNodeVect, s
     while(!Q.empty())
     {
         std::pair<unsigned,unsigned> np=Q.front();
-     //   outs()<<"Visiting nodes: "<<np.first<<", "<<np.second<<"\n";
         Q.pop();
         V[np.second]=true;
         if(reachableNodeVect[np.second])
@@ -155,22 +128,13 @@ std::set<unsigned> CDSSA::getReachableNodes(llvm::BitVector reachableNodeVect, s
             ReachableNodes.insert(np.first);
             continue;
         }
-     //   if(reachableNodeVect[np.second]) outs()<<"Use of "<<np.second<<" true\n";
-     //   else outs()<<"Use of "<<np.second<<" False\n";
         llvm::BasicBlock* B=BBIds[np.second];
         if(!B) continue;
         for(auto nB:llvm::successors(B))
-        //llvm::succ_iterator ib=llvm::succ_begin(B);
-        //llvm::succ_iterator ie=llvm::succ_end(B);
-        //for(;ib!=ie;ib++)
         {
-            //if(!(*ib)) continue;
             if(!nB) continue;
             unsigned nBid=BBNumbers[nB];
-         //   if(!V[nBid])
-            //    outs()<<np.first<<" and "<<nBid<<" are inserted to queue\n";
-                Q.push(std::pair<unsigned,unsigned>(np.first,nBid));
-        
+            Q.push(std::pair<unsigned,unsigned>(np.first,nBid));
         }
     }
     return ReachableNodes;
@@ -179,7 +143,6 @@ std::set<unsigned> CDSSA::getReachableNodes(llvm::BitVector reachableNodeVect, s
 
 void CDSSA::backwardReachability(llvm::BitVector &vect, std::set<unsigned> &initNodes)
 {
-    outs()<<"Performing backward analysis\n";
     std::queue<unsigned> Q;
     for(auto n:initNodes){
         Q.push(n);
@@ -200,8 +163,6 @@ void CDSSA::backwardReachability(llvm::BitVector &vect, std::set<unsigned> &init
                 Q.push(bid);
         }
     }
-    outs()<<"Backward analysis terminated\n";
-
 }
 
 std::set<unsigned> CDSSA::checkReachability(llvm::BitVector wccPre, std::set<unsigned> Defs)
@@ -218,9 +179,7 @@ std::set<unsigned> CDSSA::checkReachability(llvm::BitVector wccPre, std::set<uns
         unsigned n=Q.front();
         Q.pop();
         V[n]=true;
-       // llvm::errs()<<"Visiting node "<<n->getBlockID()<<"\n";
         if(wccPre[n]) wcc.insert(n);
-        
         llvm::BasicBlock* B=BBIds[n];
         if(!B) continue;
         llvm::succ_iterator ib=llvm::succ_begin(B);
@@ -266,9 +225,6 @@ std::set<unsigned>  CDSSA::overapproxWXFP()
         unsigned currNode=Q.front();
         Q.pop();
         V[currNode]=false;
-        
-    //    llvm::errs()<<"Visiting "<<currNode<<"\n";
-        
         llvm::BasicBlock *B=BBIds[currNode];
        
         for(auto Badjfront:ABIter.adj(B))
@@ -285,40 +241,29 @@ std::set<unsigned>  CDSSA::overapproxWXFP()
                 if(!Pre[m].empty()){
                    S.insert(*Pre[m].begin());
                    Sx.insert((*Pre[m].begin()).first);
-                    
-               //     llvm::errs()<<"("<<(*Pre[m].begin()).first<<", "<<(*Pre[m].begin()).second<<") ";
                 }
-            }
+        }
             
-            
-            
-            std::set<std::pair<unsigned,unsigned>> Y;
-            if(defs.find(n)!=defs.end())
-               Y.insert({n,0});
-            else if(Sx.size()>1)
-               Y.insert({n,0});
-            else if(Sx.size()==1){
-                unsigned min=UNINITVAL;
-                for(auto x:S)
-                {
-                    if(x.first==*Sx.begin() && min>x.second)
-                        min=x.second;
-                }
-                Y.insert({*Sx.begin(),min+1});
-            }
-            else Y=std::set<std::pair<unsigned,unsigned>>();
-            
-        //    llvm::errs()<<"("<<(*Y.begin()).first<<", "<<(*Y.begin()).second<<") ";
-            
-            if(Sx.size()>1)
+        std::set<std::pair<unsigned,unsigned>> Y;
+        if(defs.find(n)!=defs.end())
+            Y.insert({n,0});
+        else if(Sx.size()>1)
+            Y.insert({n,0});
+        else if(Sx.size()==1){
+            unsigned min=UNINITVAL;
+            for(auto x:S)
             {
-                WX.insert(n);
-        //        llvm::errs()<<"Inserted into WX "<<n<<"\n";
+                if(x.first==*Sx.begin() && min>x.second)
+                    min=x.second;
             }
+            Y.insert({*Sx.begin(),min+1});
+        }
+        else Y=std::set<std::pair<unsigned,unsigned>>();
+        if(Sx.size()>1)
+            WX.insert(n);
             if(Y.empty()) continue;
             else if(Pre[n].empty() && !Y.empty()) {
                 Pre[n]=Y;
-      //          llvm::errs()<<"Pre[n] gets Y as Pre[n] is empty but Y is not:"<<n<<"\n";
                 if(!V[n]){
                    Q.push(n);
                    V[n]=true;
@@ -328,10 +273,11 @@ std::set<unsigned>  CDSSA::overapproxWXFP()
                    std::pair<unsigned,unsigned> x=*Y.begin(), y=*Pre[n].begin();
                    bool F1=(y.first==n);
                    bool F2=(y.first!=n), F3=(x.first!=n), F4=(y.second <= x.second);
-                   if(!(F1 || ( F2 && F3 && F4))){
+                   if(!(F1 || ( F2 && F3 && F4)))
+                   {
                       Pre[n]=Y;
-       //                llvm::errs()<<"Pre[n] gets Y as Y is smaller than Pre[n]:("<<y.first<<", "<<y.second<<")\n";
-                      if(!V[n]){
+                      if(!V[n])
+                      {
                        Q.push(n);
                        V[n]=true;
                       }
@@ -339,31 +285,6 @@ std::set<unsigned>  CDSSA::overapproxWXFP()
               }
        }
     }
-    /*
-    for(auto *B:*cfg){
-        unsigned m=B->getBlockID();
-         llvm::errs()<<"Pre ["<<m<<"]= "<<Pre[m]<<" ";
-    }
-    llvm::errs()<<"\n";
-    llvm::errs()<<"\n WCC nodes are (in graph ranking based method): \n";
-    for(auto n:wcc)
-    {
-        if(DefVect[n]) continue;
-        std::set<unsigned> S;
-        
-        llvm::BasicBlock *B=BBIds[n];
-        llvm::BasicBlock::succ_iterator ib=B->succ_begin();
-        llvm::BasicBlock::succ_iterator ie=B->succ_end();
-        for(;ib!=ie;ib++){
-            if(!(*ib)) continue;
-            unsigned m=(*ib)->getBlockID();
-            if(Pre[m]!=UNINITVAL) S.insert(Pre[m]);
-        }
-        llvm::errs()<<n<<" (";
-        for(auto x:S) llvm::errs()<<x<<", ";
-        llvm::errs()<<")\n";
-    }*/
-    
     std::map<unsigned,unsigned > Prem;
     for(auto &B:*F)
     {
@@ -376,31 +297,6 @@ std::set<unsigned>  CDSSA::overapproxWXFP()
     }
     
     std::set<unsigned> Wg=excludeImpreciseResults(WX,defs,Prem);
-  //  llvm::outs()<<"FixPoint: "<<WX.size()<<" ExcludeImpreciseResults: "<<Wg.size()<<"\n";
-    /*
-    llvm::errs()<<"\n";
-    llvm::errs()<<"\n SSA nodes are (FP method): "<<curr_var<<"\n";
-    for(auto n:WX)
-    {
-        llvm::BasicBlock *B=BBIds[n];
-        std::set<unsigned> S;
-        for(auto Badjfront:(B->*adjBar)())
-        {
-            if(!Badjfront) continue;
-            unsigned m=Badjfront->getBlockID();
-            for(auto z:Pre[m])
-                S.insert(z.first);
-        }
-        llvm::errs()<<n<<" (";
-        for(auto x:S) llvm::errs()<<x<<", ";
-        llvm::errs()<<")\n";
-    }
-    
-    llvm::errs()<<"WG... ";
-    for(auto n:Wg)
-        llvm::errs()<<n<<", ";
-     
-   */
     return Wg;
 }
 
@@ -408,21 +304,16 @@ std::set<unsigned>  CDSSA::overapproxWXFPOptimized()
 {
     std::queue<unsigned> Q;
     std::map<unsigned,unsigned> Pre;
-    
-    //llvm::outs()<<"Running the FP operation\n";
-    
     unsigned UNINITVAL=size+10;
     std::set<unsigned> WX;
     llvm::BitVector V(size);
     llvm::BitVector DEFN(size);
-
    
     for(auto &B:*F)
     {
         llvm::BasicBlock *BB=&B;
         if(!(BB)) continue;
         Pre[getBlockID(&B)]=UNINITVAL;
-       // DEFN[B->getBlockID()]=UNINITVAL;
     }
     
     for(auto n:defs)
@@ -438,11 +329,7 @@ std::set<unsigned>  CDSSA::overapproxWXFPOptimized()
         unsigned currNode=Q.front();
         Q.pop();
         V[currNode]=false;
-        
-     //   llvm::errs()<<"Visiting "<<currNode<<"\n";
-        
         llvm::BasicBlock *B=BBIds[currNode];
-       
         for(auto Badjfront:ABIter.adj(B))
         {
             if(!Badjfront) continue;
@@ -477,30 +364,6 @@ std::set<unsigned>  CDSSA::overapproxWXFPOptimized()
             }
        }
     }
-    /*
-    for(auto *B:*cfg){
-        unsigned m=B->getBlockID();
-         llvm::errs()<<"Pre ["<<m<<"]= "<<Pre[m]<<" ";
-    }
-    llvm::errs()<<"\n";
-    llvm::errs()<<"\n WCC nodes are (in graph ranking based method): \n";
-    for(auto n:wcc)
-    {
-        if(DefVect[n]) continue;
-        std::set<unsigned> S;
-        
-        llvm::BasicBlock *B=BBIds[n];
-        llvm::BasicBlock::succ_iterator ib=B->succ_begin();
-        llvm::BasicBlock::succ_iterator ie=B->succ_end();
-        for(;ib!=ie;ib++){
-            if(!(*ib)) continue;
-            unsigned m=(*ib)->getBlockID();
-            if(Pre[m]!=UNINITVAL) S.insert(Pre[m]);
-        }
-        llvm::errs()<<n<<" (";
-        for(auto x:S) llvm::errs()<<x<<", ";
-        llvm::errs()<<")\n";
-    }*/
     
     std::map<unsigned,unsigned > Prem;
     for(auto &B:*F)
@@ -512,39 +375,9 @@ std::set<unsigned>  CDSSA::overapproxWXFPOptimized()
         else Prem[n]=Pre[n];
        
     }
-    
-    //llvm::outs()<<"Exclude Imprecision\n";
-    
     std::set<unsigned> Wg=excludeImpreciseResults(WX,defs,Pre);
- //   llvm::outs()<<"FixPoint: "<<WX.size()<<" ExcludeImpreciseResults: "<<Wg.size()<<"\n";
-    /*
-    llvm::errs()<<"\n";
-    llvm::errs()<<"\n SSA nodes are (FP method): "<<curr_var<<"\n";
-    for(auto n:WX)
-    {
-        llvm::BasicBlock *B=BBIds[n];
-        std::set<unsigned> S;
-        for(auto Badjfront:(B->*adjBar)())
-        {
-            if(!Badjfront) continue;
-            unsigned m=Badjfront->getBlockID();
-            for(auto z:Pre[m])
-                S.insert(z.first);
-        }
-        llvm::errs()<<n<<" (";
-        for(auto x:S) llvm::errs()<<x<<", ";
-        llvm::errs()<<")\n";
-    }
-    
-    llvm::errs()<<"WG... ";
-    for(auto n:Wg)
-        llvm::errs()<<n<<", ";
-     
-   */
     return Wg;
 }
-
-
 
 std::set<unsigned>  CDSSA::overapproxWXFPHeu()
 {
@@ -573,7 +406,6 @@ std::set<unsigned>  CDSSA::overapproxWXFPHeu()
         Q.push(n);
         V[n]=true;
         DEFN[n]=true;
- //       outs()<<n<<" is original def\n";
     }
     
   std::set<unsigned> reqDefs;
@@ -585,26 +417,16 @@ std::set<unsigned>  CDSSA::overapproxWXFPHeu()
         Q.pop();
         V[currNode]=false;
         llvm::BasicBlock *B=BBIds[currNode];
-   //     outs()<<"visiting "<<currNode<<"\n";
         for(auto Badjfront:ABIter.adj(B))
         {
             if(!Badjfront) continue;
             unsigned n=getBlockID(Badjfront);
-            
-    //        outs()<<" its successor : "<<n<<"\n";
-            
             std::set<unsigned> undef,udef;
             std::set<Elem> Sx;
             std::set<unsigned> Sz;
             for(auto Badjback:ABIter.adjRev(Badjfront)){
                 if(!Badjback) continue;
                 unsigned m=getBlockID(Badjback);
-                
-          /*      outs()<<" Predecessor of "<<n<<"is "<<m<<"\n";
-                outs()<<"Pre["<<m<<"]= "<<Pre[m].first<<", {";
-                for(auto k:Pre[m].second) outs()<<k<<" ";
-                outs()<<"}\n";
-           */
 
                 if(Pre[m].first!=UNINITVAL){
                     Sx.insert(Pre[m]);
@@ -612,20 +434,9 @@ std::set<unsigned>  CDSSA::overapproxWXFPHeu()
                     Sz.insert(Pre[m].first);
                 }
                 else {
-                   // undef.insert(m);
                     udef.insert(m);
                 }
             }
-            
-        /*    outs()<<"Undef: ";
-            for(auto x:undef) outs()<<x<<" ";
-            outs()<<"\n";
-            
-            outs()<<"Sx: ";
-            for(auto x:Sx) outs()<<x.first<<" ";
-            outs()<<"\n";
-         */
-            
             if(Sz.size()>1)
             {
                 WX.insert(n);
@@ -636,35 +447,16 @@ std::set<unsigned>  CDSSA::overapproxWXFPHeu()
                 }
                 Pre[n]=Elem(n,std::set<unsigned>());
                 Z.insert(undef.begin(),undef.end());
-               // for(auto X:Sx)
-               //     if(!X.second.empty())
-               //         Pre[n].second.insert(X.second.begin(),X.second.end());
-             //   for(auto y:undef)
-                   // if(UseVect[n])
-            //            Pre[n].second.insert(y);
-                  //  Pre[n].second.insert(undef.begin(),undef.end());
-
-          
-         /*      outs()<<n<<" is included: ";
-               for(auto x:Sx) outs()<<x.first<<" ";
-               outs()<<"\n";
-        */
-                
             }
             else{
                 Elem oldVal=Pre[n];
-              //  if(DEFN[n] && !Sz.empty() && !udef.empty())
-
                 if( !Sz.empty() && !udef.empty())
                 {
-           //         outs()<<n<<" included in Z\n";
                     Z.insert(n);
                 }
                 if(DEFN[n] || Pre[n].first==n) continue;
                 else {
                     Elem e=*Sx.begin();
-               //     std::set<unsigned> S=e.second;
-              //      if(!udef.empty() && UseVect[n]) S.insert(n);
                     if(!udef.empty()) undef.insert(n);
                     else undef=std::set<unsigned>();
                     Pre[n]=Elem(e.first,undef);
@@ -674,41 +466,26 @@ std::set<unsigned>  CDSSA::overapproxWXFPHeu()
                     V[n]=true;
                 }
             }
-    /*        outs()<<"Pre["<<n<<"]= "<<Pre[n].first<<", {";
-            for(auto k:Pre[n].second) outs()<<k<<" ";
-            outs()<<"}\n";
-     */
        }
     }
       
-       for(auto m:Z){
-        //   if(undefWX[n]) continue;
-     //     outs()<<"Considering "<<m<<"\n";
-        //   if(!LiveVect[m]) continue;
-       //    for(auto m:Pre[n].second){
-               
-       //        outs()<<"Working on "<<m<<"\n";
-                   
-               llvm::BasicBlock *B=BBIds[m];
-               bool is_uninit=false,is_def=false;
-           for(auto pB:predecessors(B)){
-           //    outs()<<Pre[getBlockID(pB)].first<<" ";
-                   if(Pre[getBlockID(pB)].first==UNINITVAL)
-                       is_uninit=true;
-                   else
-                       //if(DefVect[Pre[getBlockID(pB)].first])
+        for(auto m:Z){
+            llvm::BasicBlock *B=BBIds[m];
+            bool is_uninit=false,is_def=false;
+            for(auto pB:predecessors(B)){
+                if(Pre[getBlockID(pB)].first==UNINITVAL)
+                    is_uninit=true;
+                else
                        is_def=true;
-           }
-                    if(is_uninit && is_def)
-                   {
-                       Pre[m]=Elem(m,std::set<unsigned>());
-                       WX.insert(m);
-                       Q.push(m);
-                       V[m]=true;
-           //            outs()<<m<<" is included\n";
-                       reqDefs.insert(m);
-                   }
-             
+            }
+            if(is_uninit && is_def)
+            {
+                Pre[m]=Elem(m,std::set<unsigned>());
+                WX.insert(m);
+                Q.push(m);
+                V[m]=true;
+                reqDefs.insert(m);
+            }
        }
       if(Q.empty()) break;
   }
@@ -720,20 +497,7 @@ std::set<unsigned>  CDSSA::overapproxWXFPHeu()
         if(!(BB)) continue;
         unsigned n=getBlockID(&B);
         Prem[n]=Pre[n].first;
-    //    outs()<<"Pre["<<n<<"]="<<Pre[n].first<<"\n";
-       
     }
-    
-  /*
-    outs()<<"Defining Blocks: ";
-    for(auto n:defs)
-        outs()<<n<<" ";
-    outs()<<"\WX sets: ";
-    for(auto n:WX)
-        outs()<<n<<" ";
-   */
-    
- //   outs()<<"Algorithm 1 ends\n";
     std::set<unsigned> Wg=excludeImpreciseResults(WX,defs,Prem,&reqDefs);
     return Wg;
 }
@@ -769,7 +533,6 @@ std::set<unsigned> CDSSA::excludeImpreciseResults(std::set<unsigned> WX,std::set
     
     for(auto n:Defs){
         Acc[n]=n;
-       // isFinal[n]=true;
         wccNode[n]=false;
         for(auto m:solnGraph[n].first){
             if(!V1[m]) {
@@ -792,9 +555,6 @@ std::set<unsigned> CDSSA::excludeImpreciseResults(std::set<unsigned> WX,std::set
         DefVect[undefNode]=true;
 
     }
-    
- //  printGraph(solnGraph);
-    
     while(!Q.empty())
     {
         unsigned n=Q.front();
@@ -803,9 +563,7 @@ std::set<unsigned> CDSSA::excludeImpreciseResults(std::set<unsigned> WX,std::set
         std::set<unsigned> S;
         unsigned solvedNode;
         std::set<unsigned> unsolvedNode;
-    //    outs()<<"Reading "<<n<<"\n";
         for(auto m:solnGraph[n].second){
-  //          outs()<<"considering "<<m<<"Acc: "<<Acc[m]<<"\n";
             if(Acc[m]!=UNINITVAL) {S.insert(Acc[m]);solvedNode=Acc[m];}
             else unsolvedNode.insert(m);
         }
@@ -817,7 +575,6 @@ std::set<unsigned> CDSSA::excludeImpreciseResults(std::set<unsigned> WX,std::set
             if(!DefVect[n])
                 wccNode[n]=true;
             Wg.insert(n);
-     //       llvm::errs()<<n<<" is included\n";
         }
         else  // if(existUninit)
         {
@@ -828,16 +585,13 @@ std::set<unsigned> CDSSA::excludeImpreciseResults(std::set<unsigned> WX,std::set
                 Wg.insert(n);
                 if(!DefVect[n])
                     wccNode[n]=true;
-   //              llvm::errs()<<n<<" is included\n";
             }
             else
             {
                 isFinal[n]=true;
                 if(Acc[n]!=n)
                     Acc[n]=Acc[solvedNode];
-                
                 Pre[n]=Acc[solvedNode];   // ******************Added for SCC computation
-  //               llvm::errs()<<n<<" is excluded\n";
             }
         }
         for(auto m:solnGraph[n].first){
@@ -879,13 +633,8 @@ std::set<std::pair<unsigned,unsigned> > CDSSA::findAllReachableEdges(std::set<un
     std::queue<llvm::BasicBlock *> Q;
     llvm::BitVector inQ(size+1);
     for(auto u:Vp){
-        //if(BBIds.find(u)==BBIds.end())
-        //  continue;
         llvm::BasicBlock* uB= BBIds[u];
         if(!uB) continue;
-     //   llvm::succ_iterator ib=uB->succ_begin();
-      //  llvm::succ_iterator ie=uB->succ_end();
-      //  for(;ib!=ie;ib++)
         for(auto BB:llvm::successors(uB))
         {
             if(BB){
@@ -894,7 +643,6 @@ std::set<std::pair<unsigned,unsigned> > CDSSA::findAllReachableEdges(std::set<un
             }
         }
     }
-    
     llvm::BitVector V(size);
     std::set<std::pair<unsigned,unsigned> > Res;
     
@@ -904,9 +652,6 @@ std::set<std::pair<unsigned,unsigned> > CDSSA::findAllReachableEdges(std::set<un
         Q.pop();
         inQ[getBlockID(n)]=false;
         V[getBlockID(n)]=true;
-     //   llvm::succ_iterator ib=n->succ_begin();
-     //   llvm::succ_iterator ie=n->succ_end();
-     //   for(;ib!=ie;ib++)
         for(auto nB: llvm::successors(n))
         {
           if(nB)  {
@@ -945,11 +690,6 @@ std::set<unsigned> CDSSA::filterOutUnreachablenodes(std::set<unsigned> X,std::se
     return GammaR;
 }
 
-
-
-
-
-
 void CDSSA::printGraph()
 {
     llvm::BasicBlock* src=&(F->getEntryBlock());
@@ -958,17 +698,10 @@ void CDSSA::printGraph()
     llvm::BitVector V(size);
     V[getBlockID(src)]=true;
     std::ofstream fout ("/tmp/temp.dot");
-    //fout << endl
-    //<< "-----file_with_graph_G begins here-----" << endl
     fout<< "digraph G {" << std::endl;
-   // fout<<"  node [shape=circle];"<<endl;
     std::map<unsigned,std::string> nodes;
-   // std::map<unsigned, edgeType>::iterator itb=graphCDNet.begin();
-    //while(itb!=graphCDNet.end())
     for(auto &B:*F)
     {
-        //if(DefVect[itb->first])
-          //  fout <<itb->first<< "[fontcolor=blue label ="<<"\"" << itb->first<<"  | rank: "<<graphRank[itb->first]<<"  \""<<"]"<<endl;
         if(DefVect[getBlockID(&B)])
             fout <<getBlockID(&B)<< "[fontcolor=red label ="<<"\"" << getBlockID(&B)<<" \""<<"]"<<std::endl;
         else
@@ -979,10 +712,6 @@ void CDSSA::printGraph()
     {
         llvm::BasicBlock* x=W.front();
         W.pop();
-       // llvm::BasicBlock::succ_iterator ib=x->succ_begin();
-       // llvm::BasicBlock::succ_iterator ie=x->succ_end();
-        //for(auto m:graphCDNet[n].first)
-      //  for(;ib!=ie;ib++)
         for(auto xB:llvm::successors(x))
         {
             if(!(xB)) continue;
@@ -1002,16 +731,11 @@ void CDSSA::printGraph(std::map<unsigned, edgeType> graph)
     llvm::BitVector V(size);
     V[src]=true;
     std::ofstream fout ("/tmp/soln.dot");
-    //fout << endl
-    //<< "-----file_with_graph_G begins here-----" << endl
     fout<< "digraph G {" << std::endl;
-    // fout<<"  node [shape=circle];"<<endl;
     std::map<unsigned,std::string> nodes;
     std::map<unsigned, edgeType>::iterator itb=graph.begin();
     while(itb!=graph.end())
     {
-        //if(DefVect[itb->first])
-        //  fout <<itb->first<< "[fontcolor=blue label ="<<"\"" << itb->first<<"  | rank: "<<graphRank[itb->first]<<"  \""<<"]"<<endl;
         if(DefVect[itb->first])
             fout <<itb->first<< "[fontcolor=red label ="<<"\"" << itb->first<<" \""<<"]"<<std::endl;
         else

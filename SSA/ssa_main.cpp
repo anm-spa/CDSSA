@@ -36,7 +36,7 @@
   
  #define DEBUG_TYPE "smartssa"
   
- STATISTIC(NumPromoted, "Number of alloca's promoted");
+STATISTIC(NumPromoted, "Number of alloca's promoted");
 
 static cl::opt<bool> Mem2RegDefault("m2rlive", cl::desc("Perform original mem2reg operation"));
 static cl::opt<bool> Mem2RegUnOp("m2r", cl::desc("Perform mem2reg operation without liveness analysis"));
@@ -55,7 +55,6 @@ static cl::opt<std::string> FuncIn("func", cl::desc("Specify function name"), cl
    bool Changed = false;
    std::vector<std::pair<std::set<unsigned>,llvm::BitVector>> ssadual, ssam2r;
    while (true) {
-       //std::vector<std::set<unsigned>> dualssa, m2rssa;
      Allocas.clear();
   
      // Find allocas that are safe to promote, by looking at all instructions in
@@ -87,9 +86,7 @@ static cl::opt<std::string> FuncIn("func", cl::desc("Specify function name"), cl
          VerifyPhiNodes verifyP(F,ssadual);
    else if (PHIInfo && (Mem2RegDefault || Mem2RegUnOp))
          VerifyPhiNodes verifyP(F,ssam2r);
-     
-  //   F.viewCFG();
-   return Changed;
+    return Changed;
  }
   
  PreservedAnalyses PromotePass::run(Function &F, FunctionAnalysisManager &AM) {
@@ -118,8 +115,6 @@ static cl::opt<std::string> FuncIn("func", cl::desc("Specify function name"), cl
    // runOnFunction - To run this pass, first we calculate the alloca
    // instructions that are safe for promotion, then we promote each one.
    bool runOnFunction(Function &F) override {
-       
-    //outs()<<"analyzing "<<F.getName().str()<<"\n";
     std::ofstream FuncInput(FuncIn.c_str());
     if(FuncInput.ios_base::good())
         if(F.getName().str()!=FuncIn.c_str())
@@ -127,10 +122,6 @@ static cl::opt<std::string> FuncIn("func", cl::desc("Specify function name"), cl
      if (skipFunction(F))
        return false;
      DominatorTree &DT=getAnalysis<DominatorTreeWrapperPass>().getDomTree();
-     //DominatorTree DT=DominatorTree();
-     //if(Mem2RegDefault || Mem2RegUnOp)
-     //    DT=std::move(getAnalysis<DominatorTreeWrapperPass>().getDomTree());
-     
      AssumptionCache &AC =
          getAnalysis<AssumptionCacheTracker>().getAssumptionCache(F);
      return promoteMemoryToRegister(F, DT, AC);
@@ -144,11 +135,9 @@ static cl::opt<std::string> FuncIn("func", cl::desc("Specify function name"), cl
    }
  };
   
- } // end anonymous namespace
+ }
   
- char PromoteLegacyPass::ID = 0;
-
-
+char PromoteLegacyPass::ID = 0;
 static RegisterPass<PromoteLegacyPass> X("smartssa", "Smart SSA Pass",
                              true,
                              false);
@@ -157,18 +146,3 @@ static RegisterStandardPasses Y(
     PassManagerBuilder::EP_EarlyAsPossible,
     [](const PassManagerBuilder &Builder,
        legacy::PassManagerBase &PM) { PM.add(new PromoteLegacyPass()); });
-
-
-/*
- INITIALIZE_PASS_BEGIN(PromoteLegacyPass, "smartssa", "Promote Memory to "
-                                                     "Register in Smart way",
-                       false, false)
- INITIALIZE_PASS_DEPENDENCY(AssumptionCacheTracker)
- INITIALIZE_PASS_DEPENDENCY(DominatorTreeWrapperPass)
- INITIALIZE_PASS_END(PromoteLegacyPass, "smartssa", "Promote Memory to Register in Smart way",false, false)
-  
- // createPromoteMemoryToRegister - Provide an entry point to create this pass.
- FunctionPass *llvm::createPromoteMemoryToRegisterPass() {
-   return new PromoteLegacyPass();
- }
- */
