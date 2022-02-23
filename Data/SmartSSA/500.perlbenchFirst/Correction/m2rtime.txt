@@ -1,0 +1,30 @@
+Analizing File:  pp_pack.c
+        2.22 real         0.06 user         0.01 sys
+        1.85 real         0.05 user         0.01 sys
+        1.89 real         0.06 user         0.01 sys
+        1.74 real         0.05 user         0.00 sys
+        1.82 real         0.05 user         0.01 sys
+Analizing File:  regcomp.c
+        3.90 real         0.02 user         0.01 sys
+        3.96 real         0.02 user         0.01 sys
+        4.22 real         0.03 user         0.01 sys
+        6.22 real         0.03 user         0.00 sys
+        5.96 real         0.03 user         0.00 sys
+Analizing File:  regexec.c
+        6.51 real         0.03 user         0.01 sys
+        4.58 real         0.03 user         0.01 sys
+        6.58 real         0.03 user         0.00 sys
+       17.86 real         0.03 user         0.01 sys
+        7.41 real         0.03 user         0.01 sys
+Analizing File:  sv.c
+        6.91 real         0.03 user         0.00 sys
+        6.91 real         0.03 user         0.01 sys
+        5.63 real         0.03 user         0.00 sys
+        4.54 real         0.02 user         0.00 sys
+        4.64 real         0.03 user         0.03 sys
+Analizing File:  toke.c
+       17.45 real         0.03 user         0.01 sys
+        7.14 real         0.03 user         0.00 sys
+        6.89 real         0.03 user         0.00 sys
+        6.92 real         0.03 user         0.01 sys
+       14.98 real         0.03 user         0.00 sys

@@ -1,0 +1,10 @@
+m2rlivestats.txt: TotalInst: 381742 PhiInst: 13592
+m2rstats.txt: TotalInst: 394584 PhiInst: 27618
+duallivestats.txt: TotalInst: 381602 PhiInst: 13516
+dualstats.txt: TotalInst: 387033 PhiInst: 20156
+
+
+TotalTime: m2rlivetime.txt 1477.8 265.19 11.54  276.73
+TotalTime: m2rtime.txt 1487.29 268.89 11.42  280.31
+TotalTime: duallivetime.txt 2211.01 966.75 15.79  982.54
+TotalTime: dualtime.txt 2216.43 971.39 15.7  987.09

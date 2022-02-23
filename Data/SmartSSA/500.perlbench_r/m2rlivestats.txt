@@ -1,0 +1,2359 @@
+Analizing File:  DynaLoader.c
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+  3 instcount - Number of Add insts
+  2 instcount - Number of And insts
+  1 instcount - Number of BitCast insts
+ 28 instcount - Number of Br insts
+  7 instcount - Number of Call insts
+ 16 instcount - Number of GetElementPtr insts
+  4 instcount - Number of ICmp insts
+ 22 instcount - Number of Load insts
+  1 instcount - Number of PHI insts
+  4 instcount - Number of PtrToInt insts
+  2 instcount - Number of Ret insts
+  2 instcount - Number of SDiv insts
+  8 instcount - Number of Store insts
+  2 instcount - Number of Sub insts
+  2 instcount - Number of Switch insts
+  2 instcount - Number of Unreachable insts
+  1 instcount - Number of ZExt insts
+ 34 instcount - Number of basic blocks
+  2 instcount - Number of non-external functions
+107 instcount - Number of instructions (of all types)
+ 12 mem2reg   - Number of alloca's promoted with a single store
+ 17 smartssa  - Number of alloca's promoted
+
+Analizing File:  Opcode.c
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+   2 instcount - Number of AShr insts
+  85 instcount - Number of Add insts
+   9 instcount - Number of Alloca insts
+  53 instcount - Number of And insts
+ 130 instcount - Number of BitCast insts
+ 387 instcount - Number of Br insts
+ 184 instcount - Number of Call insts
+ 294 instcount - Number of GetElementPtr insts
+ 131 instcount - Number of ICmp insts
+ 412 instcount - Number of Load insts
+   4 instcount - Number of Mul insts
+   9 instcount - Number of Or insts
+  77 instcount - Number of PHI insts
+  40 instcount - Number of PtrToInt insts
+  24 instcount - Number of Ret insts
+  21 instcount - Number of SDiv insts
+  64 instcount - Number of SExt insts
+   5 instcount - Number of Select insts
+   8 instcount - Number of Shl insts
+  97 instcount - Number of Store insts
+  28 instcount - Number of Sub insts
+  11 instcount - Number of Switch insts
+  20 instcount - Number of Trunc insts
+  11 instcount - Number of Unreachable insts
+   7 instcount - Number of Xor insts
+  16 instcount - Number of ZExt insts
+ 433 instcount - Number of basic blocks
+  24 instcount - Number of non-external functions
+2129 instcount - Number of instructions (of all types)
+   2 mem2reg   - Number of alloca's promoted within one block
+  52 mem2reg   - Number of PHI nodes inserted
+ 127 mem2reg   - Number of alloca's promoted with a single store
+ 189 smartssa  - Number of alloca's promoted
+
+Analizing File:  av.c
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+  53 instcount - Number of Add insts
+   4 instcount - Number of Alloca insts
+  77 instcount - Number of And insts
+ 224 instcount - Number of BitCast insts
+ 491 instcount - Number of Br insts
+ 136 instcount - Number of Call insts
+   5 instcount - Number of FCmp insts
+   2 instcount - Number of FPExt insts
+   2 instcount - Number of FPTrunc insts
+ 397 instcount - Number of GetElementPtr insts
+ 209 instcount - Number of ICmp insts
+ 453 instcount - Number of Load insts
+   5 instcount - Number of Mul insts
+   4 instcount - Number of Or insts
+ 100 instcount - Number of PHI insts
+  12 instcount - Number of PtrToInt insts
+  28 instcount - Number of Ret insts
+   7 instcount - Number of SDiv insts
+   7 instcount - Number of SExt insts
+   1 instcount - Number of Select insts
+  85 instcount - Number of Store insts
+  16 instcount - Number of Sub insts
+  13 instcount - Number of Switch insts
+  11 instcount - Number of Trunc insts
+   8 instcount - Number of Unreachable insts
+   5 instcount - Number of Xor insts
+  19 instcount - Number of ZExt insts
+ 540 instcount - Number of basic blocks
+  28 instcount - Number of non-external functions
+2374 instcount - Number of instructions (of all types)
+  60 mem2reg   - Number of PHI nodes inserted
+  79 mem2reg   - Number of alloca's promoted with a single store
+ 118 smartssa  - Number of alloca's promoted
+
+Analizing File:  CMakeCCompilerId.c
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+ 5 instcount - Number of Add insts
+ 5 instcount - Number of GetElementPtr insts
+ 9 instcount - Number of Load insts
+ 1 instcount - Number of Ret insts
+10 instcount - Number of SExt insts
+ 1 instcount - Number of basic blocks
+ 1 instcount - Number of non-external functions
+30 instcount - Number of instructions (of all types)
+ 1 mem2reg   - Number of alloca's promoted within one block
+ 3 mem2reg   - Number of alloca's promoted with a single store
+ 4 smartssa  - Number of alloca's promoted
+
+Analizing File:  feature_tests.c
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+1 instcount - Number of GetElementPtr insts
+1 instcount - Number of Load insts
+1 instcount - Number of Ret insts
+2 instcount - Number of SExt insts
+1 instcount - Number of basic blocks
+1 instcount - Number of non-external functions
+5 instcount - Number of instructions (of all types)
+3 mem2reg   - Number of alloca's promoted with a single store
+3 smartssa  - Number of alloca's promoted
+
+Analizing File:  caretx.c
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+ 1 instcount - Number of BitCast insts
+ 2 instcount - Number of Br insts
+ 2 instcount - Number of Call insts
+ 4 instcount - Number of GetElementPtr insts
+ 1 instcount - Number of ICmp insts
+ 4 instcount - Number of Load insts
+ 1 instcount - Number of Ret insts
+ 3 instcount - Number of basic blocks
+ 1 instcount - Number of non-external functions
+15 instcount - Number of instructions (of all types)
+ 2 mem2reg   - Number of alloca's promoted with a single store
+ 2 smartssa  - Number of alloca's promoted
+
+Analizing File:  MD5.c
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+   4 instcount - Number of AShr insts
+ 336 instcount - Number of Add insts
+  11 instcount - Number of Alloca insts
+  65 instcount - Number of And insts
+ 152 instcount - Number of BitCast insts
+ 216 instcount - Number of Br insts
+ 128 instcount - Number of Call insts
+ 564 instcount - Number of GetElementPtr insts
+  68 instcount - Number of ICmp insts
+  84 instcount - Number of LShr insts
+ 484 instcount - Number of Load insts
+   4 instcount - Number of Mul insts
+ 144 instcount - Number of Or insts
+  45 instcount - Number of PHI insts
+  20 instcount - Number of PtrToInt insts
+  19 instcount - Number of Ret insts
+  10 instcount - Number of SDiv insts
+  29 instcount - Number of SExt insts
+   2 instcount - Number of Select insts
+ 132 instcount - Number of Shl insts
+ 118 instcount - Number of Store insts
+  20 instcount - Number of Sub insts
+   8 instcount - Number of Switch insts
+  24 instcount - Number of Trunc insts
+   3 instcount - Number of Unreachable insts
+ 128 instcount - Number of Xor insts
+  92 instcount - Number of ZExt insts
+ 246 instcount - Number of basic blocks
+  19 instcount - Number of non-external functions
+2910 instcount - Number of instructions (of all types)
+  10 mem2reg   - Number of alloca's promoted within one block
+  33 mem2reg   - Number of PHI nodes inserted
+  97 mem2reg   - Number of alloca's promoted with a single store
+ 154 smartssa  - Number of alloca's promoted
+
+Analizing File:  SHA.c
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+    4 instcount - Number of AShr insts
+ 1060 instcount - Number of Add insts
+   15 instcount - Number of Alloca insts
+  283 instcount - Number of And insts
+  317 instcount - Number of BitCast insts
+  555 instcount - Number of Br insts
+  309 instcount - Number of Call insts
+ 2053 instcount - Number of GetElementPtr insts
+  141 instcount - Number of ICmp insts
+    1 instcount - Number of IntToPtr insts
+  925 instcount - Number of LShr insts
+ 1726 instcount - Number of Load insts
+   14 instcount - Number of Mul insts
+  999 instcount - Number of Or insts
+  110 instcount - Number of PHI insts
+   36 instcount - Number of PtrToInt insts
+   39 instcount - Number of Ret insts
+   16 instcount - Number of SDiv insts
+   43 instcount - Number of SExt insts
+    4 instcount - Number of SRem insts
+    9 instcount - Number of Select insts
+  841 instcount - Number of Shl insts
+  359 instcount - Number of Store insts
+   53 instcount - Number of Sub insts
+   19 instcount - Number of Switch insts
+   25 instcount - Number of Trunc insts
+    5 instcount - Number of UDiv insts
+    9 instcount - Number of URem insts
+   12 instcount - Number of Unreachable insts
+ 1095 instcount - Number of Xor insts
+   99 instcount - Number of ZExt insts
+  625 instcount - Number of basic blocks
+   39 instcount - Number of non-external functions
+11176 instcount - Number of instructions (of all types)
+   21 mem2reg   - Number of alloca's promoted within one block
+   95 mem2reg   - Number of PHI nodes inserted
+  175 mem2reg   - Number of alloca's promoted with a single store
+  305 smartssa  - Number of alloca's promoted
+
+Analizing File:  sdf.c
+Analizing File:  sha.c
+Analizing File:  sha64bit.c
+Analizing File:  Parser.c
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+ 136 instcount - Number of Add insts
+  43 instcount - Number of Alloca insts
+ 187 instcount - Number of And insts
+ 518 instcount - Number of BitCast insts
+1934 instcount - Number of Br insts
+ 578 instcount - Number of Call insts
+   8 instcount - Number of FCmp insts
+   5 instcount - Number of FPExt insts
+   5 instcount - Number of FPTrunc insts
+1598 instcount - Number of GetElementPtr insts
+ 745 instcount - Number of ICmp insts
+1585 instcount - Number of Load insts
+   6 instcount - Number of Mul insts
+  16 instcount - Number of Or insts
+ 472 instcount - Number of PHI insts
+ 124 instcount - Number of PtrToInt insts
+  42 instcount - Number of Ret insts
+  17 instcount - Number of SDiv insts
+ 206 instcount - Number of SExt insts
+   4 instcount - Number of Select insts
+   2 instcount - Number of Shl insts
+ 278 instcount - Number of Store insts
+  97 instcount - Number of Sub insts
+  31 instcount - Number of Switch insts
+ 116 instcount - Number of Trunc insts
+  13 instcount - Number of Unreachable insts
+   5 instcount - Number of Xor insts
+ 139 instcount - Number of ZExt insts
+2020 instcount - Number of basic blocks
+  42 instcount - Number of non-external functions
+8910 instcount - Number of instructions (of all types)
+   1 mem2reg   - Number of alloca's promoted within one block
+ 337 mem2reg   - Number of PHI nodes inserted
+ 230 mem2reg   - Number of alloca's promoted with a single store
+ 376 smartssa  - Number of alloca's promoted
+
+Analizing File:  hparser.c
+Analizing File:  parser-util.c
+Analizing File:  Base64.c
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+   5 instcount - Number of AShr insts
+  68 instcount - Number of Add insts
+   9 instcount - Number of Alloca insts
+  44 instcount - Number of And insts
+  76 instcount - Number of BitCast insts
+ 356 instcount - Number of Br insts
+  77 instcount - Number of Call insts
+   4 instcount - Number of FCmp insts
+   1 instcount - Number of FPExt insts
+   1 instcount - Number of FPTrunc insts
+ 294 instcount - Number of GetElementPtr insts
+ 138 instcount - Number of ICmp insts
+ 337 instcount - Number of Load insts
+   6 instcount - Number of Mul insts
+   8 instcount - Number of Or insts
+ 117 instcount - Number of PHI insts
+  22 instcount - Number of PtrToInt insts
+  10 instcount - Number of Ret insts
+  10 instcount - Number of SDiv insts
+  33 instcount - Number of SExt insts
+   6 instcount - Number of Shl insts
+  71 instcount - Number of Store insts
+  21 instcount - Number of Sub insts
+   9 instcount - Number of Switch insts
+  11 instcount - Number of Trunc insts
+   3 instcount - Number of UDiv insts
+   6 instcount - Number of Unreachable insts
+  35 instcount - Number of ZExt insts
+ 381 instcount - Number of basic blocks
+  10 instcount - Number of non-external functions
+1778 instcount - Number of instructions (of all types)
+  84 mem2reg   - Number of PHI nodes inserted
+  65 mem2reg   - Number of alloca's promoted with a single store
+ 107 smartssa  - Number of alloca's promoted
+
+Analizing File:  ListUtil.c
+Analizing File:  HiRes.c
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+  55 instcount - Number of Add insts
+  13 instcount - Number of Alloca insts
+  44 instcount - Number of And insts
+  70 instcount - Number of BitCast insts
+ 469 instcount - Number of Br insts
+ 184 instcount - Number of Call insts
+   7 instcount - Number of FAdd insts
+   4 instcount - Number of FCmp insts
+   3 instcount - Number of FDiv insts
+   7 instcount - Number of FMul insts
+   1 instcount - Number of FPToSI insts
+   4 instcount - Number of FPToUI insts
+   2 instcount - Number of FSub insts
+ 266 instcount - Number of GetElementPtr insts
+ 104 instcount - Number of ICmp insts
+ 334 instcount - Number of Load insts
+   1 instcount - Number of Or insts
+  44 instcount - Number of PHI insts
+  38 instcount - Number of PtrToInt insts
+  20 instcount - Number of Ret insts
+  19 instcount - Number of SDiv insts
+  13 instcount - Number of SExt insts
+   9 instcount - Number of SIToFP insts
+   3 instcount - Number of Select insts
+  93 instcount - Number of Store insts
+  27 instcount - Number of Sub insts
+  17 instcount - Number of Switch insts
+  10 instcount - Number of Trunc insts
+   7 instcount - Number of UIToFP insts
+  10 instcount - Number of Unreachable insts
+  23 instcount - Number of ZExt insts
+ 516 instcount - Number of basic blocks
+  20 instcount - Number of non-external functions
+1901 instcount - Number of instructions (of all types)
+   1 mem2reg   - Number of alloca's promoted within one block
+  14 mem2reg   - Number of PHI nodes inserted
+ 104 mem2reg   - Number of alloca's promoted with a single store
+ 153 smartssa  - Number of alloca's promoted
+
+Analizing File:  deb.c
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+  8 instcount - Number of Add insts
+  2 instcount - Number of Alloca insts
+ 10 instcount - Number of And insts
+ 22 instcount - Number of BitCast insts
+114 instcount - Number of Br insts
+ 41 instcount - Number of Call insts
+ 84 instcount - Number of GetElementPtr insts
+ 43 instcount - Number of ICmp insts
+  2 instcount - Number of IntToPtr insts
+ 97 instcount - Number of Load insts
+ 38 instcount - Number of PHI insts
+ 17 instcount - Number of PtrToInt insts
+  7 instcount - Number of Ret insts
+  6 instcount - Number of SDiv insts
+  1 instcount - Number of SExt insts
+  1 instcount - Number of Store insts
+  8 instcount - Number of Sub insts
+  1 instcount - Number of Switch insts
+  1 instcount - Number of Unreachable insts
+ 10 instcount - Number of ZExt insts
+123 instcount - Number of basic blocks
+  7 instcount - Number of non-external functions
+513 instcount - Number of instructions (of all types)
+ 30 mem2reg   - Number of PHI nodes inserted
+ 22 mem2reg   - Number of alloca's promoted with a single store
+ 36 smartssa  - Number of alloca's promoted
+
+Analizing File:  Dumper.c
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+ 117 instcount - Number of Add insts
+  11 instcount - Number of Alloca insts
+ 132 instcount - Number of And insts
+ 452 instcount - Number of BitCast insts
+1153 instcount - Number of Br insts
+ 455 instcount - Number of Call insts
+   9 instcount - Number of FCmp insts
+   6 instcount - Number of FPExt insts
+   6 instcount - Number of FPTrunc insts
+ 896 instcount - Number of GetElementPtr insts
+ 498 instcount - Number of ICmp insts
+   3 instcount - Number of LShr insts
+ 962 instcount - Number of Load insts
+  14 instcount - Number of Mul insts
+ 301 instcount - Number of PHI insts
+  39 instcount - Number of PtrToInt insts
+  16 instcount - Number of Ret insts
+  13 instcount - Number of SDiv insts
+  75 instcount - Number of SExt insts
+   3 instcount - Number of Select insts
+ 137 instcount - Number of Store insts
+  33 instcount - Number of Sub insts
+  10 instcount - Number of Switch insts
+  41 instcount - Number of Trunc insts
+   1 instcount - Number of UDiv insts
+   3 instcount - Number of Unreachable insts
+   2 instcount - Number of Xor insts
+  55 instcount - Number of ZExt insts
+1182 instcount - Number of basic blocks
+  16 instcount - Number of non-external functions
+5443 instcount - Number of instructions (of all types)
+   2 mem2reg   - Number of alloca's promoted within one block
+ 203 mem2reg   - Number of PHI nodes inserted
+ 107 mem2reg   - Number of alloca's promoted with a single store
+ 220 smartssa  - Number of alloca's promoted
+
+Analizing File:  IO.c
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+  73 instcount - Number of Add insts
+   2 instcount - Number of Alloca insts
+  25 instcount - Number of And insts
+  48 instcount - Number of BitCast insts
+ 358 instcount - Number of Br insts
+ 178 instcount - Number of Call insts
+   1 instcount - Number of FCmp insts
+ 222 instcount - Number of GetElementPtr insts
+  87 instcount - Number of ICmp insts
+ 261 instcount - Number of Load insts
+   1 instcount - Number of Mul insts
+   2 instcount - Number of Or insts
+  46 instcount - Number of PHI insts
+  34 instcount - Number of PtrToInt insts
+  22 instcount - Number of Ret insts
+  17 instcount - Number of SDiv insts
+  28 instcount - Number of SExt insts
+   2 instcount - Number of Select insts
+  92 instcount - Number of Store insts
+  20 instcount - Number of Sub insts
+  22 instcount - Number of Switch insts
+   7 instcount - Number of Trunc insts
+  14 instcount - Number of Unreachable insts
+  11 instcount - Number of ZExt insts
+ 416 instcount - Number of basic blocks
+  22 instcount - Number of non-external functions
+1573 instcount - Number of instructions (of all types)
+   2 mem2reg   - Number of alloca's promoted within one block
+  34 mem2reg   - Number of PHI nodes inserted
+ 131 mem2reg   - Number of alloca's promoted with a single store
+ 185 smartssa  - Number of alloca's promoted
+
+Analizing File:  poll.c
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+  4 instcount - Number of Add insts
+  5 instcount - Number of Alloca insts
+  8 instcount - Number of And insts
+ 16 instcount - Number of BitCast insts
+ 47 instcount - Number of Br insts
+ 26 instcount - Number of Call insts
+ 18 instcount - Number of GetElementPtr insts
+ 18 instcount - Number of ICmp insts
+  6 instcount - Number of Load insts
+  1 instcount - Number of Mul insts
+  1 instcount - Number of Or insts
+ 18 instcount - Number of PHI insts
+  4 instcount - Number of Ret insts
+  1 instcount - Number of SDiv insts
+ 14 instcount - Number of SExt insts
+  1 instcount - Number of SRem insts
+  2 instcount - Number of Shl insts
+  5 instcount - Number of Store insts
+  2 instcount - Number of Switch insts
+  5 instcount - Number of Trunc insts
+  2 instcount - Number of UDiv insts
+  2 instcount - Number of URem insts
+  1 instcount - Number of Unreachable insts
+ 54 instcount - Number of basic blocks
+  4 instcount - Number of non-external functions
+207 instcount - Number of instructions (of all types)
+ 18 mem2reg   - Number of PHI nodes inserted
+ 13 mem2reg   - Number of alloca's promoted with a single store
+ 22 smartssa  - Number of alloca's promoted
+
+Analizing File:  Cwd.c
+Analizing File:  Storable.c
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+    1 instcount - Number of AShr insts
+  587 instcount - Number of Add insts
+   76 instcount - Number of Alloca insts
+  607 instcount - Number of And insts
+ 1594 instcount - Number of BitCast insts
+ 6149 instcount - Number of Br insts
+ 1605 instcount - Number of Call insts
+   11 instcount - Number of FCmp insts
+    8 instcount - Number of FPExt insts
+    8 instcount - Number of FPTrunc insts
+ 7834 instcount - Number of GetElementPtr insts
+ 1618 instcount - Number of ICmp insts
+    2 instcount - Number of IntToPtr insts
+   82 instcount - Number of LShr insts
+ 4704 instcount - Number of Load insts
+  127 instcount - Number of Mul insts
+  155 instcount - Number of Or insts
+  536 instcount - Number of PHI insts
+  424 instcount - Number of PtrToInt insts
+   88 instcount - Number of Ret insts
+   23 instcount - Number of SDiv insts
+  617 instcount - Number of SExt insts
+   30 instcount - Number of Select insts
+   82 instcount - Number of Shl insts
+ 1375 instcount - Number of Store insts
+  159 instcount - Number of Sub insts
+   72 instcount - Number of Switch insts
+  558 instcount - Number of Trunc insts
+    5 instcount - Number of Unreachable insts
+    2 instcount - Number of Xor insts
+  149 instcount - Number of ZExt insts
+ 6314 instcount - Number of basic blocks
+   88 instcount - Number of non-external functions
+29288 instcount - Number of instructions (of all types)
+    4 mem2reg   - Number of alloca's promoted within one block
+  359 mem2reg   - Number of PHI nodes inserted
+  654 mem2reg   - Number of alloca's promoted with a single store
+  872 smartssa  - Number of alloca's promoted
+
+Analizing File:  doio.c
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+   3 instcount - Number of AShr insts
+  15 instcount - Number of Add insts
+  31 instcount - Number of Alloca insts
+ 160 instcount - Number of And insts
+ 291 instcount - Number of BitCast insts
+1212 instcount - Number of Br insts
+ 433 instcount - Number of Call insts
+ 712 instcount - Number of GetElementPtr insts
+ 495 instcount - Number of ICmp insts
+ 840 instcount - Number of Load insts
+   3 instcount - Number of Mul insts
+   5 instcount - Number of Or insts
+ 287 instcount - Number of PHI insts
+  28 instcount - Number of PtrToInt insts
+  28 instcount - Number of Ret insts
+   4 instcount - Number of SDiv insts
+  97 instcount - Number of SExt insts
+   2 instcount - Number of Select insts
+   1 instcount - Number of Shl insts
+ 139 instcount - Number of Store insts
+  21 instcount - Number of Sub insts
+  17 instcount - Number of Switch insts
+ 118 instcount - Number of Trunc insts
+   2 instcount - Number of Unreachable insts
+   5 instcount - Number of Xor insts
+  95 instcount - Number of ZExt insts
+1259 instcount - Number of basic blocks
+  28 instcount - Number of non-external functions
+5044 instcount - Number of instructions (of all types)
+ 225 mem2reg   - Number of PHI nodes inserted
+ 143 mem2reg   - Number of alloca's promoted with a single store
+ 219 smartssa  - Number of alloca's promoted
+
+Analizing File:  doop.c
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+   1 instcount - Number of AShr insts
+ 108 instcount - Number of Add insts
+  23 instcount - Number of Alloca insts
+ 137 instcount - Number of And insts
+ 189 instcount - Number of BitCast insts
+ 875 instcount - Number of Br insts
+ 240 instcount - Number of Call insts
+ 485 instcount - Number of GetElementPtr insts
+ 307 instcount - Number of ICmp insts
+   4 instcount - Number of LShr insts
+ 572 instcount - Number of Load insts
+  29 instcount - Number of Mul insts
+  17 instcount - Number of Or insts
+ 365 instcount - Number of PHI insts
+  57 instcount - Number of PtrToInt insts
+  14 instcount - Number of Ret insts
+  12 instcount - Number of SDiv insts
+  73 instcount - Number of SExt insts
+   4 instcount - Number of SRem insts
+   9 instcount - Number of Select insts
+  15 instcount - Number of Shl insts
+  92 instcount - Number of Store insts
+  48 instcount - Number of Sub insts
+  10 instcount - Number of Switch insts
+  45 instcount - Number of Trunc insts
+   2 instcount - Number of UDiv insts
+   4 instcount - Number of URem insts
+   5 instcount - Number of Unreachable insts
+  15 instcount - Number of Xor insts
+ 102 instcount - Number of ZExt insts
+ 904 instcount - Number of basic blocks
+  14 instcount - Number of non-external functions
+3859 instcount - Number of instructions (of all types)
+ 297 mem2reg   - Number of PHI nodes inserted
+ 111 mem2reg   - Number of alloca's promoted with a single store
+ 194 smartssa  - Number of alloca's promoted
+
+Analizing File:  dquote.c
+Analizing File:  dump.c
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+   3 instcount - Number of AShr insts
+ 295 instcount - Number of Add insts
+  18 instcount - Number of Alloca insts
+ 271 instcount - Number of And insts
+1173 instcount - Number of BitCast insts
+1456 instcount - Number of Br insts
+ 670 instcount - Number of Call insts
+   2 instcount - Number of FAdd insts
+   2 instcount - Number of FCmp insts
+   2 instcount - Number of FDiv insts
+   2 instcount - Number of FMul insts
+   1 instcount - Number of FSub insts
+2228 instcount - Number of GetElementPtr insts
+ 670 instcount - Number of ICmp insts
+  14 instcount - Number of LShr insts
+1960 instcount - Number of Load insts
+  30 instcount - Number of Mul insts
+  22 instcount - Number of Or insts
+ 233 instcount - Number of PHI insts
+  69 instcount - Number of PtrToInt insts
+  45 instcount - Number of Ret insts
+   3 instcount - Number of SDiv insts
+  97 instcount - Number of SExt insts
+   1 instcount - Number of SIToFP insts
+  35 instcount - Number of Select insts
+   4 instcount - Number of Shl insts
+  46 instcount - Number of Store insts
+  33 instcount - Number of Sub insts
+  22 instcount - Number of Switch insts
+  90 instcount - Number of Trunc insts
+   2 instcount - Number of UIToFP insts
+   9 instcount - Number of Unreachable insts
+   5 instcount - Number of Xor insts
+ 177 instcount - Number of ZExt insts
+1532 instcount - Number of basic blocks
+  45 instcount - Number of non-external functions
+9690 instcount - Number of instructions (of all types)
+   1 mem2reg   - Number of alloca's promoted within one block
+ 123 mem2reg   - Number of PHI nodes inserted
+ 200 mem2reg   - Number of alloca's promoted with a single store
+ 277 smartssa  - Number of alloca's promoted
+
+Analizing File:  Peek.c
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+  66 instcount - Number of Add insts
+  50 instcount - Number of And insts
+ 103 instcount - Number of BitCast insts
+ 332 instcount - Number of Br insts
+ 114 instcount - Number of Call insts
+   5 instcount - Number of FCmp insts
+   2 instcount - Number of FPExt insts
+   2 instcount - Number of FPTrunc insts
+ 260 instcount - Number of GetElementPtr insts
+ 124 instcount - Number of ICmp insts
+ 309 instcount - Number of Load insts
+   1 instcount - Number of Mul insts
+   2 instcount - Number of Or insts
+ 126 instcount - Number of PHI insts
+  25 instcount - Number of PtrToInt insts
+  26 instcount - Number of Ret insts
+  12 instcount - Number of SDiv insts
+  24 instcount - Number of SExt insts
+   4 instcount - Number of Select insts
+  49 instcount - Number of Store insts
+  17 instcount - Number of Sub insts
+  10 instcount - Number of Switch insts
+  19 instcount - Number of Trunc insts
+   2 instcount - Number of UDiv insts
+   9 instcount - Number of Unreachable insts
+  27 instcount - Number of ZExt insts
+ 377 instcount - Number of basic blocks
+  26 instcount - Number of non-external functions
+1720 instcount - Number of instructions (of all types)
+   2 mem2reg   - Number of alloca's promoted within one block
+  83 mem2reg   - Number of PHI nodes inserted
+ 107 mem2reg   - Number of alloca's promoted with a single store
+ 165 smartssa  - Number of alloca's promoted
+
+Analizing File:  Glob.c
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+  20 instcount - Number of Add insts
+   4 instcount - Number of Alloca insts
+  38 instcount - Number of And insts
+  63 instcount - Number of BitCast insts
+ 337 instcount - Number of Br insts
+ 106 instcount - Number of Call insts
+ 182 instcount - Number of GetElementPtr insts
+ 103 instcount - Number of ICmp insts
+ 234 instcount - Number of Load insts
+   2 instcount - Number of Mul insts
+   6 instcount - Number of Or insts
+ 109 instcount - Number of PHI insts
+  52 instcount - Number of PtrToInt insts
+  16 instcount - Number of Ret insts
+  16 instcount - Number of SDiv insts
+  18 instcount - Number of SExt insts
+  64 instcount - Number of Store insts
+  35 instcount - Number of Sub insts
+   8 instcount - Number of Switch insts
+  21 instcount - Number of Trunc insts
+   3 instcount - Number of Unreachable insts
+   4 instcount - Number of Xor insts
+  21 instcount - Number of ZExt insts
+ 364 instcount - Number of basic blocks
+  16 instcount - Number of non-external functions
+1462 instcount - Number of instructions (of all types)
+   2 mem2reg   - Number of alloca's promoted within one block
+  93 mem2reg   - Number of PHI nodes inserted
+  72 mem2reg   - Number of alloca's promoted with a single store
+ 118 smartssa  - Number of alloca's promoted
+
+Analizing File:  bsd_glob.c
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+  19 instcount - Number of Add insts
+  11 instcount - Number of Alloca insts
+  33 instcount - Number of And insts
+  38 instcount - Number of BitCast insts
+ 357 instcount - Number of Br insts
+  82 instcount - Number of Call insts
+ 200 instcount - Number of GetElementPtr insts
+ 154 instcount - Number of ICmp insts
+ 149 instcount - Number of Load insts
+   4 instcount - Number of Mul insts
+   4 instcount - Number of Or insts
+ 134 instcount - Number of PHI insts
+   4 instcount - Number of PtrToInt insts
+  19 instcount - Number of Ret insts
+   2 instcount - Number of SDiv insts
+  23 instcount - Number of SExt insts
+   2 instcount - Number of Select insts
+  62 instcount - Number of Store insts
+   5 instcount - Number of Sub insts
+   4 instcount - Number of Switch insts
+  12 instcount - Number of Trunc insts
+   1 instcount - Number of Unreachable insts
+  82 instcount - Number of ZExt insts
+ 381 instcount - Number of basic blocks
+  19 instcount - Number of non-external functions
+1401 instcount - Number of instructions (of all types)
+ 121 mem2reg   - Number of PHI nodes inserted
+  70 mem2reg   - Number of alloca's promoted with a single store
+ 141 smartssa  - Number of alloca's promoted
+
+Analizing File:  Util.c
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+  61 instcount - Number of Add insts
+   3 instcount - Number of Alloca insts
+  41 instcount - Number of And insts
+  89 instcount - Number of BitCast insts
+ 352 instcount - Number of Br insts
+  96 instcount - Number of Call insts
+ 228 instcount - Number of GetElementPtr insts
+  93 instcount - Number of ICmp insts
+   7 instcount - Number of LShr insts
+ 240 instcount - Number of Load insts
+   1 instcount - Number of Or insts
+  62 instcount - Number of PHI insts
+  32 instcount - Number of PtrToInt insts
+  13 instcount - Number of Ret insts
+  16 instcount - Number of SDiv insts
+   2 instcount - Number of Select insts
+   8 instcount - Number of Shl insts
+  62 instcount - Number of Store insts
+  27 instcount - Number of Sub insts
+   9 instcount - Number of Switch insts
+  12 instcount - Number of Trunc insts
+   1 instcount - Number of Unreachable insts
+   7 instcount - Number of Xor insts
+  14 instcount - Number of ZExt insts
+ 375 instcount - Number of basic blocks
+  13 instcount - Number of non-external functions
+1476 instcount - Number of instructions (of all types)
+   1 mem2reg   - Number of alloca's promoted within one block
+  52 mem2reg   - Number of PHI nodes inserted
+  78 mem2reg   - Number of alloca's promoted with a single store
+ 121 smartssa  - Number of alloca's promoted
+
+Analizing File:  FieldHash.c
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+  26 instcount - Number of Add insts
+   3 instcount - Number of Alloca insts
+  26 instcount - Number of And insts
+ 110 instcount - Number of BitCast insts
+ 255 instcount - Number of Br insts
+ 146 instcount - Number of Call insts
+ 138 instcount - Number of GetElementPtr insts
+  85 instcount - Number of ICmp insts
+ 180 instcount - Number of Load insts
+  34 instcount - Number of PHI insts
+  28 instcount - Number of PtrToInt insts
+  30 instcount - Number of Ret insts
+  12 instcount - Number of SDiv insts
+   4 instcount - Number of SExt insts
+   2 instcount - Number of Select insts
+  47 instcount - Number of Store insts
+  15 instcount - Number of Sub insts
+   6 instcount - Number of Switch insts
+   8 instcount - Number of Trunc insts
+   5 instcount - Number of Unreachable insts
+   5 instcount - Number of ZExt insts
+ 296 instcount - Number of basic blocks
+  30 instcount - Number of non-external functions
+1165 instcount - Number of instructions (of all types)
+   1 mem2reg   - Number of alloca's promoted within one block
+  29 mem2reg   - Number of PHI nodes inserted
+ 130 mem2reg   - Number of alloca's promoted with a single store
+ 168 smartssa  - Number of alloca's promoted
+
+Analizing File:  scalar.c
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+  19 instcount - Number of Add insts
+   4 instcount - Number of Alloca insts
+  57 instcount - Number of And insts
+  80 instcount - Number of BitCast insts
+ 225 instcount - Number of Br insts
+  85 instcount - Number of Call insts
+ 214 instcount - Number of GetElementPtr insts
+  84 instcount - Number of ICmp insts
+ 224 instcount - Number of Load insts
+   3 instcount - Number of Mul insts
+   3 instcount - Number of Or insts
+  45 instcount - Number of PHI insts
+   2 instcount - Number of PtrToInt insts
+  21 instcount - Number of Ret insts
+   1 instcount - Number of SDiv insts
+   1 instcount - Number of SExt insts
+  39 instcount - Number of Store insts
+   6 instcount - Number of Sub insts
+   2 instcount - Number of Switch insts
+   6 instcount - Number of Trunc insts
+   5 instcount - Number of ZExt insts
+ 248 instcount - Number of basic blocks
+  21 instcount - Number of non-external functions
+1126 instcount - Number of instructions (of all types)
+  27 mem2reg   - Number of PHI nodes inserted
+  70 mem2reg   - Number of alloca's promoted with a single store
+  95 smartssa  - Number of alloca's promoted
+
+Analizing File:  via.c
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+  14 instcount - Number of Add insts
+   4 instcount - Number of Alloca insts
+  53 instcount - Number of And insts
+ 162 instcount - Number of BitCast insts
+ 386 instcount - Number of Br insts
+ 149 instcount - Number of Call insts
+   5 instcount - Number of FCmp insts
+   2 instcount - Number of FPExt insts
+   1 instcount - Number of FPToSI insts
+   2 instcount - Number of FPTrunc insts
+ 358 instcount - Number of GetElementPtr insts
+ 143 instcount - Number of ICmp insts
+ 354 instcount - Number of Load insts
+   1 instcount - Number of Mul insts
+   3 instcount - Number of Or insts
+ 104 instcount - Number of PHI insts
+  14 instcount - Number of PtrToInt insts
+  32 instcount - Number of Ret insts
+   7 instcount - Number of SDiv insts
+   9 instcount - Number of SExt insts
+   1 instcount - Number of Select insts
+  64 instcount - Number of Store insts
+  10 instcount - Number of Sub insts
+  13 instcount - Number of Switch insts
+   5 instcount - Number of Trunc insts
+   6 instcount - Number of Unreachable insts
+   4 instcount - Number of ZExt insts
+ 437 instcount - Number of basic blocks
+  32 instcount - Number of non-external functions
+1906 instcount - Number of instructions (of all types)
+  81 mem2reg   - Number of PHI nodes inserted
+ 122 mem2reg   - Number of alloca's promoted with a single store
+ 164 smartssa  - Number of alloca's promoted
+
+Analizing File:  Hostname.c
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+ 2 instcount - Number of Add insts
+ 1 instcount - Number of BitCast insts
+19 instcount - Number of Br insts
+ 6 instcount - Number of Call insts
+ 8 instcount - Number of GetElementPtr insts
+ 3 instcount - Number of ICmp insts
+ 9 instcount - Number of Load insts
+ 1 instcount - Number of PHI insts
+ 6 instcount - Number of PtrToInt insts
+ 2 instcount - Number of Ret insts
+ 3 instcount - Number of SDiv insts
+ 5 instcount - Number of Store insts
+ 4 instcount - Number of Sub insts
+21 instcount - Number of basic blocks
+ 2 instcount - Number of non-external functions
+69 instcount - Number of instructions (of all types)
+ 1 mem2reg   - Number of PHI nodes inserted
+12 mem2reg   - Number of alloca's promoted with a single store
+15 smartssa  - Number of alloca's promoted
+
+Analizing File:  NamedCapture.c
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+  1 instcount - Number of AShr insts
+ 21 instcount - Number of Add insts
+  2 instcount - Number of Alloca insts
+ 18 instcount - Number of And insts
+ 97 instcount - Number of BitCast insts
+137 instcount - Number of Br insts
+ 56 instcount - Number of Call insts
+  4 instcount - Number of FCmp insts
+  1 instcount - Number of FPExt insts
+  1 instcount - Number of FPTrunc insts
+146 instcount - Number of GetElementPtr insts
+ 50 instcount - Number of ICmp insts
+158 instcount - Number of Load insts
+  3 instcount - Number of Or insts
+ 29 instcount - Number of PHI insts
+ 12 instcount - Number of PtrToInt insts
+ 12 instcount - Number of Ret insts
+  6 instcount - Number of SDiv insts
+  5 instcount - Number of SExt insts
+  5 instcount - Number of Select insts
+ 33 instcount - Number of Store insts
+ 10 instcount - Number of Sub insts
+  1 instcount - Number of Switch insts
+  2 instcount - Number of Trunc insts
+  1 instcount - Number of Unreachable insts
+ 12 instcount - Number of ZExt insts
+151 instcount - Number of basic blocks
+ 12 instcount - Number of non-external functions
+823 instcount - Number of instructions (of all types)
+  3 mem2reg   - Number of alloca's promoted within one block
+  5 mem2reg   - Number of PHI nodes inserted
+ 47 mem2reg   - Number of alloca's promoted with a single store
+ 61 smartssa  - Number of alloca's promoted
+
+Analizing File:  stdio.c
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+3 instcount - Number of Call insts
+3 instcount - Number of Ret insts
+3 instcount - Number of basic blocks
+3 instcount - Number of non-external functions
+6 instcount - Number of instructions (of all types)
+5 mem2reg   - Number of alloca's promoted with a single store
+5 smartssa  - Number of alloca's promoted
+
+Analizing File:  arybase.c
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+  21 instcount - Number of Add insts
+   5 instcount - Number of Alloca insts
+  98 instcount - Number of And insts
+ 109 instcount - Number of BitCast insts
+ 446 instcount - Number of Br insts
+ 176 instcount - Number of Call insts
+ 293 instcount - Number of GetElementPtr insts
+ 158 instcount - Number of ICmp insts
+  23 instcount - Number of LShr insts
+ 423 instcount - Number of Load insts
+   3 instcount - Number of Mul insts
+   1 instcount - Number of Or insts
+  86 instcount - Number of PHI insts
+  35 instcount - Number of PtrToInt insts
+  33 instcount - Number of Ret insts
+  13 instcount - Number of SDiv insts
+   4 instcount - Number of SExt insts
+   1 instcount - Number of Select insts
+  47 instcount - Number of Store insts
+  22 instcount - Number of Sub insts
+   9 instcount - Number of Switch insts
+  12 instcount - Number of Trunc insts
+   3 instcount - Number of Unreachable insts
+   7 instcount - Number of Xor insts
+  28 instcount - Number of ZExt insts
+ 491 instcount - Number of basic blocks
+  33 instcount - Number of non-external functions
+2056 instcount - Number of instructions (of all types)
+   3 mem2reg   - Number of alloca's promoted within one block
+  36 mem2reg   - Number of PHI nodes inserted
+  96 mem2reg   - Number of alloca's promoted with a single store
+ 142 smartssa  - Number of alloca's promoted
+
+Analizing File:  attributes.c
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+  23 instcount - Number of Add insts
+   1 instcount - Number of Alloca insts
+  46 instcount - Number of And insts
+ 123 instcount - Number of BitCast insts
+ 208 instcount - Number of Br insts
+  49 instcount - Number of Call insts
+ 206 instcount - Number of GetElementPtr insts
+  73 instcount - Number of ICmp insts
+ 211 instcount - Number of Load insts
+   4 instcount - Number of Or insts
+  38 instcount - Number of PHI insts
+  14 instcount - Number of PtrToInt insts
+   8 instcount - Number of Ret insts
+   7 instcount - Number of SDiv insts
+   4 instcount - Number of SExt insts
+  30 instcount - Number of Store insts
+  17 instcount - Number of Sub insts
+   8 instcount - Number of Switch insts
+  20 instcount - Number of Trunc insts
+   1 instcount - Number of Unreachable insts
+   2 instcount - Number of Xor insts
+   8 instcount - Number of ZExt insts
+ 225 instcount - Number of basic blocks
+   8 instcount - Number of non-external functions
+1101 instcount - Number of instructions (of all types)
+  23 mem2reg   - Number of PHI nodes inserted
+  41 mem2reg   - Number of alloca's promoted with a single store
+  61 smartssa  - Number of alloca's promoted
+
+Analizing File:  mro.c
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+  90 instcount - Number of Add insts
+   1 instcount - Number of Alloca insts
+  22 instcount - Number of And insts
+ 254 instcount - Number of BitCast insts
+ 412 instcount - Number of Br insts
+ 150 instcount - Number of Call insts
+ 434 instcount - Number of GetElementPtr insts
+ 134 instcount - Number of ICmp insts
+ 397 instcount - Number of Load insts
+   6 instcount - Number of Or insts
+ 121 instcount - Number of PHI insts
+  30 instcount - Number of PtrToInt insts
+  15 instcount - Number of Ret insts
+  13 instcount - Number of SDiv insts
+  13 instcount - Number of SExt insts
+   6 instcount - Number of Select insts
+  62 instcount - Number of Store insts
+  31 instcount - Number of Sub insts
+  13 instcount - Number of Switch insts
+  11 instcount - Number of Trunc insts
+   2 instcount - Number of Unreachable insts
+  12 instcount - Number of ZExt insts
+ 442 instcount - Number of basic blocks
+  15 instcount - Number of non-external functions
+2229 instcount - Number of instructions (of all types)
+  94 mem2reg   - Number of PHI nodes inserted
+ 113 mem2reg   - Number of alloca's promoted with a single store
+ 172 smartssa  - Number of alloca's promoted
+
+Analizing File:  re.c
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+  4 instcount - Number of Add insts
+  2 instcount - Number of BitCast insts
+ 46 instcount - Number of Br insts
+ 29 instcount - Number of Call insts
+ 51 instcount - Number of GetElementPtr insts
+ 11 instcount - Number of ICmp insts
+ 37 instcount - Number of Load insts
+  6 instcount - Number of PHI insts
+ 10 instcount - Number of PtrToInt insts
+  4 instcount - Number of Ret insts
+  5 instcount - Number of SDiv insts
+ 13 instcount - Number of Store insts
+  7 instcount - Number of Sub insts
+  1 instcount - Number of Switch insts
+ 51 instcount - Number of basic blocks
+  4 instcount - Number of non-external functions
+226 instcount - Number of instructions (of all types)
+  6 mem2reg   - Number of PHI nodes inserted
+ 17 mem2reg   - Number of alloca's promoted with a single store
+ 24 smartssa  - Number of alloca's promoted
+
+Analizing File:  re_comp.c
+Analizing File:  re_exec.c
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+   13 instcount - Number of AShr insts
+  137 instcount - Number of Add insts
+   53 instcount - Number of Alloca insts
+  559 instcount - Number of And insts
+  928 instcount - Number of BitCast insts
+ 5589 instcount - Number of Br insts
+  797 instcount - Number of Call insts
+    4 instcount - Number of FCmp insts
+    1 instcount - Number of FPExt insts
+    1 instcount - Number of FPTrunc insts
+ 4488 instcount - Number of GetElementPtr insts
+ 2437 instcount - Number of ICmp insts
+    2 instcount - Number of LShr insts
+ 4106 instcount - Number of Load insts
+   14 instcount - Number of Mul insts
+  100 instcount - Number of Or insts
+ 1572 instcount - Number of PHI insts
+  211 instcount - Number of PtrToInt insts
+   58 instcount - Number of Ret insts
+   11 instcount - Number of SDiv insts
+  411 instcount - Number of SExt insts
+    1 instcount - Number of SRem insts
+  292 instcount - Number of Select insts
+   95 instcount - Number of Shl insts
+  694 instcount - Number of Store insts
+  213 instcount - Number of Sub insts
+   72 instcount - Number of Switch insts
+  534 instcount - Number of Trunc insts
+    1 instcount - Number of UDiv insts
+    3 instcount - Number of URem insts
+    2 instcount - Number of Unreachable insts
+  112 instcount - Number of Xor insts
+ 1931 instcount - Number of ZExt insts
+ 5721 instcount - Number of basic blocks
+   58 instcount - Number of non-external functions
+25442 instcount - Number of instructions (of all types)
+ 1029 mem2reg   - Number of PHI nodes inserted
+  299 mem2reg   - Number of alloca's promoted with a single store
+  534 smartssa  - Number of alloca's promoted
+
+Analizing File:  globals.c
+Analizing File:  gv.c
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+  231 instcount - Number of Add insts
+   20 instcount - Number of Alloca insts
+  414 instcount - Number of And insts
+ 1348 instcount - Number of BitCast insts
+ 2271 instcount - Number of Br insts
+  537 instcount - Number of Call insts
+    7 instcount - Number of FCmp insts
+    3 instcount - Number of FPExt insts
+    3 instcount - Number of FPTrunc insts
+ 2769 instcount - Number of GetElementPtr insts
+ 1127 instcount - Number of ICmp insts
+    1 instcount - Number of IntToPtr insts
+    9 instcount - Number of LShr insts
+ 2553 instcount - Number of Load insts
+    8 instcount - Number of Mul insts
+   73 instcount - Number of Or insts
+  562 instcount - Number of PHI insts
+   39 instcount - Number of PtrToInt insts
+   69 instcount - Number of Ret insts
+    5 instcount - Number of SDiv insts
+  119 instcount - Number of SExt insts
+    1 instcount - Number of SRem insts
+   39 instcount - Number of Select insts
+   17 instcount - Number of Shl insts
+  229 instcount - Number of Store insts
+   38 instcount - Number of Sub insts
+   42 instcount - Number of Switch insts
+   96 instcount - Number of Trunc insts
+    6 instcount - Number of Unreachable insts
+   13 instcount - Number of Xor insts
+  169 instcount - Number of ZExt insts
+ 2388 instcount - Number of basic blocks
+   69 instcount - Number of non-external functions
+12818 instcount - Number of instructions (of all types)
+  369 mem2reg   - Number of PHI nodes inserted
+  331 mem2reg   - Number of alloca's promoted with a single store
+  480 smartssa  - Number of alloca's promoted
+
+Analizing File:  hv.c
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+ 289 instcount - Number of Add insts
+  18 instcount - Number of Alloca insts
+ 271 instcount - Number of And insts
+ 937 instcount - Number of BitCast insts
+1608 instcount - Number of Br insts
+ 380 instcount - Number of Call insts
+   4 instcount - Number of FCmp insts
+   1 instcount - Number of FPExt insts
+   1 instcount - Number of FPTrunc insts
+2264 instcount - Number of GetElementPtr insts
+ 727 instcount - Number of ICmp insts
+  15 instcount - Number of LShr insts
+1796 instcount - Number of Load insts
+  32 instcount - Number of Mul insts
+  36 instcount - Number of Or insts
+ 381 instcount - Number of PHI insts
+   9 instcount - Number of PtrToInt insts
+  70 instcount - Number of Ret insts
+   1 instcount - Number of SDiv insts
+  39 instcount - Number of SExt insts
+  19 instcount - Number of Select insts
+  20 instcount - Number of Shl insts
+ 268 instcount - Number of Store insts
+  33 instcount - Number of Sub insts
+  31 instcount - Number of Switch insts
+  44 instcount - Number of Trunc insts
+   2 instcount - Number of UDiv insts
+  16 instcount - Number of Unreachable insts
+  30 instcount - Number of Xor insts
+  90 instcount - Number of ZExt insts
+1725 instcount - Number of basic blocks
+  70 instcount - Number of non-external functions
+9432 instcount - Number of instructions (of all types)
+   1 mem2reg   - Number of alloca's promoted within one block
+ 262 mem2reg   - Number of PHI nodes inserted
+ 275 mem2reg   - Number of alloca's promoted with a single store
+ 420 smartssa  - Number of alloca's promoted
+
+Analizing File:  keywords.c
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+  33 instcount - Number of And insts
+1674 instcount - Number of Br insts
+  10 instcount - Number of Call insts
+1005 instcount - Number of GetElementPtr insts
+ 948 instcount - Number of ICmp insts
+  24 instcount - Number of LShr insts
+1104 instcount - Number of Load insts
+  70 instcount - Number of PHI insts
+   1 instcount - Number of Ret insts
+ 981 instcount - Number of SExt insts
+   9 instcount - Number of Select insts
+ 100 instcount - Number of Switch insts
+   9 instcount - Number of Trunc insts
+  19 instcount - Number of ZExt insts
+1775 instcount - Number of basic blocks
+   1 instcount - Number of non-external functions
+5987 instcount - Number of instructions (of all types)
+   1 mem2reg   - Number of PHI nodes inserted
+   3 mem2reg   - Number of alloca's promoted with a single store
+   4 smartssa  - Number of alloca's promoted
+
+Analizing File:  locale.c
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+ 1 instcount - Number of Add insts
+ 2 instcount - Number of And insts
+ 2 instcount - Number of BitCast insts
+10 instcount - Number of Br insts
+ 3 instcount - Number of Call insts
+ 4 instcount - Number of GetElementPtr insts
+ 5 instcount - Number of ICmp insts
+ 5 instcount - Number of Load insts
+ 3 instcount - Number of PHI insts
+10 instcount - Number of Ret insts
+ 1 instcount - Number of Select insts
+ 1 instcount - Number of Shl insts
+ 1 instcount - Number of Trunc insts
+ 3 instcount - Number of ZExt insts
+20 instcount - Number of basic blocks
+10 instcount - Number of non-external functions
+51 instcount - Number of instructions (of all types)
+ 1 mem2reg   - Number of PHI nodes inserted
+10 mem2reg   - Number of alloca's promoted with a single store
+12 smartssa  - Number of alloca's promoted
+
+Analizing File:  mathoms.c
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+  22 instcount - Number of Add insts
+  13 instcount - Number of Alloca insts
+ 205 instcount - Number of And insts
+  83 instcount - Number of BitCast insts
+ 629 instcount - Number of Br insts
+ 191 instcount - Number of Call insts
+ 238 instcount - Number of GetElementPtr insts
+ 398 instcount - Number of ICmp insts
+ 350 instcount - Number of Load insts
+  29 instcount - Number of Or insts
+ 224 instcount - Number of PHI insts
+   8 instcount - Number of PtrToInt insts
+ 169 instcount - Number of Ret insts
+  23 instcount - Number of SExt insts
+  96 instcount - Number of Select insts
+  26 instcount - Number of Shl insts
+  28 instcount - Number of Store insts
+   8 instcount - Number of Sub insts
+  72 instcount - Number of Trunc insts
+   6 instcount - Number of Xor insts
+ 389 instcount - Number of ZExt insts
+ 798 instcount - Number of basic blocks
+ 169 instcount - Number of non-external functions
+3207 instcount - Number of instructions (of all types)
+   2 mem2reg   - Number of alloca's promoted within one block
+  15 mem2reg   - Number of PHI nodes inserted
+ 281 mem2reg   - Number of alloca's promoted with a single store
+ 298 smartssa  - Number of alloca's promoted
+
+Analizing File:  mg.c
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+  63 instcount - Number of Add insts
+  25 instcount - Number of Alloca insts
+ 300 instcount - Number of And insts
+ 673 instcount - Number of BitCast insts
+1734 instcount - Number of Br insts
+ 600 instcount - Number of Call insts
+   5 instcount - Number of FCmp insts
+   2 instcount - Number of FPExt insts
+   2 instcount - Number of FPTrunc insts
+1490 instcount - Number of GetElementPtr insts
+ 688 instcount - Number of ICmp insts
+   7 instcount - Number of IntToPtr insts
+   1 instcount - Number of LShr insts
+1685 instcount - Number of Load insts
+   2 instcount - Number of Mul insts
+  37 instcount - Number of Or insts
+ 298 instcount - Number of PHI insts
+  24 instcount - Number of PtrToInt insts
+  95 instcount - Number of Ret insts
+   8 instcount - Number of SDiv insts
+  77 instcount - Number of SExt insts
+   1 instcount - Number of SIToFP insts
+   7 instcount - Number of Select insts
+ 277 instcount - Number of Store insts
+  34 instcount - Number of Sub insts
+  21 instcount - Number of Switch insts
+ 129 instcount - Number of Trunc insts
+  10 instcount - Number of Unreachable insts
+   5 instcount - Number of Xor insts
+  93 instcount - Number of ZExt insts
+1860 instcount - Number of basic blocks
+  95 instcount - Number of non-external functions
+8393 instcount - Number of instructions (of all types)
+   1 mem2reg   - Number of alloca's promoted within one block
+ 188 mem2reg   - Number of PHI nodes inserted
+ 296 mem2reg   - Number of alloca's promoted with a single store
+ 427 smartssa  - Number of alloca's promoted
+
+Analizing File:  mro_core.c
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+ 276 instcount - Number of Add insts
+  11 instcount - Number of Alloca insts
+  83 instcount - Number of And insts
+ 930 instcount - Number of BitCast insts
+ 941 instcount - Number of Br insts
+ 229 instcount - Number of Call insts
+1929 instcount - Number of GetElementPtr insts
+ 404 instcount - Number of ICmp insts
+   1 instcount - Number of IntToPtr insts
+1749 instcount - Number of Load insts
+   5 instcount - Number of Or insts
+ 267 instcount - Number of PHI insts
+   3 instcount - Number of PtrToInt insts
+  18 instcount - Number of Ret insts
+   1 instcount - Number of SDiv insts
+  22 instcount - Number of SExt insts
+   9 instcount - Number of Select insts
+  85 instcount - Number of Store insts
+  26 instcount - Number of Sub insts
+  17 instcount - Number of Switch insts
+  21 instcount - Number of Trunc insts
+   6 instcount - Number of Unreachable insts
+  43 instcount - Number of ZExt insts
+ 982 instcount - Number of basic blocks
+  18 instcount - Number of non-external functions
+7076 instcount - Number of instructions (of all types)
+ 123 mem2reg   - Number of PHI nodes inserted
+ 114 mem2reg   - Number of alloca's promoted with a single store
+ 163 smartssa  - Number of alloca's promoted
+
+Analizing File:  numeric.c
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+  34 instcount - Number of Add insts
+  27 instcount - Number of Alloca insts
+  93 instcount - Number of And insts
+  56 instcount - Number of BitCast insts
+ 674 instcount - Number of Br insts
+ 103 instcount - Number of Call insts
+   7 instcount - Number of FAdd insts
+  28 instcount - Number of FCmp insts
+   2 instcount - Number of FDiv insts
+   6 instcount - Number of FMul insts
+   1 instcount - Number of FNeg insts
+   4 instcount - Number of FPExt insts
+   4 instcount - Number of FPToSI insts
+   4 instcount - Number of FPToUI insts
+   4 instcount - Number of FPTrunc insts
+ 170 instcount - Number of GetElementPtr insts
+ 283 instcount - Number of ICmp insts
+ 305 instcount - Number of Load insts
+  12 instcount - Number of Mul insts
+  27 instcount - Number of Or insts
+ 222 instcount - Number of PHI insts
+  12 instcount - Number of PtrToInt insts
+  27 instcount - Number of Ret insts
+ 112 instcount - Number of SExt insts
+   3 instcount - Number of SIToFP insts
+   1 instcount - Number of SRem insts
+  21 instcount - Number of Select insts
+   4 instcount - Number of Shl insts
+  90 instcount - Number of Store insts
+  28 instcount - Number of Sub insts
+  10 instcount - Number of Switch insts
+  23 instcount - Number of Trunc insts
+   9 instcount - Number of UIToFP insts
+   1 instcount - Number of Unreachable insts
+   1 instcount - Number of Xor insts
+  64 instcount - Number of ZExt insts
+ 712 instcount - Number of basic blocks
+  27 instcount - Number of non-external functions
+2472 instcount - Number of instructions (of all types)
+ 195 mem2reg   - Number of PHI nodes inserted
+  70 mem2reg   - Number of alloca's promoted with a single store
+ 137 smartssa  - Number of alloca's promoted
+
+Analizing File:  op.c
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+   22 instcount - Number of AShr insts
+  283 instcount - Number of Add insts
+   78 instcount - Number of Alloca insts
+ 1801 instcount - Number of And insts
+ 2758 instcount - Number of BitCast insts
+ 6909 instcount - Number of Br insts
+ 1947 instcount - Number of Call insts
+   11 instcount - Number of FCmp insts
+    6 instcount - Number of FPExt insts
+    6 instcount - Number of FPTrunc insts
+ 6189 instcount - Number of GetElementPtr insts
+ 3093 instcount - Number of ICmp insts
+    9 instcount - Number of IntToPtr insts
+   31 instcount - Number of LShr insts
+ 6344 instcount - Number of Load insts
+   36 instcount - Number of Mul insts
+  388 instcount - Number of Or insts
+ 1440 instcount - Number of PHI insts
+   79 instcount - Number of PtrToInt insts
+  243 instcount - Number of Ret insts
+   20 instcount - Number of SDiv insts
+  216 instcount - Number of SExt insts
+   14 instcount - Number of SRem insts
+   82 instcount - Number of Select insts
+   17 instcount - Number of Shl insts
+ 1244 instcount - Number of Store insts
+  101 instcount - Number of Sub insts
+  113 instcount - Number of Switch insts
+  517 instcount - Number of Trunc insts
+    2 instcount - Number of UDiv insts
+   26 instcount - Number of Unreachable insts
+   29 instcount - Number of Xor insts
+ 1762 instcount - Number of ZExt insts
+ 7291 instcount - Number of basic blocks
+  243 instcount - Number of non-external functions
+35816 instcount - Number of instructions (of all types)
+    3 mem2reg   - Number of alloca's promoted within one block
+ 1084 mem2reg   - Number of PHI nodes inserted
+  847 mem2reg   - Number of alloca's promoted with a single store
+ 1419 smartssa  - Number of alloca's promoted
+
+Analizing File:  pad.c
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+  74 instcount - Number of Add insts
+  14 instcount - Number of Alloca insts
+ 127 instcount - Number of And insts
+ 677 instcount - Number of BitCast insts
+ 885 instcount - Number of Br insts
+ 274 instcount - Number of Call insts
+ 969 instcount - Number of GetElementPtr insts
+ 420 instcount - Number of ICmp insts
+   7 instcount - Number of LShr insts
+1057 instcount - Number of Load insts
+   4 instcount - Number of Mul insts
+  26 instcount - Number of Or insts
+ 157 instcount - Number of PHI insts
+   7 instcount - Number of PtrToInt insts
+  53 instcount - Number of Ret insts
+  34 instcount - Number of SExt insts
+  12 instcount - Number of Select insts
+   8 instcount - Number of Shl insts
+ 193 instcount - Number of Store insts
+  11 instcount - Number of Sub insts
+  17 instcount - Number of Switch insts
+  34 instcount - Number of Trunc insts
+   9 instcount - Number of Unreachable insts
+  11 instcount - Number of Xor insts
+  84 instcount - Number of ZExt insts
+ 964 instcount - Number of basic blocks
+  53 instcount - Number of non-external functions
+5164 instcount - Number of instructions (of all types)
+ 125 mem2reg   - Number of PHI nodes inserted
+ 212 mem2reg   - Number of alloca's promoted with a single store
+ 276 smartssa  - Number of alloca's promoted
+
+Analizing File:  perl.c
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+   1 instcount - Number of AShr insts
+  44 instcount - Number of Add insts
+  31 instcount - Number of Alloca insts
+ 135 instcount - Number of And insts
+ 545 instcount - Number of BitCast insts
+1405 instcount - Number of Br insts
+ 730 instcount - Number of Call insts
+   4 instcount - Number of FCmp insts
+   1 instcount - Number of FPExt insts
+   1 instcount - Number of FPTrunc insts
+ 898 instcount - Number of GetElementPtr insts
+ 502 instcount - Number of ICmp insts
+   3 instcount - Number of IntToPtr insts
+1447 instcount - Number of Load insts
+   1 instcount - Number of Mul insts
+  38 instcount - Number of Or insts
+ 196 instcount - Number of PHI insts
+  71 instcount - Number of PtrToInt insts
+  65 instcount - Number of Ret insts
+  15 instcount - Number of SDiv insts
+  89 instcount - Number of SExt insts
+   5 instcount - Number of Select insts
+ 684 instcount - Number of Store insts
+  37 instcount - Number of Sub insts
+  13 instcount - Number of Switch insts
+  77 instcount - Number of Trunc insts
+   9 instcount - Number of Unreachable insts
+   5 instcount - Number of Xor insts
+  64 instcount - Number of ZExt insts
+1492 instcount - Number of basic blocks
+  65 instcount - Number of non-external functions
+7116 instcount - Number of instructions (of all types)
+   1 mem2reg   - Number of dead alloca's removed
+   3 mem2reg   - Number of alloca's promoted within one block
+ 129 mem2reg   - Number of PHI nodes inserted
+ 189 mem2reg   - Number of alloca's promoted with a single store
+ 280 smartssa  - Number of alloca's promoted
+
+Analizing File:  perlapi.c
+Analizing File:  perlio.c
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+  82 instcount - Number of Add insts
+  24 instcount - Number of Alloca insts
+ 111 instcount - Number of And insts
+ 224 instcount - Number of BitCast insts
+1641 instcount - Number of Br insts
+ 637 instcount - Number of Call insts
+   4 instcount - Number of FCmp insts
+   1 instcount - Number of FPExt insts
+   1 instcount - Number of FPTrunc insts
+ 868 instcount - Number of GetElementPtr insts
+ 720 instcount - Number of ICmp insts
+1107 instcount - Number of Load insts
+   8 instcount - Number of Mul insts
+  37 instcount - Number of Or insts
+ 505 instcount - Number of PHI insts
+  39 instcount - Number of PtrToInt insts
+ 185 instcount - Number of Ret insts
+   2 instcount - Number of SDiv insts
+  88 instcount - Number of SExt insts
+   4 instcount - Number of Select insts
+ 260 instcount - Number of Store insts
+  43 instcount - Number of Sub insts
+  64 instcount - Number of Switch insts
+  33 instcount - Number of Trunc insts
+  36 instcount - Number of Unreachable insts
+  25 instcount - Number of ZExt insts
+1926 instcount - Number of basic blocks
+ 187 instcount - Number of non-external functions
+6749 instcount - Number of instructions (of all types)
+ 473 mem2reg   - Number of PHI nodes inserted
+ 520 mem2reg   - Number of alloca's promoted with a single store
+ 792 smartssa  - Number of alloca's promoted
+
+Analizing File:  perlmain.c
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+ 1 instcount - Number of Add insts
+ 3 instcount - Number of Alloca insts
+11 instcount - Number of Br insts
+36 instcount - Number of Call insts
+ 3 instcount - Number of GetElementPtr insts
+ 4 instcount - Number of ICmp insts
+15 instcount - Number of Load insts
+ 1 instcount - Number of Or insts
+ 1 instcount - Number of PHI insts
+ 1 instcount - Number of Ret insts
+ 3 instcount - Number of SExt insts
+ 7 instcount - Number of Store insts
+ 2 instcount - Number of Trunc insts
+ 2 instcount - Number of Unreachable insts
+ 1 instcount - Number of ZExt insts
+14 instcount - Number of basic blocks
+ 2 instcount - Number of non-external functions
+91 instcount - Number of instructions (of all types)
+ 1 mem2reg   - Number of PHI nodes inserted
+ 1 mem2reg   - Number of alloca's promoted with a single store
+ 3 smartssa  - Number of alloca's promoted
+
+Analizing File:  perly.c
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+  17 instcount - Number of Add insts
+   2 instcount - Number of Alloca insts
+  27 instcount - Number of And insts
+ 790 instcount - Number of BitCast insts
+ 492 instcount - Number of Br insts
+ 401 instcount - Number of Call insts
+1175 instcount - Number of GetElementPtr insts
+ 118 instcount - Number of ICmp insts
+ 720 instcount - Number of Load insts
+   4 instcount - Number of Mul insts
+  24 instcount - Number of Or insts
+  25 instcount - Number of PHI insts
+   2 instcount - Number of PtrToInt insts
+   4 instcount - Number of Ret insts
+   1 instcount - Number of SDiv insts
+  47 instcount - Number of SExt insts
+   2 instcount - Number of Select insts
+ 345 instcount - Number of Store insts
+  13 instcount - Number of Sub insts
+   2 instcount - Number of Switch insts
+  11 instcount - Number of Trunc insts
+   1 instcount - Number of Unreachable insts
+  29 instcount - Number of ZExt insts
+ 499 instcount - Number of basic blocks
+   4 instcount - Number of non-external functions
+4252 instcount - Number of instructions (of all types)
+  16 mem2reg   - Number of PHI nodes inserted
+  16 mem2reg   - Number of alloca's promoted with a single store
+  27 smartssa  - Number of alloca's promoted
+
+Analizing File:  pp.c
+Analizing File:  pp_ctl.c
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+    9 instcount - Number of AShr insts
+  211 instcount - Number of Add insts
+   34 instcount - Number of Alloca insts
+  845 instcount - Number of And insts
+ 2336 instcount - Number of BitCast insts
+ 4214 instcount - Number of Br insts
+ 1252 instcount - Number of Call insts
+    1 instcount - Number of FAdd insts
+   27 instcount - Number of FCmp insts
+    1 instcount - Number of FDiv insts
+    1 instcount - Number of FMul insts
+    1 instcount - Number of FNeg insts
+   15 instcount - Number of FPExt insts
+   15 instcount - Number of FPTrunc insts
+    1 instcount - Number of FSub insts
+ 4788 instcount - Number of GetElementPtr insts
+ 1637 instcount - Number of ICmp insts
+    6 instcount - Number of IntToPtr insts
+ 4615 instcount - Number of Load insts
+   11 instcount - Number of Mul insts
+   65 instcount - Number of Or insts
+ 1198 instcount - Number of PHI insts
+  200 instcount - Number of PtrToInt insts
+   94 instcount - Number of Ret insts
+   67 instcount - Number of SDiv insts
+  126 instcount - Number of SExt insts
+   34 instcount - Number of Select insts
+    3 instcount - Number of Shl insts
+ 1023 instcount - Number of Store insts
+  163 instcount - Number of Sub insts
+   63 instcount - Number of Switch insts
+  268 instcount - Number of Trunc insts
+   15 instcount - Number of Unreachable insts
+   21 instcount - Number of Xor insts
+  469 instcount - Number of ZExt insts
+ 4386 instcount - Number of basic blocks
+   94 instcount - Number of non-external functions
+23829 instcount - Number of instructions (of all types)
+    7 mem2reg   - Number of alloca's promoted within one block
+  870 mem2reg   - Number of PHI nodes inserted
+  411 mem2reg   - Number of alloca's promoted with a single store
+  785 smartssa  - Number of alloca's promoted
+
+Analizing File:  pp_hot.c
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+    1 instcount - Number of AShr insts
+  116 instcount - Number of Add insts
+   15 instcount - Number of Alloca insts
+  639 instcount - Number of And insts
+ 1141 instcount - Number of BitCast insts
+ 3359 instcount - Number of Br insts
+  763 instcount - Number of Call insts
+    1 instcount - Number of FAdd insts
+    7 instcount - Number of FCmp insts
+    1 instcount - Number of FNeg insts
+    4 instcount - Number of FPExt insts
+    4 instcount - Number of FPTrunc insts
+ 2453 instcount - Number of GetElementPtr insts
+ 1209 instcount - Number of ICmp insts
+    3 instcount - Number of LShr insts
+ 2743 instcount - Number of Load insts
+   11 instcount - Number of Mul insts
+   42 instcount - Number of Or insts
+  771 instcount - Number of PHI insts
+  132 instcount - Number of PtrToInt insts
+   63 instcount - Number of Ret insts
+   50 instcount - Number of SDiv insts
+   64 instcount - Number of SExt insts
+   41 instcount - Number of Select insts
+    2 instcount - Number of Shl insts
+  433 instcount - Number of Store insts
+   98 instcount - Number of Sub insts
+   45 instcount - Number of Switch insts
+  220 instcount - Number of Trunc insts
+    1 instcount - Number of UIToFP insts
+    1 instcount - Number of Unreachable insts
+   25 instcount - Number of Xor insts
+  292 instcount - Number of ZExt insts
+ 3468 instcount - Number of basic blocks
+   63 instcount - Number of non-external functions
+14750 instcount - Number of instructions (of all types)
+    7 mem2reg   - Number of alloca's promoted within one block
+  553 mem2reg   - Number of PHI nodes inserted
+  254 mem2reg   - Number of alloca's promoted with a single store
+  473 smartssa  - Number of alloca's promoted
+
+Analizing File:  pp_pack.c
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+  17 instcount - Number of AShr insts
+ 172 instcount - Number of Add insts
+  77 instcount - Number of Alloca insts
+ 268 instcount - Number of And insts
+ 443 instcount - Number of BitCast insts
+2640 instcount - Number of Br insts
+ 649 instcount - Number of Call insts
+  18 instcount - Number of FAdd insts
+   6 instcount - Number of FCmp insts
+   2 instcount - Number of FDiv insts
+   3 instcount - Number of FMul insts
+   2 instcount - Number of FPExt insts
+   1 instcount - Number of FPToUI insts
+   1 instcount - Number of FPTrunc insts
+   1 instcount - Number of FSub insts
+ 960 instcount - Number of GetElementPtr insts
+ 673 instcount - Number of ICmp insts
+  10 instcount - Number of LShr insts
+1011 instcount - Number of Load insts
+  36 instcount - Number of Mul insts
+  69 instcount - Number of Or insts
+1109 instcount - Number of PHI insts
+ 184 instcount - Number of PtrToInt insts
+  28 instcount - Number of Ret insts
+  24 instcount - Number of SDiv insts
+ 137 instcount - Number of SExt insts
+   8 instcount - Number of SIToFP insts
+   6 instcount - Number of SRem insts
+  26 instcount - Number of Select insts
+  33 instcount - Number of Shl insts
+ 332 instcount - Number of Store insts
+ 130 instcount - Number of Sub insts
+  25 instcount - Number of Switch insts
+ 277 instcount - Number of Trunc insts
+   4 instcount - Number of UDiv insts
+   7 instcount - Number of UIToFP insts
+   4 instcount - Number of URem insts
+   5 instcount - Number of Unreachable insts
+   9 instcount - Number of Xor insts
+ 198 instcount - Number of ZExt insts
+2698 instcount - Number of basic blocks
+  28 instcount - Number of non-external functions
+9605 instcount - Number of instructions (of all types)
+ 973 mem2reg   - Number of PHI nodes inserted
+ 140 mem2reg   - Number of alloca's promoted with a single store
+ 299 smartssa  - Number of alloca's promoted
+
+Analizing File:  pp_sort.c
+Analizing File:  pp_sys.c
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+    6 instcount - Number of AShr insts
+  126 instcount - Number of Add insts
+   38 instcount - Number of Alloca insts
+  524 instcount - Number of And insts
+  749 instcount - Number of BitCast insts
+ 3137 instcount - Number of Br insts
+  908 instcount - Number of Call insts
+    1 instcount - Number of FAdd insts
+   11 instcount - Number of FCmp insts
+    4 instcount - Number of FDiv insts
+    1 instcount - Number of FMul insts
+    2 instcount - Number of FPExt insts
+    5 instcount - Number of FPToSI insts
+    2 instcount - Number of FPTrunc insts
+    4 instcount - Number of FSub insts
+ 1994 instcount - Number of GetElementPtr insts
+ 1061 instcount - Number of ICmp insts
+    1 instcount - Number of IntToPtr insts
+    1 instcount - Number of LShr insts
+ 2430 instcount - Number of Load insts
+   17 instcount - Number of Mul insts
+   20 instcount - Number of Or insts
+  709 instcount - Number of PHI insts
+  158 instcount - Number of PtrToInt insts
+  103 instcount - Number of Ret insts
+   79 instcount - Number of SDiv insts
+  114 instcount - Number of SExt insts
+   20 instcount - Number of SIToFP insts
+   32 instcount - Number of SRem insts
+   16 instcount - Number of Select insts
+    6 instcount - Number of Shl insts
+  526 instcount - Number of Store insts
+  122 instcount - Number of Sub insts
+   40 instcount - Number of Switch insts
+  181 instcount - Number of Trunc insts
+    5 instcount - Number of Unreachable insts
+    2 instcount - Number of Xor insts
+  248 instcount - Number of ZExt insts
+ 3285 instcount - Number of basic blocks
+  103 instcount - Number of non-external functions
+13403 instcount - Number of instructions (of all types)
+    2 mem2reg   - Number of dead alloca's removed
+    2 mem2reg   - Number of alloca's promoted within one block
+  492 mem2reg   - Number of PHI nodes inserted
+  256 mem2reg   - Number of alloca's promoted with a single store
+  518 smartssa  - Number of alloca's promoted
+
+Analizing File:  reentr.c
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+ 1 instcount - Number of Alloca insts
+ 4 instcount - Number of BitCast insts
+ 4 instcount - Number of Call insts
+ 2 instcount - Number of GetElementPtr insts
+ 4 instcount - Number of Ret insts
+ 4 instcount - Number of basic blocks
+ 4 instcount - Number of non-external functions
+15 instcount - Number of instructions (of all types)
+ 2 mem2reg   - Number of alloca's promoted with a single store
+ 2 smartssa  - Number of alloca's promoted
+
+Analizing File:  regcomp.c
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+   20 instcount - Number of AShr insts
+  523 instcount - Number of Add insts
+  162 instcount - Number of Alloca insts
+  771 instcount - Number of And insts
+ 1843 instcount - Number of BitCast insts
+ 8904 instcount - Number of Br insts
+ 2006 instcount - Number of Call insts
+    5 instcount - Number of FCmp insts
+    2 instcount - Number of FPExt insts
+    2 instcount - Number of FPTrunc insts
+ 7621 instcount - Number of GetElementPtr insts
+ 4508 instcount - Number of ICmp insts
+    2 instcount - Number of IntToPtr insts
+    8 instcount - Number of LShr insts
+ 7186 instcount - Number of Load insts
+   84 instcount - Number of Mul insts
+  204 instcount - Number of Or insts
+ 2287 instcount - Number of PHI insts
+  705 instcount - Number of PtrToInt insts
+  136 instcount - Number of Ret insts
+   19 instcount - Number of SDiv insts
+  379 instcount - Number of SExt insts
+    9 instcount - Number of SRem insts
+  898 instcount - Number of Select insts
+   46 instcount - Number of Shl insts
+ 1429 instcount - Number of Store insts
+  648 instcount - Number of Sub insts
+   94 instcount - Number of Switch insts
+  416 instcount - Number of Trunc insts
+   18 instcount - Number of UDiv insts
+    2 instcount - Number of URem insts
+   15 instcount - Number of Unreachable insts
+   34 instcount - Number of Xor insts
+ 2847 instcount - Number of ZExt insts
+ 9149 instcount - Number of basic blocks
+  136 instcount - Number of non-external functions
+43833 instcount - Number of instructions (of all types)
+    2 mem2reg   - Number of alloca's promoted within one block
+ 1607 mem2reg   - Number of PHI nodes inserted
+  831 mem2reg   - Number of alloca's promoted with a single store
+ 1391 smartssa  - Number of alloca's promoted
+
+Analizing File:  regexec.c
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+   13 instcount - Number of AShr insts
+  137 instcount - Number of Add insts
+   53 instcount - Number of Alloca insts
+  559 instcount - Number of And insts
+  928 instcount - Number of BitCast insts
+ 5608 instcount - Number of Br insts
+  804 instcount - Number of Call insts
+    4 instcount - Number of FCmp insts
+    1 instcount - Number of FPExt insts
+    1 instcount - Number of FPTrunc insts
+ 4494 instcount - Number of GetElementPtr insts
+ 2442 instcount - Number of ICmp insts
+    2 instcount - Number of LShr insts
+ 4121 instcount - Number of Load insts
+   14 instcount - Number of Mul insts
+  100 instcount - Number of Or insts
+ 1561 instcount - Number of PHI insts
+  211 instcount - Number of PtrToInt insts
+   60 instcount - Number of Ret insts
+   11 instcount - Number of SDiv insts
+  412 instcount - Number of SExt insts
+    1 instcount - Number of SRem insts
+  288 instcount - Number of Select insts
+   95 instcount - Number of Shl insts
+  700 instcount - Number of Store insts
+  213 instcount - Number of Sub insts
+   72 instcount - Number of Switch insts
+  530 instcount - Number of Trunc insts
+    1 instcount - Number of UDiv insts
+    3 instcount - Number of URem insts
+    2 instcount - Number of Unreachable insts
+  106 instcount - Number of Xor insts
+ 1925 instcount - Number of ZExt insts
+ 5742 instcount - Number of basic blocks
+   60 instcount - Number of non-external functions
+25472 instcount - Number of instructions (of all types)
+ 1024 mem2reg   - Number of PHI nodes inserted
+  311 mem2reg   - Number of alloca's promoted with a single store
+  546 smartssa  - Number of alloca's promoted
+
+Analizing File:  run.c
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+ 7 instcount - Number of Br insts
+ 2 instcount - Number of Call insts
+ 1 instcount - Number of GetElementPtr insts
+ 2 instcount - Number of ICmp insts
+ 4 instcount - Number of Load insts
+ 1 instcount - Number of PHI insts
+ 1 instcount - Number of Ret insts
+ 2 instcount - Number of Store insts
+ 8 instcount - Number of basic blocks
+ 1 instcount - Number of non-external functions
+20 instcount - Number of instructions (of all types)
+ 1 mem2reg   - Number of PHI nodes inserted
+ 1 smartssa  - Number of alloca's promoted
+
+Analizing File:  scope.c
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+  99 instcount - Number of Add insts
+   4 instcount - Number of Alloca insts
+  68 instcount - Number of And insts
+ 698 instcount - Number of BitCast insts
+ 528 instcount - Number of Br insts
+ 201 instcount - Number of Call insts
+ 565 instcount - Number of GetElementPtr insts
+ 169 instcount - Number of ICmp insts
+  18 instcount - Number of LShr insts
+ 695 instcount - Number of Load insts
+  13 instcount - Number of Mul insts
+  22 instcount - Number of Or insts
+  65 instcount - Number of PHI insts
+  12 instcount - Number of PtrToInt insts
+  58 instcount - Number of Ret insts
+   9 instcount - Number of SDiv insts
+  13 instcount - Number of SExt insts
+   4 instcount - Number of Select insts
+  10 instcount - Number of Shl insts
+ 212 instcount - Number of Store insts
+  17 instcount - Number of Sub insts
+   8 instcount - Number of Switch insts
+  21 instcount - Number of Trunc insts
+   1 instcount - Number of UDiv insts
+   3 instcount - Number of Unreachable insts
+   3 instcount - Number of Xor insts
+  21 instcount - Number of ZExt insts
+ 597 instcount - Number of basic blocks
+  58 instcount - Number of non-external functions
+3537 instcount - Number of instructions (of all types)
+  32 mem2reg   - Number of alloca's promoted within one block
+  39 mem2reg   - Number of PHI nodes inserted
+ 130 mem2reg   - Number of alloca's promoted with a single store
+ 184 smartssa  - Number of alloca's promoted
+
+Analizing File:  specrand.c
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+ 16 instcount - Number of Add insts
+ 15 instcount - Number of And insts
+ 33 instcount - Number of Br insts
+ 11 instcount - Number of Call insts
+  2 instcount - Number of FAdd insts
+  6 instcount - Number of FMul insts
+ 27 instcount - Number of GetElementPtr insts
+ 11 instcount - Number of ICmp insts
+ 12 instcount - Number of LShr insts
+ 37 instcount - Number of Load insts
+  3 instcount - Number of Mul insts
+  3 instcount - Number of Or insts
+ 11 instcount - Number of PHI insts
+ 11 instcount - Number of Ret insts
+ 28 instcount - Number of SExt insts
+  2 instcount - Number of Shl insts
+ 17 instcount - Number of Store insts
+  7 instcount - Number of Sub insts
+  6 instcount - Number of UIToFP insts
+ 15 instcount - Number of Xor insts
+ 44 instcount - Number of basic blocks
+ 11 instcount - Number of non-external functions
+273 instcount - Number of instructions (of all types)
+ 10 mem2reg   - Number of PHI nodes inserted
+  6 mem2reg   - Number of alloca's promoted with a single store
+ 11 smartssa  - Number of alloca's promoted
+
+Analizing File:  sv.c
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+    4 instcount - Number of AShr insts
+  494 instcount - Number of Add insts
+  101 instcount - Number of Alloca insts
+ 1163 instcount - Number of And insts
+ 2970 instcount - Number of BitCast insts
+ 6719 instcount - Number of Br insts
+ 1451 instcount - Number of Call insts
+   14 instcount - Number of FAdd insts
+   46 instcount - Number of FCmp insts
+   16 instcount - Number of FMul insts
+    7 instcount - Number of FNeg insts
+    7 instcount - Number of FPExt insts
+    1 instcount - Number of FPToUI insts
+   10 instcount - Number of FPTrunc insts
+   11 instcount - Number of FSub insts
+ 5948 instcount - Number of GetElementPtr insts
+ 2458 instcount - Number of ICmp insts
+    1 instcount - Number of IntToPtr insts
+   31 instcount - Number of LShr insts
+ 5447 instcount - Number of Load insts
+   55 instcount - Number of Mul insts
+  168 instcount - Number of Or insts
+ 1449 instcount - Number of PHI insts
+  132 instcount - Number of PtrToInt insts
+  205 instcount - Number of Ret insts
+   11 instcount - Number of SDiv insts
+  183 instcount - Number of SExt insts
+    5 instcount - Number of SIToFP insts
+   35 instcount - Number of Select insts
+   10 instcount - Number of Shl insts
+ 1274 instcount - Number of Store insts
+  211 instcount - Number of Sub insts
+  103 instcount - Number of Switch insts
+  437 instcount - Number of Trunc insts
+    8 instcount - Number of UDiv insts
+   31 instcount - Number of UIToFP insts
+    5 instcount - Number of URem insts
+   38 instcount - Number of Unreachable insts
+   26 instcount - Number of Xor insts
+  407 instcount - Number of ZExt insts
+ 7065 instcount - Number of basic blocks
+  205 instcount - Number of non-external functions
+31692 instcount - Number of instructions (of all types)
+    3 mem2reg   - Number of alloca's promoted within one block
+ 1048 mem2reg   - Number of PHI nodes inserted
+  708 mem2reg   - Number of alloca's promoted with a single store
+ 1120 smartssa  - Number of alloca's promoted
+
+Analizing File:  taint.c
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+  1 instcount - Number of Alloca insts
+  8 instcount - Number of And insts
+ 23 instcount - Number of BitCast insts
+ 77 instcount - Number of Br insts
+ 29 instcount - Number of Call insts
+ 62 instcount - Number of GetElementPtr insts
+ 31 instcount - Number of ICmp insts
+ 85 instcount - Number of Load insts
+ 15 instcount - Number of PHI insts
+  2 instcount - Number of Ret insts
+  1 instcount - Number of SExt insts
+  8 instcount - Number of Store insts
+  1 instcount - Number of Switch insts
+  8 instcount - Number of Trunc insts
+  1 instcount - Number of Unreachable insts
+  7 instcount - Number of ZExt insts
+ 81 instcount - Number of basic blocks
+  2 instcount - Number of non-external functions
+359 instcount - Number of instructions (of all types)
+  8 mem2reg   - Number of PHI nodes inserted
+  7 mem2reg   - Number of alloca's promoted with a single store
+ 13 smartssa  - Number of alloca's promoted
+
+Analizing File:  time64.c
+Analizing File:  toke.c
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+    3 instcount - Number of AShr insts
+  472 instcount - Number of Add insts
+   81 instcount - Number of Alloca insts
+ 1395 instcount - Number of And insts
+ 1182 instcount - Number of BitCast insts
+ 7409 instcount - Number of Br insts
+ 1810 instcount - Number of Call insts
+    2 instcount - Number of FAdd insts
+    5 instcount - Number of FCmp insts
+    1 instcount - Number of FDiv insts
+    3 instcount - Number of FMul insts
+    1 instcount - Number of FPExt insts
+    1 instcount - Number of FPTrunc insts
+ 6910 instcount - Number of GetElementPtr insts
+ 3629 instcount - Number of ICmp insts
+    3 instcount - Number of IntToPtr insts
+   28 instcount - Number of LShr insts
+ 9773 instcount - Number of Load insts
+   37 instcount - Number of Mul insts
+  188 instcount - Number of Or insts
+ 1595 instcount - Number of PHI insts
+  389 instcount - Number of PtrToInt insts
+  112 instcount - Number of Ret insts
+    6 instcount - Number of SDiv insts
+ 1087 instcount - Number of SExt insts
+    1 instcount - Number of SIToFP insts
+    1 instcount - Number of SRem insts
+  299 instcount - Number of Select insts
+   98 instcount - Number of Shl insts
+ 2072 instcount - Number of Store insts
+  280 instcount - Number of Sub insts
+   83 instcount - Number of Switch insts
+  445 instcount - Number of Trunc insts
+    1 instcount - Number of UDiv insts
+    4 instcount - Number of UIToFP insts
+   14 instcount - Number of Unreachable insts
+   27 instcount - Number of Xor insts
+ 1451 instcount - Number of ZExt insts
+ 7618 instcount - Number of basic blocks
+  112 instcount - Number of non-external functions
+40898 instcount - Number of instructions (of all types)
+    2 mem2reg   - Number of alloca's promoted within one block
+ 1155 mem2reg   - Number of PHI nodes inserted
+  462 mem2reg   - Number of alloca's promoted with a single store
+  810 smartssa  - Number of alloca's promoted
+
+Analizing File:  universal.c
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+   1 instcount - Number of AShr insts
+ 283 instcount - Number of Add insts
+   7 instcount - Number of Alloca insts
+ 196 instcount - Number of And insts
+ 497 instcount - Number of BitCast insts
+1345 instcount - Number of Br insts
+ 333 instcount - Number of Call insts
+  11 instcount - Number of FCmp insts
+   8 instcount - Number of FPExt insts
+   8 instcount - Number of FPTrunc insts
+1300 instcount - Number of GetElementPtr insts
+ 482 instcount - Number of ICmp insts
+   2 instcount - Number of LShr insts
+1450 instcount - Number of Load insts
+   1 instcount - Number of Mul insts
+  14 instcount - Number of Or insts
+ 234 instcount - Number of PHI insts
+  73 instcount - Number of PtrToInt insts
+  54 instcount - Number of Ret insts
+  36 instcount - Number of SDiv insts
+  19 instcount - Number of SExt insts
+   1 instcount - Number of SRem insts
+   9 instcount - Number of Select insts
+ 197 instcount - Number of Store insts
+  57 instcount - Number of Sub insts
+  48 instcount - Number of Switch insts
+  57 instcount - Number of Trunc insts
+  28 instcount - Number of Unreachable insts
+   1 instcount - Number of Xor insts
+  62 instcount - Number of ZExt insts
+1475 instcount - Number of basic blocks
+  54 instcount - Number of non-external functions
+6814 instcount - Number of instructions (of all types)
+   1 mem2reg   - Number of alloca's promoted within one block
+ 113 mem2reg   - Number of PHI nodes inserted
+ 288 mem2reg   - Number of alloca's promoted with a single store
+ 422 smartssa  - Number of alloca's promoted
+
+Analizing File:  utf8.c
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+   9 instcount - Number of AShr insts
+  53 instcount - Number of Add insts
+  54 instcount - Number of Alloca insts
+ 284 instcount - Number of And insts
+ 332 instcount - Number of BitCast insts
+1700 instcount - Number of Br insts
+ 495 instcount - Number of Call insts
+   5 instcount - Number of FCmp insts
+   2 instcount - Number of FPExt insts
+   2 instcount - Number of FPTrunc insts
+ 672 instcount - Number of GetElementPtr insts
+ 682 instcount - Number of ICmp insts
+  47 instcount - Number of LShr insts
+ 915 instcount - Number of Load insts
+  14 instcount - Number of Mul insts
+  74 instcount - Number of Or insts
+ 447 instcount - Number of PHI insts
+  72 instcount - Number of PtrToInt insts
+  73 instcount - Number of Ret insts
+   4 instcount - Number of SDiv insts
+  53 instcount - Number of SExt insts
+  37 instcount - Number of Select insts
+  28 instcount - Number of Shl insts
+ 276 instcount - Number of Store insts
+  52 instcount - Number of Sub insts
+  22 instcount - Number of Switch insts
+ 200 instcount - Number of Trunc insts
+   3 instcount - Number of UDiv insts
+   4 instcount - Number of Unreachable insts
+   5 instcount - Number of Xor insts
+ 480 instcount - Number of ZExt insts
+1799 instcount - Number of basic blocks
+  73 instcount - Number of non-external functions
+7096 instcount - Number of instructions (of all types)
+ 323 mem2reg   - Number of PHI nodes inserted
+ 304 mem2reg   - Number of alloca's promoted with a single store
+ 482 smartssa  - Number of alloca's promoted
+
+Analizing File:  util.c
+Analizing File:  vutil.c
+Analizing File:  perllib.c
+Analizing File:  win32.c
+Analizing File:  win32io.c
+Analizing File:  win32sck.c
+Analizing File:  win32thread.c
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+2 instcount - Number of Ret insts
+2 instcount - Number of basic blocks
+2 instcount - Number of non-external functions
+2 instcount - Number of instructions (of all types)
+1 mem2reg   - Number of alloca's promoted with a single store
+1 smartssa  - Number of alloca's promoted
+
