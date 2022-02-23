@@ -1,0 +1,22 @@
+Analizing File: platform_init.c
+sh: ../../../../Debug/bin/genssa-DBH_FREE=wasm_runtime_free: No such file or directory
+sh: ../../../../Debug/bin/genssa-DBH_FREE=wasm_runtime_free: No such file or directory
+sh: ../../../../Debug/bin/genssa-DBH_FREE=wasm_runtime_free: No such file or directory
+sh: ../../../../Debug/bin/genssa-DBH_FREE=wasm_runtime_free: No such file or directory
+sh: ../../../../Debug/bin/genssa-DBH_FREE=wasm_runtime_free: No such file or directory
+sh: ../../../../Debug/bin/genssa-DBH_FREE=wasm_runtime_free: No such file or directory
+sh: ../../../../Debug/bin/genssa-DBH_FREE=wasm_runtime_free: No such file or directory
+sh: ../../../../Debug/bin/genssa-DBH_FREE=wasm_runtime_free: No such file or directory
+sh: ../../../../Debug/bin/genssa-DBH_FREE=wasm_runtime_free: No such file or directory
+sh: ../../../../Debug/bin/genssa-DBH_FREE=wasm_runtime_free: No such file or directory
+Analizing File: platform_init.c
+sh: ../../../../Debug/bin/genssa-DBH_FREE=wasm_runtime_free: No such file or directory
+sh: ../../../../Debug/bin/genssa-DBH_FREE=wasm_runtime_free: No such file or directory
+sh: ../../../../Debug/bin/genssa-DBH_FREE=wasm_runtime_free: No such file or directory
+sh: ../../../../Debug/bin/genssa-DBH_FREE=wasm_runtime_free: No such file or directory
+sh: ../../../../Debug/bin/genssa-DBH_FREE=wasm_runtime_free: No such file or directory
+sh: ../../../../Debug/bin/genssa-DBH_FREE=wasm_runtime_free: No such file or directory
+sh: ../../../../Debug/bin/genssa-DBH_FREE=wasm_runtime_free: No such file or directory
+sh: ../../../../Debug/bin/genssa-DBH_FREE=wasm_runtime_free: No such file or directory
+sh: ../../../../Debug/bin/genssa-DBH_FREE=wasm_runtime_free: No such file or directory
+sh: ../../../../Debug/bin/genssa-DBH_FREE=wasm_runtime_free: No such file or directory

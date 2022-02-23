@@ -1,0 +1,770 @@
+platform_init.c: platform_init.c nCFG: 11 TWccFP: 126 TWCCSAS: 147 TWccDanicic: 90 tdFP: 1.17 tdDanicic: 0.71 OK 
+platform_init.c nCFG: 11 TWccFP: 96 TWCCSAS: 158 TWccDanicic: 129 tdFP: 1.65 tdDanicic: 1.34 OK 
+platform_init.c nCFG: 11 TWccFP: 91 TWCCSAS: 155 TWccDanicic: 62 tdFP: 1.70 tdDanicic: 0.68 OK 
+platform_init.c nCFG: 11 TWccFP: 110 TWCCSAS: 145 TWccDanicic: 83 tdFP: 1.32 tdDanicic: 0.75 OK 
+platform_init.c nCFG: 11 TWccFP: 96 TWCCSAS: 171 TWccDanicic: 76 tdFP: 1.78 tdDanicic: 0.79 OK 
+platform_init.c nCFG: 11 TWccFP: 107 TWCCSAS: 171 TWccDanicic: 100 tdFP: 1.60 tdDanicic: 0.93 OK 
+platform_init.c nCFG: 11 TWccFP: 109 TWCCSAS: 249 TWccDanicic: 93 tdFP: 2.28 tdDanicic: 0.85 OK 
+platform_init.c nCFG: 11 TWccFP: 90 TWCCSAS: 146 TWccDanicic: 85 tdFP: 1.62 tdDanicic: 0.94 OK 
+platform_init.c nCFG: 11 TWccFP: 82 TWCCSAS: 162 TWccDanicic: 44 tdFP: 1.98 tdDanicic: 0.54 OK 
+platform_init.c nCFG: 11 TWccFP: 76 TWCCSAS: 135 TWccDanicic: 42 tdFP: 1.78 tdDanicic: 0.55 OK 
+posix_malloc.c: posix_malloc.c nCFG: 9 TWccFP: 69 TWCCSAS: 141 TWccDanicic: 70 tdFP: 2.04 tdDanicic: 1.01 OK 
+posix_malloc.c nCFG: 9 TWccFP: 77 TWCCSAS: 103 TWccDanicic: 66 tdFP: 1.34 tdDanicic: 0.86 OK 
+posix_malloc.c nCFG: 9 TWccFP: 96 TWCCSAS: 153 TWccDanicic: 84 tdFP: 1.59 tdDanicic: 0.88 OK 
+posix_malloc.c nCFG: 9 TWccFP: 77 TWCCSAS: 120 TWccDanicic: 77 tdFP: 1.56 tdDanicic: 1.00 OK 
+posix_malloc.c nCFG: 9 TWccFP: 151 TWCCSAS: 149 TWccDanicic: 73 tdFP: 0.99 tdDanicic: 0.48 OK 
+posix_malloc.c nCFG: 9 TWccFP: 79 TWCCSAS: 135 TWccDanicic: 81 tdFP: 1.71 tdDanicic: 1.03 OK 
+posix_malloc.c nCFG: 9 TWccFP: 80 TWCCSAS: 120 TWccDanicic: 77 tdFP: 1.50 tdDanicic: 0.96 OK 
+posix_malloc.c nCFG: 9 TWccFP: 73 TWCCSAS: 113 TWccDanicic: 73 tdFP: 1.55 tdDanicic: 1.00 OK 
+posix_malloc.c nCFG: 9 TWccFP: 86 TWCCSAS: 156 TWccDanicic: 94 tdFP: 1.81 tdDanicic: 1.09 OK 
+posix_malloc.c nCFG: 9 TWccFP: 86 TWCCSAS: 150 TWccDanicic: 143 tdFP: 1.74 tdDanicic: 1.66 OK 
+posix_memmap.c: posix_memmap.c nCFG: 41 TWccFP: 464 TWCCSAS: 411 TWccDanicic: 1572 tdFP: 0.89 tdDanicic: 3.39 OK 
+posix_memmap.c nCFG: 41 TWccFP: 426 TWCCSAS: 413 TWccDanicic: 1317 tdFP: 0.97 tdDanicic: 3.09 OK 
+posix_memmap.c nCFG: 41 TWccFP: 463 TWCCSAS: 472 TWccDanicic: 1494 tdFP: 1.02 tdDanicic: 3.23 OK 
+posix_memmap.c nCFG: 41 TWccFP: 318 TWCCSAS: 351 TWccDanicic: 872 tdFP: 1.10 tdDanicic: 2.74 OK 
+posix_memmap.c nCFG: 41 TWccFP: 420 TWCCSAS: 542 TWccDanicic: 1329 tdFP: 1.29 tdDanicic: 3.16 OK 
+posix_memmap.c nCFG: 41 TWccFP: 382 TWCCSAS: 572 TWccDanicic: 1320 tdFP: 1.50 tdDanicic: 3.46 OK 
+posix_memmap.c nCFG: 41 TWccFP: 431 TWCCSAS: 398 TWccDanicic: 957 tdFP: 0.92 tdDanicic: 2.22 OK 
+posix_memmap.c nCFG: 41 TWccFP: 537 TWCCSAS: 408 TWccDanicic: 722 tdFP: 0.76 tdDanicic: 1.34 OK 
+posix_memmap.c nCFG: 41 TWccFP: 371 TWCCSAS: 456 TWccDanicic: 717 tdFP: 1.23 tdDanicic: 1.93 OK 
+posix_memmap.c nCFG: 41 TWccFP: 247 TWCCSAS: 307 TWccDanicic: 488 tdFP: 1.24 tdDanicic: 1.98 OK 
+posix_socket.c: posix_socket.c nCFG: 52 TWccFP: 408 TWCCSAS: 464 TWccDanicic: 1061 tdFP: 1.14 tdDanicic: 2.60 OK 
+posix_socket.c nCFG: 52 TWccFP: 419 TWCCSAS: 598 TWccDanicic: 542 tdFP: 1.43 tdDanicic: 1.29 OK 
+posix_socket.c nCFG: 52 TWccFP: 414 TWCCSAS: 483 TWccDanicic: 608 tdFP: 1.17 tdDanicic: 1.47 OK 
+posix_socket.c nCFG: 52 TWccFP: 453 TWCCSAS: 501 TWccDanicic: 1165 tdFP: 1.11 tdDanicic: 2.57 OK 
+posix_socket.c nCFG: 52 TWccFP: 411 TWCCSAS: 586 TWccDanicic: 1212 tdFP: 1.43 tdDanicic: 2.95 OK 
+posix_socket.c nCFG: 52 TWccFP: 451 TWCCSAS: 527 TWccDanicic: 1228 tdFP: 1.17 tdDanicic: 2.72 OK 
+posix_socket.c nCFG: 52 TWccFP: 477 TWCCSAS: 451 TWccDanicic: 791 tdFP: 0.95 tdDanicic: 1.66 OK 
+posix_socket.c nCFG: 52 TWccFP: 414 TWCCSAS: 504 TWccDanicic: 881 tdFP: 1.22 tdDanicic: 2.13 OK 
+posix_socket.c nCFG: 52 TWccFP: 407 TWCCSAS: 508 TWccDanicic: 513 tdFP: 1.25 tdDanicic: 1.26 OK 
+posix_socket.c nCFG: 52 TWccFP: 511 TWCCSAS: 593 TWccDanicic: 1198 tdFP: 1.16 tdDanicic: 2.34 OK 
+posix_thread.c: posix_thread.c nCFG: 183 TWccFP: 1859 TWCCSAS: 2328 TWccDanicic: 3631 tdFP: 1.25 tdDanicic: 1.95 OK 
+posix_thread.c nCFG: 183 TWccFP: 1506 TWCCSAS: 1567 TWccDanicic: 3128 tdFP: 1.04 tdDanicic: 2.08 OK 
+posix_thread.c nCFG: 183 TWccFP: 2319 TWCCSAS: 2063 TWccDanicic: 2889 tdFP: 0.89 tdDanicic: 1.25 OK 
+posix_thread.c nCFG: 183 TWccFP: 1720 TWCCSAS: 1880 TWccDanicic: 2674 tdFP: 1.09 tdDanicic: 1.55 OK 
+posix_thread.c nCFG: 183 TWccFP: 1318 TWCCSAS: 1575 TWccDanicic: 1989 tdFP: 1.19 tdDanicic: 1.51 OK 
+posix_thread.c nCFG: 183 TWccFP: 1404 TWCCSAS: 1482 TWccDanicic: 2046 tdFP: 1.06 tdDanicic: 1.46 OK 
+posix_thread.c nCFG: 183 TWccFP: 1507 TWCCSAS: 1714 TWccDanicic: 2156 tdFP: 1.14 tdDanicic: 1.43 OK 
+posix_thread.c nCFG: 183 TWccFP: 1825 TWCCSAS: 1967 TWccDanicic: 3484 tdFP: 1.08 tdDanicic: 1.91 OK 
+posix_thread.c nCFG: 183 TWccFP: 1734 TWCCSAS: 1972 TWccDanicic: 3337 tdFP: 1.14 tdDanicic: 1.92 OK 
+posix_thread.c nCFG: 183 TWccFP: 2405 TWCCSAS: 1999 TWccDanicic: 4718 tdFP: 0.83 tdDanicic: 1.96 OK 
+posix_time.c: posix_time.c nCFG: 5 TWccFP: 35 TWCCSAS: 66 TWccDanicic: 60 tdFP: 1.89 tdDanicic: 1.71 OK 
+posix_time.c nCFG: 5 TWccFP: 54 TWCCSAS: 87 TWccDanicic: 108 tdFP: 1.61 tdDanicic: 2.00 OK 
+posix_time.c nCFG: 5 TWccFP: 33 TWCCSAS: 64 TWccDanicic: 41 tdFP: 1.94 tdDanicic: 1.24 OK 
+posix_time.c nCFG: 5 TWccFP: 33 TWCCSAS: 63 TWccDanicic: 40 tdFP: 1.91 tdDanicic: 1.21 OK 
+posix_time.c nCFG: 5 TWccFP: 52 TWCCSAS: 80 TWccDanicic: 82 tdFP: 1.54 tdDanicic: 1.58 OK 
+posix_time.c nCFG: 5 TWccFP: 56 TWCCSAS: 80 TWccDanicic: 83 tdFP: 1.43 tdDanicic: 1.48 OK 
+posix_time.c nCFG: 5 TWccFP: 51 TWCCSAS: 81 TWccDanicic: 96 tdFP: 1.59 tdDanicic: 1.88 OK 
+posix_time.c nCFG: 5 TWccFP: 46 TWCCSAS: 72 TWccDanicic: 41 tdFP: 1.57 tdDanicic: 0.89 OK 
+posix_time.c nCFG: 5 TWccFP: 37 TWCCSAS: 68 TWccDanicic: 57 tdFP: 1.84 tdDanicic: 1.54 OK 
+posix_time.c nCFG: 5 TWccFP: 38 TWCCSAS: 83 TWccDanicic: 57 tdFP: 2.18 tdDanicic: 1.50 OK 
+ems_alloc.c: ems_alloc.c nCFG: 286 TWccFP: 3015 TWCCSAS: 2899 TWccDanicic: 11217 tdFP: 0.96 tdDanicic: 3.72 OK 
+ems_alloc.c nCFG: 286 TWccFP: 2705 TWCCSAS: 2651 TWccDanicic: 14917 tdFP: 0.98 tdDanicic: 5.51 OK 
+ems_alloc.c nCFG: 286 TWccFP: 2803 TWCCSAS: 2649 TWccDanicic: 15868 tdFP: 0.95 tdDanicic: 5.66 OK 
+ems_alloc.c nCFG: 286 TWccFP: 2592 TWCCSAS: 2483 TWccDanicic: 16997 tdFP: 0.96 tdDanicic: 6.56 OK 
+ems_alloc.c nCFG: 286 TWccFP: 2887 TWCCSAS: 2913 TWccDanicic: 14407 tdFP: 1.01 tdDanicic: 4.99 OK 
+ems_alloc.c nCFG: 286 TWccFP: 2854 TWCCSAS: 3004 TWccDanicic: 13915 tdFP: 1.05 tdDanicic: 4.88 OK 
+ems_alloc.c nCFG: 286 TWccFP: 2741 TWCCSAS: 2573 TWccDanicic: 14379 tdFP: 0.94 tdDanicic: 5.25 OK 
+ems_alloc.c nCFG: 286 TWccFP: 2846 TWCCSAS: 2728 TWccDanicic: 17265 tdFP: 0.96 tdDanicic: 6.07 OK 
+ems_alloc.c nCFG: 286 TWccFP: 3003 TWCCSAS: 3023 TWccDanicic: 17066 tdFP: 1.01 tdDanicic: 5.68 OK 
+ems_alloc.c nCFG: 286 TWccFP: 2582 TWCCSAS: 2582 TWccDanicic: 13180 tdFP: 1.00 tdDanicic: 5.10 OK 
+ems_hmu.c: ems_hmu.c nCFG: 0 TWccFP: 0 TWCCSAS: 0 TWccDanicic: 0 tdFP: nan tdDanicic: nan OK 
+ems_hmu.c nCFG: 0 TWccFP: 0 TWCCSAS: 0 TWccDanicic: 0 tdFP: nan tdDanicic: nan OK 
+ems_hmu.c nCFG: 0 TWccFP: 0 TWCCSAS: 0 TWccDanicic: 0 tdFP: nan tdDanicic: nan OK 
+ems_hmu.c nCFG: 0 TWccFP: 0 TWCCSAS: 0 TWccDanicic: 0 tdFP: nan tdDanicic: nan OK 
+ems_hmu.c nCFG: 0 TWccFP: 0 TWCCSAS: 0 TWccDanicic: 0 tdFP: nan tdDanicic: nan OK 
+ems_hmu.c nCFG: 0 TWccFP: 0 TWCCSAS: 0 TWccDanicic: 0 tdFP: nan tdDanicic: nan OK 
+ems_hmu.c nCFG: 0 TWccFP: 0 TWCCSAS: 0 TWccDanicic: 0 tdFP: nan tdDanicic: nan OK 
+ems_hmu.c nCFG: 0 TWccFP: 0 TWCCSAS: 0 TWccDanicic: 0 tdFP: nan tdDanicic: nan OK 
+ems_hmu.c nCFG: 0 TWccFP: 0 TWCCSAS: 0 TWccDanicic: 0 tdFP: nan tdDanicic: nan OK 
+ems_hmu.c nCFG: 0 TWccFP: 0 TWCCSAS: 0 TWccDanicic: 0 tdFP: nan tdDanicic: nan OK 
+ems_kfc.c: ems_kfc.c nCFG: 87 TWccFP: 647 TWCCSAS: 629 TWccDanicic: 1305 tdFP: 0.97 tdDanicic: 2.02 OK 
+ems_kfc.c nCFG: 87 TWccFP: 798 TWCCSAS: 796 TWccDanicic: 3452 tdFP: 1.00 tdDanicic: 4.33 OK 
+ems_kfc.c nCFG: 87 TWccFP: 784 TWCCSAS: 745 TWccDanicic: 2449 tdFP: 0.95 tdDanicic: 3.12 OK 
+ems_kfc.c nCFG: 87 TWccFP: 1065 TWCCSAS: 1133 TWccDanicic: 3629 tdFP: 1.06 tdDanicic: 3.41 OK 
+ems_kfc.c nCFG: 87 TWccFP: 1025 TWCCSAS: 650 TWccDanicic: 1122 tdFP: 0.63 tdDanicic: 1.09 OK 
+ems_kfc.c nCFG: 87 TWccFP: 748 TWCCSAS: 756 TWccDanicic: 1721 tdFP: 1.01 tdDanicic: 2.30 OK 
+ems_kfc.c nCFG: 87 TWccFP: 900 TWCCSAS: 906 TWccDanicic: 3105 tdFP: 1.01 tdDanicic: 3.45 OK 
+ems_kfc.c nCFG: 87 TWccFP: 805 TWCCSAS: 754 TWccDanicic: 2077 tdFP: 0.94 tdDanicic: 2.58 OK 
+ems_kfc.c nCFG: 87 TWccFP: 861 TWCCSAS: 779 TWccDanicic: 3802 tdFP: 0.90 tdDanicic: 4.42 OK 
+ems_kfc.c nCFG: 87 TWccFP: 903 TWCCSAS: 819 TWccDanicic: 2022 tdFP: 0.91 tdDanicic: 2.24 OK 
+mem_alloc.c: mem_alloc.c nCFG: 28 TWccFP: 469 TWCCSAS: 334 TWccDanicic: 191 tdFP: 0.71 tdDanicic: 0.41 OK 
+mem_alloc.c nCFG: 28 TWccFP: 203 TWCCSAS: 277 TWccDanicic: 197 tdFP: 1.36 tdDanicic: 0.97 OK 
+mem_alloc.c nCFG: 28 TWccFP: 1404 TWCCSAS: 760 TWccDanicic: 245 tdFP: 0.54 tdDanicic: 0.17 OK 
+mem_alloc.c nCFG: 28 TWccFP: 212 TWCCSAS: 272 TWccDanicic: 225 tdFP: 1.28 tdDanicic: 1.06 OK 
+mem_alloc.c nCFG: 28 TWccFP: 221 TWCCSAS: 312 TWccDanicic: 168 tdFP: 1.41 tdDanicic: 0.76 OK 
+mem_alloc.c nCFG: 28 TWccFP: 224 TWCCSAS: 363 TWccDanicic: 263 tdFP: 1.62 tdDanicic: 1.17 OK 
+mem_alloc.c nCFG: 28 TWccFP: 257 TWCCSAS: 324 TWccDanicic: 284 tdFP: 1.26 tdDanicic: 1.11 OK 
+mem_alloc.c nCFG: 28 TWccFP: 223 TWCCSAS: 332 TWccDanicic: 123 tdFP: 1.49 tdDanicic: 0.55 OK 
+mem_alloc.c nCFG: 28 TWccFP: 240 TWCCSAS: 316 TWccDanicic: 125 tdFP: 1.32 tdDanicic: 0.52 OK 
+mem_alloc.c nCFG: 28 TWccFP: 400 TWCCSAS: 477 TWccDanicic: 386 tdFP: 1.19 tdDanicic: 0.96 OK 
+bh_assert.c: bh_assert.c nCFG: 9 TWccFP: 48 TWCCSAS: 77 TWccDanicic: 68 tdFP: 1.60 tdDanicic: 1.42 OK 
+bh_assert.c nCFG: 9 TWccFP: 48 TWCCSAS: 75 TWccDanicic: 68 tdFP: 1.56 tdDanicic: 1.42 OK 
+bh_assert.c nCFG: 9 TWccFP: 69 TWCCSAS: 92 TWccDanicic: 47 tdFP: 1.33 tdDanicic: 0.68 OK 
+bh_assert.c nCFG: 9 TWccFP: 67 TWCCSAS: 94 TWccDanicic: 47 tdFP: 1.40 tdDanicic: 0.70 OK 
+bh_assert.c nCFG: 9 TWccFP: 101 TWCCSAS: 137 TWccDanicic: 167 tdFP: 1.36 tdDanicic: 1.65 OK 
+bh_assert.c nCFG: 9 TWccFP: 76 TWCCSAS: 100 TWccDanicic: 66 tdFP: 1.32 tdDanicic: 0.87 OK 
+bh_assert.c nCFG: 9 TWccFP: 79 TWCCSAS: 101 TWccDanicic: 66 tdFP: 1.28 tdDanicic: 0.84 OK 
+bh_assert.c nCFG: 9 TWccFP: 65 TWCCSAS: 90 TWccDanicic: 155 tdFP: 1.38 tdDanicic: 2.38 OK 
+bh_assert.c nCFG: 9 TWccFP: 59 TWCCSAS: 88 TWccDanicic: 125 tdFP: 1.49 tdDanicic: 2.12 OK 
+bh_assert.c nCFG: 9 TWccFP: 80 TWCCSAS: 113 TWccDanicic: 179 tdFP: 1.41 tdDanicic: 2.24 OK 
+bh_common.c: bh_common.c nCFG: 60 TWccFP: 641 TWCCSAS: 657 TWccDanicic: 1303 tdFP: 1.02 tdDanicic: 2.03 OK 
+bh_common.c nCFG: 60 TWccFP: 797 TWCCSAS: 874 TWccDanicic: 1523 tdFP: 1.10 tdDanicic: 1.91 OK 
+bh_common.c nCFG: 60 TWccFP: 543 TWCCSAS: 650 TWccDanicic: 1340 tdFP: 1.20 tdDanicic: 2.47 OK 
+bh_common.c nCFG: 60 TWccFP: 592 TWCCSAS: 622 TWccDanicic: 1651 tdFP: 1.05 tdDanicic: 2.79 OK 
+bh_common.c nCFG: 60 TWccFP: 465 TWCCSAS: 464 TWccDanicic: 1068 tdFP: 1.00 tdDanicic: 2.30 OK 
+bh_common.c nCFG: 60 TWccFP: 443 TWCCSAS: 498 TWccDanicic: 1031 tdFP: 1.12 tdDanicic: 2.33 OK 
+bh_common.c nCFG: 60 TWccFP: 457 TWCCSAS: 617 TWccDanicic: 1134 tdFP: 1.35 tdDanicic: 2.48 OK 
+bh_common.c nCFG: 60 TWccFP: 677 TWCCSAS: 679 TWccDanicic: 803 tdFP: 1.00 tdDanicic: 1.19 OK 
+bh_common.c nCFG: 60 TWccFP: 556 TWCCSAS: 607 TWccDanicic: 771 tdFP: 1.09 tdDanicic: 1.39 OK 
+bh_common.c nCFG: 60 TWccFP: 520 TWCCSAS: 512 TWccDanicic: 2505 tdFP: 0.98 tdDanicic: 4.82 OK 
+bh_hashmap.c: bh_hashmap.c nCFG: 146 TWccFP: 1478 TWCCSAS: 1479 TWccDanicic: 6939 tdFP: 1.00 tdDanicic: 4.69 OK 
+bh_hashmap.c nCFG: 146 TWccFP: 1150 TWCCSAS: 1128 TWccDanicic: 3727 tdFP: 0.98 tdDanicic: 3.24 OK 
+bh_hashmap.c nCFG: 146 TWccFP: 1206 TWCCSAS: 1127 TWccDanicic: 3566 tdFP: 0.93 tdDanicic: 2.96 OK 
+bh_hashmap.c nCFG: 146 TWccFP: 1593 TWCCSAS: 1377 TWccDanicic: 6518 tdFP: 0.86 tdDanicic: 4.09 OK 
+bh_hashmap.c nCFG: 146 TWccFP: 1885 TWCCSAS: 2971 TWccDanicic: 16773 tdFP: 1.58 tdDanicic: 8.90 OK 
+bh_hashmap.c nCFG: 146 TWccFP: 1390 TWCCSAS: 1298 TWccDanicic: 5456 tdFP: 0.93 tdDanicic: 3.93 OK 
+bh_hashmap.c nCFG: 146 TWccFP: 1206 TWCCSAS: 1125 TWccDanicic: 4114 tdFP: 0.93 tdDanicic: 3.41 OK 
+bh_hashmap.c nCFG: 146 TWccFP: 1232 TWCCSAS: 1113 TWccDanicic: 4509 tdFP: 0.90 tdDanicic: 3.66 OK 
+bh_hashmap.c nCFG: 146 TWccFP: 1165 TWCCSAS: 1129 TWccDanicic: 4603 tdFP: 0.97 tdDanicic: 3.95 OK 
+bh_hashmap.c nCFG: 146 TWccFP: 1338 TWCCSAS: 1232 TWccDanicic: 5577 tdFP: 0.92 tdDanicic: 4.17 OK 
+bh_list.c: bh_list.c nCFG: 44 TWccFP: 463 TWCCSAS: 428 TWccDanicic: 445 tdFP: 0.92 tdDanicic: 0.96 OK 
+bh_list.c nCFG: 44 TWccFP: 535 TWCCSAS: 471 TWccDanicic: 480 tdFP: 0.88 tdDanicic: 0.90 OK 
+bh_list.c nCFG: 44 TWccFP: 474 TWCCSAS: 483 TWccDanicic: 643 tdFP: 1.02 tdDanicic: 1.36 OK 
+bh_list.c nCFG: 44 TWccFP: 464 TWCCSAS: 493 TWccDanicic: 626 tdFP: 1.06 tdDanicic: 1.35 OK 
+bh_list.c nCFG: 44 TWccFP: 258 TWCCSAS: 294 TWccDanicic: 457 tdFP: 1.14 tdDanicic: 1.77 OK 
+bh_list.c nCFG: 44 TWccFP: 493 TWCCSAS: 531 TWccDanicic: 1007 tdFP: 1.08 tdDanicic: 2.04 OK 
+bh_list.c nCFG: 44 TWccFP: 524 TWCCSAS: 509 TWccDanicic: 1078 tdFP: 0.97 tdDanicic: 2.06 OK 
+bh_list.c nCFG: 44 TWccFP: 194 TWCCSAS: 218 TWccDanicic: 409 tdFP: 1.12 tdDanicic: 2.11 OK 
+bh_list.c nCFG: 44 TWccFP: 220 TWCCSAS: 224 TWccDanicic: 428 tdFP: 1.02 tdDanicic: 1.95 OK 
+bh_list.c nCFG: 44 TWccFP: 483 TWCCSAS: 518 TWccDanicic: 780 tdFP: 1.07 tdDanicic: 1.61 OK 
+bh_log.c: bh_log.c nCFG: 17 TWccFP: 161 TWCCSAS: 198 TWccDanicic: 370 tdFP: 1.23 tdDanicic: 2.30 OK 
+bh_log.c nCFG: 17 TWccFP: 194 TWCCSAS: 206 TWccDanicic: 400 tdFP: 1.06 tdDanicic: 2.06 OK 
+bh_log.c nCFG: 17 TWccFP: 182 TWCCSAS: 282 TWccDanicic: 206 tdFP: 1.55 tdDanicic: 1.13 OK 
+bh_log.c nCFG: 17 TWccFP: 138 TWCCSAS: 196 TWccDanicic: 164 tdFP: 1.42 tdDanicic: 1.19 OK 
+bh_log.c nCFG: 17 TWccFP: 156 TWCCSAS: 178 TWccDanicic: 364 tdFP: 1.14 tdDanicic: 2.33 OK 
+bh_log.c nCFG: 17 TWccFP: 159 TWCCSAS: 215 TWccDanicic: 273 tdFP: 1.35 tdDanicic: 1.72 OK 
+bh_log.c nCFG: 17 TWccFP: 159 TWCCSAS: 192 TWccDanicic: 276 tdFP: 1.21 tdDanicic: 1.74 OK 
+bh_log.c nCFG: 17 TWccFP: 151 TWCCSAS: 196 TWccDanicic: 176 tdFP: 1.30 tdDanicic: 1.17 OK 
+bh_log.c nCFG: 17 TWccFP: 137 TWCCSAS: 176 TWccDanicic: 147 tdFP: 1.28 tdDanicic: 1.07 OK 
+bh_log.c nCFG: 17 TWccFP: 123 TWCCSAS: 174 TWccDanicic: 181 tdFP: 1.41 tdDanicic: 1.47 OK 
+bh_queue.c: bh_queue.c nCFG: 86 TWccFP: 1010 TWCCSAS: 1010 TWccDanicic: 1267 tdFP: 1.00 tdDanicic: 1.25 OK 
+bh_queue.c nCFG: 86 TWccFP: 761 TWCCSAS: 860 TWccDanicic: 1148 tdFP: 1.13 tdDanicic: 1.51 OK 
+bh_queue.c nCFG: 86 TWccFP: 742 TWCCSAS: 839 TWccDanicic: 1338 tdFP: 1.13 tdDanicic: 1.80 OK 
+bh_queue.c nCFG: 86 TWccFP: 574 TWCCSAS: 593 TWccDanicic: 606 tdFP: 1.03 tdDanicic: 1.06 OK 
+bh_queue.c nCFG: 86 TWccFP: 592 TWCCSAS: 618 TWccDanicic: 649 tdFP: 1.04 tdDanicic: 1.10 OK 
+bh_queue.c nCFG: 86 TWccFP: 836 TWCCSAS: 915 TWccDanicic: 1338 tdFP: 1.09 tdDanicic: 1.60 OK 
+bh_queue.c nCFG: 86 TWccFP: 780 TWCCSAS: 921 TWccDanicic: 1152 tdFP: 1.18 tdDanicic: 1.48 OK 
+bh_queue.c nCFG: 86 TWccFP: 796 TWCCSAS: 846 TWccDanicic: 822 tdFP: 1.06 tdDanicic: 1.03 OK 
+bh_queue.c nCFG: 86 TWccFP: 726 TWCCSAS: 769 TWccDanicic: 758 tdFP: 1.06 tdDanicic: 1.04 OK 
+bh_queue.c nCFG: 86 TWccFP: 808 TWCCSAS: 870 TWccDanicic: 1526 tdFP: 1.08 tdDanicic: 1.89 OK 
+bh_vector.c: bh_vector.c nCFG: 91 TWccFP: 819 TWCCSAS: 809 TWccDanicic: 1906 tdFP: 0.99 tdDanicic: 2.33 OK 
+bh_vector.c nCFG: 91 TWccFP: 734 TWCCSAS: 864 TWccDanicic: 1978 tdFP: 1.18 tdDanicic: 2.69 OK 
+bh_vector.c nCFG: 91 TWccFP: 950 TWCCSAS: 818 TWccDanicic: 1931 tdFP: 0.86 tdDanicic: 2.03 OK 
+bh_vector.c nCFG: 91 TWccFP: 805 TWCCSAS: 942 TWccDanicic: 1756 tdFP: 1.17 tdDanicic: 2.18 OK 
+bh_vector.c nCFG: 91 TWccFP: 673 TWCCSAS: 716 TWccDanicic: 1571 tdFP: 1.06 tdDanicic: 2.33 OK 
+bh_vector.c nCFG: 91 TWccFP: 852 TWCCSAS: 784 TWccDanicic: 1551 tdFP: 0.92 tdDanicic: 1.82 OK 
+bh_vector.c nCFG: 91 TWccFP: 779 TWCCSAS: 819 TWccDanicic: 1437 tdFP: 1.05 tdDanicic: 1.84 OK 
+bh_vector.c nCFG: 91 TWccFP: 732 TWCCSAS: 817 TWccDanicic: 2178 tdFP: 1.12 tdDanicic: 2.98 OK 
+bh_vector.c nCFG: 91 TWccFP: 796 TWCCSAS: 772 TWccDanicic: 2013 tdFP: 0.97 tdDanicic: 2.53 OK 
+bh_vector.c nCFG: 91 TWccFP: 968 TWCCSAS: 930 TWccDanicic: 2648 tdFP: 0.96 tdDanicic: 2.74 OK 
+runtime_timer.c: runtime_timer.c nCFG: 155 TWccFP: 1971 TWCCSAS: 2027 TWccDanicic: 5152 tdFP: 1.03 tdDanicic: 2.61 OK 
+runtime_timer.c nCFG: 155 TWccFP: 1676 TWCCSAS: 1529 TWccDanicic: 6160 tdFP: 0.91 tdDanicic: 3.68 OK 
+runtime_timer.c nCFG: 155 TWccFP: 1514 TWCCSAS: 1313 TWccDanicic: 3324 tdFP: 0.87 tdDanicic: 2.20 OK 
+runtime_timer.c nCFG: 155 TWccFP: 1538 TWCCSAS: 2176 TWccDanicic: 4590 tdFP: 1.41 tdDanicic: 2.98 OK 
+runtime_timer.c nCFG: 155 TWccFP: 1522 TWCCSAS: 1503 TWccDanicic: 3567 tdFP: 0.99 tdDanicic: 2.34 OK 
+runtime_timer.c nCFG: 155 TWccFP: 1413 TWCCSAS: 1726 TWccDanicic: 3785 tdFP: 1.22 tdDanicic: 2.68 OK 
+runtime_timer.c nCFG: 155 TWccFP: 1767 TWCCSAS: 1839 TWccDanicic: 4215 tdFP: 1.04 tdDanicic: 2.39 OK 
+runtime_timer.c nCFG: 155 TWccFP: 1518 TWCCSAS: 4120 TWccDanicic: 6811 tdFP: 2.71 tdDanicic: 4.49 OK 
+runtime_timer.c nCFG: 155 TWccFP: 1703 TWCCSAS: 1757 TWccDanicic: 3103 tdFP: 1.03 tdDanicic: 1.82 OK 
+runtime_timer.c nCFG: 155 TWccFP: 1900 TWCCSAS: 1740 TWccDanicic: 4772 tdFP: 0.92 tdDanicic: 2.51 OK 
+libc_builtin_wrapper.c: libc_builtin_wrapper.c nCFG: 445 TWccFP: 4059 TWCCSAS: 4416 TWccDanicic: 17947 tdFP: 1.09 tdDanicic: 4.42 OK 
+libc_builtin_wrapper.c nCFG: 445 TWccFP: 4040 TWCCSAS: 4136 TWccDanicic: 30036 tdFP: 1.02 tdDanicic: 7.43 OK 
+libc_builtin_wrapper.c nCFG: 445 TWccFP: 4162 TWCCSAS: 4928 TWccDanicic: 20572 tdFP: 1.18 tdDanicic: 4.94 OK 
+libc_builtin_wrapper.c nCFG: 445 TWccFP: 4335 TWCCSAS: 4699 TWccDanicic: 20595 tdFP: 1.08 tdDanicic: 4.75 OK 
+libc_builtin_wrapper.c nCFG: 445 TWccFP: 4626 TWCCSAS: 4867 TWccDanicic: 32131 tdFP: 1.05 tdDanicic: 6.95 OK 
+libc_builtin_wrapper.c nCFG: 445 TWccFP: 4915 TWCCSAS: 5104 TWccDanicic: 22957 tdFP: 1.04 tdDanicic: 4.67 OK 
+libc_builtin_wrapper.c nCFG: 445 TWccFP: 5226 TWCCSAS: 5666 TWccDanicic: 36455 tdFP: 1.08 tdDanicic: 6.98 OK 
+libc_builtin_wrapper.c nCFG: 445 TWccFP: 5240 TWCCSAS: 5661 TWccDanicic: 35343 tdFP: 1.08 tdDanicic: 6.74 OK 
+libc_builtin_wrapper.c nCFG: 445 TWccFP: 4683 TWCCSAS: 4934 TWccDanicic: 34251 tdFP: 1.05 tdDanicic: 7.31 OK 
+libc_builtin_wrapper.c nCFG: 445 TWccFP: 7318 TWCCSAS: 9783 TWccDanicic: 75050 tdFP: 1.34 tdDanicic: 10.26 OK 
+libc_wasi_wrapper.c: libc_wasi_wrapper.c nCFG: 406 TWccFP: 3738 TWCCSAS: 3732 TWccDanicic: 10740 tdFP: 1.00 tdDanicic: 2.87 OK 
+libc_wasi_wrapper.c nCFG: 406 TWccFP: 12604 TWCCSAS: 10669 TWccDanicic: 19877 tdFP: 0.85 tdDanicic: 1.58 OK 
+libc_wasi_wrapper.c nCFG: 406 TWccFP: 3184 TWCCSAS: 3292 TWccDanicic: 9591 tdFP: 1.03 tdDanicic: 3.01 OK 
+libc_wasi_wrapper.c nCFG: 406 TWccFP: 3422 TWCCSAS: 3553 TWccDanicic: 10356 tdFP: 1.04 tdDanicic: 3.03 OK 
+libc_wasi_wrapper.c nCFG: 406 TWccFP: 4661 TWCCSAS: 4706 TWccDanicic: 14015 tdFP: 1.01 tdDanicic: 3.01 OK 
+libc_wasi_wrapper.c nCFG: 406 TWccFP: 3727 TWCCSAS: 3937 TWccDanicic: 6692 tdFP: 1.06 tdDanicic: 1.80 OK 
+libc_wasi_wrapper.c nCFG: 406 TWccFP: 4280 TWCCSAS: 4067 TWccDanicic: 12027 tdFP: 0.95 tdDanicic: 2.81 OK 
+libc_wasi_wrapper.c nCFG: 406 TWccFP: 4741 TWCCSAS: 4472 TWccDanicic: 12116 tdFP: 0.94 tdDanicic: 2.56 OK 
+libc_wasi_wrapper.c nCFG: 406 TWccFP: 3568 TWCCSAS: 3720 TWccDanicic: 7784 tdFP: 1.04 tdDanicic: 2.18 OK 
+libc_wasi_wrapper.c nCFG: 406 TWccFP: 4463 TWCCSAS: 4935 TWccDanicic: 11972 tdFP: 1.11 tdDanicic: 2.68 OK 
+posix.c: posix.c nCFG: 1028 TWccFP: 10356 TWCCSAS: 10477 TWccDanicic: 49835 tdFP: 1.01 tdDanicic: 4.81 OK 
+posix.c nCFG: 1028 TWccFP: 9758 TWCCSAS: 9669 TWccDanicic: 48037 tdFP: 0.99 tdDanicic: 4.92 OK 
+posix.c nCFG: 1028 TWccFP: 10613 TWCCSAS: 10627 TWccDanicic: 52145 tdFP: 1.00 tdDanicic: 4.91 OK 
+posix.c nCFG: 1028 TWccFP: 9188 TWCCSAS: 9267 TWccDanicic: 37157 tdFP: 1.01 tdDanicic: 4.04 OK 
+posix.c nCFG: 1028 TWccFP: 10652 TWCCSAS: 10012 TWccDanicic: 43663 tdFP: 0.94 tdDanicic: 4.10 OK 
+posix.c nCFG: 1028 TWccFP: 10743 TWCCSAS: 10252 TWccDanicic: 41974 tdFP: 0.95 tdDanicic: 3.91 OK 
+posix.c nCFG: 1028 TWccFP: 9922 TWCCSAS: 9483 TWccDanicic: 48870 tdFP: 0.96 tdDanicic: 4.93 OK 
+posix.c nCFG: 1028 TWccFP: 10292 TWCCSAS: 10054 TWccDanicic: 54505 tdFP: 0.98 tdDanicic: 5.30 OK 
+posix.c nCFG: 1028 TWccFP: 10955 TWCCSAS: 11201 TWccDanicic: 46998 tdFP: 1.02 tdDanicic: 4.29 OK 
+posix.c nCFG: 1028 TWccFP: 9821 TWCCSAS: 10040 TWccDanicic: 54173 tdFP: 1.02 tdDanicic: 5.52 OK 
+random.c: random.c nCFG: 10 TWccFP: 99 TWCCSAS: 121 TWccDanicic: 111 tdFP: 1.22 tdDanicic: 1.12 OK 
+random.c nCFG: 10 TWccFP: 104 TWCCSAS: 123 TWccDanicic: 116 tdFP: 1.18 tdDanicic: 1.12 OK 
+random.c nCFG: 10 TWccFP: 92 TWCCSAS: 160 TWccDanicic: 161 tdFP: 1.74 tdDanicic: 1.75 OK 
+random.c nCFG: 10 TWccFP: 81 TWCCSAS: 122 TWccDanicic: 144 tdFP: 1.51 tdDanicic: 1.78 OK 
+random.c nCFG: 10 TWccFP: 90 TWCCSAS: 189 TWccDanicic: 161 tdFP: 2.10 tdDanicic: 1.79 OK 
+random.c nCFG: 10 TWccFP: 140 TWCCSAS: 150 TWccDanicic: 132 tdFP: 1.07 tdDanicic: 0.94 OK 
+random.c nCFG: 10 TWccFP: 141 TWCCSAS: 151 TWccDanicic: 167 tdFP: 1.07 tdDanicic: 1.18 OK 
+random.c nCFG: 10 TWccFP: 75 TWCCSAS: 160 TWccDanicic: 93 tdFP: 2.13 tdDanicic: 1.24 OK 
+random.c nCFG: 10 TWccFP: 58 TWCCSAS: 107 TWccDanicic: 87 tdFP: 1.84 tdDanicic: 1.50 OK 
+random.c nCFG: 10 TWccFP: 71 TWCCSAS: 109 TWccDanicic: 101 tdFP: 1.54 tdDanicic: 1.42 OK 
+str.c: str.c nCFG: 18 TWccFP: 160 TWCCSAS: 161 TWccDanicic: 134 tdFP: 1.01 tdDanicic: 0.84 OK 
+str.c nCFG: 18 TWccFP: 139 TWCCSAS: 162 TWccDanicic: 146 tdFP: 1.17 tdDanicic: 1.05 OK 
+str.c nCFG: 18 TWccFP: 134 TWCCSAS: 175 TWccDanicic: 87 tdFP: 1.31 tdDanicic: 0.65 OK 
+str.c nCFG: 18 TWccFP: 161 TWCCSAS: 171 TWccDanicic: 92 tdFP: 1.06 tdDanicic: 0.57 OK 
+str.c nCFG: 18 TWccFP: 178 TWCCSAS: 171 TWccDanicic: 165 tdFP: 0.96 tdDanicic: 0.93 OK 
+str.c nCFG: 18 TWccFP: 150 TWCCSAS: 186 TWccDanicic: 560 tdFP: 1.24 tdDanicic: 3.73 OK 
+str.c nCFG: 18 TWccFP: 152 TWCCSAS: 179 TWccDanicic: 669 tdFP: 1.18 tdDanicic: 4.40 OK 
+str.c nCFG: 18 TWccFP: 206 TWCCSAS: 186 TWccDanicic: 399 tdFP: 0.90 tdDanicic: 1.94 OK 
+str.c nCFG: 18 TWccFP: 188 TWCCSAS: 180 TWccDanicic: 407 tdFP: 0.96 tdDanicic: 2.16 OK 
+str.c nCFG: 18 TWccFP: 168 TWCCSAS: 224 TWccDanicic: 398 tdFP: 1.33 tdDanicic: 2.37 OK 
+wasm_application.c: wasm_application.c nCFG: 166 TWccFP: 2298 TWCCSAS: 2730 TWccDanicic: 15862 tdFP: 1.19 tdDanicic: 6.90 OK 
+wasm_application.c nCFG: 166 TWccFP: 1818 TWCCSAS: 1686 TWccDanicic: 9396 tdFP: 0.93 tdDanicic: 5.17 OK 
+wasm_application.c nCFG: 166 TWccFP: 1641 TWCCSAS: 1504 TWccDanicic: 11736 tdFP: 0.92 tdDanicic: 7.15 OK 
+wasm_application.c nCFG: 166 TWccFP: 1974 TWCCSAS: 1843 TWccDanicic: 16405 tdFP: 0.93 tdDanicic: 8.31 OK 
+wasm_application.c nCFG: 166 TWccFP: 1569 TWCCSAS: 1505 TWccDanicic: 12165 tdFP: 0.96 tdDanicic: 7.75 OK 
+wasm_application.c nCFG: 166 TWccFP: 2114 TWCCSAS: 1679 TWccDanicic: 16932 tdFP: 0.79 tdDanicic: 8.01 OK 
+wasm_application.c nCFG: 166 TWccFP: 1435 TWCCSAS: 1327 TWccDanicic: 4623 tdFP: 0.92 tdDanicic: 3.22 OK 
+wasm_application.c nCFG: 166 TWccFP: 1694 TWCCSAS: 1596 TWccDanicic: 14062 tdFP: 0.94 tdDanicic: 8.30 OK 
+wasm_application.c nCFG: 166 TWccFP: 1900 TWCCSAS: 1662 TWccDanicic: 13767 tdFP: 0.87 tdDanicic: 7.25 OK 
+wasm_application.c nCFG: 166 TWccFP: 2418 TWCCSAS: 2142 TWccDanicic: 14729 tdFP: 0.89 tdDanicic: 6.09 OK 
+wasm_c_api.c: wasm_c_api.c nCFG: 2478 TWccFP: 25005 TWCCSAS: 30101 TWccDanicic: 113169 tdFP: 1.20 tdDanicic: 4.53 OK 
+wasm_c_api.c nCFG: 2478 TWccFP: 26099 TWCCSAS: 26389 TWccDanicic: 89226 tdFP: 1.01 tdDanicic: 3.42 OK 
+wasm_c_api.c nCFG: 2478 TWccFP: 21350 TWCCSAS: 20860 TWccDanicic: 63289 tdFP: 0.98 tdDanicic: 2.96 OK 
+wasm_c_api.c nCFG: 2478 TWccFP: 24958 TWCCSAS: 24564 TWccDanicic: 88006 tdFP: 0.98 tdDanicic: 3.53 OK 
+wasm_c_api.c nCFG: 2478 TWccFP: 24359 TWCCSAS: 23827 TWccDanicic: 73022 tdFP: 0.98 tdDanicic: 3.00 OK 
+wasm_c_api.c nCFG: 2478 TWccFP: 23776 TWCCSAS: 24386 TWccDanicic: 90299 tdFP: 1.03 tdDanicic: 3.80 OK 
+wasm_c_api.c nCFG: 2478 TWccFP: 23489 TWCCSAS: 24222 TWccDanicic: 73671 tdFP: 1.03 tdDanicic: 3.14 OK 
+wasm_c_api.c nCFG: 2478 TWccFP: 26877 TWCCSAS: 27471 TWccDanicic: 88642 tdFP: 1.02 tdDanicic: 3.30 OK 
+wasm_c_api.c nCFG: 2478 TWccFP: 26326 TWCCSAS: 26193 TWccDanicic: 90289 tdFP: 0.99 tdDanicic: 3.43 OK 
+wasm_c_api.c nCFG: 2478 TWccFP: 24760 TWCCSAS: 24207 TWccDanicic: 89547 tdFP: 0.98 tdDanicic: 3.62 OK 
+wasm_exec_env.c: wasm_exec_env.c nCFG: 41 TWccFP: 327 TWCCSAS: 369 TWccDanicic: 630 tdFP: 1.13 tdDanicic: 1.93 OK 
+wasm_exec_env.c nCFG: 41 TWccFP: 430 TWCCSAS: 423 TWccDanicic: 599 tdFP: 0.98 tdDanicic: 1.39 OK 
+wasm_exec_env.c nCFG: 41 TWccFP: 297 TWCCSAS: 369 TWccDanicic: 563 tdFP: 1.24 tdDanicic: 1.90 OK 
+wasm_exec_env.c nCFG: 41 TWccFP: 308 TWCCSAS: 402 TWccDanicic: 643 tdFP: 1.31 tdDanicic: 2.09 OK 
+wasm_exec_env.c nCFG: 41 TWccFP: 343 TWCCSAS: 436 TWccDanicic: 687 tdFP: 1.27 tdDanicic: 2.00 OK 
+wasm_exec_env.c nCFG: 41 TWccFP: 325 TWCCSAS: 376 TWccDanicic: 471 tdFP: 1.16 tdDanicic: 1.45 OK 
+wasm_exec_env.c nCFG: 41 TWccFP: 342 TWCCSAS: 358 TWccDanicic: 314 tdFP: 1.05 tdDanicic: 0.92 OK 
+wasm_exec_env.c nCFG: 41 TWccFP: 331 TWCCSAS: 380 TWccDanicic: 311 tdFP: 1.15 tdDanicic: 0.94 OK 
+wasm_exec_env.c nCFG: 41 TWccFP: 401 TWCCSAS: 399 TWccDanicic: 673 tdFP: 1.00 tdDanicic: 1.68 OK 
+wasm_exec_env.c nCFG: 41 TWccFP: 356 TWCCSAS: 438 TWccDanicic: 636 tdFP: 1.23 tdDanicic: 1.79 OK 
+wasm_memory.c: wasm_memory.c nCFG: 67 TWccFP: 582 TWCCSAS: 654 TWccDanicic: 609 tdFP: 1.12 tdDanicic: 1.05 OK 
+wasm_memory.c nCFG: 67 TWccFP: 541 TWCCSAS: 693 TWccDanicic: 639 tdFP: 1.28 tdDanicic: 1.18 OK 
+wasm_memory.c nCFG: 67 TWccFP: 649 TWCCSAS: 766 TWccDanicic: 1479 tdFP: 1.18 tdDanicic: 2.28 OK 
+wasm_memory.c nCFG: 67 TWccFP: 617 TWCCSAS: 676 TWccDanicic: 605 tdFP: 1.10 tdDanicic: 0.98 OK 
+wasm_memory.c nCFG: 67 TWccFP: 582 TWCCSAS: 766 TWccDanicic: 1226 tdFP: 1.32 tdDanicic: 2.11 OK 
+wasm_memory.c nCFG: 67 TWccFP: 596 TWCCSAS: 784 TWccDanicic: 1073 tdFP: 1.32 tdDanicic: 1.80 OK 
+wasm_memory.c nCFG: 67 TWccFP: 517 TWCCSAS: 584 TWccDanicic: 1053 tdFP: 1.13 tdDanicic: 2.04 OK 
+wasm_memory.c nCFG: 67 TWccFP: 769 TWCCSAS: 708 TWccDanicic: 764 tdFP: 0.92 tdDanicic: 0.99 OK 
+wasm_memory.c nCFG: 67 TWccFP: 403 TWCCSAS: 497 TWccDanicic: 687 tdFP: 1.23 tdDanicic: 1.70 OK 
+wasm_memory.c nCFG: 67 TWccFP: 711 TWCCSAS: 629 TWccDanicic: 861 tdFP: 0.88 tdDanicic: 1.21 OK 
+wasm_native.c: wasm_native.c nCFG: 123 TWccFP: 1221 TWCCSAS: 1172 TWccDanicic: 4668 tdFP: 0.96 tdDanicic: 3.82 OK 
+wasm_native.c nCFG: 123 TWccFP: 1100 TWCCSAS: 1124 TWccDanicic: 3913 tdFP: 1.02 tdDanicic: 3.56 OK 
+wasm_native.c nCFG: 123 TWccFP: 1162 TWCCSAS: 1218 TWccDanicic: 5522 tdFP: 1.05 tdDanicic: 4.75 OK 
+wasm_native.c nCFG: 123 TWccFP: 1861 TWCCSAS: 2004 TWccDanicic: 7053 tdFP: 1.08 tdDanicic: 3.79 OK 
+wasm_native.c nCFG: 123 TWccFP: 1238 TWCCSAS: 1233 TWccDanicic: 4810 tdFP: 1.00 tdDanicic: 3.89 OK 
+wasm_native.c nCFG: 123 TWccFP: 3022 TWCCSAS: 1720 TWccDanicic: 4921 tdFP: 0.57 tdDanicic: 1.63 OK 
+wasm_native.c nCFG: 123 TWccFP: 1636 TWCCSAS: 1437 TWccDanicic: 4609 tdFP: 0.88 tdDanicic: 2.82 OK 
+wasm_native.c nCFG: 123 TWccFP: 1308 TWCCSAS: 1197 TWccDanicic: 4358 tdFP: 0.92 tdDanicic: 3.33 OK 
+wasm_native.c nCFG: 123 TWccFP: 1248 TWCCSAS: 1211 TWccDanicic: 4188 tdFP: 0.97 tdDanicic: 3.36 OK 
+wasm_native.c nCFG: 123 TWccFP: 1297 TWCCSAS: 1242 TWccDanicic: 5867 tdFP: 0.96 tdDanicic: 4.52 OK 
+wasm_runtime_common.c: wasm_runtime_common.c nCFG: 944 TWccFP: 9700 TWCCSAS: 10015 TWccDanicic: 48947 tdFP: 1.03 tdDanicic: 5.05 OK 
+wasm_runtime_common.c nCFG: 944 TWccFP: 10202 TWCCSAS: 9534 TWccDanicic: 53797 tdFP: 0.93 tdDanicic: 5.27 OK 
+wasm_runtime_common.c nCFG: 944 TWccFP: 8687 TWCCSAS: 8638 TWccDanicic: 49490 tdFP: 0.99 tdDanicic: 5.70 OK 
+wasm_runtime_common.c nCFG: 944 TWccFP: 10808 TWCCSAS: 10891 TWccDanicic: 61342 tdFP: 1.01 tdDanicic: 5.68 OK 
+wasm_runtime_common.c nCFG: 944 TWccFP: 8817 TWCCSAS: 8296 TWccDanicic: 58990 tdFP: 0.94 tdDanicic: 6.69 OK 
+wasm_runtime_common.c nCFG: 944 TWccFP: 11430 TWCCSAS: 11293 TWccDanicic: 38494 tdFP: 0.99 tdDanicic: 3.37 OK 
+wasm_runtime_common.c nCFG: 944 TWccFP: 9787 TWCCSAS: 9162 TWccDanicic: 32895 tdFP: 0.94 tdDanicic: 3.36 OK 
+wasm_runtime_common.c nCFG: 944 TWccFP: 9812 TWCCSAS: 8975 TWccDanicic: 43212 tdFP: 0.91 tdDanicic: 4.40 OK 
+wasm_runtime_common.c nCFG: 944 TWccFP: 9559 TWCCSAS: 8966 TWccDanicic: 45703 tdFP: 0.94 tdDanicic: 4.78 OK 
+wasm_runtime_common.c nCFG: 944 TWccFP: 9566 TWCCSAS: 9132 TWccDanicic: 41626 tdFP: 0.95 tdDanicic: 4.35 OK 
+wasm_shared_memory.c: wasm_shared_memory.c nCFG: 137 TWccFP: 1426 TWCCSAS: 1669 TWccDanicic: 3334 tdFP: 1.17 tdDanicic: 2.34 OK 
+wasm_shared_memory.c nCFG: 137 TWccFP: 1241 TWCCSAS: 1247 TWccDanicic: 3171 tdFP: 1.00 tdDanicic: 2.56 OK 
+wasm_shared_memory.c nCFG: 137 TWccFP: 1565 TWCCSAS: 1543 TWccDanicic: 4366 tdFP: 0.99 tdDanicic: 2.79 OK 
+wasm_shared_memory.c nCFG: 137 TWccFP: 1325 TWCCSAS: 1211 TWccDanicic: 2571 tdFP: 0.91 tdDanicic: 1.94 OK 
+wasm_shared_memory.c nCFG: 137 TWccFP: 1180 TWCCSAS: 1218 TWccDanicic: 2687 tdFP: 1.03 tdDanicic: 2.28 OK 
+wasm_shared_memory.c nCFG: 137 TWccFP: 1182 TWCCSAS: 1195 TWccDanicic: 3005 tdFP: 1.01 tdDanicic: 2.54 OK 
+wasm_shared_memory.c nCFG: 137 TWccFP: 984 TWCCSAS: 1113 TWccDanicic: 2528 tdFP: 1.13 tdDanicic: 2.57 OK 
+wasm_shared_memory.c nCFG: 137 TWccFP: 1276 TWCCSAS: 1312 TWccDanicic: 4202 tdFP: 1.03 tdDanicic: 3.29 OK 
+wasm_shared_memory.c nCFG: 137 TWccFP: 1716 TWCCSAS: 1798 TWccDanicic: 5715 tdFP: 1.05 tdDanicic: 3.33 OK 
+wasm_shared_memory.c nCFG: 137 TWccFP: 1491 TWCCSAS: 1382 TWccDanicic: 4504 tdFP: 0.93 tdDanicic: 3.02 OK 
+wasm_loader.c: wasm_loader.c nCFG: 3753 TWccFP: 178553 TWCCSAS: 173875 TWccDanicic: 1313696 tdFP: 0.97 tdDanicic: 7.36 OK 
+wasm_loader.c nCFG: 3753 TWccFP: 132807 TWCCSAS: 129614 TWccDanicic: 2515014 tdFP: 0.98 tdDanicic: 18.94 OK 
+wasm_loader.c nCFG: 3753 TWccFP: 108267 TWCCSAS: 104327 TWccDanicic: 3044294 tdFP: 0.96 tdDanicic: 28.12 OK 
+wasm_loader.c nCFG: 3753 TWccFP: 88995 TWCCSAS: 86042 TWccDanicic: 1109957 tdFP: 0.97 tdDanicic: 12.47 OK 
+wasm_loader.c nCFG: 3753 TWccFP: 103794 TWCCSAS: 125369 TWccDanicic: 2671108 tdFP: 1.21 tdDanicic: 25.73 OK 
+wasm_loader.c nCFG: 3753 TWccFP: 145300 TWCCSAS: 155180 TWccDanicic: 3831102 tdFP: 1.07 tdDanicic: 26.37 OK 
+wasm_loader.c nCFG: 3753 TWccFP: 128322 TWCCSAS: 125328 TWccDanicic: 2835123 tdFP: 0.98 tdDanicic: 22.09 OK 
+wasm_loader.c nCFG: 3753 TWccFP: 155170 TWCCSAS: 168025 TWccDanicic: 3655621 tdFP: 1.08 tdDanicic: 23.56 OK 
+wasm_loader.c nCFG: 3753 TWccFP: 155019 TWCCSAS: 114807 TWccDanicic: 3282209 tdFP: 0.74 tdDanicic: 21.17 OK 
+wasm_loader.c nCFG: 3753 TWccFP: 94197 TWCCSAS: 89883 TWccDanicic: 1183843 tdFP: 0.95 tdDanicic: 12.57 OK 
+wasm_runtime.c: wasm_runtime.c nCFG: 592 TWccFP: 7662 TWCCSAS: 7444 TWccDanicic: 39368 tdFP: 0.97 tdDanicic: 5.14 OK 
+wasm_runtime.c nCFG: 592 TWccFP: 6741 TWCCSAS: 6076 TWccDanicic: 26439 tdFP: 0.90 tdDanicic: 3.92 OK 
+wasm_runtime.c nCFG: 592 TWccFP: 7273 TWCCSAS: 7045 TWccDanicic: 40961 tdFP: 0.97 tdDanicic: 5.63 OK 
+wasm_runtime.c nCFG: 592 TWccFP: 6042 TWCCSAS: 6042 TWccDanicic: 36466 tdFP: 1.00 tdDanicic: 6.04 OK 
+wasm_runtime.c nCFG: 592 TWccFP: 5648 TWCCSAS: 5881 TWccDanicic: 34205 tdFP: 1.04 tdDanicic: 6.06 OK 
+wasm_runtime.c nCFG: 592 TWccFP: 6637 TWCCSAS: 6171 TWccDanicic: 32496 tdFP: 0.93 tdDanicic: 4.90 OK 
+wasm_runtime.c nCFG: 592 TWccFP: 6816 TWCCSAS: 6956 TWccDanicic: 25777 tdFP: 1.02 tdDanicic: 3.78 OK 
+wasm_runtime.c nCFG: 592 TWccFP: 6735 TWCCSAS: 6335 TWccDanicic: 38353 tdFP: 0.94 tdDanicic: 5.69 OK 
+wasm_runtime.c nCFG: 592 TWccFP: 6786 TWCCSAS: 6566 TWccDanicic: 41571 tdFP: 0.97 tdDanicic: 6.13 OK 
+wasm_runtime.c nCFG: 592 TWccFP: 5428 TWCCSAS: 5178 TWccDanicic: 32564 tdFP: 0.95 tdDanicic: 6.00 OK 
+wasm_interp_fast.c: wasm_interp_fast.c nCFG: 2301 TWccFP: 76287 TWCCSAS: 74547 TWccDanicic: 3771210 tdFP: 0.98 tdDanicic: 49.43 OK 
+wasm_interp_fast.c nCFG: 2301 TWccFP: 74312 TWCCSAS: 71752 TWccDanicic: 2820851 tdFP: 0.97 tdDanicic: 37.96 OK 
+wasm_interp_fast.c nCFG: 2301 TWccFP: 52950 TWCCSAS: 44370 TWccDanicic: 445027 tdFP: 0.84 tdDanicic: 8.40 OK 
+wasm_interp_fast.c nCFG: 2301 TWccFP: 78196 TWCCSAS: 75106 TWccDanicic: 2151451 tdFP: 0.96 tdDanicic: 27.51 OK 
+wasm_interp_fast.c nCFG: 2301 TWccFP: 66529 TWCCSAS: 63981 TWccDanicic: 1756048 tdFP: 0.96 tdDanicic: 26.40 OK 
+wasm_interp_fast.c nCFG: 2301 TWccFP: 72079 TWCCSAS: 69293 TWccDanicic: 3734758 tdFP: 0.96 tdDanicic: 51.81 OK 
+wasm_interp_fast.c nCFG: 2301 TWccFP: 80184 TWCCSAS: 81172 TWccDanicic: 4074220 tdFP: 1.01 tdDanicic: 50.81 OK 
+wasm_interp_fast.c nCFG: 2301 TWccFP: 65587 TWCCSAS: 63059 TWccDanicic: 2835713 tdFP: 0.96 tdDanicic: 43.24 OK 
+wasm_interp_fast.c nCFG: 2301 TWccFP: 51820 TWCCSAS: 49215 TWccDanicic: 493655 tdFP: 0.95 tdDanicic: 9.53 OK 
+wasm_interp_fast.c nCFG: 2301 TWccFP: 75440 TWCCSAS: 72577 TWccDanicic: 2157190 tdFP: 0.96 tdDanicic: 28.59 OK 
+aot_intrinsic.c: aot_intrinsic.c nCFG: 380 TWccFP: 2793 TWCCSAS: 3129 TWccDanicic: 13591 tdFP: 1.12 tdDanicic: 4.87 OK 
+aot_intrinsic.c nCFG: 380 TWccFP: 3042 TWCCSAS: 3237 TWccDanicic: 12492 tdFP: 1.06 tdDanicic: 4.11 OK 
+aot_intrinsic.c nCFG: 380 TWccFP: 3167 TWCCSAS: 3349 TWccDanicic: 13796 tdFP: 1.06 tdDanicic: 4.36 OK 
+aot_intrinsic.c nCFG: 380 TWccFP: 3286 TWCCSAS: 3349 TWccDanicic: 15220 tdFP: 1.02 tdDanicic: 4.63 OK 
+aot_intrinsic.c nCFG: 380 TWccFP: 2424 TWCCSAS: 2531 TWccDanicic: 2375 tdFP: 1.04 tdDanicic: 0.98 OK 
+aot_intrinsic.c nCFG: 380 TWccFP: 2930 TWCCSAS: 3287 TWccDanicic: 9670 tdFP: 1.12 tdDanicic: 3.30 OK 
+aot_intrinsic.c nCFG: 380 TWccFP: 2652 TWCCSAS: 2866 TWccDanicic: 3976 tdFP: 1.08 tdDanicic: 1.50 OK 
+aot_intrinsic.c nCFG: 380 TWccFP: 2574 TWCCSAS: 2929 TWccDanicic: 4005 tdFP: 1.14 tdDanicic: 1.56 OK 
+aot_intrinsic.c nCFG: 380 TWccFP: 3203 TWCCSAS: 3240 TWccDanicic: 6244 tdFP: 1.01 tdDanicic: 1.95 OK 
+aot_intrinsic.c nCFG: 380 TWccFP: 2975 TWCCSAS: 3442 TWccDanicic: 6550 tdFP: 1.16 tdDanicic: 2.20 OK 
+aot_loader.c: aot_loader.c nCFG: 2381 TWccFP: 29739 TWCCSAS: 21191 TWccDanicic: 301955 tdFP: 0.71 tdDanicic: 10.15 OK 
+aot_loader.c nCFG: 2381 TWccFP: 21532 TWCCSAS: 20777 TWccDanicic: 214498 tdFP: 0.96 tdDanicic: 9.96 OK 
+aot_loader.c nCFG: 2381 TWccFP: 19569 TWCCSAS: 17498 TWccDanicic: 187352 tdFP: 0.89 tdDanicic: 9.57 OK 
+aot_loader.c nCFG: 2381 TWccFP: 20205 TWCCSAS: 17877 TWccDanicic: 212117 tdFP: 0.88 tdDanicic: 10.50 OK 
+aot_loader.c nCFG: 2381 TWccFP: 20106 TWCCSAS: 18753 TWccDanicic: 211324 tdFP: 0.93 tdDanicic: 10.51 OK 
+aot_loader.c nCFG: 2381 TWccFP: 21287 TWCCSAS: 19439 TWccDanicic: 185534 tdFP: 0.91 tdDanicic: 8.72 OK 
+aot_loader.c nCFG: 2381 TWccFP: 18888 TWCCSAS: 17584 TWccDanicic: 154162 tdFP: 0.93 tdDanicic: 8.16 OK 
+aot_loader.c nCFG: 2381 TWccFP: 20953 TWCCSAS: 18921 TWccDanicic: 221367 tdFP: 0.90 tdDanicic: 10.56 OK 
+aot_loader.c nCFG: 2381 TWccFP: 19587 TWCCSAS: 17897 TWccDanicic: 194047 tdFP: 0.91 tdDanicic: 9.91 OK 
+aot_loader.c nCFG: 2381 TWccFP: 19657 TWCCSAS: 17753 TWccDanicic: 181748 tdFP: 0.90 tdDanicic: 9.25 OK 
+aot_runtime.c: aot_runtime.c nCFG: 738 TWccFP: 7267 TWCCSAS: 7376 TWccDanicic: 33918 tdFP: 1.01 tdDanicic: 4.67 OK 
+aot_runtime.c nCFG: 738 TWccFP: 7069 TWCCSAS: 7010 TWccDanicic: 27784 tdFP: 0.99 tdDanicic: 3.93 OK 
+aot_runtime.c nCFG: 738 TWccFP: 7790 TWCCSAS: 7573 TWccDanicic: 35314 tdFP: 0.97 tdDanicic: 4.53 OK 
+aot_runtime.c nCFG: 738 TWccFP: 7214 TWCCSAS: 6902 TWccDanicic: 27296 tdFP: 0.96 tdDanicic: 3.78 OK 
+aot_runtime.c nCFG: 738 TWccFP: 5756 TWCCSAS: 5597 TWccDanicic: 22664 tdFP: 0.97 tdDanicic: 3.94 OK 
+aot_runtime.c nCFG: 738 TWccFP: 6438 TWCCSAS: 6069 TWccDanicic: 26430 tdFP: 0.94 tdDanicic: 4.11 OK 
+aot_runtime.c nCFG: 738 TWccFP: 7740 TWCCSAS: 7342 TWccDanicic: 32605 tdFP: 0.95 tdDanicic: 4.21 OK 
+aot_runtime.c nCFG: 738 TWccFP: 8296 TWCCSAS: 7595 TWccDanicic: 31541 tdFP: 0.92 tdDanicic: 3.80 OK 
+aot_runtime.c nCFG: 738 TWccFP: 7391 TWCCSAS: 7266 TWccDanicic: 31105 tdFP: 0.98 tdDanicic: 4.21 OK 
+aot_runtime.c nCFG: 738 TWccFP: 6658 TWCCSAS: 6365 TWccDanicic: 25877 tdFP: 0.96 tdDanicic: 3.89 OK 
+aot_reloc_x86_64.c: aot_reloc_x86_64.c nCFG: 76 TWccFP: 674 TWCCSAS: 640 TWccDanicic: 3708 tdFP: 0.95 tdDanicic: 5.50 OK 
+aot_reloc_x86_64.c nCFG: 76 TWccFP: 647 TWCCSAS: 761 TWccDanicic: 3783 tdFP: 1.18 tdDanicic: 5.85 OK 
+aot_reloc_x86_64.c nCFG: 76 TWccFP: 570 TWCCSAS: 692 TWccDanicic: 546 tdFP: 1.21 tdDanicic: 0.96 OK 
+aot_reloc_x86_64.c nCFG: 76 TWccFP: 619 TWCCSAS: 726 TWccDanicic: 3954 tdFP: 1.17 tdDanicic: 6.39 OK 
+aot_reloc_x86_64.c nCFG: 76 TWccFP: 731 TWCCSAS: 579 TWccDanicic: 2635 tdFP: 0.79 tdDanicic: 3.60 OK 
+aot_reloc_x86_64.c nCFG: 76 TWccFP: 998 TWCCSAS: 927 TWccDanicic: 3575 tdFP: 0.93 tdDanicic: 3.58 OK 
+aot_reloc_x86_64.c nCFG: 76 TWccFP: 810 TWCCSAS: 811 TWccDanicic: 3591 tdFP: 1.00 tdDanicic: 4.43 OK 
+aot_reloc_x86_64.c nCFG: 76 TWccFP: 613 TWCCSAS: 810 TWccDanicic: 3563 tdFP: 1.32 tdDanicic: 5.81 OK 
+aot_reloc_x86_64.c nCFG: 76 TWccFP: 469 TWCCSAS: 515 TWccDanicic: 669 tdFP: 1.10 tdDanicic: 1.43 OK 
+aot_reloc_x86_64.c nCFG: 76 TWccFP: 1041 TWCCSAS: 813 TWccDanicic: 3445 tdFP: 0.78 tdDanicic: 3.31 OK 
+platform_init.c: platform_init.c nCFG: 11 TWccFP: 94 TWCCSAS: 183 TWccDanicic: 84 tdFP: 1.95 tdDanicic: 0.89 OK 
+platform_init.c nCFG: 11 TWccFP: 75 TWCCSAS: 146 TWccDanicic: 56 tdFP: 1.95 tdDanicic: 0.75 OK 
+platform_init.c nCFG: 11 TWccFP: 79 TWCCSAS: 136 TWccDanicic: 54 tdFP: 1.72 tdDanicic: 0.68 OK 
+platform_init.c nCFG: 11 TWccFP: 85 TWCCSAS: 150 TWccDanicic: 83 tdFP: 1.76 tdDanicic: 0.98 OK 
+platform_init.c nCFG: 11 TWccFP: 101 TWCCSAS: 182 TWccDanicic: 111 tdFP: 1.80 tdDanicic: 1.10 OK 
+platform_init.c nCFG: 11 TWccFP: 134 TWCCSAS: 216 TWccDanicic: 77 tdFP: 1.61 tdDanicic: 0.57 OK 
+platform_init.c nCFG: 11 TWccFP: 139 TWCCSAS: 191 TWccDanicic: 94 tdFP: 1.37 tdDanicic: 0.68 OK 
+platform_init.c nCFG: 11 TWccFP: 88 TWCCSAS: 145 TWccDanicic: 82 tdFP: 1.65 tdDanicic: 0.93 OK 
+platform_init.c nCFG: 11 TWccFP: 88 TWCCSAS: 138 TWccDanicic: 56 tdFP: 1.57 tdDanicic: 0.64 OK 
+platform_init.c nCFG: 11 TWccFP: 100 TWCCSAS: 159 TWccDanicic: 66 tdFP: 1.59 tdDanicic: 0.66 OK 
+posix_malloc.c: posix_malloc.c nCFG: 9 TWccFP: 79 TWCCSAS: 127 TWccDanicic: 81 tdFP: 1.61 tdDanicic: 1.03 OK 
+posix_malloc.c nCFG: 9 TWccFP: 78 TWCCSAS: 124 TWccDanicic: 99 tdFP: 1.59 tdDanicic: 1.27 OK 
+posix_malloc.c nCFG: 9 TWccFP: 69 TWCCSAS: 112 TWccDanicic: 36 tdFP: 1.62 tdDanicic: 0.52 OK 
+posix_malloc.c nCFG: 9 TWccFP: 64 TWCCSAS: 102 TWccDanicic: 29 tdFP: 1.59 tdDanicic: 0.45 OK 
+posix_malloc.c nCFG: 9 TWccFP: 70 TWCCSAS: 114 TWccDanicic: 46 tdFP: 1.63 tdDanicic: 0.66 OK 
+posix_malloc.c nCFG: 9 TWccFP: 70 TWCCSAS: 112 TWccDanicic: 42 tdFP: 1.60 tdDanicic: 0.60 OK 
+posix_malloc.c nCFG: 9 TWccFP: 74 TWCCSAS: 150 TWccDanicic: 75 tdFP: 2.03 tdDanicic: 1.01 OK 
+posix_malloc.c nCFG: 9 TWccFP: 76 TWCCSAS: 119 TWccDanicic: 73 tdFP: 1.57 tdDanicic: 0.96 OK 
+posix_malloc.c nCFG: 9 TWccFP: 61 TWCCSAS: 101 TWccDanicic: 27 tdFP: 1.66 tdDanicic: 0.44 OK 
+posix_malloc.c nCFG: 9 TWccFP: 64 TWCCSAS: 120 TWccDanicic: 29 tdFP: 1.88 tdDanicic: 0.45 OK 
+posix_memmap.c: posix_memmap.c nCFG: 41 TWccFP: 364 TWCCSAS: 414 TWccDanicic: 1307 tdFP: 1.14 tdDanicic: 3.59 OK 
+posix_memmap.c nCFG: 41 TWccFP: 385 TWCCSAS: 407 TWccDanicic: 1556 tdFP: 1.06 tdDanicic: 4.04 OK 
+posix_memmap.c nCFG: 41 TWccFP: 379 TWCCSAS: 387 TWccDanicic: 1017 tdFP: 1.02 tdDanicic: 2.68 OK 
+posix_memmap.c nCFG: 41 TWccFP: 373 TWCCSAS: 518 TWccDanicic: 1675 tdFP: 1.39 tdDanicic: 4.49 OK 
+posix_memmap.c nCFG: 41 TWccFP: 489 TWCCSAS: 430 TWccDanicic: 1744 tdFP: 0.88 tdDanicic: 3.57 OK 
+posix_memmap.c nCFG: 41 TWccFP: 430 TWCCSAS: 365 TWccDanicic: 793 tdFP: 0.85 tdDanicic: 1.84 OK 
+posix_memmap.c nCFG: 41 TWccFP: 421 TWCCSAS: 438 TWccDanicic: 863 tdFP: 1.04 tdDanicic: 2.05 OK 
+posix_memmap.c nCFG: 41 TWccFP: 394 TWCCSAS: 376 TWccDanicic: 1379 tdFP: 0.95 tdDanicic: 3.50 OK 
+posix_memmap.c nCFG: 41 TWccFP: 452 TWCCSAS: 449 TWccDanicic: 1344 tdFP: 0.99 tdDanicic: 2.97 OK 
+posix_memmap.c nCFG: 41 TWccFP: 405 TWCCSAS: 452 TWccDanicic: 503 tdFP: 1.12 tdDanicic: 1.24 OK 
+posix_socket.c: posix_socket.c nCFG: 52 TWccFP: 262 TWCCSAS: 307 TWccDanicic: 408 tdFP: 1.17 tdDanicic: 1.56 OK 
+posix_socket.c nCFG: 52 TWccFP: 526 TWCCSAS: 557 TWccDanicic: 1450 tdFP: 1.06 tdDanicic: 2.76 OK 
+posix_socket.c nCFG: 52 TWccFP: 501 TWCCSAS: 584 TWccDanicic: 1577 tdFP: 1.17 tdDanicic: 3.15 OK 
+posix_socket.c nCFG: 52 TWccFP: 390 TWCCSAS: 471 TWccDanicic: 661 tdFP: 1.21 tdDanicic: 1.69 OK 
+posix_socket.c nCFG: 52 TWccFP: 498 TWCCSAS: 571 TWccDanicic: 986 tdFP: 1.15 tdDanicic: 1.98 OK 
+posix_socket.c nCFG: 52 TWccFP: 404 TWCCSAS: 470 TWccDanicic: 886 tdFP: 1.16 tdDanicic: 2.19 OK 
+posix_socket.c nCFG: 52 TWccFP: 512 TWCCSAS: 693 TWccDanicic: 1560 tdFP: 1.35 tdDanicic: 3.05 OK 
+posix_socket.c nCFG: 52 TWccFP: 558 TWCCSAS: 713 TWccDanicic: 1342 tdFP: 1.28 tdDanicic: 2.41 OK 
+posix_socket.c nCFG: 52 TWccFP: 446 TWCCSAS: 496 TWccDanicic: 1358 tdFP: 1.11 tdDanicic: 3.04 OK 
+posix_socket.c nCFG: 52 TWccFP: 506 TWCCSAS: 555 TWccDanicic: 1335 tdFP: 1.10 tdDanicic: 2.64 OK 
+posix_thread.c: posix_thread.c nCFG: 183 TWccFP: 1618 TWCCSAS: 1735 TWccDanicic: 2197 tdFP: 1.07 tdDanicic: 1.36 OK 
+posix_thread.c nCFG: 183 TWccFP: 1407 TWCCSAS: 1526 TWccDanicic: 2419 tdFP: 1.08 tdDanicic: 1.72 OK 
+posix_thread.c nCFG: 183 TWccFP: 1580 TWCCSAS: 1490 TWccDanicic: 2505 tdFP: 0.94 tdDanicic: 1.59 OK 
+posix_thread.c nCFG: 183 TWccFP: 1573 TWCCSAS: 1551 TWccDanicic: 2524 tdFP: 0.99 tdDanicic: 1.60 OK 
+posix_thread.c nCFG: 183 TWccFP: 1593 TWCCSAS: 1699 TWccDanicic: 2643 tdFP: 1.07 tdDanicic: 1.66 OK 
+posix_thread.c nCFG: 183 TWccFP: 1531 TWCCSAS: 1767 TWccDanicic: 2974 tdFP: 1.15 tdDanicic: 1.94 OK 
+posix_thread.c nCFG: 183 TWccFP: 1603 TWCCSAS: 1618 TWccDanicic: 2170 tdFP: 1.01 tdDanicic: 1.35 OK 
+posix_thread.c nCFG: 183 TWccFP: 1585 TWCCSAS: 1677 TWccDanicic: 2276 tdFP: 1.06 tdDanicic: 1.44 OK 
+posix_thread.c nCFG: 183 TWccFP: 1780 TWCCSAS: 1890 TWccDanicic: 3157 tdFP: 1.06 tdDanicic: 1.77 OK 
+posix_thread.c nCFG: 183 TWccFP: 1720 TWCCSAS: 1822 TWccDanicic: 2959 tdFP: 1.06 tdDanicic: 1.72 OK 
+posix_time.c: posix_time.c nCFG: 5 TWccFP: 53 TWCCSAS: 58 TWccDanicic: 66 tdFP: 1.09 tdDanicic: 1.25 OK 
+posix_time.c nCFG: 5 TWccFP: 36 TWCCSAS: 67 TWccDanicic: 73 tdFP: 1.86 tdDanicic: 2.03 OK 
+posix_time.c nCFG: 5 TWccFP: 39 TWCCSAS: 72 TWccDanicic: 67 tdFP: 1.85 tdDanicic: 1.72 OK 
+posix_time.c nCFG: 5 TWccFP: 73 TWCCSAS: 69 TWccDanicic: 84 tdFP: 0.95 tdDanicic: 1.15 OK 
+posix_time.c nCFG: 5 TWccFP: 50 TWCCSAS: 94 TWccDanicic: 85 tdFP: 1.88 tdDanicic: 1.70 OK 
+posix_time.c nCFG: 5 TWccFP: 40 TWCCSAS: 147 TWccDanicic: 60 tdFP: 3.67 tdDanicic: 1.50 OK 
+posix_time.c nCFG: 5 TWccFP: 35 TWCCSAS: 67 TWccDanicic: 58 tdFP: 1.91 tdDanicic: 1.66 OK 
+posix_time.c nCFG: 5 TWccFP: 49 TWCCSAS: 77 TWccDanicic: 24 tdFP: 1.57 tdDanicic: 0.49 OK 
+posix_time.c nCFG: 5 TWccFP: 51 TWCCSAS: 79 TWccDanicic: 24 tdFP: 1.55 tdDanicic: 0.47 OK 
+posix_time.c nCFG: 5 TWccFP: 31 TWCCSAS: 63 TWccDanicic: 53 tdFP: 2.03 tdDanicic: 1.71 OK 
+ems_alloc.c: ems_alloc.c nCFG: 286 TWccFP: 2478 TWCCSAS: 2308 TWccDanicic: 12648 tdFP: 0.93 tdDanicic: 5.10 OK 
+ems_alloc.c nCFG: 286 TWccFP: 3286 TWCCSAS: 3385 TWccDanicic: 17754 tdFP: 1.03 tdDanicic: 5.40 OK 
+ems_alloc.c nCFG: 286 TWccFP: 3315 TWCCSAS: 3136 TWccDanicic: 16492 tdFP: 0.95 tdDanicic: 4.97 OK 
+ems_alloc.c nCFG: 286 TWccFP: 2931 TWCCSAS: 3244 TWccDanicic: 19338 tdFP: 1.11 tdDanicic: 6.60 OK 
+ems_alloc.c nCFG: 286 TWccFP: 3659 TWCCSAS: 2938 TWccDanicic: 19245 tdFP: 0.80 tdDanicic: 5.26 OK 
+ems_alloc.c nCFG: 286 TWccFP: 3550 TWCCSAS: 3337 TWccDanicic: 19145 tdFP: 0.94 tdDanicic: 5.39 OK 
+ems_alloc.c nCFG: 286 TWccFP: 3196 TWCCSAS: 3136 TWccDanicic: 16210 tdFP: 0.98 tdDanicic: 5.07 OK 
+ems_alloc.c nCFG: 286 TWccFP: 3025 TWCCSAS: 3069 TWccDanicic: 16379 tdFP: 1.01 tdDanicic: 5.41 OK 
+ems_alloc.c nCFG: 286 TWccFP: 4337 TWCCSAS: 3581 TWccDanicic: 19161 tdFP: 0.83 tdDanicic: 4.42 OK 
+ems_alloc.c nCFG: 286 TWccFP: 2677 TWCCSAS: 2537 TWccDanicic: 13790 tdFP: 0.95 tdDanicic: 5.15 OK 
+ems_hmu.c: ems_hmu.c nCFG: 0 TWccFP: 0 TWCCSAS: 0 TWccDanicic: 0 tdFP: nan tdDanicic: nan OK 
+ems_hmu.c nCFG: 0 TWccFP: 0 TWCCSAS: 0 TWccDanicic: 0 tdFP: nan tdDanicic: nan OK 
+ems_hmu.c nCFG: 0 TWccFP: 0 TWCCSAS: 0 TWccDanicic: 0 tdFP: nan tdDanicic: nan OK 
+ems_hmu.c nCFG: 0 TWccFP: 0 TWCCSAS: 0 TWccDanicic: 0 tdFP: nan tdDanicic: nan OK 
+ems_hmu.c nCFG: 0 TWccFP: 0 TWCCSAS: 0 TWccDanicic: 0 tdFP: nan tdDanicic: nan OK 
+ems_hmu.c nCFG: 0 TWccFP: 0 TWCCSAS: 0 TWccDanicic: 0 tdFP: nan tdDanicic: nan OK 
+ems_hmu.c nCFG: 0 TWccFP: 0 TWCCSAS: 0 TWccDanicic: 0 tdFP: nan tdDanicic: nan OK 
+ems_hmu.c nCFG: 0 TWccFP: 0 TWCCSAS: 0 TWccDanicic: 0 tdFP: nan tdDanicic: nan OK 
+ems_hmu.c nCFG: 0 TWccFP: 0 TWCCSAS: 0 TWccDanicic: 0 tdFP: nan tdDanicic: nan OK 
+ems_hmu.c nCFG: 0 TWccFP: 0 TWCCSAS: 0 TWccDanicic: 0 tdFP: nan tdDanicic: nan OK 
+ems_kfc.c: ems_kfc.c nCFG: 87 TWccFP: 728 TWCCSAS: 712 TWccDanicic: 2399 tdFP: 0.98 tdDanicic: 3.30 OK 
+ems_kfc.c nCFG: 87 TWccFP: 954 TWCCSAS: 975 TWccDanicic: 2107 tdFP: 1.02 tdDanicic: 2.21 OK 
+ems_kfc.c nCFG: 87 TWccFP: 942 TWCCSAS: 860 TWccDanicic: 2493 tdFP: 0.91 tdDanicic: 2.65 OK 
+ems_kfc.c nCFG: 87 TWccFP: 704 TWCCSAS: 761 TWccDanicic: 2475 tdFP: 1.08 tdDanicic: 3.52 OK 
+ems_kfc.c nCFG: 87 TWccFP: 745 TWCCSAS: 658 TWccDanicic: 1024 tdFP: 0.88 tdDanicic: 1.37 OK 
+ems_kfc.c nCFG: 87 TWccFP: 605 TWCCSAS: 656 TWccDanicic: 1145 tdFP: 1.08 tdDanicic: 1.89 OK 
+ems_kfc.c nCFG: 87 TWccFP: 827 TWCCSAS: 779 TWccDanicic: 2134 tdFP: 0.94 tdDanicic: 2.58 OK 
+ems_kfc.c nCFG: 87 TWccFP: 776 TWCCSAS: 856 TWccDanicic: 2090 tdFP: 1.10 tdDanicic: 2.69 OK 
+ems_kfc.c nCFG: 87 TWccFP: 827 TWCCSAS: 794 TWccDanicic: 2031 tdFP: 0.96 tdDanicic: 2.46 OK 
+ems_kfc.c nCFG: 87 TWccFP: 791 TWCCSAS: 818 TWccDanicic: 2106 tdFP: 1.03 tdDanicic: 2.66 OK 
+mem_alloc.c: mem_alloc.c nCFG: 28 TWccFP: 215 TWCCSAS: 376 TWccDanicic: 236 tdFP: 1.75 tdDanicic: 1.10 OK 
+mem_alloc.c nCFG: 28 TWccFP: 223 TWCCSAS: 295 TWccDanicic: 151 tdFP: 1.32 tdDanicic: 0.68 OK 
+mem_alloc.c nCFG: 28 TWccFP: 265 TWCCSAS: 330 TWccDanicic: 200 tdFP: 1.25 tdDanicic: 0.75 OK 
+mem_alloc.c nCFG: 28 TWccFP: 239 TWCCSAS: 342 TWccDanicic: 263 tdFP: 1.43 tdDanicic: 1.10 OK 
+mem_alloc.c nCFG: 28 TWccFP: 289 TWCCSAS: 328 TWccDanicic: 287 tdFP: 1.13 tdDanicic: 0.99 OK 
+mem_alloc.c nCFG: 28 TWccFP: 209 TWCCSAS: 283 TWccDanicic: 206 tdFP: 1.35 tdDanicic: 0.99 OK 
+mem_alloc.c nCFG: 28 TWccFP: 229 TWCCSAS: 284 TWccDanicic: 203 tdFP: 1.24 tdDanicic: 0.89 OK 
+mem_alloc.c nCFG: 28 TWccFP: 204 TWCCSAS: 270 TWccDanicic: 204 tdFP: 1.32 tdDanicic: 1.00 OK 
+mem_alloc.c nCFG: 28 TWccFP: 214 TWCCSAS: 321 TWccDanicic: 192 tdFP: 1.50 tdDanicic: 0.90 OK 
+mem_alloc.c nCFG: 28 TWccFP: 202 TWCCSAS: 307 TWccDanicic: 205 tdFP: 1.52 tdDanicic: 1.01 OK 
+bh_assert.c: bh_assert.c nCFG: 9 TWccFP: 85 TWCCSAS: 108 TWccDanicic: 254 tdFP: 1.27 tdDanicic: 2.99 OK 
+bh_assert.c nCFG: 9 TWccFP: 125 TWCCSAS: 120 TWccDanicic: 263 tdFP: 0.96 tdDanicic: 2.10 OK 
+bh_assert.c nCFG: 9 TWccFP: 79 TWCCSAS: 86 TWccDanicic: 23 tdFP: 1.09 tdDanicic: 0.29 OK 
+bh_assert.c nCFG: 9 TWccFP: 80 TWCCSAS: 90 TWccDanicic: 39 tdFP: 1.12 tdDanicic: 0.49 OK 
+bh_assert.c nCFG: 9 TWccFP: 67 TWCCSAS: 91 TWccDanicic: 108 tdFP: 1.36 tdDanicic: 1.61 OK 
+bh_assert.c nCFG: 9 TWccFP: 94 TWCCSAS: 97 TWccDanicic: 110 tdFP: 1.03 tdDanicic: 1.17 OK 
+bh_assert.c nCFG: 9 TWccFP: 53 TWCCSAS: 80 TWccDanicic: 70 tdFP: 1.51 tdDanicic: 1.32 OK 
+bh_assert.c nCFG: 9 TWccFP: 61 TWCCSAS: 91 TWccDanicic: 75 tdFP: 1.49 tdDanicic: 1.23 OK 
+bh_assert.c nCFG: 9 TWccFP: 61 TWCCSAS: 87 TWccDanicic: 73 tdFP: 1.43 tdDanicic: 1.20 OK 
+bh_assert.c nCFG: 9 TWccFP: 96 TWCCSAS: 125 TWccDanicic: 240 tdFP: 1.30 tdDanicic: 2.50 OK 
+bh_common.c: bh_common.c nCFG: 60 TWccFP: 596 TWCCSAS: 638 TWccDanicic: 1461 tdFP: 1.07 tdDanicic: 2.45 OK 
+bh_common.c nCFG: 60 TWccFP: 647 TWCCSAS: 669 TWccDanicic: 1301 tdFP: 1.03 tdDanicic: 2.01 OK 
+bh_common.c nCFG: 60 TWccFP: 792 TWCCSAS: 616 TWccDanicic: 1393 tdFP: 0.78 tdDanicic: 1.76 OK 
+bh_common.c nCFG: 60 TWccFP: 715 TWCCSAS: 706 TWccDanicic: 1817 tdFP: 0.99 tdDanicic: 2.54 OK 
+bh_common.c nCFG: 60 TWccFP: 399 TWCCSAS: 405 TWccDanicic: 741 tdFP: 1.02 tdDanicic: 1.86 OK 
+bh_common.c nCFG: 60 TWccFP: 445 TWCCSAS: 430 TWccDanicic: 866 tdFP: 0.97 tdDanicic: 1.95 OK 
+bh_common.c nCFG: 60 TWccFP: 475 TWCCSAS: 431 TWccDanicic: 563 tdFP: 0.91 tdDanicic: 1.19 OK 
+bh_common.c nCFG: 60 TWccFP: 487 TWCCSAS: 450 TWccDanicic: 624 tdFP: 0.92 tdDanicic: 1.28 OK 
+bh_common.c nCFG: 60 TWccFP: 475 TWCCSAS: 525 TWccDanicic: 1042 tdFP: 1.11 tdDanicic: 2.19 OK 
+bh_common.c nCFG: 60 TWccFP: 477 TWCCSAS: 451 TWccDanicic: 1065 tdFP: 0.95 tdDanicic: 2.23 OK 
+bh_hashmap.c: bh_hashmap.c nCFG: 146 TWccFP: 1276 TWCCSAS: 1274 TWccDanicic: 5141 tdFP: 1.00 tdDanicic: 4.03 OK 
+bh_hashmap.c nCFG: 146 TWccFP: 1434 TWCCSAS: 1432 TWccDanicic: 5380 tdFP: 1.00 tdDanicic: 3.75 OK 
+bh_hashmap.c nCFG: 146 TWccFP: 1415 TWCCSAS: 1523 TWccDanicic: 5986 tdFP: 1.08 tdDanicic: 4.23 OK 
+bh_hashmap.c nCFG: 146 TWccFP: 1128 TWCCSAS: 1172 TWccDanicic: 4209 tdFP: 1.04 tdDanicic: 3.73 OK 
+bh_hashmap.c nCFG: 146 TWccFP: 1296 TWCCSAS: 1291 TWccDanicic: 4402 tdFP: 1.00 tdDanicic: 3.40 OK 
+bh_hashmap.c nCFG: 146 TWccFP: 1156 TWCCSAS: 1250 TWccDanicic: 4149 tdFP: 1.08 tdDanicic: 3.59 OK 
+bh_hashmap.c nCFG: 146 TWccFP: 1521 TWCCSAS: 1545 TWccDanicic: 6455 tdFP: 1.02 tdDanicic: 4.24 OK 
+bh_hashmap.c nCFG: 146 TWccFP: 1783 TWCCSAS: 1392 TWccDanicic: 6164 tdFP: 0.78 tdDanicic: 3.46 OK 
+bh_hashmap.c nCFG: 146 TWccFP: 1220 TWCCSAS: 1306 TWccDanicic: 3784 tdFP: 1.07 tdDanicic: 3.10 OK 
+bh_hashmap.c nCFG: 146 TWccFP: 1325 TWCCSAS: 1282 TWccDanicic: 3799 tdFP: 0.97 tdDanicic: 2.87 OK 
+bh_list.c: bh_list.c nCFG: 44 TWccFP: 402 TWCCSAS: 450 TWccDanicic: 920 tdFP: 1.12 tdDanicic: 2.29 OK 
+bh_list.c nCFG: 44 TWccFP: 339 TWCCSAS: 384 TWccDanicic: 406 tdFP: 1.13 tdDanicic: 1.20 OK 
+bh_list.c nCFG: 44 TWccFP: 299 TWCCSAS: 348 TWccDanicic: 353 tdFP: 1.16 tdDanicic: 1.18 OK 
+bh_list.c nCFG: 44 TWccFP: 526 TWCCSAS: 494 TWccDanicic: 992 tdFP: 0.94 tdDanicic: 1.89 OK 
+bh_list.c nCFG: 44 TWccFP: 374 TWCCSAS: 422 TWccDanicic: 839 tdFP: 1.13 tdDanicic: 2.24 OK 
+bh_list.c nCFG: 44 TWccFP: 351 TWCCSAS: 377 TWccDanicic: 762 tdFP: 1.07 tdDanicic: 2.17 OK 
+bh_list.c nCFG: 44 TWccFP: 361 TWCCSAS: 465 TWccDanicic: 900 tdFP: 1.29 tdDanicic: 2.49 OK 
+bh_list.c nCFG: 44 TWccFP: 426 TWCCSAS: 493 TWccDanicic: 611 tdFP: 1.16 tdDanicic: 1.43 OK 
+bh_list.c nCFG: 44 TWccFP: 407 TWCCSAS: 459 TWccDanicic: 711 tdFP: 1.13 tdDanicic: 1.75 OK 
+bh_list.c nCFG: 44 TWccFP: 372 TWCCSAS: 408 TWccDanicic: 706 tdFP: 1.10 tdDanicic: 1.90 OK 
+bh_log.c: bh_log.c nCFG: 17 TWccFP: 149 TWCCSAS: 167 TWccDanicic: 317 tdFP: 1.12 tdDanicic: 2.13 OK 
+bh_log.c nCFG: 17 TWccFP: 151 TWCCSAS: 243 TWccDanicic: 331 tdFP: 1.61 tdDanicic: 2.19 OK 
+bh_log.c nCFG: 17 TWccFP: 201 TWCCSAS: 231 TWccDanicic: 335 tdFP: 1.15 tdDanicic: 1.67 OK 
+bh_log.c nCFG: 17 TWccFP: 154 TWCCSAS: 213 TWccDanicic: 201 tdFP: 1.38 tdDanicic: 1.31 OK 
+bh_log.c nCFG: 17 TWccFP: 162 TWCCSAS: 228 TWccDanicic: 384 tdFP: 1.41 tdDanicic: 2.37 OK 
+bh_log.c nCFG: 17 TWccFP: 145 TWCCSAS: 184 TWccDanicic: 348 tdFP: 1.27 tdDanicic: 2.40 OK 
+bh_log.c nCFG: 17 TWccFP: 173 TWCCSAS: 204 TWccDanicic: 363 tdFP: 1.18 tdDanicic: 2.10 OK 
+bh_log.c nCFG: 17 TWccFP: 182 TWCCSAS: 253 TWccDanicic: 398 tdFP: 1.39 tdDanicic: 2.19 OK 
+bh_log.c nCFG: 17 TWccFP: 157 TWCCSAS: 187 TWccDanicic: 348 tdFP: 1.19 tdDanicic: 2.22 OK 
+bh_log.c nCFG: 17 TWccFP: 136 TWCCSAS: 193 TWccDanicic: 129 tdFP: 1.42 tdDanicic: 0.95 OK 
+bh_queue.c: bh_queue.c nCFG: 86 TWccFP: 668 TWCCSAS: 741 TWccDanicic: 1216 tdFP: 1.11 tdDanicic: 1.82 OK 
+bh_queue.c nCFG: 86 TWccFP: 777 TWCCSAS: 824 TWccDanicic: 1269 tdFP: 1.06 tdDanicic: 1.63 OK 
+bh_queue.c nCFG: 86 TWccFP: 641 TWCCSAS: 665 TWccDanicic: 1260 tdFP: 1.04 tdDanicic: 1.97 OK 
+bh_queue.c nCFG: 86 TWccFP: 614 TWCCSAS: 869 TWccDanicic: 1088 tdFP: 1.42 tdDanicic: 1.77 OK 
+bh_queue.c nCFG: 86 TWccFP: 720 TWCCSAS: 855 TWccDanicic: 1167 tdFP: 1.19 tdDanicic: 1.62 OK 
+bh_queue.c nCFG: 86 TWccFP: 758 TWCCSAS: 850 TWccDanicic: 1289 tdFP: 1.12 tdDanicic: 1.70 OK 
+bh_queue.c nCFG: 86 TWccFP: 805 TWCCSAS: 846 TWccDanicic: 759 tdFP: 1.05 tdDanicic: 0.94 OK 
+bh_queue.c nCFG: 86 TWccFP: 726 TWCCSAS: 860 TWccDanicic: 833 tdFP: 1.18 tdDanicic: 1.15 OK 
+bh_queue.c nCFG: 86 TWccFP: 668 TWCCSAS: 700 TWccDanicic: 1280 tdFP: 1.05 tdDanicic: 1.92 OK 
+bh_queue.c nCFG: 86 TWccFP: 592 TWCCSAS: 716 TWccDanicic: 1169 tdFP: 1.21 tdDanicic: 1.97 OK 
+bh_vector.c: bh_vector.c nCFG: 91 TWccFP: 768 TWCCSAS: 843 TWccDanicic: 1635 tdFP: 1.10 tdDanicic: 2.13 OK 
+bh_vector.c nCFG: 91 TWccFP: 837 TWCCSAS: 899 TWccDanicic: 2642 tdFP: 1.07 tdDanicic: 3.16 OK 
+bh_vector.c nCFG: 91 TWccFP: 878 TWCCSAS: 908 TWccDanicic: 2395 tdFP: 1.03 tdDanicic: 2.73 OK 
+bh_vector.c nCFG: 91 TWccFP: 785 TWCCSAS: 758 TWccDanicic: 1274 tdFP: 0.97 tdDanicic: 1.62 OK 
+bh_vector.c nCFG: 91 TWccFP: 747 TWCCSAS: 779 TWccDanicic: 1342 tdFP: 1.04 tdDanicic: 1.80 OK 
+bh_vector.c nCFG: 91 TWccFP: 784 TWCCSAS: 758 TWccDanicic: 1732 tdFP: 0.97 tdDanicic: 2.21 OK 
+bh_vector.c nCFG: 91 TWccFP: 940 TWCCSAS: 1037 TWccDanicic: 1574 tdFP: 1.10 tdDanicic: 1.67 OK 
+bh_vector.c nCFG: 91 TWccFP: 835 TWCCSAS: 816 TWccDanicic: 1450 tdFP: 0.98 tdDanicic: 1.74 OK 
+bh_vector.c nCFG: 91 TWccFP: 810 TWCCSAS: 798 TWccDanicic: 1597 tdFP: 0.99 tdDanicic: 1.97 OK 
+bh_vector.c nCFG: 91 TWccFP: 901 TWCCSAS: 888 TWccDanicic: 1654 tdFP: 0.99 tdDanicic: 1.84 OK 
+runtime_timer.c: runtime_timer.c nCFG: 155 TWccFP: 1309 TWCCSAS: 1398 TWccDanicic: 2978 tdFP: 1.07 tdDanicic: 2.28 OK 
+runtime_timer.c nCFG: 155 TWccFP: 1543 TWCCSAS: 1609 TWccDanicic: 4172 tdFP: 1.04 tdDanicic: 2.70 OK 
+runtime_timer.c nCFG: 155 TWccFP: 1640 TWCCSAS: 1764 TWccDanicic: 4093 tdFP: 1.08 tdDanicic: 2.50 OK 
+runtime_timer.c nCFG: 155 TWccFP: 1293 TWCCSAS: 1310 TWccDanicic: 2515 tdFP: 1.01 tdDanicic: 1.95 OK 
+runtime_timer.c nCFG: 155 TWccFP: 1227 TWCCSAS: 1339 TWccDanicic: 2298 tdFP: 1.09 tdDanicic: 1.87 OK 
+runtime_timer.c nCFG: 155 TWccFP: 1582 TWCCSAS: 1634 TWccDanicic: 4220 tdFP: 1.03 tdDanicic: 2.67 OK 
+runtime_timer.c nCFG: 155 TWccFP: 1271 TWCCSAS: 1339 TWccDanicic: 2844 tdFP: 1.05 tdDanicic: 2.24 OK 
+runtime_timer.c nCFG: 155 TWccFP: 1292 TWCCSAS: 1369 TWccDanicic: 3196 tdFP: 1.06 tdDanicic: 2.47 OK 
+runtime_timer.c nCFG: 155 TWccFP: 1225 TWCCSAS: 1352 TWccDanicic: 3850 tdFP: 1.10 tdDanicic: 3.14 OK 
+runtime_timer.c nCFG: 155 TWccFP: 1392 TWCCSAS: 1422 TWccDanicic: 3205 tdFP: 1.02 tdDanicic: 2.30 OK 
+libc_builtin_wrapper.c: libc_builtin_wrapper.c nCFG: 445 TWccFP: 5113 TWCCSAS: 5229 TWccDanicic: 33038 tdFP: 1.02 tdDanicic: 6.46 OK 
+libc_builtin_wrapper.c nCFG: 445 TWccFP: 4708 TWCCSAS: 5079 TWccDanicic: 25949 tdFP: 1.08 tdDanicic: 5.51 OK 
+libc_builtin_wrapper.c nCFG: 445 TWccFP: 4508 TWCCSAS: 4921 TWccDanicic: 32235 tdFP: 1.09 tdDanicic: 7.15 OK 
+libc_builtin_wrapper.c nCFG: 445 TWccFP: 4572 TWCCSAS: 4829 TWccDanicic: 25619 tdFP: 1.06 tdDanicic: 5.60 OK 
+libc_builtin_wrapper.c nCFG: 445 TWccFP: 4438 TWCCSAS: 5191 TWccDanicic: 26938 tdFP: 1.17 tdDanicic: 6.07 OK 
+libc_builtin_wrapper.c nCFG: 445 TWccFP: 4437 TWCCSAS: 4144 TWccDanicic: 14847 tdFP: 0.93 tdDanicic: 3.35 OK 
+libc_builtin_wrapper.c nCFG: 445 TWccFP: 5012 TWCCSAS: 5256 TWccDanicic: 31545 tdFP: 1.05 tdDanicic: 6.29 OK 
+libc_builtin_wrapper.c nCFG: 445 TWccFP: 4810 TWCCSAS: 4942 TWccDanicic: 16959 tdFP: 1.03 tdDanicic: 3.53 OK 
+libc_builtin_wrapper.c nCFG: 445 TWccFP: 4596 TWCCSAS: 4703 TWccDanicic: 29527 tdFP: 1.02 tdDanicic: 6.42 OK 
+libc_builtin_wrapper.c nCFG: 445 TWccFP: 4521 TWCCSAS: 4900 TWccDanicic: 30236 tdFP: 1.08 tdDanicic: 6.69 OK 
+libc_wasi_wrapper.c: libc_wasi_wrapper.c nCFG: 406 TWccFP: 4520 TWCCSAS: 4194 TWccDanicic: 13749 tdFP: 0.93 tdDanicic: 3.04 OK 
+libc_wasi_wrapper.c nCFG: 406 TWccFP: 3108 TWCCSAS: 3090 TWccDanicic: 8300 tdFP: 0.99 tdDanicic: 2.67 OK 
+libc_wasi_wrapper.c nCFG: 406 TWccFP: 4150 TWCCSAS: 4329 TWccDanicic: 10201 tdFP: 1.04 tdDanicic: 2.46 OK 
+libc_wasi_wrapper.c nCFG: 406 TWccFP: 4137 TWCCSAS: 4118 TWccDanicic: 13519 tdFP: 1.00 tdDanicic: 3.27 OK 
+libc_wasi_wrapper.c nCFG: 406 TWccFP: 3279 TWCCSAS: 3500 TWccDanicic: 9540 tdFP: 1.07 tdDanicic: 2.91 OK 
+libc_wasi_wrapper.c nCFG: 406 TWccFP: 3481 TWCCSAS: 3333 TWccDanicic: 10165 tdFP: 0.96 tdDanicic: 2.92 OK 
+libc_wasi_wrapper.c nCFG: 406 TWccFP: 3131 TWCCSAS: 3210 TWccDanicic: 7059 tdFP: 1.03 tdDanicic: 2.25 OK 
+libc_wasi_wrapper.c nCFG: 406 TWccFP: 3620 TWCCSAS: 3608 TWccDanicic: 9073 tdFP: 1.00 tdDanicic: 2.51 OK 
+libc_wasi_wrapper.c nCFG: 406 TWccFP: 3294 TWCCSAS: 3264 TWccDanicic: 9310 tdFP: 0.99 tdDanicic: 2.83 OK 
+libc_wasi_wrapper.c nCFG: 406 TWccFP: 3712 TWCCSAS: 3844 TWccDanicic: 9423 tdFP: 1.04 tdDanicic: 2.54 OK 
+posix.c: posix.c nCFG: 1028 TWccFP: 9961 TWCCSAS: 9438 TWccDanicic: 45138 tdFP: 0.95 tdDanicic: 4.53 OK 
+posix.c nCFG: 1028 TWccFP: 9939 TWCCSAS: 9305 TWccDanicic: 50653 tdFP: 0.94 tdDanicic: 5.10 OK 
+posix.c nCFG: 1028 TWccFP: 10773 TWCCSAS: 10302 TWccDanicic: 50745 tdFP: 0.96 tdDanicic: 4.71 OK 
+posix.c nCFG: 1028 TWccFP: 9646 TWCCSAS: 9165 TWccDanicic: 46601 tdFP: 0.95 tdDanicic: 4.83 OK 
+posix.c nCFG: 1028 TWccFP: 9672 TWCCSAS: 9717 TWccDanicic: 48928 tdFP: 1.00 tdDanicic: 5.06 OK 
+posix.c nCFG: 1028 TWccFP: 10759 TWCCSAS: 10450 TWccDanicic: 53299 tdFP: 0.97 tdDanicic: 4.95 OK 
+posix.c nCFG: 1028 TWccFP: 9963 TWCCSAS: 9326 TWccDanicic: 42476 tdFP: 0.94 tdDanicic: 4.26 OK 
+posix.c nCFG: 1028 TWccFP: 10823 TWCCSAS: 10934 TWccDanicic: 47504 tdFP: 1.01 tdDanicic: 4.39 OK 
+posix.c nCFG: 1028 TWccFP: 11073 TWCCSAS: 11188 TWccDanicic: 42971 tdFP: 1.01 tdDanicic: 3.88 OK 
+posix.c nCFG: 1028 TWccFP: 9543 TWCCSAS: 9894 TWccDanicic: 48050 tdFP: 1.04 tdDanicic: 5.04 OK 
+random.c: random.c nCFG: 10 TWccFP: 96 TWCCSAS: 144 TWccDanicic: 142 tdFP: 1.50 tdDanicic: 1.48 OK 
+random.c nCFG: 10 TWccFP: 102 TWCCSAS: 141 TWccDanicic: 158 tdFP: 1.38 tdDanicic: 1.55 OK 
+random.c nCFG: 10 TWccFP: 89 TWCCSAS: 125 TWccDanicic: 217 tdFP: 1.40 tdDanicic: 2.44 OK 
+random.c nCFG: 10 TWccFP: 108 TWCCSAS: 124 TWccDanicic: 129 tdFP: 1.15 tdDanicic: 1.19 OK 
+random.c nCFG: 10 TWccFP: 114 TWCCSAS: 115 TWccDanicic: 121 tdFP: 1.01 tdDanicic: 1.06 OK 
+random.c nCFG: 10 TWccFP: 125 TWCCSAS: 170 TWccDanicic: 173 tdFP: 1.36 tdDanicic: 1.38 OK 
+random.c nCFG: 10 TWccFP: 120 TWCCSAS: 137 TWccDanicic: 124 tdFP: 1.14 tdDanicic: 1.03 OK 
+random.c nCFG: 10 TWccFP: 160 TWCCSAS: 129 TWccDanicic: 162 tdFP: 0.81 tdDanicic: 1.01 OK 
+random.c nCFG: 10 TWccFP: 99 TWCCSAS: 127 TWccDanicic: 94 tdFP: 1.28 tdDanicic: 0.95 OK 
+random.c nCFG: 10 TWccFP: 136 TWCCSAS: 163 TWccDanicic: 97 tdFP: 1.20 tdDanicic: 0.71 OK 
+str.c: str.c nCFG: 18 TWccFP: 195 TWCCSAS: 223 TWccDanicic: 342 tdFP: 1.14 tdDanicic: 1.75 OK 
+str.c nCFG: 18 TWccFP: 223 TWCCSAS: 261 TWccDanicic: 113 tdFP: 1.17 tdDanicic: 0.51 OK 
+str.c nCFG: 18 TWccFP: 158 TWCCSAS: 193 TWccDanicic: 140 tdFP: 1.22 tdDanicic: 0.89 OK 
+str.c nCFG: 18 TWccFP: 136 TWCCSAS: 166 TWccDanicic: 225 tdFP: 1.22 tdDanicic: 1.65 OK 
+str.c nCFG: 18 TWccFP: 203 TWCCSAS: 218 TWccDanicic: 212 tdFP: 1.07 tdDanicic: 1.04 OK 
+str.c nCFG: 18 TWccFP: 205 TWCCSAS: 188 TWccDanicic: 232 tdFP: 0.92 tdDanicic: 1.13 OK 
+str.c nCFG: 18 TWccFP: 209 TWCCSAS: 264 TWccDanicic: 416 tdFP: 1.26 tdDanicic: 1.99 OK 
+str.c nCFG: 18 TWccFP: 168 TWCCSAS: 192 TWccDanicic: 360 tdFP: 1.14 tdDanicic: 2.14 OK 
+str.c nCFG: 18 TWccFP: 215 TWCCSAS: 216 TWccDanicic: 518 tdFP: 1.00 tdDanicic: 2.41 OK 
+str.c nCFG: 18 TWccFP: 178 TWCCSAS: 197 TWccDanicic: 335 tdFP: 1.11 tdDanicic: 1.88 OK 
+wasm_application.c: wasm_application.c nCFG: 166 TWccFP: 7363 TWCCSAS: 16136 TWccDanicic: 40508 tdFP: 2.19 tdDanicic: 5.50 OK 
+wasm_application.c nCFG: 166 TWccFP: 1944 TWCCSAS: 1842 TWccDanicic: 13164 tdFP: 0.95 tdDanicic: 6.77 OK 
+wasm_application.c nCFG: 166 TWccFP: 1756 TWCCSAS: 1461 TWccDanicic: 12277 tdFP: 0.83 tdDanicic: 6.99 OK 
+wasm_application.c nCFG: 166 TWccFP: 1954 TWCCSAS: 1846 TWccDanicic: 16189 tdFP: 0.94 tdDanicic: 8.29 OK 
+wasm_application.c nCFG: 166 TWccFP: 2168 TWCCSAS: 1965 TWccDanicic: 15759 tdFP: 0.91 tdDanicic: 7.27 OK 
+wasm_application.c nCFG: 166 TWccFP: 2247 TWCCSAS: 2200 TWccDanicic: 20741 tdFP: 0.98 tdDanicic: 9.23 OK 
+wasm_application.c nCFG: 166 TWccFP: 1989 TWCCSAS: 1503 TWccDanicic: 12915 tdFP: 0.76 tdDanicic: 6.49 OK 
+wasm_application.c nCFG: 166 TWccFP: 1484 TWCCSAS: 1384 TWccDanicic: 14694 tdFP: 0.93 tdDanicic: 9.90 OK 
+wasm_application.c nCFG: 166 TWccFP: 2245 TWCCSAS: 1731 TWccDanicic: 13667 tdFP: 0.77 tdDanicic: 6.09 OK 
+wasm_application.c nCFG: 166 TWccFP: 2147 TWCCSAS: 2076 TWccDanicic: 16688 tdFP: 0.97 tdDanicic: 7.77 OK 
+wasm_c_api.c: wasm_c_api.c nCFG: 2478 TWccFP: 24785 TWCCSAS: 25042 TWccDanicic: 90249 tdFP: 1.01 tdDanicic: 3.64 OK 
+wasm_c_api.c nCFG: 2478 TWccFP: 22938 TWCCSAS: 23019 TWccDanicic: 74960 tdFP: 1.00 tdDanicic: 3.27 OK 
+wasm_c_api.c nCFG: 2478 TWccFP: 24791 TWCCSAS: 25441 TWccDanicic: 85387 tdFP: 1.03 tdDanicic: 3.44 OK 
+wasm_c_api.c nCFG: 2478 TWccFP: 24508 TWCCSAS: 25607 TWccDanicic: 81698 tdFP: 1.04 tdDanicic: 3.33 OK 
+wasm_c_api.c nCFG: 2478 TWccFP: 22927 TWCCSAS: 23121 TWccDanicic: 71641 tdFP: 1.01 tdDanicic: 3.12 OK 
+wasm_c_api.c nCFG: 2478 TWccFP: 23591 TWCCSAS: 24052 TWccDanicic: 80737 tdFP: 1.02 tdDanicic: 3.42 OK 
+wasm_c_api.c nCFG: 2478 TWccFP: 22447 TWCCSAS: 22988 TWccDanicic: 82221 tdFP: 1.02 tdDanicic: 3.66 OK 
+wasm_c_api.c nCFG: 2478 TWccFP: 25922 TWCCSAS: 25049 TWccDanicic: 91537 tdFP: 0.97 tdDanicic: 3.53 OK 
+wasm_c_api.c nCFG: 2478 TWccFP: 21882 TWCCSAS: 22057 TWccDanicic: 81386 tdFP: 1.01 tdDanicic: 3.72 OK 
+wasm_c_api.c nCFG: 2478 TWccFP: 21754 TWCCSAS: 22246 TWccDanicic: 70606 tdFP: 1.02 tdDanicic: 3.25 OK 
+wasm_exec_env.c: wasm_exec_env.c nCFG: 41 TWccFP: 293 TWCCSAS: 330 TWccDanicic: 190 tdFP: 1.13 tdDanicic: 0.65 OK 
+wasm_exec_env.c nCFG: 41 TWccFP: 384 TWCCSAS: 469 TWccDanicic: 811 tdFP: 1.22 tdDanicic: 2.11 OK 
+wasm_exec_env.c nCFG: 41 TWccFP: 354 TWCCSAS: 393 TWccDanicic: 638 tdFP: 1.11 tdDanicic: 1.80 OK 
+wasm_exec_env.c nCFG: 41 TWccFP: 350 TWCCSAS: 450 TWccDanicic: 715 tdFP: 1.29 tdDanicic: 2.04 OK 
+wasm_exec_env.c nCFG: 41 TWccFP: 305 TWCCSAS: 352 TWccDanicic: 401 tdFP: 1.15 tdDanicic: 1.31 OK 
+wasm_exec_env.c nCFG: 41 TWccFP: 430 TWCCSAS: 556 TWccDanicic: 550 tdFP: 1.29 tdDanicic: 1.28 OK 
+wasm_exec_env.c nCFG: 41 TWccFP: 311 TWCCSAS: 379 TWccDanicic: 426 tdFP: 1.22 tdDanicic: 1.37 OK 
+wasm_exec_env.c nCFG: 41 TWccFP: 323 TWCCSAS: 350 TWccDanicic: 366 tdFP: 1.08 tdDanicic: 1.13 OK 
+wasm_exec_env.c nCFG: 41 TWccFP: 361 TWCCSAS: 425 TWccDanicic: 370 tdFP: 1.18 tdDanicic: 1.02 OK 
+wasm_exec_env.c nCFG: 41 TWccFP: 239 TWCCSAS: 326 TWccDanicic: 217 tdFP: 1.36 tdDanicic: 0.91 OK 
+wasm_memory.c: wasm_memory.c nCFG: 67 TWccFP: 434 TWCCSAS: 606 TWccDanicic: 503 tdFP: 1.40 tdDanicic: 1.16 OK 
+wasm_memory.c nCFG: 67 TWccFP: 449 TWCCSAS: 596 TWccDanicic: 921 tdFP: 1.33 tdDanicic: 2.05 OK 
+wasm_memory.c nCFG: 67 TWccFP: 477 TWCCSAS: 479 TWccDanicic: 828 tdFP: 1.00 tdDanicic: 1.74 OK 
+wasm_memory.c nCFG: 67 TWccFP: 705 TWCCSAS: 663 TWccDanicic: 1018 tdFP: 0.94 tdDanicic: 1.44 OK 
+wasm_memory.c nCFG: 67 TWccFP: 597 TWCCSAS: 691 TWccDanicic: 848 tdFP: 1.16 tdDanicic: 1.42 OK 
+wasm_memory.c nCFG: 67 TWccFP: 685 TWCCSAS: 644 TWccDanicic: 444 tdFP: 0.94 tdDanicic: 0.65 OK 
+wasm_memory.c nCFG: 67 TWccFP: 646 TWCCSAS: 745 TWccDanicic: 360 tdFP: 1.15 tdDanicic: 0.56 OK 
+wasm_memory.c nCFG: 67 TWccFP: 674 TWCCSAS: 768 TWccDanicic: 1149 tdFP: 1.14 tdDanicic: 1.70 OK 
+wasm_memory.c nCFG: 67 TWccFP: 670 TWCCSAS: 807 TWccDanicic: 876 tdFP: 1.20 tdDanicic: 1.31 OK 
+wasm_memory.c nCFG: 67 TWccFP: 480 TWCCSAS: 567 TWccDanicic: 738 tdFP: 1.18 tdDanicic: 1.54 OK 
+wasm_native.c: wasm_native.c nCFG: 123 TWccFP: 1425 TWCCSAS: 1410 TWccDanicic: 5754 tdFP: 0.99 tdDanicic: 4.04 OK 
+wasm_native.c nCFG: 123 TWccFP: 1078 TWCCSAS: 1149 TWccDanicic: 4347 tdFP: 1.07 tdDanicic: 4.03 OK 
+wasm_native.c nCFG: 123 TWccFP: 1294 TWCCSAS: 1283 TWccDanicic: 4371 tdFP: 0.99 tdDanicic: 3.38 OK 
+wasm_native.c nCFG: 123 TWccFP: 1322 TWCCSAS: 1230 TWccDanicic: 5019 tdFP: 0.93 tdDanicic: 3.80 OK 
+wasm_native.c nCFG: 123 TWccFP: 1207 TWCCSAS: 1252 TWccDanicic: 4963 tdFP: 1.04 tdDanicic: 4.11 OK 
+wasm_native.c nCFG: 123 TWccFP: 1121 TWCCSAS: 994 TWccDanicic: 5187 tdFP: 0.89 tdDanicic: 4.63 OK 
+wasm_native.c nCFG: 123 TWccFP: 1320 TWCCSAS: 1332 TWccDanicic: 5775 tdFP: 1.01 tdDanicic: 4.38 OK 
+wasm_native.c nCFG: 123 TWccFP: 1236 TWCCSAS: 1320 TWccDanicic: 3392 tdFP: 1.07 tdDanicic: 2.74 OK 
+wasm_native.c nCFG: 123 TWccFP: 1253 TWCCSAS: 1225 TWccDanicic: 3370 tdFP: 0.98 tdDanicic: 2.69 OK 
+wasm_native.c nCFG: 123 TWccFP: 1293 TWCCSAS: 1210 TWccDanicic: 4765 tdFP: 0.94 tdDanicic: 3.69 OK 
+wasm_runtime_common.c: wasm_runtime_common.c nCFG: 944 TWccFP: 9226 TWCCSAS: 9400 TWccDanicic: 51243 tdFP: 1.02 tdDanicic: 5.55 OK 
+wasm_runtime_common.c nCFG: 944 TWccFP: 9960 TWCCSAS: 9433 TWccDanicic: 56824 tdFP: 0.95 tdDanicic: 5.71 OK 
+wasm_runtime_common.c nCFG: 944 TWccFP: 9664 TWCCSAS: 9324 TWccDanicic: 46949 tdFP: 0.96 tdDanicic: 4.86 OK 
+wasm_runtime_common.c nCFG: 944 TWccFP: 8941 TWCCSAS: 9136 TWccDanicic: 45479 tdFP: 1.02 tdDanicic: 5.09 OK 
+wasm_runtime_common.c nCFG: 944 TWccFP: 9711 TWCCSAS: 9491 TWccDanicic: 56235 tdFP: 0.98 tdDanicic: 5.79 OK 
+wasm_runtime_common.c nCFG: 944 TWccFP: 9961 TWCCSAS: 10239 TWccDanicic: 59509 tdFP: 1.03 tdDanicic: 5.97 OK 
+wasm_runtime_common.c nCFG: 944 TWccFP: 9759 TWCCSAS: 9686 TWccDanicic: 42641 tdFP: 0.99 tdDanicic: 4.37 OK 
+wasm_runtime_common.c nCFG: 944 TWccFP: 10938 TWCCSAS: 10610 TWccDanicic: 49295 tdFP: 0.97 tdDanicic: 4.51 OK 
+wasm_runtime_common.c nCFG: 944 TWccFP: 9598 TWCCSAS: 8904 TWccDanicic: 42582 tdFP: 0.93 tdDanicic: 4.44 OK 
+wasm_runtime_common.c nCFG: 944 TWccFP: 8941 TWCCSAS: 8545 TWccDanicic: 38412 tdFP: 0.96 tdDanicic: 4.30 OK 
+wasm_shared_memory.c: wasm_shared_memory.c nCFG: 137 TWccFP: 1359 TWCCSAS: 1437 TWccDanicic: 4347 tdFP: 1.06 tdDanicic: 3.20 OK 
+wasm_shared_memory.c nCFG: 137 TWccFP: 1541 TWCCSAS: 1837 TWccDanicic: 3706 tdFP: 1.19 tdDanicic: 2.40 OK 
+wasm_shared_memory.c nCFG: 137 TWccFP: 966 TWCCSAS: 1007 TWccDanicic: 1823 tdFP: 1.04 tdDanicic: 1.89 OK 
+wasm_shared_memory.c nCFG: 137 TWccFP: 1111 TWCCSAS: 1085 TWccDanicic: 3279 tdFP: 0.98 tdDanicic: 2.95 OK 
+wasm_shared_memory.c nCFG: 137 TWccFP: 1310 TWCCSAS: 1235 TWccDanicic: 3368 tdFP: 0.94 tdDanicic: 2.57 OK 
+wasm_shared_memory.c nCFG: 137 TWccFP: 922 TWCCSAS: 981 TWccDanicic: 3038 tdFP: 1.06 tdDanicic: 3.30 OK 
+wasm_shared_memory.c nCFG: 137 TWccFP: 1403 TWCCSAS: 1317 TWccDanicic: 3710 tdFP: 0.94 tdDanicic: 2.64 OK 
+wasm_shared_memory.c nCFG: 137 TWccFP: 1407 TWCCSAS: 1512 TWccDanicic: 3831 tdFP: 1.07 tdDanicic: 2.72 OK 
+wasm_shared_memory.c nCFG: 137 TWccFP: 1556 TWCCSAS: 1725 TWccDanicic: 4524 tdFP: 1.11 tdDanicic: 2.91 OK 
+wasm_shared_memory.c nCFG: 137 TWccFP: 1072 TWCCSAS: 1101 TWccDanicic: 1748 tdFP: 1.03 tdDanicic: 1.63 OK 
+wasm_loader.c: wasm_loader.c nCFG: 3753 TWccFP: 102228 TWCCSAS: 100783 TWccDanicic: 2023799 tdFP: 0.99 tdDanicic: 19.80 OK 
+wasm_loader.c nCFG: 3753 TWccFP: 136868 TWCCSAS: 139651 TWccDanicic: 2892804 tdFP: 1.02 tdDanicic: 21.14 OK 
+wasm_loader.c nCFG: 3753 TWccFP: 112164 TWCCSAS: 120502 TWccDanicic: 3145486 tdFP: 1.07 tdDanicic: 28.04 OK 
+wasm_loader.c nCFG: 3753 TWccFP: 167902 TWCCSAS: 151918 TWccDanicic: 1398265 tdFP: 0.90 tdDanicic: 8.33 OK 
+wasm_loader.c nCFG: 3753 TWccFP: 156331 TWCCSAS: 150710 TWccDanicic: 2324125 tdFP: 0.96 tdDanicic: 14.87 OK 
+wasm_loader.c nCFG: 3753 TWccFP: 132431 TWCCSAS: 123944 TWccDanicic: 2856872 tdFP: 0.94 tdDanicic: 21.57 OK 
+wasm_loader.c nCFG: 3753 TWccFP: 198891 TWCCSAS: 156264 TWccDanicic: 8808787 tdFP: 0.79 tdDanicic: 44.29 OK 
+wasm_loader.c nCFG: 3753 TWccFP: 217475 TWCCSAS: 189557 TWccDanicic: 1355737 tdFP: 0.87 tdDanicic: 6.23 OK 
+wasm_loader.c nCFG: 3753 TWccFP: 119942 TWCCSAS: 115803 TWccDanicic: 4523564 tdFP: 0.97 tdDanicic: 37.71 OK 
+wasm_loader.c nCFG: 3753 TWccFP: 422211 TWCCSAS: 302769 TWccDanicic: 2697407 tdFP: 0.72 tdDanicic: 6.39 OK 
+wasm_runtime.c: wasm_runtime.c nCFG: 592 TWccFP: 8536 TWCCSAS: 12435 TWccDanicic: 43651 tdFP: 1.46 tdDanicic: 5.11 OK 
+wasm_runtime.c nCFG: 592 TWccFP: 7134 TWCCSAS: 8405 TWccDanicic: 38921 tdFP: 1.18 tdDanicic: 5.46 OK 
+wasm_runtime.c nCFG: 592 TWccFP: 7042 TWCCSAS: 6521 TWccDanicic: 31166 tdFP: 0.93 tdDanicic: 4.43 OK 
+wasm_runtime.c nCFG: 592 TWccFP: 6520 TWCCSAS: 7054 TWccDanicic: 40161 tdFP: 1.08 tdDanicic: 6.16 OK 
+wasm_runtime.c nCFG: 592 TWccFP: 6533 TWCCSAS: 6262 TWccDanicic: 33050 tdFP: 0.96 tdDanicic: 5.06 OK 
+wasm_runtime.c nCFG: 592 TWccFP: 236023 TWCCSAS: 5980 TWccDanicic: 30909 tdFP: 0.03 tdDanicic: 0.13 OK 
+wasm_runtime.c nCFG: 592 TWccFP: 6826 TWCCSAS: 6885 TWccDanicic: 43923 tdFP: 1.01 tdDanicic: 6.43 OK 
+wasm_runtime.c nCFG: 592 TWccFP: 8204 TWCCSAS: 9872 TWccDanicic: 46442 tdFP: 1.20 tdDanicic: 5.66 OK 
+wasm_runtime.c nCFG: 592 TWccFP: 7071 TWCCSAS: 6806 TWccDanicic: 32715 tdFP: 0.96 tdDanicic: 4.63 OK 
+wasm_runtime.c nCFG: 592 TWccFP: 7250 TWCCSAS: 7040 TWccDanicic: 30215 tdFP: 0.97 tdDanicic: 4.17 OK 
+wasm_interp_fast.c: wasm_interp_fast.c nCFG: 2301 TWccFP: 69797 TWCCSAS: 66038 TWccDanicic: 3470990 tdFP: 0.95 tdDanicic: 49.73 OK 
+wasm_interp_fast.c nCFG: 2301 TWccFP: 70540 TWCCSAS: 68893 TWccDanicic: 3418741 tdFP: 0.98 tdDanicic: 48.47 OK 
+wasm_interp_fast.c nCFG: 2301 TWccFP: 70559 TWCCSAS: 67969 TWccDanicic: 3859490 tdFP: 0.96 tdDanicic: 54.70 OK 
+wasm_interp_fast.c nCFG: 2301 TWccFP: 67927 TWCCSAS: 65777 TWccDanicic: 4217996 tdFP: 0.97 tdDanicic: 62.10 OK 
+wasm_interp_fast.c nCFG: 2301 TWccFP: 71694 TWCCSAS: 69581 TWccDanicic: 2872607 tdFP: 0.97 tdDanicic: 40.07 OK 
+wasm_interp_fast.c nCFG: 2301 TWccFP: 42991 TWCCSAS: 40769 TWccDanicic: 469489 tdFP: 0.95 tdDanicic: 10.92 OK 
+wasm_interp_fast.c nCFG: 2301 TWccFP: 62333 TWCCSAS: 61098 TWccDanicic: 2190354 tdFP: 0.98 tdDanicic: 35.14 OK 
+wasm_interp_fast.c nCFG: 2301 TWccFP: 68217 TWCCSAS: 65859 TWccDanicic: 4185996 tdFP: 0.97 tdDanicic: 61.36 OK 
+wasm_interp_fast.c nCFG: 2301 TWccFP: 71025 TWCCSAS: 68386 TWccDanicic: 4101543 tdFP: 0.96 tdDanicic: 57.75 OK 
+wasm_interp_fast.c nCFG: 2301 TWccFP: 63031 TWCCSAS: 65509 TWccDanicic: 3240499 tdFP: 1.04 tdDanicic: 51.41 OK 
+aot_intrinsic.c: aot_intrinsic.c nCFG: 380 TWccFP: 2995 TWCCSAS: 3199 TWccDanicic: 6059 tdFP: 1.07 tdDanicic: 2.02 OK 
+aot_intrinsic.c nCFG: 380 TWccFP: 3013 TWCCSAS: 3244 TWccDanicic: 7049 tdFP: 1.08 tdDanicic: 2.34 OK 
+aot_intrinsic.c nCFG: 380 TWccFP: 3793 TWCCSAS: 3196 TWccDanicic: 12073 tdFP: 0.84 tdDanicic: 3.18 OK 
+aot_intrinsic.c nCFG: 380 TWccFP: 3148 TWCCSAS: 3429 TWccDanicic: 9676 tdFP: 1.09 tdDanicic: 3.07 OK 
+aot_intrinsic.c nCFG: 380 TWccFP: 2857 TWCCSAS: 2974 TWccDanicic: 8043 tdFP: 1.04 tdDanicic: 2.82 OK 
+aot_intrinsic.c nCFG: 380 TWccFP: 3168 TWCCSAS: 3258 TWccDanicic: 13826 tdFP: 1.03 tdDanicic: 4.36 OK 
+aot_intrinsic.c nCFG: 380 TWccFP: 1980 TWCCSAS: 2070 TWccDanicic: 2379 tdFP: 1.05 tdDanicic: 1.20 OK 
+aot_intrinsic.c nCFG: 380 TWccFP: 2156 TWCCSAS: 2261 TWccDanicic: 2441 tdFP: 1.05 tdDanicic: 1.13 OK 
+aot_intrinsic.c nCFG: 380 TWccFP: 2465 TWCCSAS: 2587 TWccDanicic: 3730 tdFP: 1.05 tdDanicic: 1.51 OK 
+aot_intrinsic.c nCFG: 380 TWccFP: 2433 TWCCSAS: 2393 TWccDanicic: 4670 tdFP: 0.98 tdDanicic: 1.92 OK 
+aot_loader.c: aot_loader.c nCFG: 2381 TWccFP: 21161 TWCCSAS: 20318 TWccDanicic: 181173 tdFP: 0.96 tdDanicic: 8.56 OK 
+aot_loader.c nCFG: 2381 TWccFP: 22826 TWCCSAS: 19726 TWccDanicic: 249813 tdFP: 0.86 tdDanicic: 10.94 OK 
+aot_loader.c nCFG: 2381 TWccFP: 19434 TWCCSAS: 17674 TWccDanicic: 204696 tdFP: 0.91 tdDanicic: 10.53 OK 
+aot_loader.c nCFG: 2381 TWccFP: 20003 TWCCSAS: 18333 TWccDanicic: 166639 tdFP: 0.92 tdDanicic: 8.33 OK 
+aot_loader.c nCFG: 2381 TWccFP: 19547 TWCCSAS: 18307 TWccDanicic: 163318 tdFP: 0.94 tdDanicic: 8.36 OK 
+aot_loader.c nCFG: 2381 TWccFP: 18833 TWCCSAS: 17302 TWccDanicic: 201264 tdFP: 0.92 tdDanicic: 10.69 OK 
+aot_loader.c nCFG: 2381 TWccFP: 19962 TWCCSAS: 18526 TWccDanicic: 177729 tdFP: 0.93 tdDanicic: 8.90 OK 
+aot_loader.c nCFG: 2381 TWccFP: 21953 TWCCSAS: 20615 TWccDanicic: 196448 tdFP: 0.94 tdDanicic: 8.95 OK 
+aot_loader.c nCFG: 2381 TWccFP: 19255 TWCCSAS: 17929 TWccDanicic: 199191 tdFP: 0.93 tdDanicic: 10.34 OK 
+aot_loader.c nCFG: 2381 TWccFP: 20434 TWCCSAS: 18580 TWccDanicic: 191388 tdFP: 0.91 tdDanicic: 9.37 OK 
+aot_runtime.c: aot_runtime.c nCFG: 738 TWccFP: 6837 TWCCSAS: 6905 TWccDanicic: 29056 tdFP: 1.01 tdDanicic: 4.25 OK 
+aot_runtime.c nCFG: 738 TWccFP: 7730 TWCCSAS: 7628 TWccDanicic: 31148 tdFP: 0.99 tdDanicic: 4.03 OK 
+aot_runtime.c nCFG: 738 TWccFP: 7636 TWCCSAS: 7155 TWccDanicic: 36214 tdFP: 0.94 tdDanicic: 4.74 OK 
+aot_runtime.c nCFG: 738 TWccFP: 6704 TWCCSAS: 6673 TWccDanicic: 31918 tdFP: 1.00 tdDanicic: 4.76 OK 
+aot_runtime.c nCFG: 738 TWccFP: 6589 TWCCSAS: 6697 TWccDanicic: 27705 tdFP: 1.02 tdDanicic: 4.20 OK 
+aot_runtime.c nCFG: 738 TWccFP: 7013 TWCCSAS: 6862 TWccDanicic: 30771 tdFP: 0.98 tdDanicic: 4.39 OK 
+aot_runtime.c nCFG: 738 TWccFP: 6806 TWCCSAS: 6045 TWccDanicic: 23168 tdFP: 0.89 tdDanicic: 3.40 OK 
+aot_runtime.c nCFG: 738 TWccFP: 7133 TWCCSAS: 7194 TWccDanicic: 35098 tdFP: 1.01 tdDanicic: 4.92 OK 
+aot_runtime.c nCFG: 738 TWccFP: 6714 TWCCSAS: 6424 TWccDanicic: 29177 tdFP: 0.96 tdDanicic: 4.35 OK 
+aot_runtime.c nCFG: 738 TWccFP: 7021 TWCCSAS: 6555 TWccDanicic: 30174 tdFP: 0.93 tdDanicic: 4.30 OK 
+aot_reloc_x86_64.c: aot_reloc_x86_64.c nCFG: 76 TWccFP: 827 TWCCSAS: 863 TWccDanicic: 2836 tdFP: 1.04 tdDanicic: 3.43 OK 
+aot_reloc_x86_64.c nCFG: 76 TWccFP: 484 TWCCSAS: 474 TWccDanicic: 428 tdFP: 0.98 tdDanicic: 0.88 OK 
+aot_reloc_x86_64.c nCFG: 76 TWccFP: 739 TWCCSAS: 713 TWccDanicic: 2094 tdFP: 0.96 tdDanicic: 2.83 OK 
+aot_reloc_x86_64.c nCFG: 76 TWccFP: 855 TWCCSAS: 842 TWccDanicic: 3499 tdFP: 0.98 tdDanicic: 4.09 OK 
+aot_reloc_x86_64.c nCFG: 76 TWccFP: 1115 TWCCSAS: 1105 TWccDanicic: 6346 tdFP: 0.99 tdDanicic: 5.69 OK 
+aot_reloc_x86_64.c nCFG: 76 TWccFP: 630 TWCCSAS: 657 TWccDanicic: 576 tdFP: 1.04 tdDanicic: 0.91 OK 
+aot_reloc_x86_64.c nCFG: 76 TWccFP: 590 TWCCSAS: 630 TWccDanicic: 3032 tdFP: 1.07 tdDanicic: 5.14 OK 
+aot_reloc_x86_64.c nCFG: 76 TWccFP: 604 TWCCSAS: 689 TWccDanicic: 1690 tdFP: 1.14 tdDanicic: 2.80 OK 
+aot_reloc_x86_64.c nCFG: 76 TWccFP: 780 TWCCSAS: 809 TWccDanicic: 5048 tdFP: 1.04 tdDanicic: 6.47 OK 
+aot_reloc_x86_64.c nCFG: 76 TWccFP: 560 TWCCSAS: 604 TWccDanicic: 2862 tdFP: 1.08 tdDanicic: 5.11 OK 
+main.c: main.c nCFG: 0 TWccFP: 0 TWCCSAS: 0 TWccDanicic: 0 tdFP: nan tdDanicic: nan OK 
+main.c nCFG: 0 TWccFP: 0 TWCCSAS: 0 TWccDanicic: 0 tdFP: nan tdDanicic: nan OK 
+main.c nCFG: 0 TWccFP: 0 TWCCSAS: 0 TWccDanicic: 0 tdFP: nan tdDanicic: nan OK 
+main.c nCFG: 0 TWccFP: 0 TWCCSAS: 0 TWccDanicic: 0 tdFP: nan tdDanicic: nan OK 
+main.c nCFG: 0 TWccFP: 0 TWCCSAS: 0 TWccDanicic: 0 tdFP: nan tdDanicic: nan OK 
+main.c nCFG: 0 TWccFP: 0 TWCCSAS: 0 TWccDanicic: 0 tdFP: nan tdDanicic: nan OK 
+main.c nCFG: 0 TWccFP: 0 TWCCSAS: 0 TWccDanicic: 0 tdFP: nan tdDanicic: nan OK 
+main.c nCFG: 0 TWccFP: 0 TWCCSAS: 0 TWccDanicic: 0 tdFP: nan tdDanicic: nan OK 
+main.c nCFG: 0 TWccFP: 0 TWCCSAS: 0 TWccDanicic: 0 tdFP: nan tdDanicic: nan OK 
+main.c nCFG: 0 TWccFP: 0 TWCCSAS: 0 TWccDanicic: 0 tdFP: nan tdDanicic: nan OK 
+bh_getopt.c: bh_getopt.c nCFG: 0 TWccFP: 0 TWCCSAS: 0 TWccDanicic: 0 tdFP: nan tdDanicic: nan OK 
+bh_getopt.c nCFG: 0 TWccFP: 0 TWCCSAS: 0 TWccDanicic: 0 tdFP: nan tdDanicic: nan OK 
+bh_getopt.c nCFG: 0 TWccFP: 0 TWCCSAS: 0 TWccDanicic: 0 tdFP: nan tdDanicic: nan OK 
+bh_getopt.c nCFG: 0 TWccFP: 0 TWCCSAS: 0 TWccDanicic: 0 tdFP: nan tdDanicic: nan OK 
+bh_getopt.c nCFG: 0 TWccFP: 0 TWCCSAS: 0 TWccDanicic: 0 tdFP: nan tdDanicic: nan OK 
+bh_getopt.c nCFG: 0 TWccFP: 0 TWCCSAS: 0 TWccDanicic: 0 tdFP: nan tdDanicic: nan OK 
+bh_getopt.c nCFG: 0 TWccFP: 0 TWCCSAS: 0 TWccDanicic: 0 tdFP: nan tdDanicic: nan OK 
+bh_getopt.c nCFG: 0 TWccFP: 0 TWCCSAS: 0 TWccDanicic: 0 tdFP: nan tdDanicic: nan OK 
+bh_getopt.c nCFG: 0 TWccFP: 0 TWCCSAS: 0 TWccDanicic: 0 tdFP: nan tdDanicic: nan OK 
+bh_getopt.c nCFG: 0 TWccFP: 0 TWCCSAS: 0 TWccDanicic: 0 tdFP: nan tdDanicic: nan OK 
+bh_read_file.c: bh_read_file.c nCFG: 17 TWccFP: 143 TWCCSAS: 138 TWccDanicic: 477 tdFP: 0.97 tdDanicic: 3.34 OK 
+bh_read_file.c nCFG: 17 TWccFP: 146 TWCCSAS: 182 TWccDanicic: 567 tdFP: 1.25 tdDanicic: 3.88 OK 
+bh_read_file.c nCFG: 17 TWccFP: 137 TWCCSAS: 196 TWccDanicic: 578 tdFP: 1.43 tdDanicic: 4.22 OK 
+bh_read_file.c nCFG: 17 TWccFP: 136 TWCCSAS: 196 TWccDanicic: 678 tdFP: 1.44 tdDanicic: 4.99 OK 
+bh_read_file.c nCFG: 17 TWccFP: 132 TWCCSAS: 118 TWccDanicic: 520 tdFP: 0.89 tdDanicic: 3.94 OK 
+bh_read_file.c nCFG: 17 TWccFP: 99 TWCCSAS: 131 TWccDanicic: 540 tdFP: 1.32 tdDanicic: 5.45 OK 
+bh_read_file.c nCFG: 17 TWccFP: 161 TWCCSAS: 173 TWccDanicic: 400 tdFP: 1.07 tdDanicic: 2.48 OK 
+bh_read_file.c nCFG: 17 TWccFP: 161 TWCCSAS: 177 TWccDanicic: 363 tdFP: 1.10 tdDanicic: 2.25 OK 
+bh_read_file.c nCFG: 17 TWccFP: 139 TWCCSAS: 154 TWccDanicic: 565 tdFP: 1.11 tdDanicic: 4.06 OK 
+bh_read_file.c nCFG: 17 TWccFP: 209 TWCCSAS: 184 TWccDanicic: 561 tdFP: 0.88 tdDanicic: 2.68 OK 
