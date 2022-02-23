@@ -37,6 +37,14 @@ This tool performs intraprocedural analysis of source code written in C language
 4. Usually, WCC is computed with respect to a set of CFG nodes. By default, this set is obtained randomly from the set of CFG nodes. However, this option can be overridden by using the option <code> -np </code> which will then allow to get a subset of CFG nodes from console.
 5. Dominance frontier based computation (such as [5]) of Phi nodes assumes that all program variables are defined at the beginning and introduces spuriousness in computing phi nodes. However, theis assumption is relaxed in [4,6,7] by assuming that only global variables and formal parameters are defined at the beginning. Thus, the implementation of the methods in [4,6,7] produces precise phi nodes. However, the option  <code> -defs-at-start </code> forces these methods to assume that all program variables are definied at the beginning, and then the set of phi nodes in all computations are same.
 
+<strong> Limitations: </strong>
+- The computation of phi nodes does not consider the liveness of program variables. 
+- It generates only phi nodes, but does not transform high-level code to its SSA form. However, <strong> SmartSSA </strong> transform LLVM IR code to its SSA form.
+<h2>  Usage of  SmartSSA</h2>
+
+
+
+
 <h2>  References of implemented algorithms </h2>
 
 [1] Danicic, Sebastian et al. “A unifying theory of control dependence and its application to arbitrary program structures.” Theor. Comput. Sci. 412 (2011): 6809-6842. 
