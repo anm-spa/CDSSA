@@ -1,0 +1,4 @@
+TotalTime: m2rlivetime.txt 1178.4 379.38 7.62  387.0
+TotalTime: m2rtime.txt 1169.49 383.82 7.75  391.57
+TotalTime: duallivetime.txt 1232.74 448.17 8.54  456.71
+TotalTime: dualtime.txt 1228.47 447.43 8.52  455.95

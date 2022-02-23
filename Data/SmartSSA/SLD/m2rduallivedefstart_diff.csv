@@ -1,0 +1,3 @@
+FileName,FuncName and Var Id,M2R-Dual,Dual-M2R
+SDL_blit_A.c,BlitRGBtoBGRPixelAlpha-3,"set(['10', '30', '22', '16'])","set(['File:', 'SDL_blit_N.c'])"
+FinalResults,Total,4
