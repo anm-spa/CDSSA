@@ -9,4 +9,4 @@ Both are implemented and tested in LLVM/Clang version 11.
 
 <h2> Setup and Installation of SSA and WCCPhi </h2>
 
-WCCPhi can run as a standalone tool built using the [Libtooling] (https://clang.llvm.org/docs/LibTooling.html) library support.
+WCCPhi can run as a standalone tool built using the [Libtooling](https://clang.llvm.org/docs/LibTooling.html) library support.
