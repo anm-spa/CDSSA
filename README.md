@@ -1,4 +1,4 @@
-#Control dependency, SSA transformation, and their duality
+<h1>Control dependency, SSA transformation, and their duality</h1>
 
 This repository contains the following two subdirectories: 
 
