@@ -1,0 +1,2045 @@
+FileName,FuncName and Var Id,M2R,Dual,M2R \ Dual,Dual\M2R,Comments
+bh_list.c,bh_list_insert-0,set(['4']),set(['4']),set([]),set([]),subset
+bh_list.c,bh_list_insert-1,{},{},set([]),set([]),subset
+bh_list.c,bh_list_insert-2,{},{},set([]),set([]),subset
+bh_list.c,bh_list_init-0,set(['3']),set(['3']),set([]),set([]),subset
+bh_list.c,bh_list_remove-3,set(['4']),set(['4']),set([]),set([]),subset
+bh_list.c,bh_list_remove-2,set(['4']),set(['4']),set([]),set([]),subset
+bh_list.c,bh_list_remove-1,{},{},set([]),set([]),subset
+bh_list.c,bh_list_remove-0,set(['12']),set(['12']),set([]),set([]),subset
+wasm_application.c,check_main_func_type-0,set(['12']),set(['12']),set([]),set([]),subset
+wasm_application.c,runtime_malloc-0,set(['9']),set(['9']),set([]),set([]),subset
+wasm_application.c,runtime_malloc-1,{},{},set([]),set([]),subset
+wasm_application.c,wasm_application_execute_main-1,{},{},set([]),set([]),subset
+wasm_application.c,wasm_application_execute_main-0,set(['45']),set(['45']),set([]),set([]),subset
+wasm_application.c,wasm_application_execute_main-3,set(['27']),set(['27']),set([]),set([]),subset
+wasm_application.c,wasm_application_execute_main-2,"set(['10', '12'])","set(['10', '12'])",set([]),set([]),subset
+wasm_application.c,wasm_application_execute_main-5,{},{},set([]),set([]),subset
+wasm_application.c,wasm_application_execute_main-4,set(['8']),set(['8']),set([]),set([]),subset
+wasm_application.c,wasm_application_execute_main-7,set(['37']),set(['37']),set([]),set([]),subset
+wasm_application.c,wasm_application_execute_main-6,{},{},set([]),set([]),subset
+wasm_application.c,wasm_application_execute_main-9,"set(['27', '20'])","set(['27', '20'])",set([]),set([]),subset
+wasm_application.c,wasm_application_execute_main-8,set(['20']),set(['20']),set([]),set([]),subset
+wasm_application.c,wasm_application_execute_func-0,set(['86']),set(['86']),set([]),set([]),subset
+wasm_application.c,wasm_application_execute_func-1,set(['62']),set(['62']),set([]),set([]),subset
+wasm_application.c,wasm_application_execute_func-2,"set(['57', '15', '62'])","set(['57', '15', '62'])",set([]),set([]),subset
+wasm_application.c,wasm_application_execute_func-3,set(['15']),set(['15']),set([]),set([]),subset
+wasm_application.c,wasm_application_execute_func-4,"set(['78', '70'])","set(['78', '70'])",set([]),set([]),subset
+wasm_application.c,wasm_application_execute_func-5,{},{},set([]),set([]),subset
+wasm_application.c,wasm_application_execute_func-6,{},{},set([]),set([]),subset
+wasm_application.c,wasm_application_execute_func-7,set(['70']),set(['70']),set([]),set([]),subset
+wasm_application.c,wasm_application_execute_func-8,set(['83']),set(['83']),set([]),set([]),subset
+wasm_application.c,wasm_application_execute_func-9,{},{},set([]),set([]),subset
+wasm_application.c,wasm_application_execute_main-10,set(['37']),set(['37']),set([]),set([]),subset
+wasm_runtime.c,wasm_instantiate-10,{},{},set([]),set([]),subset
+wasm_runtime.c,wasm_instantiate-11,"set(['24', '69', '41'])","set(['24', '69', '41'])",set([]),set([]),subset
+wasm_runtime.c,clear_wasi_proc_exit_exception-1,{},{},set([]),set([]),subset
+wasm_runtime.c,clear_wasi_proc_exit_exception-0,set(['4']),set(['4']),set([]),set([]),subset
+wasm_runtime.c,tables_instantiate-5,set(['3']),set(['3']),set([]),set([]),subset
+wasm_runtime.c,tables_instantiate-4,{},{},set([]),set([]),subset
+wasm_runtime.c,tables_instantiate-7,"set(['3', '14'])","set(['3', '14'])",set([]),set([]),subset
+wasm_runtime.c,tables_instantiate-6,"set(['3', '14'])","set(['3', '14'])",set([]),set([]),subset
+wasm_runtime.c,tables_instantiate-1,{},{},set([]),set([]),subset
+wasm_runtime.c,tables_instantiate-0,"set(['10', '3', '14', '25', '21'])","set(['10', '3', '14', '25', '21'])",set([]),set([]),subset
+wasm_runtime.c,tables_instantiate-3,"set(['10', '21'])","set(['10', '21'])",set([]),set([]),subset
+wasm_runtime.c,tables_instantiate-2,{},{},set([]),set([]),subset
+wasm_runtime.c,tables_instantiate-8,{},{},set([]),set([]),subset
+wasm_runtime.c,tables_deinstantiate-0,set(['2']),set(['2']),set([]),set([]),subset
+wasm_runtime.c,memory_instantiate-6,{},{},set([]),set([]),subset
+wasm_runtime.c,memory_instantiate-5,"set(['27', '28', '4', '22', '21'])","set(['27', '28', '4', '22', '21'])",set([]),set([]),subset
+wasm_runtime.c,memory_instantiate-4,"set(['26', '27', '28'])","set(['26', '27', '28'])",set([]),set([]),subset
+wasm_runtime.c,memory_instantiate-3,"set(['27', '28'])","set(['27', '28'])",set([]),set([]),subset
+wasm_runtime.c,memory_instantiate-2,set(['28']),set(['28']),set([]),set([]),subset
+wasm_runtime.c,memory_instantiate-1,set(['39']),set(['39']),set([]),set([]),subset
+wasm_runtime.c,memory_instantiate-0,set(['49']),set(['49']),set([]),set([]),subset
+wasm_runtime.c,memory_instantiate-9,"set(['18', '22'])","set(['18', '22'])",set([]),set([]),subset
+wasm_runtime.c,memory_instantiate-8,set(['18']),set(['18']),set([]),set([]),subset
+wasm_runtime.c,wasm_enlarge_memory-1,{},{},set([]),set([]),subset
+wasm_runtime.c,wasm_module_free-0,set(['14']),set(['14']),set([]),set([]),subset
+wasm_runtime.c,wasm_validate_app_addr-0,set(['8']),set(['8']),set([]),set([]),subset
+wasm_runtime.c,wasm_validate_app_addr-1,{},{},set([]),set([]),subset
+wasm_runtime.c,memories_instantiate-5,set(['3']),set(['3']),set([]),set([]),subset
+wasm_runtime.c,export_functions_instantiate-4,"set(['3', '6'])","set(['3', '6'])",set([]),set([]),subset
+wasm_runtime.c,export_functions_instantiate-0,set(['9']),set(['9']),set([]),set([]),subset
+wasm_runtime.c,export_functions_instantiate-1,{},{},set([]),set([]),subset
+wasm_runtime.c,export_functions_instantiate-2,set(['3']),set(['3']),set([]),set([]),subset
+wasm_runtime.c,export_functions_instantiate-3,set(['3']),set(['3']),set([]),set([]),subset
+wasm_runtime.c,execute_post_inst_function-3,set(['1']),set(['1']),set([]),set([]),subset
+wasm_runtime.c,execute_post_inst_function-2,set(['6']),set(['6']),set([]),set([]),subset
+wasm_runtime.c,execute_post_inst_function-1,{},{},set([]),set([]),subset
+wasm_runtime.c,execute_post_inst_function-0,set(['12']),set(['12']),set([]),set([]),subset
+wasm_runtime.c,wasm_lookup_function-2,set(['1']),set(['1']),set([]),set([]),subset
+wasm_runtime.c,check_global_init_expr-0,set(['6']),set(['6']),set([]),set([]),subset
+wasm_runtime.c,memory_instantiate-10,"set(['27', '28', '22'])","set(['27', '28', '22'])",set([]),set([]),subset
+wasm_runtime.c,wasm_get_exception-0,set(['3']),set(['3']),set([]),set([]),subset
+wasm_runtime.c,wasm_enlarge_memory-0,set(['30']),set(['30']),set([]),set([]),subset
+wasm_runtime.c,wasm_enlarge_memory-3,set(['25']),set(['25']),set([]),set([]),subset
+wasm_runtime.c,wasm_enlarge_memory-2,"set(['28', '29'])","set(['28', '29'])",set([]),set([]),subset
+wasm_runtime.c,memories_deinstantiate-0,set(['2']),set(['2']),set([]),set([]),subset
+wasm_runtime.c,wasm_instantiate-8,set(['9']),set(['9']),set([]),set([]),subset
+wasm_runtime.c,get_export_count-0,set(['1']),set(['1']),set([]),set([]),subset
+wasm_runtime.c,get_export_count-1,"set(['1', '4'])","set(['1', '4'])",set([]),set([]),subset
+wasm_runtime.c,get_export_count-2,set(['1']),set(['1']),set([]),set([]),subset
+wasm_runtime.c,wasm_instantiate-9,set(['24']),set(['24']),set([]),set([]),subset
+wasm_runtime.c,wasm_get_app_addr_range-1,{},{},set([]),set([]),subset
+wasm_runtime.c,wasm_get_app_addr_range-0,set(['9']),set(['9']),set([]),set([]),subset
+wasm_runtime.c,globals_instantiate-3,"set(['10', '3'])","set(['10', '3'])",set([]),set([]),subset
+wasm_runtime.c,globals_instantiate-2,"set(['10', '3', '23'])","set(['10', '3', '23'])",set([]),set([]),subset
+wasm_runtime.c,globals_instantiate-1,set(['23']),set(['23']),set([]),set([]),subset
+wasm_runtime.c,globals_instantiate-0,"set(['10', '27', '23'])","set(['10', '27', '23'])",set([]),set([]),subset
+wasm_runtime.c,globals_instantiate-5,set(['3']),set(['3']),set([]),set([]),subset
+wasm_runtime.c,globals_instantiate-4,"set(['10', '3'])","set(['10', '3'])",set([]),set([]),subset
+wasm_runtime.c,wasm_value_type_size-0,set(['7']),set(['7']),set([]),set([]),subset
+wasm_runtime.c,wasm_lookup_function-1,{},{},set([]),set([]),subset
+wasm_runtime.c,wasm_lookup_function-0,set(['7']),set(['7']),set([]),set([]),subset
+wasm_runtime.c,wasm_instantiate-1,{},{},set([]),set([]),subset
+wasm_runtime.c,memory_instantiate-7,"set(['14', '16'])","set(['14', '16'])",set([]),set([]),subset
+wasm_runtime.c,wasm_create_exec_env_singleton-0,set(['5']),set(['5']),set([]),set([]),subset
+wasm_runtime.c,wasm_create_exec_env_singleton-1,{},{},set([]),set([]),subset
+wasm_runtime.c,wasm_create_exec_env_singleton-2,{},{},set([]),set([]),subset
+wasm_runtime.c,memories_instantiate-1,set(['7']),set(['7']),set([]),set([]),subset
+wasm_runtime.c,memories_instantiate-0,"set(['3', '21', '7'])","set(['3', '21', '7'])",set([]),set([]),subset
+wasm_runtime.c,memories_instantiate-3,"set(['11', '3'])","set(['11', '3'])",set([]),set([]),subset
+wasm_runtime.c,memories_instantiate-2,{},{},set([]),set([]),subset
+wasm_runtime.c,wasm_get_native_addr_range-0,set(['10']),set(['10']),set([]),set([]),subset
+wasm_runtime.c,wasm_get_native_addr_range-1,{},{},set([]),set([]),subset
+wasm_runtime.c,wasm_addr_native_to_app-0,set(['6']),set(['6']),set([]),set([]),subset
+wasm_runtime.c,wasm_addr_native_to_app-1,{},{},set([]),set([]),subset
+wasm_runtime.c,wasm_addr_app_to_native-0,set(['6']),set(['6']),set([]),set([]),subset
+wasm_runtime.c,wasm_addr_app_to_native-1,{},{},set([]),set([]),subset
+wasm_runtime.c,execute_malloc_function-1,set(['2']),set(['2']),set([]),set([]),subset
+wasm_runtime.c,execute_malloc_function-0,set(['5']),set(['5']),set([]),set([]),subset
+wasm_runtime.c,functions_instantiate-2,"set(['3', '7'])","set(['3', '7'])",set([]),set([]),subset
+wasm_runtime.c,functions_instantiate-3,"set(['3', '7'])","set(['3', '7'])",set([]),set([]),subset
+wasm_runtime.c,functions_instantiate-0,set(['11']),set(['11']),set([]),set([]),subset
+wasm_runtime.c,functions_instantiate-1,{},{},set([]),set([]),subset
+wasm_runtime.c,functions_instantiate-4,set(['3']),set(['3']),set([]),set([]),subset
+wasm_runtime.c,memories_instantiate-4,"set(['11', '3'])","set(['11', '3'])",set([]),set([]),subset
+wasm_runtime.c,execute_start_function-0,set(['3']),set(['3']),set([]),set([]),subset
+wasm_runtime.c,execute_start_function-1,{},{},set([]),set([]),subset
+wasm_runtime.c,wasm_create_exec_env_and_call_function-0,set(['3']),set(['3']),set([]),set([]),subset
+wasm_runtime.c,wasm_create_exec_env_and_call_function-1,{},{},set([]),set([]),subset
+wasm_runtime.c,wasm_call_indirect-5,{},{},set([]),set([]),subset
+wasm_runtime.c,wasm_call_indirect-4,{},{},set([]),set([]),subset
+wasm_runtime.c,wasm_call_indirect-3,{},{},set([]),set([]),subset
+wasm_runtime.c,wasm_call_indirect-2,{},{},set([]),set([]),subset
+wasm_runtime.c,wasm_call_indirect-1,{},{},set([]),set([]),subset
+wasm_runtime.c,wasm_call_indirect-0,set(['10']),set(['10']),set([]),set([]),subset
+wasm_runtime.c,wasm_module_realloc-2,set(['4']),set(['4']),set([]),set([]),subset
+wasm_runtime.c,wasm_module_realloc-0,set(['13']),set(['13']),set([]),set([]),subset
+wasm_runtime.c,wasm_module_realloc-1,{},{},set([]),set([]),subset
+wasm_runtime.c,runtime_malloc-0,set(['4']),set(['4']),set([]),set([]),subset
+wasm_runtime.c,runtime_malloc-1,{},{},set([]),set([]),subset
+wasm_runtime.c,wasm_module_malloc-1,{},{},set([]),set([]),subset
+wasm_runtime.c,wasm_module_malloc-0,set(['22']),set(['22']),set([]),set([]),subset
+wasm_runtime.c,wasm_module_malloc-3,"set(['13', '12'])","set(['13', '12'])",set([]),set([]),subset
+wasm_runtime.c,wasm_module_malloc-2,"set(['13', '12'])","set(['13', '12'])",set([]),set([]),subset
+wasm_runtime.c,wasm_validate_native_addr-1,{},{},set([]),set([]),subset
+wasm_runtime.c,wasm_validate_native_addr-0,set(['9']),set(['9']),set([]),set([]),subset
+wasm_runtime.c,wasm_instantiate-0,set(['114']),set(['114']),set([]),set([]),subset
+wasm_runtime.c,check_linked_symbol-0,"set(['1', '7'])","set(['1', '7'])",set([]),set([]),subset
+wasm_runtime.c,wasm_instantiate-2,{},{},set([]),set([]),subset
+wasm_runtime.c,wasm_instantiate-3,set(['95']),set(['95']),set([]),set([]),subset
+wasm_runtime.c,wasm_instantiate-4,set(['4']),set(['4']),set([]),set([]),subset
+wasm_runtime.c,wasm_instantiate-5,"set(['90', '62'])","set(['90', '62'])",set([]),set([]),subset
+wasm_runtime.c,wasm_instantiate-6,set(['35']),set(['35']),set([]),set([]),subset
+wasm_runtime.c,wasm_instantiate-7,"set(['24', '32'])","set(['24', '32'])",set([]),set([]),subset
+bh_common.c,wa_strdup-0,set(['10']),set(['10']),set([]),set([]),subset
+bh_common.c,b_memmove_s-1,{},{},set([]),set([]),subset
+bh_common.c,b_strcat_s-0,set(['6']),set(['6']),set([]),set([]),subset
+bh_common.c,bh_strdup-0,set(['10']),set(['10']),set([]),set([]),subset
+bh_common.c,b_strcpy_s-0,set(['6']),set(['6']),set([]),set([]),subset
+bh_common.c,b_memcpy_s-1,{},{},set([]),set([]),subset
+bh_common.c,b_memcpy_s-0,set(['9']),set(['9']),set([]),set([]),subset
+bh_common.c,b_memmove_s-0,set(['9']),set(['9']),set([]),set([]),subset
+posix.c,wasmtime_ssp_fd_prestat_get-0,set(['3']),set(['3']),set([]),set([]),subset
+posix.c,wasmtime_ssp_fd_prestat_get-1,{},{},set([]),set([]),subset
+posix.c,wasmtime_ssp_path_create_directory-0,"set(['5', '6'])","set(['5', '6'])",set([]),set([]),subset
+posix.c,wasmtime_ssp_path_create_directory-1,{},{},set([]),set([]),subset
+posix.c,wasmtime_ssp_clock_time_get-0,"set(['5', '6'])","set(['5', '6'])",set([]),set([]),subset
+posix.c,wasmtime_ssp_clock_time_get-1,{},{},set([]),set([]),subset
+posix.c,convert_errno-0,set(['5']),set(['5']),set([]),set([]),subset
+posix.c,fd_readdir_put-0,set(['2']),set(['2']),set([]),set([]),subset
+posix.c,fd_prestats_grow-0,"set(['32', '29'])","set(['32', '29'])",set([]),set([]),subset
+posix.c,fd_prestats_grow-1,set(['24']),set(['24']),set([]),set([]),subset
+posix.c,fd_prestats_grow-2,set(['29']),set(['29']),set([]),set([]),subset
+posix.c,fd_prestats_grow-3,set(['6']),set(['6']),set([]),set([]),subset
+posix.c,wasmtime_ssp_sock_shutdown-2,set(['5']),set(['5']),set([]),set([]),subset
+posix.c,wasmtime_ssp_sock_shutdown-1,{},{},set([]),set([]),subset
+posix.c,wasmtime_ssp_sock_shutdown-0,"set(['11', '10', '12'])","set(['11', '10', '12'])",set([]),set([]),subset
+posix.c,wasmtime_ssp_path_open-6,"set(['55', '54', '53'])","set(['55', '54', '53'])",set([]),set([]),subset
+posix.c,wasmtime_ssp_path_open-4,"set(['11', '5'])","set(['11', '5'])",set([]),set([]),subset
+posix.c,wasmtime_ssp_path_open-5,"set(['11', '13', '15', '21', '17', '19', '28', '5', '7', '9'])","set(['11', '13', '15', '21', '17', '19', '28', '5', '7', '9'])",set([]),set([]),subset
+posix.c,wasmtime_ssp_fd_read-1,{},{},set([]),set([]),subset
+posix.c,wasmtime_ssp_fd_read-0,"set(['5', '6'])","set(['5', '6'])",set([]),set([]),subset
+posix.c,wasmtime_ssp_path_open-0,"set(['38', '59', '58', '55', '44', '57'])","set(['38', '59', '58', '55', '44', '57'])",set([]),set([]),subset
+posix.c,wasmtime_ssp_path_open-1,"set(['55', '38'])","set(['55', '38'])",set([]),set([]),subset
+posix.c,wasmtime_ssp_fd_pwrite-6,set(['25']),set(['25']),set([]),set([]),subset
+posix.c,wasmtime_ssp_fd_pwrite-4,set(['7']),set(['7']),set([]),set([]),subset
+posix.c,wasmtime_ssp_fd_pwrite-5,"set(['25', '27'])","set(['25', '27'])",set([]),set([]),subset
+posix.c,wasmtime_ssp_fd_pwrite-2,set(['14']),set(['14']),set([]),set([]),subset
+posix.c,wasmtime_ssp_fd_pwrite-3,set(['7']),set(['7']),set([]),set([]),subset
+posix.c,wasmtime_ssp_fd_pwrite-0,"set(['25', '31', '30', '32'])","set(['25', '31', '30', '32'])",set([]),set([]),subset
+posix.c,wasmtime_ssp_fd_pwrite-1,set(['14']),set(['14']),set([]),set([]),subset
+posix.c,wasmtime_ssp_fd_fdstat_get-0,"set(['15', '16'])","set(['15', '16'])",set([]),set([]),subset
+posix.c,wasmtime_ssp_fd_fdstat_get-1,{},{},set([]),set([]),subset
+posix.c,readlinkat_dup-2,"set(['1', '18', '19'])","set(['1', '18', '19'])",set([]),set([]),subset
+posix.c,fd_table_grow-3,set(['6']),set(['6']),set([]),set([]),subset
+posix.c,fd_table_grow-2,set(['29']),set(['29']),set([]),set([]),subset
+posix.c,fd_table_grow-1,set(['24']),set(['24']),set([]),set([]),subset
+posix.c,fd_determine_type_rights-1,set(['21']),set(['21']),set([]),set([]),subset
+posix.c,fd_object_get_locked-0,set(['3']),set(['3']),set([]),set([]),subset
+posix.c,wasmtime_ssp_path_remove_directory-0,"set(['9', '8'])","set(['9', '8'])",set([]),set([]),subset
+posix.c,wasmtime_ssp_fd_readdir-2,set(['29']),set(['29']),set([]),set([]),subset
+posix.c,wasmtime_ssp_clock_res_get-0,"set(['5', '6'])","set(['5', '6'])",set([]),set([]),subset
+posix.c,wasmtime_ssp_clock_res_get-1,{},{},set([]),set([]),subset
+posix.c,wasmtime_ssp_sock_recv-1,{},{},set([]),set([]),subset
+posix.c,wasmtime_ssp_sock_recv-0,"set(['11', '12'])","set(['11', '12'])",set([]),set([]),subset
+posix.c,wasmtime_ssp_sock_recv-2,"set(['2', '4'])","set(['2', '4'])",set([]),set([]),subset
+posix.c,wasmtime_ssp_fd_datasync-0,"set(['5', '6'])","set(['5', '6'])",set([]),set([]),subset
+posix.c,fd_object_get_locked-1,{},{},set([]),set([]),subset
+posix.c,wasmtime_ssp_fd_readdir-0,"set(['33', '32', '12', '29'])","set(['33', '32', '12', '29'])",set([]),set([]),subset
+posix.c,cond_init_realtime-0,set(['3']),set(['3']),set([]),set([]),subset
+posix.c,wasmtime_ssp_fd_advise-0,set(['4']),set(['4']),set([]),set([]),subset
+posix.c,readlinkat_dup-3,"set(['1', '18', '19'])","set(['1', '18', '19'])",set([]),set([]),subset
+posix.c,wasmtime_ssp_fd_pread-4,set(['10']),set(['10']),set([]),set([]),subset
+posix.c,wasmtime_ssp_fd_pread-5,{},{},set([]),set([]),subset
+posix.c,wasmtime_ssp_fd_pread-0,"set(['8', '42', '43', '40', '41'])","set(['8', '42', '43', '40', '41'])",set([]),set([]),subset
+posix.c,wasmtime_ssp_fd_pread-1,set(['19']),set(['19']),set([]),set([]),subset
+posix.c,wasmtime_ssp_fd_pread-2,set(['19']),set(['19']),set([]),set([]),subset
+posix.c,wasmtime_ssp_fd_pread-3,set(['10']),set(['10']),set([]),set([]),subset
+posix.c,convert_timespec-0,set(['5']),set(['5']),set([]),set([]),subset
+posix.c,fd_table_unused-0,"set(['1', '4'])","set(['1', '4'])",set([]),set([]),subset
+posix.c,fd_table_unused-1,set(['4']),set(['4']),set([]),set([]),subset
+posix.c,wasmtime_ssp_args_get-0,set(['1']),set(['1']),set([]),set([]),subset
+posix.c,wasmtime_ssp_fd_sync-0,"set(['5', '6'])","set(['5', '6'])",set([]),set([]),subset
+posix.c,wasmtime_ssp_fd_sync-1,{},{},set([]),set([]),subset
+posix.c,wasmtime_ssp_sched_yield-0,set(['3']),set(['3']),set([]),set([]),subset
+posix.c,fd_table_insert_fd-1,{},{},set([]),set([]),subset
+posix.c,fd_table_insert_fd-0,set(['7']),set(['7']),set([]),set([]),subset
+posix.c,wasmtime_ssp_fd_filestat_set_times-0,"set(['9', '8', '7'])","set(['9', '8', '7'])",set([]),set([]),subset
+posix.c,wasmtime_ssp_path_filestat_set_times-0,"set(['11', '13', '12'])","set(['11', '13', '12'])",set([]),set([]),subset
+posix.c,wasmtime_ssp_path_filestat_set_times-1,{},{},set([]),set([]),subset
+posix.c,wasmtime_ssp_fd_seek-1,{},{},set([]),set([]),subset
+posix.c,wasmtime_ssp_fd_seek-0,"set(['13', '12', '14'])","set(['13', '12', '14'])",set([]),set([]),subset
+posix.c,wasmtime_ssp_fd_readdir-1,set(['6']),set(['6']),set([]),set([]),subset
+posix.c,wasmtime_ssp_fd_seek-2,set(['5']),set(['5']),set([]),set([]),subset
+posix.c,fd_table_destroy-0,set(['2']),set(['2']),set([]),set([]),subset
+posix.c,wasmtime_ssp_fd_prestat_dir_name-0,set(['11']),set(['11']),set([]),set([]),subset
+posix.c,wasmtime_ssp_fd_prestat_dir_name-1,{},{},set([]),set([]),subset
+posix.c,fd_table_get_entry-0,"set(['9', '8'])","set(['9', '8'])",set([]),set([]),subset
+posix.c,fd_table_get_entry-1,{},{},set([]),set([]),subset
+posix.c,wasmtime_ssp_fd_filestat_get-0,"set(['8', '7'])","set(['8', '7'])",set([]),set([]),subset
+posix.c,wasmtime_ssp_fd_filestat_get-1,{},{},set([]),set([]),subset
+posix.c,wasmtime_ssp_path_unlink_file-1,{},{},set([]),set([]),subset
+posix.c,wasmtime_ssp_path_unlink_file-0,"set(['11', '12'])","set(['11', '12'])",set([]),set([]),subset
+posix.c,fd_prestats_destroy-0,set(['2']),set(['2']),set([]),set([]),subset
+posix.c,wasmtime_ssp_fd_write-1,{},{},set([]),set([]),subset
+posix.c,wasmtime_ssp_fd_write-0,"set(['5', '6'])","set(['5', '6'])",set([]),set([]),subset
+posix.c,wasmtime_ssp_path_open-2,{},{},set([]),set([]),subset
+posix.c,readlinkat_dup-4,"set(['1', '19'])","set(['1', '19'])",set([]),set([]),subset
+posix.c,wasmtime_ssp_fd_fdstat_set_rights-1,{},{},set([]),set([]),subset
+posix.c,wasmtime_ssp_fd_fdstat_set_rights-0,set(['3']),set(['3']),set([]),set([]),subset
+posix.c,readlinkat_dup-0,"set(['1', '18', '19'])","set(['1', '18', '19'])",set([]),set([]),subset
+posix.c,readlinkat_dup-1,"set(['19', '18'])","set(['19', '18'])",set([]),set([]),subset
+posix.c,fd_prestats_insert-0,set(['5']),set(['5']),set([]),set([]),subset
+posix.c,wasmtime_ssp_fd_datasync-1,{},{},set([]),set([]),subset
+posix.c,convert_clockid-0,set(['6']),set(['6']),set([]),set([]),subset
+posix.c,wasmtime_ssp_path_readlink-0,"set(['15', '14'])","set(['15', '14'])",set([]),set([]),subset
+posix.c,wasmtime_ssp_fd_close-0,"set(['8', '3', '7'])","set(['8', '3', '7'])",set([]),set([]),subset
+posix.c,wasmtime_ssp_fd_close-1,set(['3']),set(['3']),set([]),set([]),subset
+posix.c,fd_table_init-0,set(['3']),set(['3']),set([]),set([]),subset
+posix.c,validate_path-0,set(['13']),set(['13']),set([]),set([]),subset
+posix.c,validate_path-1,{},{},set([]),set([]),subset
+posix.c,validate_path-2,set(['3']),set(['3']),set([]),set([]),subset
+posix.c,wasmtime_ssp_fd_renumber-1,{},{},set([]),set([]),subset
+posix.c,wasmtime_ssp_fd_renumber-0,"set(['11', '13', '12', '5'])","set(['11', '13', '12', '5'])",set([]),set([]),subset
+posix.c,wasmtime_ssp_fd_renumber-3,set(['2']),set(['2']),set([]),set([]),subset
+posix.c,wasmtime_ssp_fd_renumber-2,set(['5']),set(['5']),set([]),set([]),subset
+posix.c,wasmtime_ssp_proc_raise-0,set(['8']),set(['8']),set([]),set([]),subset
+posix.c,wasmtime_ssp_path_readlink-1,{},{},set([]),set([]),subset
+posix.c,wasmtime_ssp_path_symlink-0,"set(['9', '10', '11'])","set(['9', '10', '11'])",set([]),set([]),subset
+posix.c,wasmtime_ssp_path_symlink-1,{},{},set([]),set([]),subset
+posix.c,wasmtime_ssp_path_remove_directory-1,{},{},set([]),set([]),subset
+posix.c,fd_table_insert-0,set(['3']),set(['3']),set([]),set([]),subset
+posix.c,wasmtime_ssp_poll_oneoff-5,"set(['46', '47'])","set(['46', '47'])",set([]),set([]),subset
+posix.c,wasmtime_ssp_path_open-3,"set(['19', '24', '15', '21'])","set(['19', '24', '15', '21'])",set([]),set([]),subset
+posix.c,wasmtime_ssp_fd_tell-0,"set(['5', '6'])","set(['5', '6'])",set([]),set([]),subset
+posix.c,wasmtime_ssp_fd_tell-1,{},{},set([]),set([]),subset
+posix.c,wasmtime_ssp_fd_fdstat_set_flags-0,"set(['15', '16'])","set(['15', '16'])",set([]),set([]),subset
+posix.c,wasmtime_ssp_fd_fdstat_set_flags-1,{},{},set([]),set([]),subset
+posix.c,wasmtime_ssp_fd_fdstat_set_flags-2,"set(['8', '2', '4', '10', '6'])","set(['8', '2', '4', '10', '6'])",set([]),set([]),subset
+posix.c,wasmtime_ssp_path_link-2,set(['15']),set(['15']),set([]),set([]),subset
+posix.c,wasmtime_ssp_path_link-3,{},{},set([]),set([]),subset
+posix.c,wasmtime_ssp_path_link-0,"set(['20', '15', '21', '22'])","set(['20', '15', '21', '22'])",set([]),set([]),subset
+posix.c,wasmtime_ssp_path_link-1,"set(['15', '14', '17'])","set(['15', '14', '17'])",set([]),set([]),subset
+posix.c,wasmtime_ssp_environ_get-0,set(['1']),set(['1']),set([]),set([]),subset
+posix.c,wasmtime_ssp_sock_send-0,"set(['5', '6'])","set(['5', '6'])",set([]),set([]),subset
+posix.c,wasmtime_ssp_fd_filestat_set_size-1,{},{},set([]),set([]),subset
+posix.c,wasmtime_ssp_fd_filestat_set_size-0,"set(['5', '6'])","set(['5', '6'])",set([]),set([]),subset
+posix.c,fd_prestats_init-0,set(['3']),set(['3']),set([]),set([]),subset
+posix.c,wasmtime_ssp_fd_allocate-0,"set(['9', '8'])","set(['9', '8'])",set([]),set([]),subset
+posix.c,wasmtime_ssp_fd_allocate-1,set(['5']),set(['5']),set([]),set([]),subset
+posix.c,wasmtime_ssp_fd_allocate-2,{},{},set([]),set([]),subset
+posix.c,fd_table_insert_existing-0,set(['11']),set(['11']),set([]),set([]),subset
+posix.c,fd_table_insert_existing-1,{},{},set([]),set([]),subset
+posix.c,wasmtime_ssp_poll_oneoff-1,set(['78']),set(['78']),set([]),set([]),subset
+posix.c,wasmtime_ssp_poll_oneoff-0,"set(['13', '86', '87', '85'])","set(['13', '86', '87', '85'])",set([]),set([]),subset
+posix.c,wasmtime_ssp_poll_oneoff-3,set(['54']),set(['54']),set([]),set([]),subset
+posix.c,wasmtime_ssp_poll_oneoff-2,"set(['60', '61'])","set(['60', '61'])",set([]),set([]),subset
+posix.c,fd_prestats_get_entry-1,{},{},set([]),set([]),subset
+posix.c,fd_prestats_get_entry-0,"set(['5', '6'])","set(['5', '6'])",set([]),set([]),subset
+posix.c,wasmtime_ssp_path_rename-0,"set(['9', '8', '7'])","set(['9', '8', '7'])",set([]),set([]),subset
+posix.c,wasmtime_ssp_path_rename-1,{},{},set([]),set([]),subset
+posix.c,wasmtime_ssp_poll_oneoff-8,"set(['24', '36'])","set(['24', '36'])",set([]),set([]),subset
+posix.c,convert_timestamp-0,{},{},set([]),set([]),subset
+posix.c,wasmtime_ssp_fd_filestat_set_times-1,{},{},set([]),set([]),subset
+posix.c,fd_object_new-0,set(['3']),set(['3']),set([]),set([]),subset
+posix.c,fd_determine_type_rights-0,"set(['21', '35'])","set(['21', '35'])",set([]),set([]),subset
+posix.c,wasmtime_ssp_path_rename-2,{},{},set([]),set([]),subset
+posix.c,fd_table_grow-0,"set(['32', '29'])","set(['32', '29'])",set([]),set([]),subset
+posix.c,wasmtime_ssp_poll_oneoff-4,set(['77']),set(['77']),set([]),set([]),subset
+posix.c,wasmtime_ssp_path_filestat_get-1,{},{},set([]),set([]),subset
+posix.c,wasmtime_ssp_path_filestat_get-0,"set(['25', '26'])","set(['25', '26'])",set([]),set([]),subset
+posix.c,wasmtime_ssp_poll_oneoff-7,set(['24']),set(['24']),set([]),set([]),subset
+posix.c,wasmtime_ssp_poll_oneoff-6,set(['13']),set(['13']),set([]),set([]),subset
+posix.c,path_get-1,set(['79']),set(['79']),set([]),set([]),subset
+posix.c,path_get-0,"set(['86', '84', '85'])","set(['86', '84', '85'])",set([]),set([]),subset
+posix.c,path_get-3,set(['68']),set(['68']),set([]),set([]),subset
+posix.c,path_get-2,set(['74']),set(['74']),set([]),set([]),subset
+posix.c,path_get-5,"set(['5', '65'])","set(['5', '65'])",set([]),set([]),subset
+posix.c,path_get-4,"set(['46', '31', '45', '51', '41', '5', '65'])","set(['46', '31', '45', '51', '41', '5', '65'])",set([]),set([]),subset
+posix.c,path_get-7,"set(['46', '31', '45', '51', '5', '65'])","set(['46', '31', '45', '51', '5', '65'])",set([]),set([]),subset
+posix.c,path_get-6,"set(['59', '5', '50', '65'])","set(['59', '5', '50', '65'])",set([]),set([]),subset
+posix.c,path_get-9,"set(['31', '65'])","set(['31', '65'])",set([]),set([]),subset
+posix.c,path_get-8,"set(['46', '31', '45', '51', '5', '65'])","set(['46', '31', '45', '51', '5', '65'])",set([]),set([]),subset
+posix.c,cond_timedwait-0,set(['10']),set(['10']),set([]),set([]),subset
+posix.c,cond_timedwait-1,{},{},set([]),set([]),subset
+posix.c,cond_timedwait-2,{},{},set([]),set([]),subset
+bh_vector.c,extend_vector-0,set(['7']),set(['7']),set([]),set([]),subset
+bh_vector.c,extend_vector-1,{},{},set([]),set([]),subset
+bh_vector.c,bh_vector_destroy-0,set(['5']),set(['5']),set([]),set([]),subset
+bh_vector.c,alloc_vector_data-0,set(['7']),set(['7']),set([]),set([]),subset
+bh_vector.c,alloc_vector_data-1,{},{},set([]),set([]),subset
+bh_vector.c,bh_vector_remove-3,set(['7']),set(['7']),set([]),set([]),subset
+bh_vector.c,extend_vector-2,set(['4']),set(['4']),set([]),set([]),subset
+bh_vector.c,bh_vector_append-0,set(['6']),set(['6']),set([]),set([]),subset
+bh_vector.c,bh_vector_remove-0,set(['11']),set(['11']),set([]),set([]),subset
+bh_vector.c,bh_vector_remove-1,{},{},set([]),set([]),subset
+bh_vector.c,bh_vector_insert-0,set(['12']),set(['12']),set([]),set([]),subset
+bh_vector.c,bh_vector_insert-1,{},{},set([]),set([]),subset
+bh_vector.c,bh_vector_set-0,set(['6']),set(['6']),set([]),set([]),subset
+bh_vector.c,bh_vector_insert-3,set(['8']),set(['8']),set([]),set([]),subset
+bh_vector.c,bh_vector_insert-2,set(['8']),set(['8']),set([]),set([]),subset
+bh_vector.c,bh_vector_remove-2,set(['7']),set(['7']),set([]),set([]),subset
+bh_vector.c,bh_vector_get-0,set(['6']),set(['6']),set([]),set([]),subset
+bh_vector.c,bh_vector_init-0,set(['7']),set(['7']),set([]),set([]),subset
+bh_vector.c,bh_vector_init-1,set(['4']),set(['4']),set([]),set([]),subset
+wasm_memory.c,wasm_runtime_malloc_internal-0,set(['5']),set(['5']),set([]),set([]),subset
+wasm_memory.c,wasm_runtime_malloc-0,set(['2']),set(['2']),set([]),set([]),subset
+wasm_memory.c,wasm_memory_init_with_allocator-0,set(['5']),set(['5']),set([]),set([]),subset
+wasm_memory.c,wasm_runtime_memory_init-0,set(['7']),set(['7']),set([]),set([]),subset
+wasm_memory.c,wasm_memory_init_with_pool-0,set(['3']),set(['3']),set([]),set([]),subset
+wasm_memory.c,wasm_memory_init_with_pool-1,{},{},set([]),set([]),subset
+wasm_memory.c,wasm_runtime_memory_pool_size-0,set(['3']),set(['3']),set([]),set([]),subset
+wasm_memory.c,wasm_runtime_realloc_internal-0,set(['7']),set(['7']),set([]),set([]),subset
+bh_read_file.c,bh_read_file_to_buffer-0,set(['15']),set(['15']),set([]),set([]),subset
+bh_read_file.c,bh_read_file_to_buffer-1,{},{},set([]),set([]),subset
+posix_socket.c,os_socket_create-0,set(['8']),set(['8']),set([]),set([]),subset
+posix_socket.c,os_socket_accept-0,set(['3']),set(['3']),set([]),set([]),subset
+posix_socket.c,os_socket_accept-1,{},{},set([]),set([]),subset
+posix_socket.c,os_socket_listen-0,set(['3']),set(['3']),set([]),set([]),subset
+posix_socket.c,os_socket_bind-2,{},{},set([]),set([]),subset
+posix_socket.c,os_socket_bind-1,{},{},set([]),set([]),subset
+posix_socket.c,os_socket_bind-0,set(['16']),set(['16']),set([]),set([]),subset
+aot_reloc_x86_64.c,init_plt_table-1,set(['1']),set(['1']),set([]),set([]),subset
+aot_reloc_x86_64.c,init_plt_table-0,set(['1']),set(['1']),set([]),set([]),subset
+aot_reloc_x86_64.c,apply_relocation-0,"set(['45', '28', '40', '7', '16'])","set(['45', '28', '40', '7', '16'])",set([]),set([]),subset
+aot_reloc_x86_64.c,apply_relocation-1,set(['37']),set(['37']),set([]),set([]),subset
+aot_reloc_x86_64.c,apply_relocation-2,"set(['28', '40', '7', '16'])","set(['28', '40', '7', '16'])",set([]),set([]),subset
+aot_reloc_x86_64.c,check_reloc_offset-0,set(['4']),set(['4']),set([]),set([]),subset
+posix_memmap.c,os_mprotect-0,set(['9']),set(['9']),set([]),set([]),subset
+posix_memmap.c,os_mprotect-1,{},{},set([]),set([]),subset
+posix_memmap.c,os_mmap-4,set(['12']),set(['12']),set([]),set([]),subset
+posix_memmap.c,os_mmap-5,"set(['8', '10', '6'])","set(['8', '10', '6'])",set([]),set([]),subset
+posix_memmap.c,os_mmap-2,set(['14']),set(['14']),set([]),set([]),subset
+posix_memmap.c,os_mmap-3,"set(['19', '20', '14'])","set(['19', '20', '14'])",set([]),set([]),subset
+posix_memmap.c,os_mmap-0,set(['23']),set(['23']),set([]),set([]),subset
+posix_memmap.c,os_mmap-1,{},{},set([]),set([]),subset
+posix_memmap.c,os_munmap-0,set(['5']),set(['5']),set([]),set([]),subset
+posix_memmap.c,os_mprotect-2,"set(['8', '4', '6'])","set(['8', '4', '6'])",set([]),set([]),subset
+wasm_interp_fast.c,ctz32-2,set(['3']),set(['3']),set([]),set([]),subset
+wasm_interp_fast.c,ctz32-3,{},{},set([]),set([]),subset
+wasm_interp_fast.c,ctz32-0,set(['6']),set(['6']),set([]),set([]),subset
+wasm_interp_fast.c,ctz32-1,set(['3']),set(['3']),set([]),set([]),subset
+wasm_interp_fast.c,wasm_exec_env_alloc_wasm_frame-0,set(['3']),set(['3']),set([]),set([]),subset
+wasm_interp_fast.c,sign_ext_16_32-0,set(['3']),set(['3']),set([]),set([]),subset
+wasm_interp_fast.c,popcount64-0,set(['1']),set(['1']),set([]),set([]),subset
+wasm_interp_fast.c,copy_stack_values-5,"set(['8', '15'])","set(['8', '15'])",set([]),set([]),subset
+wasm_interp_fast.c,copy_stack_values-4,"set(['3', '5', '7'])","set(['3', '5', '7'])",set([]),set([]),subset
+wasm_interp_fast.c,copy_stack_values-3,{},{},set([]),set([]),subset
+wasm_interp_fast.c,copy_stack_values-2,"set(['8', '15'])","set(['8', '15'])",set([]),set([]),subset
+wasm_interp_fast.c,copy_stack_values-1,set(['5']),set(['5']),set([]),set([]),subset
+wasm_interp_fast.c,copy_stack_values-0,"set(['24', '5'])","set(['24', '5'])",set([]),set([]),subset
+wasm_interp_fast.c,clz32-2,set(['3']),set(['3']),set([]),set([]),subset
+wasm_interp_fast.c,clz32-3,{},{},set([]),set([]),subset
+wasm_interp_fast.c,clz32-0,set(['6']),set(['6']),set([]),set([]),subset
+wasm_interp_fast.c,sign_ext_16_64-0,set(['3']),set(['3']),set([]),set([]),subset
+wasm_interp_fast.c,trunc_f64_to_int-0,set(['25']),set(['25']),set([]),set([]),subset
+wasm_interp_fast.c,wa_fmin-1,{},{},set([]),set([]),subset
+wasm_interp_fast.c,wa_fmin-0,set(['11']),set(['11']),set([]),set([]),subset
+wasm_interp_fast.c,wasm_interp_call_func_bytecode-21,{},{},set([]),set([]),subset
+wasm_interp_fast.c,wasm_interp_call_func_bytecode-20,{},{},set([]),set([]),subset
+wasm_interp_fast.c,wasm_interp_call_func_bytecode-23,set(['55']),set(['55']),set([]),set([]),subset
+wasm_interp_fast.c,wasm_interp_call_func_bytecode-22,{},{},set([]),set([]),subset
+wasm_interp_fast.c,wasm_interp_call_func_bytecode-25,{},{},set([]),set([]),subset
+wasm_interp_fast.c,wasm_interp_call_func_bytecode-24,set(['57']),set(['57']),set([]),set([]),subset
+wasm_interp_fast.c,wasm_interp_call_func_bytecode-27,{},{},set([]),set([]),subset
+wasm_interp_fast.c,wasm_interp_call_func_bytecode-26,{},{},set([]),set([]),subset
+wasm_interp_fast.c,wasm_interp_call_func_bytecode-29,{},{},set([]),set([]),subset
+wasm_interp_fast.c,wasm_interp_call_func_bytecode-28,{},{},set([]),set([]),subset
+wasm_interp_fast.c,word_copy-2,set(['1']),set(['1']),set([]),set([]),subset
+wasm_interp_fast.c,trunc_f32_to_int-1,{},{},set([]),set([]),subset
+wasm_interp_fast.c,trunc_f32_to_int-0,set(['25']),set(['25']),set([]),set([]),subset
+wasm_interp_fast.c,wasm_interp_call_func_bytecode-2,"set(['1479', '1466', '1494', '1448'])","set(['1479', '1466', '1494', '1448'])",set([]),set([]),subset
+wasm_interp_fast.c,wasm_interp_call_func_bytecode-3,"set(['1466', '1494', '1479'])","set(['1466', '1494', '1479'])",set([]),set([]),subset
+wasm_interp_fast.c,wasm_interp_call_func_bytecode-0,set(['1462']),set(['1462']),set([]),set([]),subset
+wasm_interp_fast.c,wasm_interp_call_func_bytecode-1,set(['1449']),set(['1449']),set([]),set([]),subset
+wasm_interp_fast.c,wasm_interp_call_func_bytecode-6,"set(['69', '62'])","set(['69', '62'])",set([]),set([]),subset
+wasm_interp_fast.c,wasm_interp_call_func_bytecode-7,"set(['1471', '1494', '324', '1479'])","set(['1471', '1494', '324', '1479'])",set([]),set([]),subset
+wasm_interp_fast.c,wasm_interp_call_func_bytecode-4,"set(['1479', '1494', '324'])","set(['1479', '1494', '324'])",set([]),set([]),subset
+wasm_interp_fast.c,wasm_interp_call_func_bytecode-5,set(['82']),set(['82']),set([]),set([]),subset
+wasm_interp_fast.c,sign_ext_32_64-0,set(['3']),set(['3']),set([]),set([]),subset
+wasm_interp_fast.c,wasm_interp_call_func_bytecode-8,set(['62']),set(['62']),set([]),set([]),subset
+wasm_interp_fast.c,wasm_interp_call_func_bytecode-9,{},{},set([]),set([]),subset
+wasm_interp_fast.c,ctz64-3,{},{},set([]),set([]),subset
+wasm_interp_fast.c,ctz64-2,set(['3']),set(['3']),set([]),set([]),subset
+wasm_interp_fast.c,ctz64-1,set(['3']),set(['3']),set([]),set([]),subset
+wasm_interp_fast.c,clz64-2,set(['3']),set(['3']),set([]),set([]),subset
+wasm_interp_fast.c,wasm_interp_call_func_native-0,set(['20']),set(['20']),set([]),set([]),subset
+wasm_interp_fast.c,sign_ext_8_64-0,set(['3']),set(['3']),set([]),set([]),subset
+wasm_interp_fast.c,clz32-1,set(['3']),set(['3']),set([]),set([]),subset
+wasm_interp_fast.c,clz64-1,set(['3']),set(['3']),set([]),set([]),subset
+wasm_interp_fast.c,sign_ext_8_32-0,set(['3']),set(['3']),set([]),set([]),subset
+wasm_interp_fast.c,wasm_interp_call_func_native-1,"set(['11', '12'])","set(['11', '12'])",set([]),set([]),subset
+wasm_interp_fast.c,clz64-0,set(['6']),set(['6']),set([]),set([]),subset
+wasm_interp_fast.c,wasm_interp_call_wasm-2,{},{},set([]),set([]),subset
+wasm_interp_fast.c,wasm_interp_call_wasm-1,set(['16']),set(['16']),set([]),set([]),subset
+wasm_interp_fast.c,wasm_interp_call_wasm-0,set(['22']),set(['22']),set([]),set([]),subset
+wasm_interp_fast.c,trunc_f32_to_i32-0,"set(['13', '12', '15', '14'])","set(['13', '12', '15', '14'])",set([]),set([]),subset
+wasm_interp_fast.c,popcount64-1,set(['1']),set(['1']),set([]),set([]),subset
+wasm_interp_fast.c,wasm_exec_env_alloc_wasm_frame-1,{},{},set([]),set([]),subset
+wasm_interp_fast.c,trunc_f64_to_int-1,{},{},set([]),set([]),subset
+wasm_interp_fast.c,popcount32-0,set(['1']),set(['1']),set([]),set([]),subset
+wasm_interp_fast.c,popcount32-1,set(['1']),set(['1']),set([]),set([]),subset
+wasm_interp_fast.c,trunc_f64_to_i32-0,"set(['13', '12', '15', '14'])","set(['13', '12', '15', '14'])",set([]),set([]),subset
+wasm_interp_fast.c,wasm_interp_call_func_bytecode-18,{},{},set([]),set([]),subset
+wasm_interp_fast.c,wasm_interp_call_func_bytecode-19,{},{},set([]),set([]),subset
+wasm_interp_fast.c,wasm_interp_call_func_bytecode-30,set(['1322']),set(['1322']),set([]),set([]),subset
+wasm_interp_fast.c,wasm_interp_call_func_bytecode-31,{},{},set([]),set([]),subset
+wasm_interp_fast.c,clz64-3,{},{},set([]),set([]),subset
+wasm_interp_fast.c,wasm_interp_call_func_bytecode-10,"set(['1490', '1466', '1494', '1479'])","set(['1490', '1466', '1494', '1479'])",set([]),set([]),subset
+wasm_interp_fast.c,wasm_interp_call_func_bytecode-11,"set(['1083', '1082', '1489', '25', '973', '47', '1111', '1112', '1403', '1466', '1463', '1448', '1490', '1494', '38', '16', '18', '944', '943', '1479', '926', '927'])","set(['1083', '1082', '1489', '25', '973', '47', '1111', '1112', '1403', '1466', '1463', '1448', '1490', '1494', '38', '16', '18', '944', '943', '1479', '926', '927'])",set([]),set([]),subset
+wasm_interp_fast.c,wasm_interp_call_func_bytecode-12,"set(['1479', '1494'])","set(['1479', '1494'])",set([]),set([]),subset
+wasm_interp_fast.c,wasm_interp_call_func_bytecode-13,{},{},set([]),set([]),subset
+wasm_interp_fast.c,wasm_interp_call_func_bytecode-14,{},{},set([]),set([]),subset
+wasm_interp_fast.c,wasm_interp_call_func_bytecode-15,set(['61']),set(['61']),set([]),set([]),subset
+wasm_interp_fast.c,wasm_interp_call_func_bytecode-16,{},{},set([]),set([]),subset
+wasm_interp_fast.c,wasm_interp_call_func_bytecode-17,set(['62']),set(['62']),set([]),set([]),subset
+wasm_interp_fast.c,word_copy-0,set(['1']),set(['1']),set([]),set([]),subset
+wasm_interp_fast.c,trunc_f32_to_i64-0,"set(['13', '12', '15', '14'])","set(['13', '12', '15', '14'])",set([]),set([]),subset
+wasm_interp_fast.c,word_copy-1,set(['1']),set(['1']),set([]),set([]),subset
+wasm_interp_fast.c,trunc_f64_to_i64-0,"set(['13', '12', '15', '14'])","set(['13', '12', '15', '14'])",set([]),set([]),subset
+wasm_interp_fast.c,ctz64-0,set(['6']),set(['6']),set([]),set([]),subset
+wasm_interp_fast.c,wa_fmax-1,{},{},set([]),set([]),subset
+wasm_interp_fast.c,wa_fmax-0,set(['11']),set(['11']),set([]),set([]),subset
+runtime_timer.c,sys_timer_restart-1,{},{},set([]),set([]),subset
+runtime_timer.c,sys_timer_restart-0,set(['3']),set(['3']),set([]),set([]),subset
+runtime_timer.c,reschedule_timer-1,set(['1']),set(['1']),set([]),set([]),subset
+runtime_timer.c,reschedule_timer-0,set(['1']),set(['1']),set([]),set([]),subset
+runtime_timer.c,sys_timer_destroy-0,set(['3']),set(['3']),set([]),set([]),subset
+runtime_timer.c,release_timer_list-0,set(['1']),set(['1']),set([]),set([]),subset
+runtime_timer.c,remove_timer_from-4,set(['3']),set(['3']),set([]),set([]),subset
+runtime_timer.c,get_expiry_ms-0,"set(['5', '6'])","set(['5', '6'])",set([]),set([]),subset
+runtime_timer.c,remove_timer_from-1,{},{},set([]),set([]),subset
+runtime_timer.c,remove_timer_from-0,set(['17']),set(['17']),set([]),set([]),subset
+runtime_timer.c,remove_timer_from-3,set(['4']),set(['4']),set([]),set([]),subset
+runtime_timer.c,remove_timer_from-2,set(['4']),set(['4']),set([]),set([]),subset
+runtime_timer.c,check_app_timers-0,"set(['1', '6'])","set(['1', '6'])",set([]),set([]),subset
+runtime_timer.c,check_app_timers-1,set(['1']),set(['1']),set([]),set([]),subset
+runtime_timer.c,check_app_timers-2,"set(['1', '6'])","set(['1', '6'])",set([]),set([]),subset
+runtime_timer.c,handle_expired_timers-0,set(['1']),set(['1']),set([]),set([]),subset
+runtime_timer.c,create_timer_ctx-1,set(['7']),set(['7']),set([]),set([]),subset
+runtime_timer.c,create_timer_ctx-0,set(['17']),set(['17']),set([]),set([]),subset
+runtime_timer.c,sys_timer_cancel-1,{},{},set([]),set([]),subset
+runtime_timer.c,sys_timer_cancel-0,set(['3']),set(['3']),set([]),set([]),subset
+runtime_timer.c,sys_create_timer-1,{},{},set([]),set([]),subset
+runtime_timer.c,sys_create_timer-0,set(['14']),set(['14']),set([]),set([]),subset
+runtime_timer.c,sys_create_timer-2,set(['8']),set(['8']),set([]),set([]),subset
+runtime_timer.c,sys_timer_destroy-1,{},{},set([]),set([]),subset
+runtime_timer.c,bh_get_elpased_ms-0,set(['3']),set(['3']),set([]),set([]),subset
+runtime_timer.c,remove_timer-1,{},{},set([]),set([]),subset
+runtime_timer.c,remove_timer-0,set(['7']),set(['7']),set([]),set([]),subset
+runtime_timer.c,create_timer_ctx-2,"set(['3', '7'])","set(['3', '7'])",set([]),set([]),subset
+wasm_c_api.c,wasm_module_imports-4,"set(['5', '7'])","set(['5', '7'])",set([]),set([]),subset
+wasm_c_api.c,wasm_trap_origin-0,set(['5']),set(['5']),set([]),set([]),subset
+wasm_c_api.c,wasm_trap_origin-1,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_module_imports-5,"set(['5', '7'])","set(['5', '7'])",set([]),set([]),subset
+wasm_c_api.c,interp_link-1,set(['12']),set(['12']),set([]),set([]),subset
+wasm_c_api.c,aot_process_export-1,{},{},set([]),set([]),subset
+wasm_c_api.c,val_type_rt_2_valkind-0,set(['7']),set(['7']),set([]),set([]),subset
+wasm_c_api.c,wasm_val_vec_new-0,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_ref_as_memory-0,set(['4']),set(['4']),set([]),set([]),subset
+wasm_c_api.c,wasm_memory_new_internal-1,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_importtype_new-1,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_importtype_new-0,set(['14']),set(['14']),set([]),set([]),subset
+wasm_c_api.c,wasm_memory_new_internal-4,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_importtype_copy-0,set(['14']),set(['14']),set([]),set([]),subset
+wasm_c_api.c,argv_to_results-2,set(['8']),set(['8']),set([]),set([]),subset
+wasm_c_api.c,wasm_extern_vec_new-0,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_importtype_vec_copy-0,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_importtype_vec_copy-1,set(['6']),set(['6']),set([]),set([]),subset
+wasm_c_api.c,interp_link_global-2,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_frame_new-1,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_module_imports-21,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_module_imports-20,"set(['47', '49'])","set(['47', '49'])",set([]),set([]),subset
+wasm_c_api.c,wasm_functype_new_internal-3,"set(['13', '29'])","set(['13', '29'])",set([]),set([]),subset
+wasm_c_api.c,wasm_functype_new_internal-2,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_memory_as_ref-0,set(['3']),set(['3']),set([]),set([]),subset
+wasm_c_api.c,wasm_foreign_as_ref_const-0,set(['3']),set(['3']),set([]),set([]),subset
+wasm_c_api.c,wasm_val_to_rt_val-0,set(['6']),set(['6']),set([]),set([]),subset
+wasm_c_api.c,wasm_module_new-1,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_exporttype_name-0,set(['3']),set(['3']),set([]),set([]),subset
+wasm_c_api.c,wasm_global_new_internal-3,"set(['11', '10', '6'])","set(['11', '10', '6'])",set([]),set([]),subset
+wasm_c_api.c,wasm_global_new_internal-0,set(['23']),set(['23']),set([]),set([]),subset
+wasm_c_api.c,wasm_importtype_name-0,set(['3']),set(['3']),set([]),set([]),subset
+wasm_c_api.c,wasm_ref_as_table-0,set(['4']),set(['4']),set([]),set([]),subset
+wasm_c_api.c,wasm_module_exports-8,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_global_new_internal-4,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_global_new_internal-5,"set(['11', '10', '6'])","set(['11', '10', '6'])",set([]),set([]),subset
+wasm_c_api.c,wasm_module_exports-5,"set(['26', '38', '32', '44', '51', '57'])","set(['26', '38', '32', '44', '51', '57'])",set([]),set([]),subset
+wasm_c_api.c,wasm_module_exports-4,"set(['10', '26', '38', '46', '32', '44', '51'])","set(['10', '26', '38', '46', '32', '44', '51'])",set([]),set([]),subset
+wasm_c_api.c,wasm_importtype_type-0,set(['3']),set(['3']),set([]),set([]),subset
+wasm_c_api.c,wasm_module_exports-6,"set(['13', '15'])","set(['13', '15'])",set([]),set([]),subset
+wasm_c_api.c,wasm_module_exports-1,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_module_exports-0,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_module_exports-3,"set(['5', '7'])","set(['5', '7'])",set([]),set([]),subset
+wasm_c_api.c,wasm_module_exports-2,set(['10']),set(['10']),set([]),set([]),subset
+wasm_c_api.c,wasm_extern_copy-2,set(['8']),set(['8']),set([]),set([]),subset
+wasm_c_api.c,wasm_table_copy-0,set(['3']),set(['3']),set([]),set([]),subset
+wasm_c_api.c,wasm_module_vec_copy-0,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_frame_vec_delete-1,set(['3']),set(['3']),set([]),set([]),subset
+wasm_c_api.c,wasm_frame_vec_delete-0,set(['7']),set(['7']),set([]),set([]),subset
+wasm_c_api.c,wasm_importtype_copy-1,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_module_imports-3,"set(['5', '7'])","set(['5', '7'])",set([]),set([]),subset
+wasm_c_api.c,wasm_module_imports-0,"set(['65', '67'])","set(['65', '67'])",set([]),set([]),subset
+wasm_c_api.c,wasm_engine_new_internal-0,set(['24']),set(['24']),set([]),set([]),subset
+wasm_c_api.c,wasm_store_vec_new-0,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_globaltype_new-2,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_globaltype_new-1,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_globaltype_new-0,set(['5']),set(['5']),set([]),set([]),subset
+wasm_c_api.c,wasm_instance_new_with_args-5,"set(['39', '35', '22', '36'])","set(['39', '35', '22', '36'])",set([]),set([]),subset
+wasm_c_api.c,wasm_module_imports-8,"set(['10', '76', '42', '29', '77', '61', '75', '73', '84'])","set(['10', '76', '42', '29', '77', '61', '75', '73', '84'])",set([]),set([]),subset
+wasm_c_api.c,wasm_module_imports-9,"set(['42', '29', '61', '73', '90', '84'])","set(['42', '29', '61', '73', '90', '84'])",set([]),set([]),subset
+wasm_c_api.c,wasm_module_vec_new-0,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_module_vec_copy-1,set(['6']),set(['6']),set([]),set([]),subset
+wasm_c_api.c,wasm_engine_new_internal-2,set(['23']),set(['23']),set([]),set([]),subset
+wasm_c_api.c,wasm_engine_new_internal-1,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_extern_copy-1,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_foreign_new-1,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_memory_new_internal-2,"set(['11', '6'])","set(['11', '6'])",set([]),set([]),subset
+wasm_c_api.c,wasm_memory_new_internal-3,"set(['11', '10', '6'])","set(['11', '10', '6'])",set([]),set([]),subset
+wasm_c_api.c,interp_link-0,set(['17']),set(['17']),set([]),set([]),subset
+wasm_c_api.c,aot_link-7,{},{},set([]),set([]),subset
+wasm_c_api.c,aot_link-4,set(['1']),set(['1']),set([]),set([]),subset
+wasm_c_api.c,wasm_foreign_new-0,set(['7']),set(['7']),set([]),set([]),subset
+wasm_c_api.c,wasm_ref_as_foreign_const-0,set(['4']),set(['4']),set([]),set([]),subset
+wasm_c_api.c,wasm_memory_new_internal-0,set(['17']),set(['17']),set([]),set([]),subset
+wasm_c_api.c,aot_link-0,set(['16']),set(['16']),set([]),set([]),subset
+wasm_c_api.c,wasm_store_delete-1,set(['3']),set(['3']),set([]),set([]),subset
+wasm_c_api.c,wasm_module_imports-14,"set(['65', '67'])","set(['65', '67'])",set([]),set([]),subset
+wasm_c_api.c,wasm_module_imports-15,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_module_imports-16,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_module_imports-17,"set(['36', '34'])","set(['36', '34'])",set([]),set([]),subset
+wasm_c_api.c,wasm_frame_copy-0,set(['3']),set(['3']),set([]),set([]),subset
+wasm_c_api.c,wasm_module_imports-11,"set(['14', '49', '47', '16', '36', '34', '65', '67'])","set(['14', '49', '47', '16', '36', '34', '65', '67'])",set([]),set([]),subset
+wasm_c_api.c,wasm_module_imports-12,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_module_imports-13,"set(['14', '16'])","set(['14', '16'])",set([]),set([]),subset
+wasm_c_api.c,aot_global_get-0,{},{},set([]),set([]),subset
+wasm_c_api.c,aot_global_get-1,set(['3']),set(['3']),set([]),set([]),subset
+wasm_c_api.c,aot_global_get-2,set(['3']),set(['3']),set([]),set([]),subset
+wasm_c_api.c,wasm_module_imports-18,"set(['36', '34'])","set(['36', '34'])",set([]),set([]),subset
+wasm_c_api.c,wasm_importtype_vec_new-0,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_module_imports-7,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_valtype_vec_delete-1,set(['3']),set(['3']),set([]),set([]),subset
+wasm_c_api.c,wasm_functype_vec_new-0,{},{},set([]),set([]),subset
+wasm_c_api.c,aot_link-5,"set(['1', '13'])","set(['1', '13'])",set([]),set([]),subset
+wasm_c_api.c,wasm_ref_as_global_const-0,set(['4']),set(['4']),set([]),set([]),subset
+wasm_c_api.c,params_to_argv-3,"set(['8', '15', '16'])","set(['8', '15', '16'])",set([]),set([]),subset
+wasm_c_api.c,aot_link-2,{},{},set([]),set([]),subset
+wasm_c_api.c,interp_link_func-1,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_memorytype_copy-0,set(['3']),set(['3']),set([]),set([]),subset
+wasm_c_api.c,wasm_foreign_as_ref-0,set(['3']),set(['3']),set([]),set([]),subset
+wasm_c_api.c,aot_link_func-1,{},{},set([]),set([]),subset
+wasm_c_api.c,aot_link_func-2,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_functype_params-0,set(['3']),set(['3']),set([]),set([]),subset
+wasm_c_api.c,wasm_func_call-6,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_func_call-5,"set(['11', '15', '14', '16', '2', '5'])","set(['11', '15', '14', '16', '2', '5'])",set([]),set([]),subset
+wasm_c_api.c,wasm_func_call-4,"set(['25', '41'])","set(['25', '41'])",set([]),set([]),subset
+wasm_c_api.c,wasm_func_call-3,set(['5']),set(['5']),set([]),set([]),subset
+wasm_c_api.c,wasm_func_call-2,"set(['11', '10', '5'])","set(['11', '10', '5'])",set([]),set([]),subset
+wasm_c_api.c,wasm_func_call-1,set(['11']),set(['11']),set([]),set([]),subset
+wasm_c_api.c,wasm_func_call-0,set(['46']),set(['46']),set([]),set([]),subset
+wasm_c_api.c,aot_link-1,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_instance_new_with_args-4,"set(['36', '22'])","set(['36', '22'])",set([]),set([]),subset
+wasm_c_api.c,wasm_exporttype_type-0,set(['3']),set(['3']),set([]),set([]),subset
+wasm_c_api.c,wasm_memory_new_basic-2,{},{},set([]),set([]),subset
+wasm_c_api.c,aot_link_global-1,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_memory_new_basic-0,set(['4']),set(['4']),set([]),set([]),subset
+wasm_c_api.c,wasm_externtype_kind-0,set(['3']),set(['3']),set([]),set([]),subset
+wasm_c_api.c,aot_process_export-4,set(['1']),set(['1']),set([]),set([]),subset
+wasm_c_api.c,wasm_instance_vec_copy-0,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_ref_as_table_const-0,set(['4']),set(['4']),set([]),set([]),subset
+wasm_c_api.c,aot_process_export-0,set(['33']),set(['33']),set([]),set([]),subset
+wasm_c_api.c,wasm_valtype_vec_new-0,{},{},set([]),set([]),subset
+wasm_c_api.c,argv_to_results-1,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_frame_vec_copy-0,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_functype_new_internal-0,set(['38']),set(['38']),set([]),set([]),subset
+wasm_c_api.c,wasm_store_new-0,set(['30']),set(['30']),set([]),set([]),subset
+wasm_c_api.c,wasm_store_new-1,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_instance_new_with_args-0,set(['92']),set(['92']),set([]),set([]),subset
+wasm_c_api.c,wasm_memory_size-1,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_memory_size-0,set(['5']),set(['5']),set([]),set([]),subset
+wasm_c_api.c,wasm_memory_type-0,set(['3']),set(['3']),set([]),set([]),subset
+wasm_c_api.c,wasm_module_imports-10,"set(['14', '49', '47', '16', '36', '34', '65', '67'])","set(['14', '49', '47', '16', '36', '34', '65', '67'])",set([]),set([]),subset
+wasm_c_api.c,wasm_func_result_arity-0,set(['5']),set(['5']),set([]),set([]),subset
+wasm_c_api.c,wasm_store_delete-0,"set(['9', '19'])","set(['9', '19'])",set([]),set([]),subset
+wasm_c_api.c,wasm_exporttype_copy-0,set(['11']),set(['11']),set([]),set([]),subset
+wasm_c_api.c,wasm_memorytype_new-0,set(['5']),set(['5']),set([]),set([]),subset
+wasm_c_api.c,wasm_global_new-2,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_global_new-1,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_global_new-0,set(['8']),set(['8']),set([]),set([]),subset
+wasm_c_api.c,wasm_func_copy-0,set(['9']),set(['9']),set([]),set([]),subset
+wasm_c_api.c,wasm_ref_copy-0,set(['3']),set(['3']),set([]),set([]),subset
+wasm_c_api.c,aot_global_set-2,set(['3']),set(['3']),set([]),set([]),subset
+wasm_c_api.c,wasm_extern_type-0,set(['9']),set(['9']),set([]),set([]),subset
+wasm_c_api.c,wasm_instance_new_with_args-1,"set(['19', '55', '84', '70'])","set(['19', '55', '84', '70'])",set([]),set([]),subset
+wasm_c_api.c,wasm_memory_as_ref_const-0,set(['3']),set(['3']),set([]),set([]),subset
+wasm_c_api.c,wasm_extern_copy-0,set(['12']),set(['12']),set([]),set([]),subset
+wasm_c_api.c,wasm_memory_data-0,set(['5']),set(['5']),set([]),set([]),subset
+wasm_c_api.c,wasm_memory_data-1,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_functype_copy-0,set(['12']),set(['12']),set([]),set([]),subset
+wasm_c_api.c,wasm_functype_copy-1,{},{},set([]),set([]),subset
+wasm_c_api.c,interp_process_export-3,{},{},set([]),set([]),subset
+wasm_c_api.c,interp_process_export-2,set(['1']),set(['1']),set([]),set([]),subset
+wasm_c_api.c,wasm_tabletype_limits-0,set(['3']),set(['3']),set([]),set([]),subset
+wasm_c_api.c,interp_link-4,set(['1']),set(['1']),set([]),set([]),subset
+wasm_c_api.c,malloc_internal-0,set(['3']),set(['3']),set([]),set([]),subset
+wasm_c_api.c,wasm_ref_as_func_const-0,set(['4']),set(['4']),set([]),set([]),subset
+wasm_c_api.c,wasm_importtype_new-2,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_table_size-1,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_globaltype_copy-1,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_globaltype_copy-0,set(['7']),set(['7']),set([]),set([]),subset
+wasm_c_api.c,wasm_externtype_copy-2,set(['8']),set(['8']),set([]),set([]),subset
+wasm_c_api.c,wasm_func_as_ref_const-0,set(['3']),set(['3']),set([]),set([]),subset
+wasm_c_api.c,wasm_externtype_copy-0,set(['9']),set(['9']),set([]),set([]),subset
+wasm_c_api.c,wasm_externtype_copy-1,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_functype_new_internal-1,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_memorytype_new-2,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_memorytype_new-1,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_tabletype_element-0,set(['3']),set(['3']),set([]),set([]),subset
+wasm_c_api.c,aot_link_global-2,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_table_set-3,"set(['10', '12', '18', '16'])","set(['10', '12', '18', '16'])",set([]),set([]),subset
+wasm_c_api.c,wasm_table_set-2,"set(['10', '12', '18', '16'])","set(['10', '12', '18', '16'])",set([]),set([]),subset
+wasm_c_api.c,wasm_table_set-1,"set(['10', '16'])","set(['10', '16'])",set([]),set([]),subset
+wasm_c_api.c,wasm_table_set-0,"set(['10', '12', '28', '16'])","set(['10', '12', '28', '16'])",set([]),set([]),subset
+wasm_c_api.c,interp_link-3,"set(['1', '11', '12'])","set(['1', '11', '12'])",set([]),set([]),subset
+wasm_c_api.c,wasm_module_validate-1,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_trap_trace-0,"set(['25', '14'])","set(['25', '14'])",set([]),set([]),subset
+wasm_c_api.c,wasm_trap_trace-1,"set(['19', '10'])","set(['19', '10'])",set([]),set([]),subset
+wasm_c_api.c,wasm_table_as_ref_const-0,set(['3']),set(['3']),set([]),set([]),subset
+wasm_c_api.c,wasm_functype_results-0,set(['3']),set(['3']),set([]),set([]),subset
+wasm_c_api.c,wasm_valtype_vec_delete-0,set(['7']),set(['7']),set([]),set([]),subset
+wasm_c_api.c,wasm_module_new-2,{},{},set([]),set([]),subset
+wasm_c_api.c,interp_link-2,"set(['1', '11', '12'])","set(['1', '11', '12'])",set([]),set([]),subset
+wasm_c_api.c,aot_global_set-1,set(['3']),set(['3']),set([]),set([]),subset
+wasm_c_api.c,aot_link-3,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_functype_new-2,{},{},set([]),set([]),subset
+wasm_c_api.c,interp_process_export-5,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_functype_new-0,set(['18']),set(['18']),set([]),set([]),subset
+wasm_c_api.c,wasm_functype_new-1,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_tabletype_new-2,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_ref_as_global-0,set(['4']),set(['4']),set([]),set([]),subset
+wasm_c_api.c,wasm_global_type-0,set(['3']),set(['3']),set([]),set([]),subset
+wasm_c_api.c,wasm_func_as_ref-0,set(['3']),set(['3']),set([]),set([]),subset
+wasm_c_api.c,wasm_instance_new_with_args-2,"set(['86', '72', '84', '70'])","set(['86', '72', '84', '70'])",set([]),set([]),subset
+wasm_c_api.c,wasm_foreign_new_internal-0,set(['7']),set(['7']),set([]),set([]),subset
+wasm_c_api.c,wasm_foreign_new_internal-1,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_frame_vec_copy-1,set(['6']),set(['6']),set([]),set([]),subset
+wasm_c_api.c,wasm_instance_vec_copy-1,set(['6']),set(['6']),set([]),set([]),subset
+wasm_c_api.c,wasm_ref_as_foreign-0,set(['4']),set(['4']),set([]),set([]),subset
+wasm_c_api.c,wasm_module_imports-19,"set(['47', '49'])","set(['47', '49'])",set([]),set([]),subset
+wasm_c_api.c,wasm_global_new_internal-2,"set(['11', '6'])","set(['11', '6'])",set([]),set([]),subset
+wasm_c_api.c,wasm_table_new_basic-0,set(['6']),set(['6']),set([]),set([]),subset
+wasm_c_api.c,wasm_table_new_basic-1,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_table_new_basic-2,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_func_copy-1,{},{},set([]),set([]),subset
+wasm_c_api.c,argv_to_results-4,set(['8']),set(['8']),set([]),set([]),subset
+wasm_c_api.c,wasm_trap_new_internal-0,set(['34']),set(['34']),set([]),set([]),subset
+wasm_c_api.c,interp_process_export-0,set(['26']),set(['26']),set([]),set([]),subset
+wasm_c_api.c,wasm_functype_vec_copy-1,set(['6']),set(['6']),set([]),set([]),subset
+wasm_c_api.c,wasm_functype_vec_copy-0,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_func_copy-2,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_global_new_internal-1,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_memory_data_size-1,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_memory_data_size-0,set(['5']),set(['5']),set([]),set([]),subset
+wasm_c_api.c,wasm_memory_new_internal-5,"set(['11', '10', '6'])","set(['11', '10', '6'])",set([]),set([]),subset
+wasm_c_api.c,wasm_table_get-2,"set(['8', '12', '14', '6'])","set(['8', '12', '14', '6'])",set([]),set([]),subset
+wasm_c_api.c,wasm_table_get-1,"set(['12', '6'])","set(['12', '6'])",set([]),set([]),subset
+wasm_c_api.c,wasm_table_get-0,"set(['8', '12', '17', '6'])","set(['8', '12', '17', '6'])",set([]),set([]),subset
+wasm_c_api.c,interp_process_export-1,"set(['10', '14', '18', '6'])","set(['10', '14', '18', '6'])",set([]),set([]),subset
+wasm_c_api.c,wasm_memory_copy-2,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_memorytype_limits-0,set(['3']),set(['3']),set([]),set([]),subset
+wasm_c_api.c,wasm_memory_copy-0,set(['6']),set(['6']),set([]),set([]),subset
+wasm_c_api.c,wasm_ref_as_memory_const-0,set(['4']),set(['4']),set([]),set([]),subset
+wasm_c_api.c,interp_link_func-0,set(['8']),set(['8']),set([]),set([]),subset
+wasm_c_api.c,wasm_instance_vec_delete-0,set(['7']),set(['7']),set([]),set([]),subset
+wasm_c_api.c,wasm_instance_vec_delete-1,set(['3']),set(['3']),set([]),set([]),subset
+wasm_c_api.c,wasm_globaltype_new_internal-0,set(['5']),set(['5']),set([]),set([]),subset
+wasm_c_api.c,wasm_globaltype_new_internal-1,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_trap_new-1,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_trap_new-0,set(['15']),set(['15']),set([]),set([]),subset
+wasm_c_api.c,wasm_exporttype_vec_delete-1,set(['3']),set(['3']),set([]),set([]),subset
+wasm_c_api.c,wasm_exporttype_vec_delete-0,set(['7']),set(['7']),set([]),set([]),subset
+wasm_c_api.c,wasm_global_as_ref-0,set(['3']),set(['3']),set([]),set([]),subset
+wasm_c_api.c,aot_link_global-0,set(['8']),set(['8']),set([]),set([]),subset
+wasm_c_api.c,wasm_table_size-0,"set(['8', '10'])","set(['8', '10'])",set([]),set([]),subset
+wasm_c_api.c,aot_link-6,"set(['1', '13'])","set(['1', '13'])",set([]),set([]),subset
+wasm_c_api.c,wasm_global_copy-2,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_importtype_module-0,set(['3']),set(['3']),set([]),set([]),subset
+wasm_c_api.c,wasm_valtype_vec_copy-1,set(['6']),set(['6']),set([]),set([]),subset
+wasm_c_api.c,wasm_valtype_vec_copy-0,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_importtype_copy-3,set(['13']),set(['13']),set([]),set([]),subset
+wasm_c_api.c,wasm_importtype_copy-2,set(['13']),set(['13']),set([]),set([]),subset
+wasm_c_api.c,wasm_module_exports-7,{},{},set([]),set([]),subset
+wasm_c_api.c,aot_process_export-2,"set(['10', '28', '14', '18', '6'])","set(['10', '28', '14', '18', '6'])",set([]),set([]),subset
+wasm_c_api.c,wasm_exporttype_vec_new-0,{},{},set([]),set([]),subset
+wasm_c_api.c,interp_link_global-0,set(['7']),set(['7']),set([]),set([]),subset
+wasm_c_api.c,wasm_func_param_arity-0,set(['5']),set(['5']),set([]),set([]),subset
+wasm_c_api.c,wasm_module_validate-0,set(['7']),set(['7']),set([]),set([]),subset
+wasm_c_api.c,aot_global_set-0,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_valtype_new-0,set(['3']),set(['3']),set([]),set([]),subset
+wasm_c_api.c,wasm_valtype_new-1,{},{},set([]),set([]),subset
+wasm_c_api.c,interp_link_func-2,{},{},set([]),set([]),subset
+wasm_c_api.c,rt_val_to_wasm_val-0,set(['6']),set(['6']),set([]),set([]),subset
+wasm_c_api.c,wasm_table_as_ref-0,set(['3']),set(['3']),set([]),set([]),subset
+wasm_c_api.c,params_to_argv-2,set(['8']),set(['8']),set([]),set([]),subset
+wasm_c_api.c,wasm_tabletype_new_internal-0,set(['5']),set(['5']),set([]),set([]),subset
+wasm_c_api.c,wasm_tabletype_new_internal-1,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_byte_vec_new-0,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_extern_vec_copy-1,set(['6']),set(['6']),set([]),set([]),subset
+wasm_c_api.c,wasm_extern_vec_copy-0,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_exporttype_new-0,set(['8']),set(['8']),set([]),set([]),subset
+wasm_c_api.c,wasm_exporttype_new-1,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_exporttype_new-2,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_module_delete_internal-0,set(['7']),set(['7']),set([]),set([]),subset
+wasm_c_api.c,wasm_importtype_vec_delete-0,set(['7']),set(['7']),set([]),set([]),subset
+wasm_c_api.c,wasm_importtype_vec_delete-1,set(['3']),set(['3']),set([]),set([]),subset
+wasm_c_api.c,wasm_instance_vec_new-0,{},{},set([]),set([]),subset
+wasm_c_api.c,aot_process_export-3,{},{},set([]),set([]),subset
+wasm_c_api.c,interp_process_export-4,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_tabletype_new-1,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_tabletype_new-0,set(['5']),set(['5']),set([]),set([]),subset
+wasm_c_api.c,wasm_exporttype_vec_copy-1,set(['6']),set(['6']),set([]),set([]),subset
+wasm_c_api.c,wasm_exporttype_vec_copy-0,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_table_copy-1,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_extern_vec_delete-1,set(['3']),set(['3']),set([]),set([]),subset
+wasm_c_api.c,wasm_extern_vec_delete-0,set(['7']),set(['7']),set([]),set([]),subset
+wasm_c_api.c,wasm_tabletype_copy-1,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_tabletype_copy-0,set(['7']),set(['7']),set([]),set([]),subset
+wasm_c_api.c,wasm_ref_as_func-0,set(['4']),set(['4']),set([]),set([]),subset
+wasm_c_api.c,wasm_functype_vec_delete-1,set(['3']),set(['3']),set([]),set([]),subset
+wasm_c_api.c,wasm_functype_vec_delete-0,set(['7']),set(['7']),set([]),set([]),subset
+wasm_c_api.c,wasm_func_new_basic-2,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_func_new_basic-1,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_func_new_basic-0,set(['6']),set(['6']),set([]),set([]),subset
+wasm_c_api.c,wasm_memory_new_basic-1,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_memory_copy-1,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_instance_new_with_args-3,set(['44']),set(['44']),set([]),set([]),subset
+wasm_c_api.c,wasm_func_type-0,set(['3']),set(['3']),set([]),set([]),subset
+wasm_c_api.c,params_to_argv-0,"set(['8', '20', '16'])","set(['8', '20', '16'])",set([]),set([]),subset
+wasm_c_api.c,params_to_argv-1,set(['16']),set(['16']),set([]),set([]),subset
+wasm_c_api.c,wasm_ref_new_internal-1,set(['9']),set(['9']),set([]),set([]),subset
+wasm_c_api.c,wasm_ref_new_internal-0,"set(['9', '12'])","set(['9', '12'])",set([]),set([]),subset
+wasm_c_api.c,aot_link_func-0,set(['8']),set(['8']),set([]),set([]),subset
+wasm_c_api.c,wasm_global_copy-1,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_global_copy-0,set(['10']),set(['10']),set([]),set([]),subset
+wasm_c_api.c,wasm_module_vec_delete-1,set(['3']),set(['3']),set([]),set([]),subset
+wasm_c_api.c,wasm_module_vec_delete-0,set(['7']),set(['7']),set([]),set([]),subset
+wasm_c_api.c,wasm_store_vec_delete-1,set(['3']),set(['3']),set([]),set([]),subset
+wasm_c_api.c,wasm_store_vec_delete-0,set(['7']),set(['7']),set([]),set([]),subset
+wasm_c_api.c,wasm_table_type-0,set(['3']),set(['3']),set([]),set([]),subset
+wasm_c_api.c,wasm_exporttype_copy-2,set(['10']),set(['10']),set([]),set([]),subset
+wasm_c_api.c,wasm_globaltype_content-0,set(['3']),set(['3']),set([]),set([]),subset
+wasm_c_api.c,wasm_exporttype_copy-1,{},{},set([]),set([]),subset
+wasm_c_api.c,argv_to_results-3,"set(['8', '15'])","set(['8', '15'])",set([]),set([]),subset
+wasm_c_api.c,argv_to_results-0,set(['18']),set(['18']),set([]),set([]),subset
+wasm_c_api.c,wasm_func_new_internal-1,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_func_new_internal-0,set(['20']),set(['20']),set([]),set([]),subset
+wasm_c_api.c,wasm_func_new_internal-3,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_func_new_internal-2,"set(['9', '13', '14'])","set(['9', '13', '14'])",set([]),set([]),subset
+wasm_c_api.c,wasm_trap_new_internal-4,"set(['11', '8', '6'])","set(['11', '8', '6'])",set([]),set([]),subset
+wasm_c_api.c,wasm_func_new_with_env_basic-2,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_globaltype_mutability-0,set(['3']),set(['3']),set([]),set([]),subset
+wasm_c_api.c,wasm_func_new_with_env_basic-0,set(['6']),set(['6']),set([]),set([]),subset
+wasm_c_api.c,wasm_frame_new-0,set(['3']),set(['3']),set([]),set([]),subset
+wasm_c_api.c,wasm_trap_new_internal-1,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_trap_new_internal-2,"set(['29', '23'])","set(['29', '23'])",set([]),set([]),subset
+wasm_c_api.c,wasm_trap_new_internal-3,set(['28']),set(['28']),set([]),set([]),subset
+wasm_c_api.c,wasm_module_imports-2,set(['10']),set(['10']),set([]),set([]),subset
+wasm_c_api.c,wasm_extern_kind-0,set(['3']),set(['3']),set([]),set([]),subset
+wasm_c_api.c,wasm_store_vec_copy-1,set(['6']),set(['6']),set([]),set([]),subset
+wasm_c_api.c,wasm_store_vec_copy-0,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_global_as_ref_const-0,set(['3']),set(['3']),set([]),set([]),subset
+wasm_c_api.c,wasm_table_new_internal-4,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_table_new_internal-5,"set(['11', '10', '6'])","set(['11', '10', '6'])",set([]),set([]),subset
+wasm_c_api.c,wasm_table_new_internal-6,"set(['11', '10', '6'])","set(['11', '10', '6'])",set([]),set([]),subset
+wasm_c_api.c,wasm_table_new_internal-0,set(['17']),set(['17']),set([]),set([]),subset
+wasm_c_api.c,wasm_table_new_internal-1,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_table_new_internal-2,"set(['11', '6'])","set(['11', '6'])",set([]),set([]),subset
+wasm_c_api.c,wasm_table_new_internal-3,"set(['11', '10', '6'])","set(['11', '10', '6'])",set([]),set([]),subset
+wasm_c_api.c,wasm_func_new_with_env_basic-1,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_module_imports-1,"set(['65', '67'])","set(['65', '67'])",set([]),set([]),subset
+wasm_c_api.c,aot_process_export-5,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_module_imports-6,"set(['5', '7'])","set(['5', '7'])",set([]),set([]),subset
+wasm_c_api.c,interp_link_global-1,{},{},set([]),set([]),subset
+wasm_c_api.c,wasm_module_new-0,set(['24']),set(['24']),set([]),set([]),subset
+wasm_c_api.c,wasm_frame_vec_new-0,{},{},set([]),set([]),subset
+aot_loader.c,load_from_sections-9,set(['1']),set(['1']),set([]),set([]),subset
+aot_loader.c,load_from_sections-8,set(['36']),set(['36']),set([]),set([]),subset
+aot_loader.c,create_module-1,{},{},set([]),set([]),subset
+aot_loader.c,create_module-0,set(['3']),set(['3']),set([]),set([]),subset
+aot_loader.c,load_object_data_sections_info-1,{},{},set([]),set([]),subset
+aot_loader.c,load_from_sections-1,set(['53']),set(['53']),set([]),set([]),subset
+aot_loader.c,load_from_sections-0,set(['83']),set(['83']),set([]),set([]),subset
+aot_loader.c,load_from_sections-3,{},{},set([]),set([]),subset
+aot_loader.c,load_from_sections-2,set(['53']),set(['53']),set([]),set([]),subset
+aot_loader.c,load_from_sections-5,{},{},set([]),set([]),subset
+aot_loader.c,load_from_sections-4,{},{},set([]),set([]),subset
+aot_loader.c,load_from_sections-7,{},{},set([]),set([]),subset
+aot_loader.c,load_from_sections-6,set(['1']),set(['1']),set([]),set([]),subset
+aot_loader.c,create_sections-6,"set(['60', '54', '3'])","set(['60', '54', '3'])",set([]),set([]),subset
+aot_loader.c,create_sections-5,"set(['54', '3'])","set(['54', '3'])",set([]),set([]),subset
+aot_loader.c,load_global_info-0,set(['15']),set(['15']),set([]),set([]),subset
+aot_loader.c,load_global_info-1,{},{},set([]),set([]),subset
+aot_loader.c,load_import_table_list-4,set(['3']),set(['3']),set([]),set([]),subset
+aot_loader.c,load_import_table_list-3,set(['3']),set(['3']),set([]),set([]),subset
+aot_loader.c,load_import_table_list-2,set(['3']),set(['3']),set([]),set([]),subset
+aot_loader.c,load_import_table_list-1,{},{},set([]),set([]),subset
+aot_loader.c,load_import_table_list-0,set(['48']),set(['48']),set([]),set([]),subset
+aot_loader.c,create_sections-4,set(['3']),set(['3']),set([]),set([]),subset
+aot_loader.c,resolve_target_sym-2,set(['3']),set(['3']),set([]),set([]),subset
+aot_loader.c,resolve_target_sym-1,{},{},set([]),set([]),subset
+aot_loader.c,wasm_get_cell_num-1,set(['1']),set(['1']),set([]),set([]),subset
+aot_loader.c,load_object_data_sections-0,"set(['3', '31', '36'])","set(['3', '31', '36'])",set([]),set([]),subset
+aot_loader.c,load_object_data_sections-1,set(['31']),set(['31']),set([]),set([]),subset
+aot_loader.c,load_object_data_sections-2,set(['3']),set(['3']),set([]),set([]),subset
+aot_loader.c,wasm_get_cell_num-0,set(['1']),set(['1']),set([]),set([]),subset
+aot_loader.c,destroy_mem_init_data_list-0,set(['2']),set(['2']),set([]),set([]),subset
+aot_loader.c,resolve_execute_mode-2,"set(['1', '48'])","set(['1', '48'])",set([]),set([]),subset
+aot_loader.c,resolve_execute_mode-1,{},{},set([]),set([]),subset
+aot_loader.c,resolve_execute_mode-0,set(['51']),set(['51']),set([]),set([]),subset
+aot_loader.c,check_machine_info-0,set(['5']),set(['5']),set([]),set([]),subset
+aot_loader.c,check_machine_info-1,{},{},set([]),set([]),subset
+aot_loader.c,load_init_data_section-1,{},{},set([]),set([]),subset
+aot_loader.c,load_init_data_section-0,set(['106']),set(['106']),set([]),set([]),subset
+aot_loader.c,load_import_global_info-1,{},{},set([]),set([]),subset
+aot_loader.c,load_import_global_info-0,set(['15']),set(['15']),set([]),set([]),subset
+aot_loader.c,load_string-2,"set(['46', '47', '45', '48'])","set(['46', '47', '45', '48'])",set([]),set([]),subset
+aot_loader.c,load_string-3,"set(['48', '7'])","set(['48', '7'])",set([]),set([]),subset
+aot_loader.c,load_string-0,set(['50']),set(['50']),set([]),set([]),subset
+aot_loader.c,load_string-1,{},{},set([]),set([]),subset
+aot_loader.c,do_text_relocation-0,"set(['10', '44', '51'])","set(['10', '44', '51'])",set([]),set([]),subset
+aot_loader.c,create_sections-1,set(['48']),set(['48']),set([]),set([]),subset
+aot_loader.c,destroy_func_types-0,set(['2']),set(['2']),set([]),set([]),subset
+aot_loader.c,load-1,{},{},set([]),set([]),subset
+aot_loader.c,load-0,set(['31']),set(['31']),set([]),set([]),subset
+aot_loader.c,load-2,{},{},set([]),set([]),subset
+aot_loader.c,load_table_init_data_list-0,"set(['3', '75', '80'])","set(['3', '75', '80'])",set([]),set([]),subset
+aot_loader.c,load_table_init_data_list-1,set(['75']),set(['75']),set([]),set([]),subset
+aot_loader.c,load_table_init_data_list-2,set(['3']),set(['3']),set([]),set([]),subset
+aot_loader.c,load_table_init_data_list-3,{},{},set([]),set([]),subset
+aot_loader.c,load_table_init_data_list-4,"set(['3', '75'])","set(['3', '75'])",set([]),set([]),subset
+aot_loader.c,load_func_types-4,"set(['3', '41'])","set(['3', '41'])",set([]),set([]),subset
+aot_loader.c,check_buf-0,set(['4']),set(['4']),set([]),set([]),subset
+aot_loader.c,load_table_list-3,set(['3']),set(['3']),set([]),set([]),subset
+aot_loader.c,do_data_relocation-4,set(['13']),set(['13']),set([]),set([]),subset
+aot_loader.c,create_sections-0,set(['63']),set(['63']),set([]),set([]),subset
+aot_loader.c,do_data_relocation-0,set(['22']),set(['22']),set([]),set([]),subset
+aot_loader.c,do_data_relocation-1,{},{},set([]),set([]),subset
+aot_loader.c,do_data_relocation-2,"set(['9', '8'])","set(['9', '8'])",set([]),set([]),subset
+aot_loader.c,do_data_relocation-3,set(['13']),set(['13']),set([]),set([]),subset
+aot_loader.c,load_relocation_section-10,set(['76']),set(['76']),set([]),set([]),subset
+aot_loader.c,load_import_func_info-0,set(['15']),set(['15']),set([]),set([]),subset
+aot_loader.c,load_import_func_info-1,{},{},set([]),set([]),subset
+aot_loader.c,load_native_symbol_section-2,set(['14']),set(['14']),set([]),set([]),subset
+aot_loader.c,load_func_types-1,set(['41']),set(['41']),set([]),set([]),subset
+aot_loader.c,load_func_types-0,"set(['46', '3', '41'])","set(['46', '3', '41'])",set([]),set([]),subset
+aot_loader.c,load_func_types-3,{},{},set([]),set([]),subset
+aot_loader.c,load_func_types-2,set(['3']),set(['3']),set([]),set([]),subset
+aot_loader.c,load_table_list-4,set(['3']),set(['3']),set([]),set([]),subset
+aot_loader.c,create_sections-3,"set(['60', '3', '51', '50', '48'])","set(['60', '3', '51', '50', '48'])",set([]),set([]),subset
+aot_loader.c,load_native_symbol_section-1,"set(['24', '30'])","set(['24', '30'])",set([]),set([]),subset
+aot_loader.c,do_text_relocation-3,"set(['39', '38', '37', '36'])","set(['39', '38', '37', '36'])",set([]),set([]),subset
+aot_loader.c,do_text_relocation-2,set(['10']),set(['10']),set([]),set([]),subset
+aot_loader.c,load_export_section-1,{},{},set([]),set([]),subset
+aot_loader.c,load_export_section-0,set(['17']),set(['17']),set([]),set([]),subset
+aot_loader.c,do_text_relocation-5,set(['10']),set(['10']),set([]),set([]),subset
+aot_loader.c,do_text_relocation-4,"set(['44', '16'])","set(['44', '16'])",set([]),set([]),subset
+aot_loader.c,get_aot_file_target-0,set(['12']),set(['12']),set([]),set([]),subset
+aot_loader.c,get_aot_file_target-1,{},{},set([]),set([]),subset
+aot_loader.c,get_aot_file_target-2,set(['9']),set(['9']),set([]),set([]),subset
+aot_loader.c,create_sections-2,{},{},set([]),set([]),subset
+aot_loader.c,str2uint32-1,set(['1']),set(['1']),set([]),set([]),subset
+aot_loader.c,str2uint32-0,set(['16']),set(['16']),set([]),set([]),subset
+aot_loader.c,str2uint32-3,set(['1']),set(['1']),set([]),set([]),subset
+aot_loader.c,str2uint32-2,{},{},set([]),set([]),subset
+aot_loader.c,str2uint32-4,"set(['13', '14'])","set(['13', '14'])",set([]),set([]),subset
+aot_loader.c,destroy_table_init_data_list-0,set(['2']),set(['2']),set([]),set([]),subset
+aot_loader.c,load_table_list-1,{},{},set([]),set([]),subset
+aot_loader.c,load_import_globals-3,set(['3']),set(['3']),set([]),set([]),subset
+aot_loader.c,load_import_globals-2,set(['3']),set(['3']),set([]),set([]),subset
+aot_loader.c,load_import_globals-1,{},{},set([]),set([]),subset
+aot_loader.c,load_import_globals-0,set(['43']),set(['43']),set([]),set([]),subset
+aot_loader.c,load_memory_info-0,set(['81']),set(['81']),set([]),set([]),subset
+aot_loader.c,load_memory_info-1,{},{},set([]),set([]),subset
+aot_loader.c,load_memory_info-2,set(['23']),set(['23']),set([]),set([]),subset
+aot_loader.c,resolve_target_sym-0,set(['9']),set(['9']),set([]),set([]),subset
+aot_loader.c,const_str_set_insert-1,{},{},set([]),set([]),subset
+aot_loader.c,const_str_set_insert-0,set(['16']),set(['16']),set([]),set([]),subset
+aot_loader.c,const_str_set_insert-2,set(['3']),set(['3']),set([]),set([]),subset
+aot_loader.c,wasm_value_type_size-0,set(['7']),set(['7']),set([]),set([]),subset
+aot_loader.c,get_data_section_addr-0,set(['9']),set(['9']),set([]),set([]),subset
+aot_loader.c,do_text_relocation-1,set(['44']),set(['44']),set([]),set([]),subset
+aot_loader.c,load_target_info_section-2,{},{},set([]),set([]),subset
+aot_loader.c,load_target_info_section-0,set(['93']),set(['93']),set([]),set([]),subset
+aot_loader.c,load_target_info_section-1,{},{},set([]),set([]),subset
+aot_loader.c,load_globals-4,"set(['54', '57', '56', '5'])","set(['54', '57', '56', '5'])",set([]),set([]),subset
+aot_loader.c,load_globals-0,set(['62']),set(['62']),set([]),set([]),subset
+aot_loader.c,load_globals-1,"set(['54', '57'])","set(['54', '57'])",set([]),set([]),subset
+aot_loader.c,load_globals-2,"set(['57', '5', '4'])","set(['57', '5', '4'])",set([]),set([]),subset
+aot_loader.c,load_globals-3,set(['5']),set(['5']),set([]),set([]),subset
+aot_loader.c,load_native_symbol_section-0,set(['44']),set(['44']),set([]),set([]),subset
+aot_loader.c,aot_load_from_aot_file-1,{},{},set([]),set([]),subset
+aot_loader.c,aot_load_from_aot_file-0,set(['5']),set(['5']),set([]),set([]),subset
+aot_loader.c,str2uint64-4,"set(['13', '14'])","set(['13', '14'])",set([]),set([]),subset
+aot_loader.c,load_relocation_section-2,"set(['138', '125'])","set(['138', '125'])",set([]),set([]),subset
+aot_loader.c,load_table_list-2,set(['3']),set(['3']),set([]),set([]),subset
+aot_loader.c,load_relocation_section-3,set(['76']),set(['76']),set([]),set([]),subset
+aot_loader.c,load_table_list-0,set(['58']),set(['58']),set([]),set([]),subset
+aot_loader.c,load_mem_init_data_list-4,"set(['3', '65'])","set(['3', '65'])",set([]),set([]),subset
+aot_loader.c,load_mem_init_data_list-3,{},{},set([]),set([]),subset
+aot_loader.c,load_mem_init_data_list-2,set(['3']),set(['3']),set([]),set([]),subset
+aot_loader.c,load_mem_init_data_list-1,set(['65']),set(['65']),set([]),set([]),subset
+aot_loader.c,load_mem_init_data_list-0,"set(['3', '65', '70'])","set(['3', '65', '70'])",set([]),set([]),subset
+aot_loader.c,str2uint64-0,set(['16']),set(['16']),set([]),set([]),subset
+aot_loader.c,load_relocation_section-1,"set(['11', '76', '45', '125', '138'])","set(['11', '76', '45', '125', '138'])",set([]),set([]),subset
+aot_loader.c,aot_load_from_sections-0,set(['5']),set(['5']),set([]),set([]),subset
+aot_loader.c,aot_load_from_sections-1,{},{},set([]),set([]),subset
+aot_loader.c,load_func_type_info-1,{},{},set([]),set([]),subset
+aot_loader.c,load_func_type_info-0,set(['15']),set(['15']),set([]),set([]),subset
+aot_loader.c,load_function_section-0,set(['48']),set(['48']),set([]),set([]),subset
+aot_loader.c,get_data_section_addr-3,set(['1']),set(['1']),set([]),set([]),subset
+aot_loader.c,get_data_section_addr-2,set(['1']),set(['1']),set([]),set([]),subset
+aot_loader.c,validate_symbol_table-0,set(['20']),set(['20']),set([]),set([]),subset
+aot_loader.c,validate_symbol_table-1,set(['1']),set(['1']),set([]),set([]),subset
+aot_loader.c,validate_symbol_table-2,{},{},set([]),set([]),subset
+aot_loader.c,validate_symbol_table-3,set(['1']),set(['1']),set([]),set([]),subset
+aot_loader.c,validate_symbol_table-4,set(['1']),set(['1']),set([]),set([]),subset
+aot_loader.c,get_data_section_addr-1,{},{},set([]),set([]),subset
+aot_loader.c,str2uint64-2,{},{},set([]),set([]),subset
+aot_loader.c,str2uint64-3,set(['1']),set(['1']),set([]),set([]),subset
+aot_loader.c,load_function_section-4,"set(['4', '29'])","set(['4', '29'])",set([]),set([]),subset
+aot_loader.c,load_import_funcs-0,set(['33']),set(['33']),set([]),set([]),subset
+aot_loader.c,load_import_funcs-1,{},{},set([]),set([]),subset
+aot_loader.c,load_import_funcs-2,set(['3']),set(['3']),set([]),set([]),subset
+aot_loader.c,load_table_info-0,set(['41']),set(['41']),set([]),set([]),subset
+aot_loader.c,load_table_info-1,{},{},set([]),set([]),subset
+aot_loader.c,str2uint64-1,set(['1']),set(['1']),set([]),set([]),subset
+aot_loader.c,destroy_object_data_sections-1,set(['1']),set(['1']),set([]),set([]),subset
+aot_loader.c,destroy_object_data_sections-0,set(['1']),set(['1']),set([]),set([]),subset
+aot_loader.c,wasm_string_hash-0,set(['1']),set(['1']),set([]),set([]),subset
+aot_loader.c,wasm_string_hash-1,set(['1']),set(['1']),set([]),set([]),subset
+aot_loader.c,loader_malloc-0,set(['4']),set(['4']),set([]),set([]),subset
+aot_loader.c,loader_malloc-1,{},{},set([]),set([]),subset
+aot_loader.c,load_exports-1,{},{},set([]),set([]),subset
+aot_loader.c,load_exports-0,set(['33']),set(['33']),set([]),set([]),subset
+aot_loader.c,load_exports-2,set(['3']),set(['3']),set([]),set([]),subset
+aot_loader.c,load_custom_section-0,set(['20']),set(['20']),set([]),set([]),subset
+aot_loader.c,load_custom_section-1,{},{},set([]),set([]),subset
+aot_loader.c,load_custom_section-2,{},{},set([]),set([]),subset
+aot_loader.c,load_custom_section-3,{},{},set([]),set([]),subset
+aot_loader.c,destroy_sections-0,set(['1']),set(['1']),set([]),set([]),subset
+aot_loader.c,get_native_symbol_by_name-1,set(['5']),set(['5']),set([]),set([]),subset
+aot_loader.c,load_object_data_sections_info-0,set(['15']),set(['15']),set([]),set([]),subset
+aot_loader.c,get_native_symbol_by_name-0,set(['1']),set(['1']),set([]),set([]),subset
+aot_loader.c,load_relocation_section-9,"set(['11', '144', '45', '154'])","set(['11', '144', '45', '154'])",set([]),set([]),subset
+aot_loader.c,load_relocation_section-8,"set(['45', '154'])","set(['45', '154'])",set([]),set([]),subset
+aot_loader.c,load_text_section-2,{},{},set([]),set([]),subset
+aot_loader.c,load_text_section-0,set(['18']),set(['18']),set([]),set([]),subset
+aot_loader.c,load_text_section-1,{},{},set([]),set([]),subset
+aot_loader.c,load_function_section-3,"set(['4', '29'])","set(['4', '29'])",set([]),set([]),subset
+aot_loader.c,load_function_section-2,{},{},set([]),set([]),subset
+aot_loader.c,load_function_section-1,{},{},set([]),set([]),subset
+aot_loader.c,load_relocation_section-0,set(['161']),set(['161']),set([]),set([]),subset
+aot_loader.c,load_relocation_section-7,"set(['44', '152'])","set(['44', '152'])",set([]),set([]),subset
+aot_loader.c,load_relocation_section-6,{},{},set([]),set([]),subset
+aot_loader.c,load_relocation_section-5,{},{},set([]),set([]),subset
+aot_loader.c,load_relocation_section-4,"set(['138', '45', '152'])","set(['138', '45', '152'])",set([]),set([]),subset
+str.c,str_nullterminate-0,set(['5']),set(['5']),set([]),set([]),subset
+str.c,str_nullterminate-1,{},{},set([]),set([]),subset
+str.c,bh_strndup-0,set(['9']),set(['9']),set([]),set([]),subset
+str.c,bh_strndup-1,{},{},set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_get_function_type-0,"set(['10', '5'])","set(['10', '5'])",set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_get_export_table_type-0,set(['11']),set(['11']),set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_init_wasi-14,set(['9']),set(['9']),set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_init_wasi-15,"set(['33', '80', '36'])","set(['33', '80', '36'])",set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_init_wasi-16,"set(['19', '18', '80'])","set(['19', '18', '80'])",set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_init_wasi-17,"set(['18', '80', '15'])","set(['18', '80', '15'])",set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_init_wasi-10,set(['38']),set(['38']),set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_init_wasi-11,set(['20']),set(['20']),set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_init_wasi-12,{},{},set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_init_wasi-13,set(['27']),set(['27']),set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_init_wasi-18,"set(['80', '37', '36'])","set(['80', '37', '36'])",set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_get_exec_env_singleton-0,set(['9']),set(['9']),set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_create_exec_env_singleton-0,set(['5']),set(['5']),set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_call_wasm-0,set(['11']),set(['11']),set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_call_wasm-1,{},{},set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_call_wasm-2,{},{},set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_call_wasm-3,"set(['4', '6'])","set(['4', '6'])",set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_invoke_native-9,"set(['24', '22', '23'])","set(['24', '22', '23'])",set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_invoke_native-8,"set(['8', '45', '48', '35'])","set(['8', '45', '48', '35'])",set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_set_wasi_args_ex-0,"set(['2', '4'])","set(['2', '4'])",set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_invoke_native-5,"set(['39', '27', '48', '31', '45', '43', '35', '52', '8'])","set(['39', '27', '48', '31', '45', '43', '35', '52', '8'])",set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_invoke_native-4,set(['15']),set(['15']),set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_invoke_native-7,"set(['8', '48'])","set(['8', '48'])",set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_invoke_native-6,"set(['27', '48', '31', '45', '52', '8'])","set(['27', '48', '31', '45', '52', '8'])",set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_load-0,set(['9']),set(['9']),set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_load-1,{},{},set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_load-2,{},{},set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_invoke_native-2,"set(['8', '39', '45', '43', '35'])","set(['8', '39', '45', '43', '35'])",set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_init_thread_env-0,set(['3']),set(['3']),set([]),set([]),subset
+wasm_runtime_common.c,parse_uint32_array_to_results-0,"set(['1', '8'])","set(['1', '8'])",set([]),set([]),subset
+wasm_runtime_common.c,parse_uint32_array_to_results-1,set(['1']),set(['1']),set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_get_temp_ret-0,set(['5']),set(['5']),set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_validate_native_addr-0,set(['5']),set(['5']),set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_invoke_native-3,set(['71']),set(['71']),set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_get_llvm_stack-0,set(['5']),set(['5']),set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_invoke_c_api_native-2,set(['33']),set(['33']),set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_get_wasi_ctx-0,set(['5']),set(['5']),set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_invoke_c_api_native-3,set(['13']),set(['13']),set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_call_wasm_v-1,set(['29']),set(['29']),set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_call_wasm_v-0,set(['7']),set(['7']),set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_call_wasm_v-3,{},{},set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_call_wasm_v-2,{},{},set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_invoke_c_api_native-0,set(['38']),set(['38']),set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_invoke_c_api_native-1,{},{},set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_load_from_sections-0,set(['5']),set(['5']),set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_load_from_sections-1,{},{},set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_load_from_sections-2,{},{},set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_call_indirect-0,set(['7']),set(['7']),set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_invoke_c_api_native-5,set(['4']),set(['4']),set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_create_exec_env_and_call_wasm-0,"set(['2', '4'])","set(['2', '4'])",set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_invoke_native-10,set(['7']),set(['7']),set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_addr_app_to_native-0,set(['5']),set(['5']),set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_module_realloc-0,set(['5']),set(['5']),set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_env_init-0,set(['9']),set(['9']),set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_get_app_addr_range-0,set(['5']),set(['5']),set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_get_custom_data-0,set(['5']),set(['5']),set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_is_xip_file-2,set(['9']),set(['9']),set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_is_xip_file-0,set(['50']),set(['50']),set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_validate_app_str_addr-2,set(['3']),set(['3']),set([]),set([]),subset
+wasm_runtime_common.c,parse_args_to_uint32_array-0,"set(['1', '8'])","set(['1', '8'])",set([]),set([]),subset
+wasm_runtime_common.c,parse_args_to_uint32_array-1,set(['1']),set(['1']),set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_lookup_wasi_start_function-1,{},{},set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_validate_app_str_addr-1,{},{},set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_lookup_wasi_start_function-2,"set(['2', '14'])","set(['2', '14'])",set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_validate_app_str_addr-0,set(['11']),set(['11']),set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_invoke_c_api_native-4,"set(['33', '10'])","set(['33', '10'])",set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_get_exception-0,set(['5']),set(['5']),set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_enlarge_memory-0,set(['5']),set(['5']),set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_init_wasi-6,set(['80']),set(['80']),set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_init_wasi-7,"set(['47', '80'])","set(['47', '80'])",set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_init_wasi-4,set(['80']),set(['80']),set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_init_wasi-5,set(['80']),set(['80']),set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_init_wasi-2,"set(['9', '68', '27', '20', '38'])","set(['9', '68', '27', '20', '38'])",set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_init_wasi-3,set(['68']),set(['68']),set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_init_wasi-0,set(['101']),set(['101']),set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_init_wasi-1,{},{},set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_module_malloc-0,set(['5']),set(['5']),set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_init_wasi-8,"set(['47', '80'])","set(['47', '80'])",set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_init_wasi-9,set(['80']),set(['80']),set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_invoke_native_raw-2,set(['41']),set(['41']),set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_invoke_native_raw-3,set(['12']),set(['12']),set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_invoke_native_raw-0,set(['44']),set(['44']),set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_invoke_native_raw-1,{},{},set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_invoke_native_raw-6,set(['5']),set(['5']),set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_invoke_native_raw-7,set(['4']),set(['4']),set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_invoke_native_raw-4,set(['5']),set(['5']),set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_invoke_native_raw-5,"set(['28', '5'])","set(['28', '5'])",set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_is_xip_file-1,{},{},set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_get_native_addr_range-0,set(['5']),set(['5']),set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_instantiate_internal-0,set(['5']),set(['5']),set([]),set([]),subset
+wasm_runtime_common.c,get_package_type-0,set(['14']),set(['14']),set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_module_dup_data-0,set(['5']),set(['5']),set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_lookup_wasi_start_function-0,"set(['11', '24', '26', '20'])","set(['11', '24', '26', '20'])",set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_addr_native_to_app-0,set(['5']),set(['5']),set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_validate_app_addr-0,set(['5']),set(['5']),set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_is_wasi_mode-0,set(['7']),set(['7']),set([]),set([]),subset
+wasm_runtime_common.c,runtime_malloc-0,set(['9']),set(['9']),set([]),set([]),subset
+wasm_runtime_common.c,runtime_malloc-1,{},{},set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_full_init-0,set(['8']),set(['8']),set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_invoke_native-1,{},{},set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_get_export_func_type-0,set(['11']),set(['11']),set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_invoke_native-0,set(['74']),set(['74']),set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_init-0,set(['5']),set(['5']),set([]),set([]),subset
+wasm_runtime_common.c,wasm_exec_env_get_module-1,{},{},set([]),set([]),subset
+wasm_runtime_common.c,wasm_exec_env_get_module-0,set(['5']),set(['5']),set([]),set([]),subset
+wasm_runtime_common.c,argv_to_params-4,set(['1']),set(['1']),set([]),set([]),subset
+wasm_runtime_common.c,argv_to_params-5,set(['1']),set(['1']),set([]),set([]),subset
+wasm_runtime_common.c,argv_to_params-0,set(['11']),set(['11']),set([]),set([]),subset
+wasm_runtime_common.c,argv_to_params-1,{},{},set([]),set([]),subset
+wasm_runtime_common.c,argv_to_params-2,"set(['1', '8'])","set(['1', '8'])",set([]),set([]),subset
+wasm_runtime_common.c,argv_to_params-3,{},{},set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_get_export_global_type-0,set(['11']),set(['11']),set([]),set([]),subset
+wasm_runtime_common.c,results_to_argv-1,{},{},set([]),set([]),subset
+wasm_runtime_common.c,results_to_argv-0,set(['9']),set(['9']),set([]),set([]),subset
+wasm_runtime_common.c,results_to_argv-3,"set(['1', '6'])","set(['1', '6'])",set([]),set([]),subset
+wasm_runtime_common.c,results_to_argv-2,set(['1']),set(['1']),set([]),set([]),subset
+wasm_runtime_common.c,results_to_argv-4,set(['1']),set(['1']),set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_call_wasm_a-0,set(['18']),set(['18']),set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_lookup_function-0,set(['5']),set(['5']),set([]),set([]),subset
+wasm_runtime_common.c,wasm_runtime_get_export_memory_type-0,set(['11']),set(['11']),set([]),set([]),subset
+bh_hashmap.c,bh_hash_map_get_struct_size-0,set(['2']),set(['2']),set([]),set([]),subset
+bh_hashmap.c,bh_hash_map_create-0,set(['13']),set(['13']),set([]),set([]),subset
+bh_hashmap.c,bh_hash_map_create-1,{},{},set([]),set([]),subset
+bh_hashmap.c,bh_hash_map_find-1,{},{},set([]),set([]),subset
+bh_hashmap.c,bh_hash_map_find-0,set(['15']),set(['15']),set([]),set([]),subset
+bh_hashmap.c,bh_hash_map_find-2,set(['6']),set(['6']),set([]),set([]),subset
+bh_hashmap.c,bh_hash_map_destroy-3,set(['7']),set(['7']),set([]),set([]),subset
+bh_hashmap.c,bh_hash_map_destroy-2,set(['5']),set(['5']),set([]),set([]),subset
+bh_hashmap.c,bh_hash_map_destroy-1,{},{},set([]),set([]),subset
+bh_hashmap.c,bh_hash_map_destroy-0,set(['18']),set(['18']),set([]),set([]),subset
+bh_hashmap.c,bh_hash_map_insert-1,{},{},set([]),set([]),subset
+bh_hashmap.c,bh_hash_map_insert-0,set(['18']),set(['18']),set([]),set([]),subset
+bh_hashmap.c,bh_hash_map_insert-2,set(['6']),set(['6']),set([]),set([]),subset
+bh_hashmap.c,bh_hash_map_traverse-2,set(['8']),set(['8']),set([]),set([]),subset
+bh_hashmap.c,bh_hash_map_traverse-3,set(['6']),set(['6']),set([]),set([]),subset
+bh_hashmap.c,bh_hash_map_remove-0,set(['22']),set(['22']),set([]),set([]),subset
+bh_hashmap.c,bh_hash_map_traverse-1,{},{},set([]),set([]),subset
+bh_hashmap.c,bh_hash_map_update-1,{},{},set([]),set([]),subset
+bh_hashmap.c,bh_hash_map_update-0,set(['17']),set(['17']),set([]),set([]),subset
+bh_hashmap.c,bh_hash_map_update-2,set(['6']),set(['6']),set([]),set([]),subset
+bh_hashmap.c,bh_hash_map_remove-2,set(['6']),set(['6']),set([]),set([]),subset
+bh_hashmap.c,bh_hash_map_remove-3,set(['6']),set(['6']),set([]),set([]),subset
+bh_hashmap.c,bh_hash_map_traverse-0,set(['15']),set(['15']),set([]),set([]),subset
+bh_hashmap.c,bh_hash_map_remove-1,{},{},set([]),set([]),subset
+bh_log.c,bh_print_time-0,set(['5']),set(['5']),set([]),set([]),subset
+bh_log.c,bh_log-0,set(['5']),set(['5']),set([]),set([]),subset
+aot_runtime.c,aot_call_indirect-6,{},{},set([]),set([]),subset
+aot_runtime.c,aot_call_indirect-7,{},{},set([]),set([]),subset
+aot_runtime.c,wasm_get_cell_num-1,set(['1']),set(['1']),set([]),set([]),subset
+aot_runtime.c,wasm_get_cell_num-0,set(['1']),set(['1']),set([]),set([]),subset
+aot_runtime.c,init_func_type_indexes-0,set(['15']),set(['15']),set([]),set([]),subset
+aot_runtime.c,init_func_type_indexes-1,{},{},set([]),set([]),subset
+aot_runtime.c,init_func_type_indexes-2,set(['5']),set(['5']),set([]),set([]),subset
+aot_runtime.c,init_func_type_indexes-3,set(['5']),set(['5']),set([]),set([]),subset
+aot_runtime.c,aot_validate_app_addr-1,{},{},set([]),set([]),subset
+aot_runtime.c,aot_validate_app_addr-0,set(['8']),set(['8']),set([]),set([]),subset
+aot_runtime.c,aot_is_wasm_type_equal-1,{},{},set([]),set([]),subset
+aot_runtime.c,aot_is_wasm_type_equal-0,set(['6']),set(['6']),set([]),set([]),subset
+aot_runtime.c,aot_invoke_native-2,{},{},set([]),set([]),subset
+aot_runtime.c,aot_invoke_native-1,{},{},set([]),set([]),subset
+aot_runtime.c,aot_invoke_native-0,set(['7']),set(['7']),set([]),set([]),subset
+aot_runtime.c,memory_instantiate-7,"set(['14', '16'])","set(['14', '16'])",set([]),set([]),subset
+aot_runtime.c,memory_instantiate-6,{},{},set([]),set([]),subset
+aot_runtime.c,memory_instantiate-5,"set(['27', '28', '4', '22', '21'])","set(['27', '28', '4', '22', '21'])",set([]),set([]),subset
+aot_runtime.c,memory_instantiate-4,"set(['27', '28', '22'])","set(['27', '28', '22'])",set([]),set([]),subset
+aot_runtime.c,memory_instantiate-3,{},{},set([]),set([]),subset
+aot_runtime.c,memory_instantiate-2,{},{},set([]),set([]),subset
+aot_runtime.c,memory_instantiate-1,set(['39']),set(['39']),set([]),set([]),subset
+aot_runtime.c,memory_instantiate-0,set(['48']),set(['48']),set([]),set([]),subset
+aot_runtime.c,invoke_native_with_hw_bound_check-2,"set(['18', '20', '22', '17'])","set(['18', '20', '22', '17'])",set([]),set([]),subset
+aot_runtime.c,invoke_native_with_hw_bound_check-1,{},{},set([]),set([]),subset
+aot_runtime.c,invoke_native_with_hw_bound_check-0,set(['27']),set(['27']),set([]),set([]),subset
+aot_runtime.c,aot_get_default_memory-0,set(['3']),set(['3']),set([]),set([]),subset
+aot_runtime.c,aot_get_table_inst-1,set(['1']),set(['1']),set([]),set([]),subset
+aot_runtime.c,memory_instantiate-9,set(['28']),set(['28']),set([]),set([]),subset
+aot_runtime.c,memory_instantiate-8,set(['18']),set(['18']),set([]),set([]),subset
+aot_runtime.c,create_exports-2,set(['1']),set(['1']),set([]),set([]),subset
+aot_runtime.c,create_exports-1,{},{},set([]),set([]),subset
+aot_runtime.c,create_exports-0,set(['11']),set(['11']),set([]),set([]),subset
+aot_runtime.c,create_export_funcs-3,"set(['10', '4'])","set(['10', '4'])",set([]),set([]),subset
+aot_runtime.c,create_export_funcs-2,set(['4']),set(['4']),set([]),set([]),subset
+aot_runtime.c,create_export_funcs-1,{},{},set([]),set([]),subset
+aot_runtime.c,create_export_funcs-0,set(['14']),set(['14']),set([]),set([]),subset
+aot_runtime.c,clear_wasi_proc_exit_exception-1,{},{},set([]),set([]),subset
+aot_runtime.c,aot_call_indirect-10,{},{},set([]),set([]),subset
+aot_runtime.c,clear_wasi_proc_exit_exception-0,set(['4']),set(['4']),set([]),set([]),subset
+aot_runtime.c,wasm_value_type_size-0,set(['7']),set(['7']),set([]),set([]),subset
+aot_runtime.c,aot_get_native_addr_range-1,{},{},set([]),set([]),subset
+aot_runtime.c,aot_call_function-8,"set(['46', '26', '27'])","set(['46', '26', '27'])",set([]),set([]),subset
+aot_runtime.c,aot_get_native_addr_range-0,set(['10']),set(['10']),set([]),set([]),subset
+aot_runtime.c,aot_call_function-2,{},{},set([]),set([]),subset
+aot_runtime.c,aot_call_function-3,{},{},set([]),set([]),subset
+aot_runtime.c,aot_call_function-0,"set(['43', '49'])","set(['43', '49'])",set([]),set([]),subset
+aot_runtime.c,aot_call_function-1,set(['34']),set(['34']),set([]),set([]),subset
+aot_runtime.c,aot_call_function-6,set(['16']),set(['16']),set([]),set([]),subset
+aot_runtime.c,aot_call_function-7,{},{},set([]),set([]),subset
+aot_runtime.c,aot_call_function-4,set(['9']),set(['9']),set([]),set([]),subset
+aot_runtime.c,aot_call_function-5,set(['16']),set(['16']),set([]),set([]),subset
+aot_runtime.c,aot_module_malloc-4,set(['17']),set(['17']),set([]),set([]),subset
+aot_runtime.c,aot_module_malloc-5,"set(['19', '20', '17'])","set(['19', '20', '17'])",set([]),set([]),subset
+aot_runtime.c,aot_module_malloc-2,set(['11']),set(['11']),set([]),set([]),subset
+aot_runtime.c,aot_module_malloc-3,"set(['9', '11'])","set(['9', '11'])",set([]),set([]),subset
+aot_runtime.c,aot_module_malloc-0,"set(['29', '17'])","set(['29', '17'])",set([]),set([]),subset
+aot_runtime.c,aot_module_malloc-1,set(['11']),set(['11']),set([]),set([]),subset
+aot_runtime.c,check_global_init_expr-0,set(['6']),set(['6']),set([]),set([]),subset
+aot_runtime.c,aot_validate_native_addr-0,set(['9']),set(['9']),set([]),set([]),subset
+aot_runtime.c,aot_validate_native_addr-1,{},{},set([]),set([]),subset
+aot_runtime.c,aot_get_exception-0,set(['3']),set(['3']),set([]),set([]),subset
+aot_runtime.c,aot_instantiate-3,set(['30']),set(['30']),set([]),set([]),subset
+aot_runtime.c,aot_instantiate-2,"set(['3', '7'])","set(['3', '7'])",set([]),set([]),subset
+aot_runtime.c,global_instantiate-1,{},{},set([]),set([]),subset
+aot_runtime.c,global_instantiate-0,set(['14']),set(['14']),set([]),set([]),subset
+aot_runtime.c,aot_instantiate-7,{},{},set([]),set([]),subset
+aot_runtime.c,aot_instantiate-6,"set(['3', '7'])","set(['3', '7'])",set([]),set([]),subset
+aot_runtime.c,global_instantiate-5,"set(['1', '5'])","set(['1', '5'])",set([]),set([]),subset
+aot_runtime.c,global_instantiate-4,"set(['1', '5'])","set(['1', '5'])",set([]),set([]),subset
+aot_runtime.c,execute_free_function-1,{},{},set([]),set([]),subset
+aot_runtime.c,execute_free_function-0,set(['3']),set(['3']),set([]),set([]),subset
+aot_runtime.c,aot_get_app_addr_range-0,set(['9']),set(['9']),set([]),set([]),subset
+aot_runtime.c,aot_get_app_addr_range-1,{},{},set([]),set([]),subset
+aot_runtime.c,memory_instantiate-11,"set(['26', '27', '28'])","set(['26', '27', '28'])",set([]),set([]),subset
+aot_runtime.c,memory_instantiate-10,"set(['27', '28'])","set(['27', '28'])",set([]),set([]),subset
+aot_runtime.c,aot_signal_handler-1,set(['5']),set(['5']),set([]),set([]),subset
+aot_runtime.c,aot_signal_handler-0,set(['5']),set(['5']),set([]),set([]),subset
+aot_runtime.c,memories_deinstantiate-0,set(['1']),set(['1']),set([]),set([]),subset
+aot_runtime.c,execute_post_inst_function-1,{},{},set([]),set([]),subset
+aot_runtime.c,execute_post_inst_function-0,set(['3']),set(['3']),set([]),set([]),subset
+aot_runtime.c,aot_module_free-2,set(['21']),set(['21']),set([]),set([]),subset
+aot_runtime.c,aot_module_free-0,set(['14']),set(['14']),set([]),set([]),subset
+aot_runtime.c,aot_module_free-1,set(['17']),set(['17']),set([]),set([]),subset
+aot_runtime.c,aot_addr_native_to_app-1,{},{},set([]),set([]),subset
+aot_runtime.c,aot_addr_native_to_app-0,set(['6']),set(['6']),set([]),set([]),subset
+aot_runtime.c,aot_addr_app_to_native-1,{},{},set([]),set([]),subset
+aot_runtime.c,aot_addr_app_to_native-0,set(['6']),set(['6']),set([]),set([]),subset
+aot_runtime.c,init_func_ptrs-0,set(['17']),set(['17']),set([]),set([]),subset
+aot_runtime.c,init_func_ptrs-1,{},{},set([]),set([]),subset
+aot_runtime.c,init_func_ptrs-2,set(['5']),set(['5']),set([]),set([]),subset
+aot_runtime.c,init_func_ptrs-3,set(['5']),set(['5']),set([]),set([]),subset
+aot_runtime.c,aot_create_exec_env_and_call_function-1,{},{},set([]),set([]),subset
+aot_runtime.c,memories_instantiate-4,"set(['9', '3'])","set(['9', '3'])",set([]),set([]),subset
+aot_runtime.c,aot_create_exec_env_and_call_function-3,set(['4']),set(['4']),set([]),set([]),subset
+aot_runtime.c,aot_create_exec_env_and_call_function-2,{},{},set([]),set([]),subset
+aot_runtime.c,memories_instantiate-1,{},{},set([]),set([]),subset
+aot_runtime.c,memories_instantiate-0,set(['33']),set(['33']),set([]),set([]),subset
+aot_runtime.c,memories_instantiate-3,set(['3']),set(['3']),set([]),set([]),subset
+aot_runtime.c,memories_instantiate-2,{},{},set([]),set([]),subset
+aot_runtime.c,table_instantiate-5,"set(['1', '8'])","set(['1', '8'])",set([]),set([]),subset
+aot_runtime.c,table_instantiate-4,set(['15']),set(['15']),set([]),set([]),subset
+aot_runtime.c,aot_call_indirect-2,set(['26']),set(['26']),set([]),set([]),subset
+aot_runtime.c,aot_call_indirect-3,set(['41']),set(['41']),set([]),set([]),subset
+aot_runtime.c,table_instantiate-1,{},{},set([]),set([]),subset
+aot_runtime.c,table_instantiate-0,set(['30']),set(['30']),set([]),set([]),subset
+aot_runtime.c,table_instantiate-3,set(['17']),set(['17']),set([]),set([]),subset
+aot_runtime.c,table_instantiate-2,set(['1']),set(['1']),set([]),set([]),subset
+aot_runtime.c,aot_call_indirect-8,{},{},set([]),set([]),subset
+aot_runtime.c,aot_call_indirect-9,set(['12']),set(['12']),set([]),set([]),subset
+aot_runtime.c,aot_enlarge_memory-1,{},{},set([]),set([]),subset
+aot_runtime.c,aot_module_realloc-2,set(['4']),set(['4']),set([]),set([]),subset
+aot_runtime.c,aot_module_realloc-1,{},{},set([]),set([]),subset
+aot_runtime.c,aot_module_realloc-0,set(['13']),set(['13']),set([]),set([]),subset
+aot_runtime.c,execute_malloc_function-1,set(['2']),set(['2']),set([]),set([]),subset
+aot_runtime.c,execute_malloc_function-0,"set(['11', '10', '6'])","set(['11', '10', '6'])",set([]),set([]),subset
+aot_runtime.c,memories_instantiate-5,set(['18']),set(['18']),set([]),set([]),subset
+aot_runtime.c,aot_create_exec_env_and_call_function-0,set(['7']),set(['7']),set([]),set([]),subset
+aot_runtime.c,execute_start_function-0,set(['5']),set(['5']),set([]),set([]),subset
+aot_runtime.c,execute_start_function-1,{},{},set([]),set([]),subset
+aot_runtime.c,aot_enlarge_memory-0,set(['10']),set(['10']),set([]),set([]),subset
+aot_runtime.c,global_instantiate-3,set(['1']),set(['1']),set([]),set([]),subset
+aot_runtime.c,memories_instantiate-6,set(['16']),set(['16']),set([]),set([]),subset
+aot_runtime.c,global_instantiate-2,set(['5']),set(['5']),set([]),set([]),subset
+aot_runtime.c,memory_instantiate-12,"set(['18', '22'])","set(['18', '22'])",set([]),set([]),subset
+aot_runtime.c,aot_instantiate-1,{},{},set([]),set([]),subset
+aot_runtime.c,aot_instantiate-0,set(['35']),set(['35']),set([]),set([]),subset
+aot_runtime.c,runtime_malloc-0,set(['4']),set(['4']),set([]),set([]),subset
+aot_runtime.c,runtime_malloc-1,{},{},set([]),set([]),subset
+aot_runtime.c,aot_instantiate-5,{},{},set([]),set([]),subset
+aot_runtime.c,aot_instantiate-4,set(['2']),set(['2']),set([]),set([]),subset
+aot_runtime.c,aot_get_table_inst-0,set(['1']),set(['1']),set([]),set([]),subset
+aot_runtime.c,aot_lookup_function-2,set(['1']),set(['1']),set([]),set([]),subset
+aot_runtime.c,aot_lookup_function-0,set(['7']),set(['7']),set([]),set([]),subset
+aot_runtime.c,aot_lookup_function-1,{},{},set([]),set([]),subset
+aot_runtime.c,aot_call_indirect-0,"set(['54', '50'])","set(['54', '50'])",set([]),set([]),subset
+aot_runtime.c,aot_call_indirect-1,set(['26']),set(['26']),set([]),set([]),subset
+aot_runtime.c,aot_call_indirect-4,{},{},set([]),set([]),subset
+aot_runtime.c,aot_call_indirect-5,set(['19']),set(['19']),set([]),set([]),subset
+wasm_native.c,quick_sort_symbols-1,"set(['11', '3', '12'])","set(['11', '3', '12'])",set([]),set([]),subset
+wasm_native.c,quick_sort_symbols-0,set(['20']),set(['20']),set([]),set([]),subset
+wasm_native.c,quick_sort_symbols-2,"set(['18', '3', '5'])","set(['18', '3', '5'])",set([]),set([]),subset
+wasm_native.c,register_natives-1,{},{},set([]),set([]),subset
+wasm_native.c,register_natives-0,set(['3']),set(['3']),set([]),set([]),subset
+wasm_native.c,compare_type_with_signautre-0,set(['5']),set(['5']),set([]),set([]),subset
+wasm_native.c,compare_type_with_signautre-1,{},{},set([]),set([]),subset
+wasm_native.c,wasm_native_destroy-0,set(['1']),set(['1']),set([]),set([]),subset
+wasm_native.c,lookup_symbol-1,{},{},set([]),set([]),subset
+wasm_native.c,lookup_symbol-0,set(['10']),set(['10']),set([]),set([]),subset
+wasm_native.c,lookup_symbol-3,"set(['1', '7'])","set(['1', '7'])",set([]),set([]),subset
+wasm_native.c,lookup_symbol-2,"set(['1', '7'])","set(['1', '7'])",set([]),set([]),subset
+wasm_native.c,check_symbol_signature-3,"set(['24', '8', '23', '33', '18'])","set(['24', '8', '23', '33', '18'])",set([]),set([]),subset
+wasm_native.c,check_symbol_signature-2,"set(['24', '8', '23', '18'])","set(['24', '8', '23', '18'])",set([]),set([]),subset
+wasm_native.c,check_symbol_signature-1,{},{},set([]),set([]),subset
+wasm_native.c,check_symbol_signature-0,set(['36']),set(['36']),set([]),set([]),subset
+wasm_native.c,wasm_native_resolve_symbol-1,{},{},set([]),set([]),subset
+wasm_native.c,wasm_native_resolve_symbol-0,set(['19']),set(['19']),set([]),set([]),subset
+wasm_native.c,wasm_native_resolve_symbol-3,set(['1']),set(['1']),set([]),set([]),subset
+wasm_native.c,wasm_native_resolve_symbol-2,"set(['1', '8', '9', '7', '6'])","set(['1', '8', '9', '7', '6'])",set([]),set([]),subset
+wasm_native.c,wasm_native_init-2,{},{},set([]),set([]),subset
+wasm_native.c,wasm_native_init-0,set(['7']),set(['7']),set([]),set([]),subset
+wasm_native.c,wasm_native_init-1,{},{},set([]),set([]),subset
+posix_time.c,os_time_get_boot_microsecond-0,set(['3']),set(['3']),set([]),set([]),subset
+posix_time.c,os_time_get_boot_microsecond-1,{},{},set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_fd_allocate-0,set(['3']),set(['3']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_fd_allocate-1,{},{},set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_fd_prestat_get-0,set(['7']),set(['7']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_fd_prestat_get-1,{},{},set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_fd_filestat_set_size-1,{},{},set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_fd_filestat_set_size-0,set(['3']),set(['3']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_sock_recv-1,{},{},set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_sock_recv-0,set(['20']),set(['20']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_path_filestat_set_times-0,set(['3']),set(['3']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_path_filestat_set_times-1,{},{},set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_sock_recv-5,{},{},set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_sock_recv-4,set(['11']),set(['11']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_fd_advise-1,{},{},set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_fd_advise-0,set(['3']),set(['3']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_fd_renumber-1,{},{},set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_fd_renumber-0,set(['3']),set(['3']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_fd_fdstat_get-0,set(['7']),set(['7']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_fd_fdstat_get-1,{},{},set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_environ_sizes_get-1,{},{},set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_environ_sizes_get-0,set(['8']),set(['8']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_fd_write-5,{},{},set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_fd_write-4,set(['10']),set(['10']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_path_symlink-0,set(['3']),set(['3']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_fd_write-6,set(['10']),set(['10']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_fd_write-1,{},{},set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_fd_write-0,set(['19']),set(['19']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_fd_write-3,set(['10']),set(['10']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_fd_write-2,set(['18']),set(['18']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_args_get-1,{},{},set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_args_get-0,set(['19']),set(['19']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_args_get-3,{},{},set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_path_rename-1,{},{},set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_args_get-4,set(['15']),set(['15']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_ctx_get_curfds-0,set(['3']),set(['3']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_path_readlink-0,set(['7']),set(['7']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_path_readlink-1,{},{},set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_fd_fdstat_set_rights-1,{},{},set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_fd_fdstat_set_rights-0,set(['3']),set(['3']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_path_create_directory-0,set(['3']),set(['3']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_path_create_directory-1,{},{},set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_fd_readdir-1,{},{},set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_fd_readdir-0,set(['7']),set(['7']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_poll_oneoff-1,{},{},set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_poll_oneoff-0,set(['9']),set(['9']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_fd_close-0,set(['3']),set(['3']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_fd_fdstat_set_flags-1,{},{},set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_sock_recv-3,set(['11']),set(['11']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_sock_recv-2,set(['19']),set(['19']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_ctx_get_argv_environ-0,set(['3']),set(['3']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_sock_recv-6,set(['11']),set(['11']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_path_open-0,set(['5']),set(['5']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_path_open-1,{},{},set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_fd_seek-1,{},{},set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_fd_seek-0,set(['5']),set(['5']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_fd_filestat_set_times-1,{},{},set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_fd_filestat_set_times-0,set(['3']),set(['3']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_fd_filestat_get-1,{},{},set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_path_remove_directory-0,set(['3']),set(['3']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_path_remove_directory-1,{},{},set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_sock_send-2,set(['18']),set(['18']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_fd_pread-0,set(['19']),set(['19']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_fd_pread-1,{},{},set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_fd_pread-2,set(['18']),set(['18']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_fd_pread-3,set(['10']),set(['10']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_fd_pread-4,set(['10']),set(['10']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_fd_pread-5,{},{},set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_fd_pread-6,set(['10']),set(['10']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_fd_prestat_dir_name-0,set(['3']),set(['3']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_fd_prestat_dir_name-1,{},{},set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_args_get-2,{},{},set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_fd_read-1,{},{},set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_fd_read-0,set(['19']),set(['19']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_fd_read-3,set(['10']),set(['10']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_fd_read-2,set(['18']),set(['18']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_fd_read-5,{},{},set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_fd_read-4,set(['10']),set(['10']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_sock_send-3,set(['10']),set(['10']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_fd_read-6,set(['10']),set(['10']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_fd_tell-0,set(['5']),set(['5']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_sock_shutdown-1,{},{},set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_environ_get-3,{},{},set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_environ_get-2,{},{},set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_sock_send-6,set(['10']),set(['10']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_sock_send-5,{},{},set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_sock_send-4,set(['10']),set(['10']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_fd_datasync-0,set(['3']),set(['3']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_fd_datasync-1,{},{},set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_sock_send-1,{},{},set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_sock_send-0,set(['19']),set(['19']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_clock_time_get-0,set(['3']),set(['3']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_clock_time_get-1,{},{},set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_fd_fdstat_set_flags-0,set(['3']),set(['3']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_fd_close-1,{},{},set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_fd_sync-0,set(['3']),set(['3']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_fd_sync-1,{},{},set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_args_sizes_get-0,set(['8']),set(['8']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_args_sizes_get-1,{},{},set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_sock_shutdown-0,set(['3']),set(['3']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_ctx_get_prestats-0,set(['3']),set(['3']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_path_symlink-1,{},{},set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_path_unlink_file-1,{},{},set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_path_unlink_file-0,set(['3']),set(['3']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_clock_res_get-0,set(['3']),set(['3']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_clock_res_get-1,{},{},set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_fd_filestat_get-0,set(['5']),set(['5']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_fd_tell-1,{},{},set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_environ_get-0,set(['19']),set(['19']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_environ_get-1,{},{},set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_environ_get-4,set(['15']),set(['15']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_path_rename-0,set(['3']),set(['3']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_path_link-0,set(['3']),set(['3']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_path_link-1,{},{},set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_path_filestat_get-1,{},{},set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_path_filestat_get-0,set(['5']),set(['5']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_fd_pwrite-2,set(['18']),set(['18']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_fd_pwrite-3,set(['10']),set(['10']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_fd_pwrite-0,set(['19']),set(['19']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_fd_pwrite-1,{},{},set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_fd_pwrite-6,set(['10']),set(['10']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_fd_pwrite-4,set(['10']),set(['10']),set([]),set([]),subset
+libc_wasi_wrapper.c,wasi_fd_pwrite-5,{},{},set([]),set([]),subset
+libc_builtin_wrapper.c,memcpy_wrapper-0,set(['11']),set(['11']),set([]),set([]),subset
+libc_builtin_wrapper.c,memcpy_wrapper-1,{},{},set([]),set([]),subset
+libc_builtin_wrapper.c,_vprintf_wa-11,set(['79']),set(['79']),set([]),set([]),subset
+libc_builtin_wrapper.c,_vprintf_wa-10,"set(['44', '45', '42', '3', '40', '117', '119', '118'])","set(['44', '45', '42', '3', '40', '117', '119', '118'])",set([]),set([]),subset
+libc_builtin_wrapper.c,_printf_hex_uint-4,set(['1']),set(['1']),set([]),set([]),subset
+libc_builtin_wrapper.c,_vprintf_wa-12,"set(['45', '40', '115', '61', '64', '104', '80', '97'])","set(['45', '40', '115', '61', '64', '104', '80', '97'])",set([]),set([]),subset
+libc_builtin_wrapper.c,_vprintf_wa-0,"set(['3', '122', '117', '119', '118', '97'])","set(['3', '122', '117', '119', '118', '97'])",set([]),set([]),subset
+libc_builtin_wrapper.c,strtoul_wrapper-2,{},{},set([]),set([]),subset
+libc_builtin_wrapper.c,printf_wrapper-0,set(['5']),set(['5']),set([]),set([]),subset
+libc_builtin_wrapper.c,printf_wrapper-1,{},{},set([]),set([]),subset
+libc_builtin_wrapper.c,memmove_wrapper-0,set(['5']),set(['5']),set([]),set([]),subset
+libc_builtin_wrapper.c,memmove_wrapper-1,{},{},set([]),set([]),subset
+libc_builtin_wrapper.c,strtoul_wrapper-1,{},{},set([]),set([]),subset
+libc_builtin_wrapper.c,_printf_hex_uint-1,set(['1']),set(['1']),set([]),set([]),subset
+libc_builtin_wrapper.c,_vprintf_wa-1,set(['112']),set(['112']),set([]),set([]),subset
+libc_builtin_wrapper.c,strcpy_wrapper-0,set(['3']),set(['3']),set([]),set([]),subset
+libc_builtin_wrapper.c,strcpy_wrapper-1,{},{},set([]),set([]),subset
+libc_builtin_wrapper.c,_printf_dec_uint-4,set(['2']),set(['2']),set([]),set([]),subset
+libc_builtin_wrapper.c,_printf_hex_uint-2,"set(['1', '16'])","set(['1', '16'])",set([]),set([]),subset
+libc_builtin_wrapper.c,memchr_wrapper-1,{},{},set([]),set([]),subset
+libc_builtin_wrapper.c,memchr_wrapper-0,set(['3']),set(['3']),set([]),set([]),subset
+libc_builtin_wrapper.c,strncmp_wrapper-1,{},{},set([]),set([]),subset
+libc_builtin_wrapper.c,strncmp_wrapper-0,set(['3']),set(['3']),set([]),set([]),subset
+libc_builtin_wrapper.c,_printf_hex_uint-3,set(['1']),set(['1']),set([]),set([]),subset
+libc_builtin_wrapper.c,free_wrapper-0,set(['3']),set(['3']),set([]),set([]),subset
+libc_builtin_wrapper.c,_printf_hex_uint-0,{},{},set([]),set([]),subset
+libc_builtin_wrapper.c,strncpy_wrapper-1,{},{},set([]),set([]),subset
+libc_builtin_wrapper.c,strncpy_wrapper-0,set(['3']),set(['3']),set([]),set([]),subset
+libc_builtin_wrapper.c,_vprintf_wa-7,"set(['21', '117', '3', '66', '8', '119', '118'])","set(['21', '117', '3', '66', '8', '119', '118'])",set([]),set([]),subset
+libc_builtin_wrapper.c,memset_wrapper-0,set(['3']),set(['3']),set([]),set([]),subset
+libc_builtin_wrapper.c,memset_wrapper-1,{},{},set([]),set([]),subset
+libc_builtin_wrapper.c,sprintf_out-0,set(['7']),set(['7']),set([]),set([]),subset
+libc_builtin_wrapper.c,_vprintf_wa-6,"set(['8', '3', '119', '118'])","set(['8', '3', '119', '118'])",set([]),set([]),subset
+libc_builtin_wrapper.c,calloc_wrapper-1,{},{},set([]),set([]),subset
+libc_builtin_wrapper.c,calloc_wrapper-0,set(['5']),set(['5']),set([]),set([]),subset
+libc_builtin_wrapper.c,calloc_wrapper-2,{},{},set([]),set([]),subset
+libc_builtin_wrapper.c,__cxa_allocate_exception_wrapper-1,{},{},set([]),set([]),subset
+libc_builtin_wrapper.c,__cxa_allocate_exception_wrapper-0,set(['3']),set(['3']),set([]),set([]),subset
+libc_builtin_wrapper.c,strtol_wrapper-1,{},{},set([]),set([]),subset
+libc_builtin_wrapper.c,strtol_wrapper-0,set(['3']),set(['3']),set([]),set([]),subset
+libc_builtin_wrapper.c,strtol_wrapper-2,{},{},set([]),set([]),subset
+libc_builtin_wrapper.c,strdup_wrapper-0,set(['10']),set(['10']),set([]),set([]),subset
+libc_builtin_wrapper.c,wasm_native_lookup_libc_builtin_global-2,set(['5']),set(['5']),set([]),set([]),subset
+libc_builtin_wrapper.c,wasm_native_lookup_libc_builtin_global-1,{},{},set([]),set([]),subset
+libc_builtin_wrapper.c,wasm_native_lookup_libc_builtin_global-0,set(['11']),set(['11']),set([]),set([]),subset
+libc_builtin_wrapper.c,sprintf_wrapper-0,set(['9']),set(['9']),set([]),set([]),subset
+libc_builtin_wrapper.c,sprintf_wrapper-1,{},{},set([]),set([]),subset
+libc_builtin_wrapper.c,_vprintf_wa-13,"set(['117', '61', '3', '63', '64', '119', '118'])","set(['117', '61', '3', '63', '64', '119', '118'])",set([]),set([]),subset
+libc_builtin_wrapper.c,clock_gettime_wrapper-0,set(['3']),set(['3']),set([]),set([]),subset
+libc_builtin_wrapper.c,clock_gettime_wrapper-1,{},{},set([]),set([]),subset
+libc_builtin_wrapper.c,_printf_dec_uint-5,set(['3']),set(['3']),set([]),set([]),subset
+libc_builtin_wrapper.c,strtoul_wrapper-0,set(['3']),set(['3']),set([]),set([]),subset
+libc_builtin_wrapper.c,_printf_dec_uint-3,set(['3']),set(['3']),set([]),set([]),subset
+libc_builtin_wrapper.c,_printf_dec_uint-2,"set(['11', '3'])","set(['11', '3'])",set([]),set([]),subset
+libc_builtin_wrapper.c,_printf_dec_uint-1,"set(['3', '14'])","set(['3', '14'])",set([]),set([]),subset
+libc_builtin_wrapper.c,_printf_dec_uint-0,"set(['11', '10', '3'])","set(['11', '10', '3'])",set([]),set([]),subset
+libc_builtin_wrapper.c,memcmp_wrapper-0,set(['3']),set(['3']),set([]),set([]),subset
+libc_builtin_wrapper.c,memcmp_wrapper-1,{},{},set([]),set([]),subset
+libc_builtin_wrapper.c,_vprintf_wa-3,set(['3']),set(['3']),set([]),set([]),subset
+libc_builtin_wrapper.c,_vprintf_wa-2,set(['93']),set(['93']),set([]),set([]),subset
+libc_builtin_wrapper.c,snprintf_wrapper-1,{},{},set([]),set([]),subset
+libc_builtin_wrapper.c,snprintf_wrapper-0,set(['7']),set(['7']),set([]),set([]),subset
+libc_builtin_wrapper.c,emscripten_memcpy_big_wrapper-1,{},{},set([]),set([]),subset
+libc_builtin_wrapper.c,emscripten_memcpy_big_wrapper-0,set(['9']),set(['9']),set([]),set([]),subset
+libc_builtin_wrapper.c,_vprintf_wa-5,set(['89']),set(['89']),set([]),set([]),subset
+libc_builtin_wrapper.c,_vprintf_wa-4,"set(['115', '45', '42', '117', '40', '104', '61', '3', '63', '64', '97', '80', '119', '118', '79'])","set(['115', '45', '42', '117', '40', '104', '61', '3', '63', '64', '97', '80', '119', '118', '79'])",set([]),set([]),subset
+libc_builtin_wrapper.c,_vprintf_wa-9,"set(['8', '3', '119', '118', '23'])","set(['8', '3', '119', '118', '23'])",set([]),set([]),subset
+libc_builtin_wrapper.c,_vprintf_wa-8,"set(['19', '44', '45', '117', '3', '66', '8', '119', '118'])","set(['19', '44', '45', '117', '3', '66', '8', '119', '118'])",set([]),set([]),subset
+main.c,main-14,"set(['39', '48', '46', '47', '44', '45', '43', '1'])","set(['39', '48', '46', '47', '44', '45', '43', '1'])",set([]),set([]),subset
+main.c,main-15,"set(['39', '66'])","set(['39', '66'])",set([]),set([]),subset
+main.c,main-10,"set(['1', '47', '48'])","set(['1', '47', '48'])",set([]),set([]),subset
+main.c,main-11,"set(['1', '46', '48', '47'])","set(['1', '46', '48', '47'])",set([]),set([]),subset
+main.c,main-12,"set(['68', '66'])","set(['68', '66'])",set([]),set([]),subset
+main.c,main-13,"set(['48', '46', '47', '44', '45', '43', '1'])","set(['48', '46', '47', '44', '45', '43', '1'])",set([]),set([]),subset
+main.c,main-6,"set(['1', '46', '45', '48', '47'])","set(['1', '46', '45', '48', '47'])",set([]),set([]),subset
+main.c,main-7,"set(['48', '46', '47', '44', '45', '1'])","set(['48', '46', '47', '44', '45', '1'])",set([]),set([]),subset
+main.c,main-4,"set(['1', '48'])","set(['1', '48'])",set([]),set([]),subset
+main.c,main-5,"set(['68', '66'])","set(['68', '66'])",set([]),set([]),subset
+main.c,main-2,"set(['1', '48'])","set(['1', '48'])",set([]),set([]),subset
+main.c,main-3,{},{},set([]),set([]),subset
+main.c,main-0,"set(['39', '48', '46', '47', '44', '45', '43', '1', '85'])","set(['39', '48', '46', '47', '44', '45', '43', '1', '85'])",set([]),set([]),subset
+main.c,main-1,"set(['1', '48'])","set(['1', '48'])",set([]),set([]),subset
+main.c,main-8,{},{},set([]),set([]),subset
+main.c,main-9,{},{},set([]),set([]),subset
+main.c,split_string-1,set(['1']),set(['1']),set([]),set([]),subset
+main.c,split_string-0,set(['11']),set(['11']),set([]),set([]),subset
+main.c,split_string-3,set(['1']),set(['1']),set([]),set([]),subset
+main.c,split_string-2,{},{},set([]),set([]),subset
+main.c,split_string-5,set(['1']),set(['1']),set([]),set([]),subset
+main.c,split_string-4,set(['6']),set(['6']),set([]),set([]),subset
+main.c,validate_env_str-3,set(['1']),set(['1']),set([]),set([]),subset
+main.c,validate_env_str-2,set(['1']),set(['1']),set([]),set([]),subset
+main.c,validate_env_str-1,{},{},set([]),set([]),subset
+main.c,validate_env_str-0,set(['9']),set(['9']),set([]),set([]),subset
+bh_queue.c,bh_get_msg-2,"set(['9', '10'])","set(['9', '10'])",set([]),set([]),subset
+bh_queue.c,bh_get_msg-0,set(['11']),set(['11']),set([]),set([]),subset
+bh_queue.c,bh_get_msg-1,{},{},set([]),set([]),subset
+bh_queue.c,bh_queue_get_message_count-0,set(['3']),set(['3']),set([]),set([]),subset
+bh_queue.c,bh_new_msg-0,set(['3']),set(['3']),set([]),set([]),subset
+bh_queue.c,bh_new_msg-1,{},{},set([]),set([]),subset
+bh_queue.c,bh_post_msg2-0,set(['6']),set(['6']),set([]),set([]),subset
+bh_queue.c,bh_queue_create-2,{},{},set([]),set([]),subset
+bh_queue.c,bh_queue_create-1,{},{},set([]),set([]),subset
+bh_queue.c,bh_queue_create-0,set(['7']),set(['7']),set([]),set([]),subset
+bh_queue.c,bh_queue_destroy-0,set(['6']),set(['6']),set([]),set([]),subset
+bh_queue.c,bh_post_msg-1,{},{},set([]),set([]),subset
+bh_queue.c,bh_post_msg-0,set(['8']),set(['8']),set([]),set([]),subset
+wasm_exec_env.c,wasm_exec_env_create_internal-1,{},{},set([]),set([]),subset
+wasm_exec_env.c,wasm_exec_env_create_internal-0,set(['9']),set(['9']),set([]),set([]),subset
+wasm_exec_env.c,wasm_exec_env_create-0,set(['7']),set(['7']),set([]),set([]),subset
+wasm_exec_env.c,wasm_exec_env_create-1,{},{},set([]),set([]),subset
+wasm_exec_env.c,wasm_exec_env_pop_jmpbuf-0,set(['3']),set(['3']),set([]),set([]),subset
+wasm_exec_env.c,wasm_exec_env_pop_jmpbuf-1,{},{},set([]),set([]),subset
+posix_thread.c,os_recursive_mutex_init-2,{},{},set([]),set([]),subset
+posix_thread.c,os_recursive_mutex_init-0,set(['3']),set(['3']),set([]),set([]),subset
+posix_thread.c,os_recursive_mutex_init-1,{},{},set([]),set([]),subset
+posix_thread.c,os_cond_broadcast-0,set(['3']),set(['3']),set([]),set([]),subset
+posix_thread.c,os_cond_destroy-0,set(['3']),set(['3']),set([]),set([]),subset
+posix_thread.c,os_cond_signal-0,set(['3']),set(['3']),set([]),set([]),subset
+posix_thread.c,os_thread_signal_destroy-0,set(['3']),set(['3']),set([]),set([]),subset
+posix_thread.c,os_thread_get_stack_boundary-3,set(['4']),set(['4']),set([]),set([]),subset
+posix_thread.c,os_thread_get_stack_boundary-2,"set(['10', '7'])","set(['10', '7'])",set([]),set([]),subset
+posix_thread.c,os_thread_get_stack_boundary-1,{},{},set([]),set([]),subset
+posix_thread.c,os_thread_get_stack_boundary-0,set(['11']),set(['11']),set([]),set([]),subset
+posix_thread.c,os_thread_wrapper-0,set(['3']),set(['3']),set([]),set([]),subset
+posix_thread.c,os_thread_create_with_prio-1,{},{},set([]),set([]),subset
+posix_thread.c,os_thread_create_with_prio-0,set(['7']),set(['7']),set([]),set([]),subset
+posix_thread.c,os_cond_reltimedwait-0,set(['7']),set(['7']),set([]),set([]),subset
+posix_thread.c,os_cond_reltimedwait-1,{},{},set([]),set([]),subset
+posix_thread.c,os_cond_reltimedwait-2,set(['3']),set(['3']),set([]),set([]),subset
+posix_thread.c,os_cond_wait-0,set(['3']),set(['3']),set([]),set([]),subset
+posix_thread.c,os_thread_wrapper-1,{},{},set([]),set([]),subset
+posix_thread.c,os_cond_init-0,set(['3']),set(['3']),set([]),set([]),subset
+posix_thread.c,init_stack_guard_pages-1,{},{},set([]),set([]),subset
+posix_thread.c,init_stack_guard_pages-0,set(['3']),set(['3']),set([]),set([]),subset
+posix_thread.c,os_thread_signal_init-1,{},{},set([]),set([]),subset
+posix_thread.c,os_thread_signal_init-0,set(['15']),set(['15']),set([]),set([]),subset
+ems_kfc.c,gc_init_internal-0,set(['15']),set(['15']),set([]),set([]),subset
+ems_kfc.c,gc_init_internal-1,{},{},set([]),set([]),subset
+ems_kfc.c,gc_init_internal-2,{},{},set([]),set([]),subset
+ems_kfc.c,gc_init_with_pool-2,{},{},set([]),set([]),subset
+ems_kfc.c,gc_heap_stats-0,set(['1']),set(['1']),set([]),set([]),subset
+ems_kfc.c,gc_migrate-3,set(['10']),set(['10']),set([]),set([]),subset
+ems_kfc.c,gc_init_with_pool-1,{},{},set([]),set([]),subset
+ems_kfc.c,gc_migrate-1,{},{},set([]),set([]),subset
+ems_kfc.c,gc_migrate-0,set(['23']),set(['23']),set([]),set([]),subset
+ems_kfc.c,gc_init_internal-3,{},{},set([]),set([]),subset
+ems_kfc.c,gc_init_with_pool-0,set(['3']),set(['3']),set([]),set([]),subset
+ems_kfc.c,gc_init_with_struct_and_pool-0,set(['9']),set(['9']),set([]),set([]),subset
+ems_kfc.c,gc_init_with_struct_and_pool-1,{},{},set([]),set([]),subset
+ems_kfc.c,gc_migrate-2,{},{},set([]),set([]),subset
+random.c,random_uniform-1,set(['4']),set(['4']),set([]),set([]),subset
+random.c,random_uniform-0,"set(['1', '4'])","set(['1', '4'])",set([]),set([]),subset
+wasm_loader.c,const_str_list_insert-0,set(['33']),set(['33']),set([]),set([]),subset
+wasm_loader.c,const_str_list_insert-1,{},{},set([]),set([]),subset
+wasm_loader.c,const_str_list_insert-2,set(['14']),set(['14']),set([]),set([]),subset
+wasm_loader.c,load_from_sections-20,{},{},set([]),set([]),subset
+wasm_loader.c,load_from_sections-21,set(['69']),set(['69']),set([]),set([]),subset
+wasm_loader.c,load_from_sections-22,{},{},set([]),set([]),subset
+wasm_loader.c,load_from_sections-23,"set(['137', '50', '87'])","set(['137', '50', '87'])",set([]),set([]),subset
+wasm_loader.c,load_from_sections-24,"set(['63', '64', '50', '84', '65'])","set(['63', '64', '50', '84', '65'])",set([]),set([]),subset
+wasm_loader.c,load_from_sections-25,"set(['57', '50', '84', '65'])","set(['57', '50', '84', '65'])",set([]),set([]),subset
+wasm_loader.c,check_memory_init_size-0,set(['3']),set(['3']),set([]),set([]),subset
+wasm_loader.c,is_value_type-0,set(['6']),set(['6']),set([]),set([]),subset
+wasm_loader.c,wasm_loader_pop_frame_ref_offset-0,set(['5']),set(['5']),set([]),set([]),subset
+wasm_loader.c,check_buf-0,set(['4']),set(['4']),set([]),set([]),subset
+wasm_loader.c,is_64bit_type-0,set(['4']),set(['4']),set([]),set([]),subset
+wasm_loader.c,check_offset_pop-0,set(['3']),set(['3']),set([]),set([]),subset
+wasm_loader.c,wasm_loader_load-0,set(['6']),set(['6']),set([]),set([]),subset
+wasm_loader.c,wasm_loader_load-1,{},{},set([]),set([]),subset
+wasm_loader.c,preserve_referenced_local-0,"set(['1', '32', '33'])","set(['1', '32', '33'])",set([]),set([]),subset
+wasm_loader.c,preserve_referenced_local-1,"set(['1', '36'])","set(['1', '36'])",set([]),set([]),subset
+wasm_loader.c,type2str-0,set(['8']),set(['8']),set([]),set([]),subset
+wasm_loader.c,type2str-1,{},{},set([]),set([]),subset
+wasm_loader.c,get_section_index-0,"set(['9', '7'])","set(['9', '7'])",set([]),set([]),subset
+wasm_loader.c,check_memory_access_align-1,{},{},set([]),set([]),subset
+wasm_loader.c,check_memory_access_align-0,set(['3']),set(['3']),set([]),set([]),subset
+wasm_loader.c,wasm_loader_find_block_addr-10,"set(['126', '7'])","set(['126', '7'])",set([]),set([]),subset
+wasm_loader.c,wasm_loader_find_block_addr-11,"set(['56', '126', '7'])","set(['56', '126', '7'])",set([]),set([]),subset
+wasm_loader.c,check_table_max_size-0,set(['3']),set(['3']),set([]),set([]),subset
+wasm_loader.c,load_from_sections-11,"set(['1', '7'])","set(['1', '7'])",set([]),set([]),subset
+wasm_loader.c,load_from_sections-10,"set(['1', '7'])","set(['1', '7'])",set([]),set([]),subset
+wasm_loader.c,load_from_sections-13,"set(['1', '7', '6'])","set(['1', '7', '6'])",set([]),set([]),subset
+wasm_loader.c,load_from_sections-12,"set(['1', '7', '6'])","set(['1', '7', '6'])",set([]),set([]),subset
+wasm_loader.c,load_from_sections-15,"set(['57', '86', '50', '84', '65'])","set(['57', '86', '50', '84', '65'])",set([]),set([]),subset
+wasm_loader.c,load_from_sections-14,"set(['50', '63', '64', '65', '86', '84'])","set(['50', '63', '64', '65', '86', '84'])",set([]),set([]),subset
+wasm_loader.c,load_from_sections-17,{},{},set([]),set([]),subset
+wasm_loader.c,load_from_sections-16,"set(['82', '80', '86'])","set(['82', '80', '86'])",set([]),set([]),subset
+wasm_loader.c,load_from_sections-19,"set(['57', '86', '50', '84', '65'])","set(['57', '86', '50', '84', '65'])",set([]),set([]),subset
+wasm_loader.c,load_from_sections-18,"set(['63', '64', '50', '84', '65'])","set(['63', '64', '50', '84', '65'])",set([]),set([]),subset
+wasm_loader.c,load_user_section-2,set(['6']),set(['6']),set([]),set([]),subset
+wasm_loader.c,free_label_patch_list-0,set(['1']),set(['1']),set([]),set([]),subset
+wasm_loader.c,load_user_section-0,set(['16']),set(['16']),set([]),set([]),subset
+wasm_loader.c,load_user_section-1,set(['6']),set(['6']),set([]),set([]),subset
+wasm_loader.c,check_stack_top_values-0,set(['12']),set(['12']),set([]),set([]),subset
+wasm_loader.c,copy_params_to_dynamic_space-8,{},{},set([]),set([]),subset
+wasm_loader.c,load_table_index-1,set(['4']),set(['4']),set([]),set([]),subset
+wasm_loader.c,load_table_index-0,set(['11']),set(['11']),set([]),set([]),subset
+wasm_loader.c,load_table_index-2,set(['4']),set(['4']),set([]),set([]),subset
+wasm_loader.c,copy_params_to_dynamic_space-0,set(['76']),set(['76']),set([]),set([]),subset
+wasm_loader.c,copy_params_to_dynamic_space-1,{},{},set([]),set([]),subset
+wasm_loader.c,copy_params_to_dynamic_space-2,set(['2']),set(['2']),set([]),set([]),subset
+wasm_loader.c,copy_params_to_dynamic_space-3,set(['6']),set(['6']),set([]),set([]),subset
+wasm_loader.c,copy_params_to_dynamic_space-4,"set(['47', '59', '35', '7', '16'])","set(['47', '59', '35', '7', '16'])",set([]),set([]),subset
+wasm_loader.c,copy_params_to_dynamic_space-5,set(['16']),set(['16']),set([]),set([]),subset
+wasm_loader.c,copy_params_to_dynamic_space-6,{},{},set([]),set([]),subset
+wasm_loader.c,copy_params_to_dynamic_space-7,{},{},set([]),set([]),subset
+wasm_loader.c,load_table_segment_section-0,set(['27']),set(['27']),set([]),set([]),subset
+wasm_loader.c,load_func_index_vec-4,set(['4']),set(['4']),set([]),set([]),subset
+wasm_loader.c,load_table_segment_section-2,set(['11']),set(['11']),set([]),set([]),subset
+wasm_loader.c,load_table_segment_section-3,set(['11']),set(['11']),set([]),set([]),subset
+wasm_loader.c,load_func_index_vec-1,"set(['23', '4', '16'])","set(['23', '4', '16'])",set([]),set([]),subset
+wasm_loader.c,load_func_index_vec-0,"set(['11', '28', '23'])","set(['11', '28', '23'])",set([]),set([]),subset
+wasm_loader.c,load_func_index_vec-3,"set(['11', '16'])","set(['11', '16'])",set([]),set([]),subset
+wasm_loader.c,load_func_index_vec-2,set(['11']),set(['11']),set([]),set([]),subset
+wasm_loader.c,destroy_sections-0,set(['1']),set(['1']),set([]),set([]),subset
+wasm_loader.c,wasm_loader_pop_frame_offset-0,set(['22']),set(['22']),set([]),set([]),subset
+wasm_loader.c,wasm_loader_push_frame_offset-0,set(['24']),set(['24']),set([]),set([]),subset
+wasm_loader.c,load_memory_import-4,set(['4']),set(['4']),set([]),set([]),subset
+wasm_loader.c,load_memory_import-1,"set(['11', '37', '4', '21'])","set(['11', '37', '4', '21'])",set([]),set([]),subset
+wasm_loader.c,load_memory_import-0,"set(['37', '41'])","set(['37', '41'])",set([]),set([]),subset
+wasm_loader.c,load_memory_import-3,"set(['11', '39', '37'])","set(['11', '39', '37'])",set([]),set([]),subset
+wasm_loader.c,load_memory_import-2,"set(['37', '39', '30', '28', '21'])","set(['37', '39', '30', '28', '21'])",set([]),set([]),subset
+wasm_loader.c,wasm_loader_push_frame_ref_offset-0,set(['5']),set(['5']),set([]),set([]),subset
+wasm_loader.c,load_start_section-2,set(['4']),set(['4']),set([]),set([]),subset
+wasm_loader.c,load_start_section-3,set(['12']),set(['12']),set([]),set([]),subset
+wasm_loader.c,load_start_section-0,set(['19']),set(['19']),set([]),set([]),subset
+wasm_loader.c,load_start_section-1,set(['4']),set(['4']),set([]),set([]),subset
+wasm_loader.c,wasm_loader_prepare_bytecode-34,"set(['3', '13'])","set(['3', '13'])",set([]),set([]),subset
+wasm_loader.c,wasm_loader_prepare_bytecode-33,"set(['1287', '1276'])","set(['1287', '1276'])",set([]),set([]),subset
+wasm_loader.c,wasm_loader_prepare_bytecode-32,{},{},set([]),set([]),subset
+wasm_loader.c,wasm_loader_prepare_bytecode-31,{},{},set([]),set([]),subset
+wasm_loader.c,wasm_loader_prepare_bytecode-30,"set(['147', '13', '1267', '52', '60', '3'])","set(['147', '13', '1267', '52', '60', '3'])",set([]),set([]),subset
+wasm_loader.c,load_import_section-10,"set(['11', '144', '16', '28', '130', '125'])","set(['11', '144', '16', '28', '130', '125'])",set([]),set([]),subset
+wasm_loader.c,load_import_section-11,"set(['11', '46', '183', '114'])","set(['11', '46', '183', '114'])",set([]),set([]),subset
+wasm_loader.c,load_import_section-12,"set(['11', '176', '125'])","set(['11', '176', '125'])",set([]),set([]),subset
+wasm_loader.c,load_import_section-13,"set(['11', '183', '114', '74', '66', '100', '92', '104', '78'])","set(['11', '183', '114', '74', '66', '100', '92', '104', '78'])",set([]),set([]),subset
+wasm_loader.c,load_import_section-14,"set(['11', '114', '59', '85'])","set(['11', '114', '59', '85'])",set([]),set([]),subset
+wasm_loader.c,check_memory-0,set(['4']),set(['4']),set([]),set([]),subset
+wasm_loader.c,load_memory_section-0,set(['23']),set(['23']),set([]),set([]),subset
+wasm_loader.c,load_memory_section-1,set(['4']),set(['4']),set([]),set([]),subset
+wasm_loader.c,apply_label_patch-0,set(['15']),set(['15']),set([]),set([]),subset
+wasm_loader.c,apply_label_patch-1,"set(['3', '13'])","set(['3', '13'])",set([]),set([]),subset
+wasm_loader.c,apply_label_patch-2,set(['3']),set(['3']),set([]),set([]),subset
+wasm_loader.c,load_memory_section-3,set(['13']),set(['13']),set([]),set([]),subset
+wasm_loader.c,check_block_stack-3,"set(['5', '21', '40'])","set(['5', '21', '40'])",set([]),set([]),subset
+wasm_loader.c,wasm_loader_emit_br_info-6,{},{},set([]),set([]),subset
+wasm_loader.c,wasm_loader_emit_br_info-5,set(['3']),set(['3']),set([]),set([]),subset
+wasm_loader.c,wasm_loader_emit_br_info-4,"set(['11', '18', '25'])","set(['11', '18', '25'])",set([]),set([]),subset
+wasm_loader.c,wasm_loader_emit_br_info-3,set(['18']),set(['18']),set([]),set([]),subset
+wasm_loader.c,wasm_loader_emit_br_info-2,set(['25']),set(['25']),set([]),set([]),subset
+wasm_loader.c,wasm_loader_emit_br_info-1,{},{},set([]),set([]),subset
+wasm_loader.c,wasm_loader_emit_br_info-0,set(['38']),set(['38']),set([]),set([]),subset
+wasm_loader.c,load_table_segment_section-1,set(['4']),set(['4']),set([]),set([]),subset
+wasm_loader.c,load-1,{},{},set([]),set([]),subset
+wasm_loader.c,load-0,set(['23']),set(['23']),set([]),set([]),subset
+wasm_loader.c,load-2,{},{},set([]),set([]),subset
+wasm_loader.c,load_table_segment_section-4,set(['4']),set(['4']),set([]),set([]),subset
+wasm_loader.c,check_table_index-0,set(['5']),set(['5']),set([]),set([]),subset
+wasm_loader.c,init_function_local_offsets-2,"set(['8', '4'])","set(['8', '4'])",set([]),set([]),subset
+wasm_loader.c,init_function_local_offsets-3,"set(['8', '4'])","set(['8', '4'])",set([]),set([]),subset
+wasm_loader.c,init_function_local_offsets-0,set(['12']),set(['12']),set([]),set([]),subset
+wasm_loader.c,init_function_local_offsets-1,{},{},set([]),set([]),subset
+wasm_loader.c,wasm_loader_push_frame_ref-0,set(['13']),set(['13']),set([]),set([]),subset
+wasm_loader.c,get_section_index-1,set(['7']),set(['7']),set([]),set([]),subset
+wasm_loader.c,load_global_import-4,{},{},set([]),set([]),subset
+wasm_loader.c,get_section_index-2,set(['1']),set(['1']),set([]),set([]),subset
+wasm_loader.c,load_global_import-1,{},{},set([]),set([]),subset
+wasm_loader.c,load_global_import-0,set(['14']),set(['14']),set([]),set([]),subset
+wasm_loader.c,load_global_import-3,{},{},set([]),set([]),subset
+wasm_loader.c,load_global_import-2,{},{},set([]),set([]),subset
+wasm_loader.c,read_leb-1,"set(['30', '45'])","set(['30', '45'])",set([]),set([]),subset
+wasm_loader.c,read_leb-0,set(['53']),set(['53']),set([]),set([]),subset
+wasm_loader.c,read_leb-3,set(['1']),set(['1']),set([]),set([]),subset
+wasm_loader.c,read_leb-2,set(['1']),set(['1']),set([]),set([]),subset
+wasm_loader.c,read_leb-5,"set(['38', '48', '23', '32', '49', '50', '1', '47'])","set(['38', '48', '23', '32', '49', '50', '1', '47'])",set([]),set([]),subset
+wasm_loader.c,read_leb-4,set(['1']),set(['1']),set([]),set([]),subset
+wasm_loader.c,load_function_section-14,"set(['36', '22'])","set(['36', '22'])",set([]),set([]),subset
+wasm_loader.c,load_function_section-13,"set(['12', '16'])","set(['12', '16'])",set([]),set([]),subset
+wasm_loader.c,load_function_section-12,{},{},set([]),set([]),subset
+wasm_loader.c,load_function_section-11,set(['4']),set(['4']),set([]),set([]),subset
+wasm_loader.c,load_function_section-10,"set(['27', '22'])","set(['27', '22'])",set([]),set([]),subset
+wasm_loader.c,load_code_section-0,set(['20']),set(['20']),set([]),set([]),subset
+wasm_loader.c,load_code_section-1,"set(['12', '4'])","set(['12', '4'])",set([]),set([]),subset
+wasm_loader.c,load_code_section-2,set(['4']),set(['4']),set([]),set([]),subset
+wasm_loader.c,load_code_section-3,"set(['12', '16'])","set(['12', '16'])",set([]),set([]),subset
+wasm_loader.c,load_memory_section-2,set(['13']),set(['13']),set([]),set([]),subset
+wasm_loader.c,load_table_import-4,{},{},set([]),set([]),subset
+wasm_loader.c,check_memory_max_size-0,set(['5']),set(['5']),set([]),set([]),subset
+wasm_loader.c,preserve_local_for_block-2,"set(['1', '10', '11'])","set(['1', '10', '11'])",set([]),set([]),subset
+wasm_loader.c,preserve_local_for_block-1,set(['11']),set(['11']),set([]),set([]),subset
+wasm_loader.c,preserve_local_for_block-0,"set(['1', '11', '14'])","set(['1', '11', '14'])",set([]),set([]),subset
+wasm_loader.c,wasm_loader_push_pop_frame_offset-2,set(['1']),set(['1']),set([]),set([]),subset
+wasm_loader.c,wasm_loader_push_pop_frame_offset-1,{},{},set([]),set([]),subset
+wasm_loader.c,wasm_loader_push_pop_frame_offset-0,set(['9']),set(['9']),set([]),set([]),subset
+wasm_loader.c,wasm_loader_pop_frame_csp-0,set(['8']),set(['8']),set([]),set([]),subset
+wasm_loader.c,add_label_patch_to_list-0,set(['6']),set(['6']),set([]),set([]),subset
+wasm_loader.c,add_label_patch_to_list-1,{},{},set([]),set([]),subset
+wasm_loader.c,wasm_loader_get_const_offset-2,"set(['1', '27'])","set(['1', '27'])",set([]),set([]),subset
+wasm_loader.c,wasm_loader_get_const_offset-3,"set(['1', '39', '15', '40', '17'])","set(['1', '39', '15', '40', '17'])",set([]),set([]),subset
+wasm_loader.c,wasm_loader_get_const_offset-0,set(['42']),set(['42']),set([]),set([]),subset
+wasm_loader.c,wasm_loader_get_const_offset-1,set(['23']),set(['23']),set([]),set([]),subset
+wasm_loader.c,create_sections-4,"set(['1', '30'])","set(['1', '30'])",set([]),set([]),subset
+wasm_loader.c,create_sections-1,set(['17']),set(['17']),set([]),set([]),subset
+wasm_loader.c,create_sections-0,set(['35']),set(['35']),set([]),set([]),subset
+wasm_loader.c,create_sections-3,"set(['1', '13'])","set(['1', '13'])",set([]),set([]),subset
+wasm_loader.c,create_sections-2,"set(['1', '17'])","set(['1', '17'])",set([]),set([]),subset
+wasm_loader.c,wasm_get_cell_num-1,set(['1']),set(['1']),set([]),set([]),subset
+wasm_loader.c,wasm_loader_pop_frame_offset-1,{},{},set([]),set([]),subset
+wasm_loader.c,wasm_get_cell_num-0,set(['1']),set(['1']),set([]),set([]),subset
+wasm_loader.c,wasm_loader_load_from_sections-0,set(['5']),set(['5']),set([]),set([]),subset
+wasm_loader.c,wasm_loader_load_from_sections-1,{},{},set([]),set([]),subset
+wasm_loader.c,wasm_loader_prepare_bytecode-28,"set(['458', '191', '330', '1265', '552', '131', '235', '848', '855', '655', '325', '1290', '523', '147', '757', '1232', '206', '717', '303', '244', '72', '985', '964', '58', '266', '52', '722', '377', '803', '372', '292', '517', '431'])","set(['458', '191', '330', '1265', '552', '131', '235', '848', '855', '655', '325', '1290', '523', '147', '757', '1232', '206', '717', '303', '244', '72', '985', '964', '58', '266', '52', '722', '377', '803', '372', '292', '517', '431'])",set([]),set([]),subset
+wasm_loader.c,wasm_loader_prepare_bytecode-29,set(['1293']),set(['1293']),set([]),set([]),subset
+wasm_loader.c,wasm_loader_prepare_bytecode-24,"set(['3', '1267', '13', '266'])","set(['3', '1267', '13', '266'])",set([]),set([]),subset
+wasm_loader.c,wasm_loader_prepare_bytecode-25,"set(['1293', '3', '1267', '13', '848'])","set(['1293', '3', '1267', '13', '848'])",set([]),set([]),subset
+wasm_loader.c,wasm_loader_prepare_bytecode-26,"set(['855', '3', '1267', '13', '1293'])","set(['855', '3', '1267', '13', '1293'])",set([]),set([]),subset
+wasm_loader.c,wasm_loader_prepare_bytecode-27,"set(['417', '278', '63', '82', '172', '358'])","set(['417', '278', '63', '82', '172', '358'])",set([]),set([]),subset
+wasm_loader.c,wasm_loader_prepare_bytecode-20,"set(['757', '3', '722', '13', '1267'])","set(['757', '3', '722', '13', '1267'])",set([]),set([]),subset
+wasm_loader.c,wasm_loader_prepare_bytecode-21,"set(['1293', '3', '1267', '13', '431'])","set(['1293', '3', '1267', '13', '431'])",set([]),set([]),subset
+wasm_loader.c,wasm_loader_prepare_bytecode-22,"set(['201', '199'])","set(['201', '199'])",set([]),set([]),subset
+wasm_loader.c,wasm_loader_prepare_bytecode-23,set(['201']),set(['201']),set([]),set([]),subset
+wasm_loader.c,check_stack_pop-1,{},{},set([]),set([]),subset
+wasm_loader.c,check_stack_pop-0,set(['6']),set(['6']),set([]),set([]),subset
+wasm_loader.c,free_all_label_patch_lists-1,set(['1']),set(['1']),set([]),set([]),subset
+wasm_loader.c,free_all_label_patch_lists-0,set(['1']),set(['1']),set([]),set([]),subset
+wasm_loader.c,load_table_import-3,set(['11']),set(['11']),set([]),set([]),subset
+wasm_loader.c,load_table_import-2,"set(['20', '43', '41'])","set(['20', '43', '41'])",set([]),set([]),subset
+wasm_loader.c,load_table_import-1,"set(['11', '28', '20', '41'])","set(['11', '28', '20', '41'])",set([]),set([]),subset
+wasm_loader.c,load_table_import-0,"set(['45', '41'])","set(['45', '41'])",set([]),set([]),subset
+wasm_loader.c,wasm_loader_push_pop_frame_ref-2,set(['1']),set(['1']),set([]),set([]),subset
+wasm_loader.c,wasm_loader_push_pop_frame_ref-0,"set(['11', '7'])","set(['11', '7'])",set([]),set([]),subset
+wasm_loader.c,wasm_loader_push_pop_frame_ref-1,set(['7']),set(['7']),set([]),set([]),subset
+wasm_loader.c,check_buf1-0,set(['4']),set(['4']),set([]),set([]),subset
+wasm_loader.c,is_32bit_type-0,set(['4']),set(['4']),set([]),set([]),subset
+wasm_loader.c,load_global_section-0,"set(['11', '25', '39', '32'])","set(['11', '25', '39', '32'])",set([]),set([]),subset
+wasm_loader.c,load_global_section-1,"set(['25', '4'])","set(['25', '4'])",set([]),set([]),subset
+wasm_loader.c,load_global_section-2,set(['11']),set(['11']),set([]),set([]),subset
+wasm_loader.c,load_global_section-3,set(['11']),set(['11']),set([]),set([]),subset
+wasm_loader.c,load_global_section-4,set(['4']),set(['4']),set([]),set([]),subset
+wasm_loader.c,load_type_section-3,"set(['74', '65', '49'])","set(['74', '65', '49'])",set([]),set([]),subset
+wasm_loader.c,load_type_section-2,{},{},set([]),set([]),subset
+wasm_loader.c,load_type_section-1,"set(['61', '4', '35', '23'])","set(['61', '4', '35', '23'])",set([]),set([]),subset
+wasm_loader.c,load_type_section-0,set(['89']),set(['89']),set([]),set([]),subset
+wasm_loader.c,load_type_section-7,set(['4']),set(['4']),set([]),set([]),subset
+wasm_loader.c,load_type_section-6,"set(['11', '23'])","set(['11', '23'])",set([]),set([]),subset
+wasm_loader.c,load_type_section-5,"set(['11', '61', '35'])","set(['11', '61', '35'])",set([]),set([]),subset
+wasm_loader.c,load_type_section-4,set(['11']),set(['11']),set([]),set([]),subset
+wasm_loader.c,wasm_loader_pop_frame_ref-0,set(['11']),set(['11']),set([]),set([]),subset
+wasm_loader.c,wasm_loader_pop_frame_ref-1,{},{},set([]),set([]),subset
+wasm_loader.c,block_type_get_result_types-0,"set(['3', '5'])","set(['3', '5'])",set([]),set([]),subset
+wasm_loader.c,check_branch_block-2,set(['4']),set(['4']),set([]),set([]),subset
+wasm_loader.c,check_branch_block-0,set(['19']),set(['19']),set([]),set([]),subset
+wasm_loader.c,check_branch_block-1,set(['4']),set(['4']),set([]),set([]),subset
+wasm_loader.c,reserve_block_ret-10,"set(['37', '40'])","set(['37', '40'])",set([]),set([]),subset
+wasm_loader.c,reserve_block_ret-11,"set(['37', '40'])","set(['37', '40'])",set([]),set([]),subset
+wasm_loader.c,reserve_block_ret-12,"set(['60', '37'])","set(['60', '37'])",set([]),set([]),subset
+wasm_loader.c,reserve_block_ret-13,"set(['60', '37'])","set(['60', '37'])",set([]),set([]),subset
+wasm_loader.c,check_utf8_str-1,{},{},set([]),set([]),subset
+wasm_loader.c,check_utf8_str-0,set(['79']),set(['79']),set([]),set([]),subset
+wasm_loader.c,check_block_stack-5,{},{},set([]),set([]),subset
+wasm_loader.c,check_utf8_str-2,"set(['1', '76', '75', '77'])","set(['1', '76', '75', '77'])",set([]),set([]),subset
+wasm_loader.c,load_memory_section-4,set(['4']),set(['4']),set([]),set([]),subset
+wasm_loader.c,check_block_stack-2,set(['40']),set(['40']),set([]),set([]),subset
+wasm_loader.c,check_block_stack-1,set(['33']),set(['33']),set([]),set([]),subset
+wasm_loader.c,check_block_stack-0,set(['47']),set(['47']),set([]),set([]),subset
+wasm_loader.c,loader_malloc-0,set(['4']),set(['4']),set([]),set([]),subset
+wasm_loader.c,loader_malloc-1,{},{},set([]),set([]),subset
+wasm_loader.c,wasm_loader_check_br-5,set(['38']),set(['38']),set([]),set([]),subset
+wasm_loader.c,wasm_loader_check_br-4,set(['5']),set(['5']),set([]),set([]),subset
+wasm_loader.c,wasm_loader_check_br-3,"set(['38', '21', '7'])","set(['38', '21', '7'])",set([]),set([]),subset
+wasm_loader.c,wasm_loader_check_br-2,set(['38']),set(['38']),set([]),set([]),subset
+wasm_loader.c,wasm_loader_check_br-1,set(['33']),set(['33']),set([]),set([]),subset
+wasm_loader.c,wasm_loader_check_br-0,set(['45']),set(['45']),set([]),set([]),subset
+wasm_loader.c,check_block_stack-4,set(['40']),set(['40']),set([]),set([]),subset
+wasm_loader.c,load_function_section-9,set(['22']),set(['22']),set([]),set([]),subset
+wasm_loader.c,load_function_section-8,"set(['50', '72'])","set(['50', '72'])",set([]),set([]),subset
+wasm_loader.c,load_function_section-3,"set(['55', '77', '50', '22', '72'])","set(['55', '77', '50', '22', '72'])",set([]),set([]),subset
+wasm_loader.c,load_function_section-2,{},{},set([]),set([]),subset
+wasm_loader.c,load_function_section-1,"set(['27', '46', '36', '77', '55', '12', '4'])","set(['27', '46', '36', '77', '55', '12', '4'])",set([]),set([]),subset
+wasm_loader.c,load_function_section-0,set(['113']),set(['113']),set([]),set([]),subset
+wasm_loader.c,load_function_section-7,set(['99']),set(['99']),set([]),set([]),subset
+wasm_loader.c,load_function_section-6,"set(['99', '72'])","set(['99', '72'])",set([]),set([]),subset
+wasm_loader.c,load_function_section-5,set(['50']),set(['50']),set([]),set([]),subset
+wasm_loader.c,load_function_section-4,"set(['46', '22'])","set(['46', '22'])",set([]),set([]),subset
+wasm_loader.c,load_table_section-4,set(['4']),set(['4']),set([]),set([]),subset
+wasm_loader.c,load_table_section-2,set(['13']),set(['13']),set([]),set([]),subset
+wasm_loader.c,load_table_section-3,set(['13']),set(['13']),set([]),set([]),subset
+wasm_loader.c,load_table_section-0,set(['23']),set(['23']),set([]),set([]),subset
+wasm_loader.c,load_table_section-1,set(['4']),set(['4']),set([]),set([]),subset
+wasm_loader.c,load_from_sections-9,{},{},set([]),set([]),subset
+wasm_loader.c,load_from_sections-8,set(['141']),set(['141']),set([]),set([]),subset
+wasm_loader.c,create_module-1,{},{},set([]),set([]),subset
+wasm_loader.c,create_module-0,set(['3']),set(['3']),set([]),set([]),subset
+wasm_loader.c,load_from_sections-1,{},{},set([]),set([]),subset
+wasm_loader.c,load_from_sections-0,"set(['163', '137', '141'])","set(['163', '137', '141'])",set([]),set([]),subset
+wasm_loader.c,load_from_sections-3,{},{},set([]),set([]),subset
+wasm_loader.c,load_from_sections-2,{},{},set([]),set([]),subset
+wasm_loader.c,load_from_sections-5,set(['105']),set(['105']),set([]),set([]),subset
+wasm_loader.c,load_from_sections-4,set(['105']),set(['105']),set([]),set([]),subset
+wasm_loader.c,load_from_sections-7,"set(['1', '9'])","set(['1', '9'])",set([]),set([]),subset
+wasm_loader.c,load_from_sections-6,"set(['50', '87'])","set(['50', '87'])",set([]),set([]),subset
+wasm_loader.c,wasm_loader_prepare_bytecode-9,set(['287']),set(['287']),set([]),set([]),subset
+wasm_loader.c,wasm_loader_prepare_bytecode-8,set(['305']),set(['305']),set([]),set([]),subset
+wasm_loader.c,wasm_loader_prepare_bytecode-5,set(['343']),set(['343']),set([]),set([]),subset
+wasm_loader.c,wasm_loader_prepare_bytecode-4,set(['402']),set(['402']),set([]),set([]),subset
+wasm_loader.c,wasm_loader_prepare_bytecode-7,"set(['1293', '3', '1267', '13'])","set(['1293', '3', '1267', '13'])",set([]),set([]),subset
+wasm_loader.c,wasm_loader_prepare_bytecode-6,set(['341']),set(['341']),set([]),set([]),subset
+wasm_loader.c,wasm_loader_prepare_bytecode-1,set(['1276']),set(['1276']),set([]),set([]),subset
+wasm_loader.c,wasm_loader_prepare_bytecode-0,set(['1294']),set(['1294']),set([]),set([]),subset
+wasm_loader.c,wasm_loader_prepare_bytecode-3,{},{},set([]),set([]),subset
+wasm_loader.c,wasm_loader_prepare_bytecode-2,"set(['3', '1267', '13', '1232'])","set(['3', '1267', '13', '1232'])",set([]),set([]),subset
+wasm_loader.c,load_function_import-4,{},{},set([]),set([]),subset
+wasm_loader.c,load_function_import-5,set(['4']),set(['4']),set([]),set([]),subset
+wasm_loader.c,load_function_import-0,set(['16']),set(['16']),set([]),set([]),subset
+wasm_loader.c,load_function_import-1,set(['4']),set(['4']),set([]),set([]),subset
+wasm_loader.c,load_function_import-2,set(['11']),set(['11']),set([]),set([]),subset
+wasm_loader.c,load_function_import-3,{},{},set([]),set([]),subset
+wasm_loader.c,block_type_get_param_types-0,set(['3']),set(['3']),set([]),set([]),subset
+wasm_loader.c,wasm_loader_ctx_init-0,set(['12']),set(['12']),set([]),set([]),subset
+wasm_loader.c,wasm_loader_ctx_init-1,{},{},set([]),set([]),subset
+wasm_loader.c,wasm_value_type_size-0,set(['7']),set(['7']),set([]),set([]),subset
+wasm_loader.c,wasm_loader_unload-2,set(['56']),set(['56']),set([]),set([]),subset
+wasm_loader.c,wasm_loader_unload-1,"set(['44', '36', '4', '14'])","set(['44', '36', '4', '14'])",set([]),set([]),subset
+wasm_loader.c,wasm_loader_unload-0,set(['52']),set(['52']),set([]),set([]),subset
+wasm_loader.c,wasm_loader_ctx_reinit-0,set(['3']),set(['3']),set([]),set([]),subset
+wasm_loader.c,load_import_section-8,"set(['176', '173'])","set(['176', '173'])",set([]),set([]),subset
+wasm_loader.c,load_import_section-9,set(['4']),set(['4']),set([]),set([]),subset
+wasm_loader.c,load_import_section-6,"set(['120', '173', '125'])","set(['120', '173', '125'])",set([]),set([]),subset
+wasm_loader.c,load_import_section-7,"set(['173', '118', '125'])","set(['173', '118', '125'])",set([]),set([]),subset
+wasm_loader.c,load_import_section-4,"set(['173', '124', '125'])","set(['173', '124', '125'])",set([]),set([]),subset
+wasm_loader.c,load_import_section-5,"set(['122', '173', '125'])","set(['122', '173', '125'])",set([]),set([]),subset
+wasm_loader.c,load_import_section-2,{},{},set([]),set([]),subset
+wasm_loader.c,load_import_section-3,"set(['11', '114', '183'])","set(['11', '114', '183'])",set([]),set([]),subset
+wasm_loader.c,load_import_section-0,set(['187']),set(['187']),set([]),set([]),subset
+wasm_loader.c,load_import_section-1,"set(['144', '59', '16', '46', '28', '130', '74', '4', '66', '100', '92', '85'])","set(['144', '59', '16', '46', '28', '130', '74', '4', '66', '100', '92', '85'])",set([]),set([]),subset
+wasm_loader.c,wasm_loader_prepare_bytecode-19,"set(['13', '1267', '552', '3', '655', '523'])","set(['13', '1267', '552', '3', '655', '523'])",set([]),set([]),subset
+wasm_loader.c,load_data_segment_section-0,set(['47']),set(['47']),set([]),set([]),subset
+wasm_loader.c,load_data_segment_section-3,"set(['11', '16'])","set(['11', '16'])",set([]),set([]),subset
+wasm_loader.c,load_data_segment_section-2,"set(['11', '27'])","set(['11', '27'])",set([]),set([]),subset
+wasm_loader.c,load_data_segment_section-5,set(['4']),set(['4']),set([]),set([]),subset
+wasm_loader.c,load_data_segment_section-4,set(['11']),set(['11']),set([]),set([]),subset
+wasm_loader.c,wasm_loader_prepare_bytecode-11,set(['226']),set(['226']),set([]),set([]),subset
+wasm_loader.c,wasm_loader_prepare_bytecode-10,"set(['278', '294', '284'])","set(['278', '294', '284'])",set([]),set([]),subset
+wasm_loader.c,wasm_loader_prepare_bytecode-13,{},{},set([]),set([]),subset
+wasm_loader.c,wasm_loader_prepare_bytecode-12,"set(['201', '199'])","set(['201', '199'])",set([]),set([]),subset
+wasm_loader.c,wasm_loader_prepare_bytecode-15,set(['201']),set(['201']),set([]),set([]),subset
+wasm_loader.c,wasm_loader_prepare_bytecode-14,{},{},set([]),set([]),subset
+wasm_loader.c,wasm_loader_prepare_bytecode-17,"set(['3', '1267', '13', '377'])","set(['3', '1267', '13', '377'])",set([]),set([]),subset
+wasm_loader.c,wasm_loader_prepare_bytecode-16,"set(['1293', '3', '1267', '13'])","set(['1293', '3', '1267', '13'])",set([]),set([]),subset
+wasm_loader.c,load_export_section-3,"set(['11', '16'])","set(['11', '16'])",set([]),set([]),subset
+wasm_loader.c,load_export_section-2,set(['11']),set(['11']),set([]),set([]),subset
+wasm_loader.c,load_export_section-1,"set(['42', '4', '16'])","set(['42', '4', '16'])",set([]),set([]),subset
+wasm_loader.c,load_export_section-0,set(['66']),set(['66']),set([]),set([]),subset
+wasm_loader.c,load_export_section-7,set(['4']),set(['4']),set([]),set([]),subset
+wasm_loader.c,load_export_section-6,set(['11']),set(['11']),set([]),set([]),subset
+wasm_loader.c,load_export_section-5,set(['25']),set(['25']),set([]),set([]),subset
+wasm_loader.c,load_export_section-4,"set(['11', '42'])","set(['11', '42'])",set([]),set([]),subset
+wasm_loader.c,check_offset_push-1,set(['5']),set(['5']),set([]),set([]),subset
+wasm_loader.c,check_offset_push-0,set(['11']),set(['11']),set([]),set([]),subset
+wasm_loader.c,wasm_loader_push_pop_frame_ref_offset-0,set(['5']),set(['5']),set([]),set([]),subset
+wasm_loader.c,wasm_loader_push_frame_csp-1,set(['6']),set(['6']),set([]),set([]),subset
+wasm_loader.c,wasm_loader_push_frame_csp-0,set(['14']),set(['14']),set([]),set([]),subset
+wasm_loader.c,check_function_index-0,set(['3']),set(['3']),set([]),set([]),subset
+wasm_loader.c,load_memory-0,set(['36']),set(['36']),set([]),set([]),subset
+wasm_loader.c,load_memory-1,"set(['25', '15', '4'])","set(['25', '15', '4'])",set([]),set([]),subset
+wasm_loader.c,wasm_loader_find_block_addr-6,set(['29']),set(['29']),set([]),set([]),subset
+wasm_loader.c,wasm_loader_find_block_addr-7,"set(['1', '32', '39'])","set(['1', '32', '39'])",set([]),set([]),subset
+wasm_loader.c,wasm_loader_find_block_addr-4,{},{},set([]),set([]),subset
+wasm_loader.c,wasm_loader_find_block_addr-5,"set(['126', '7'])","set(['126', '7'])",set([]),set([]),subset
+wasm_loader.c,wasm_loader_find_block_addr-2,"set(['117', '56', '124'])","set(['117', '56', '124'])",set([]),set([]),subset
+wasm_loader.c,wasm_loader_find_block_addr-3,{},{},set([]),set([]),subset
+wasm_loader.c,wasm_loader_find_block_addr-0,"set(['129', '124', '126', '7'])","set(['129', '124', '126', '7'])",set([]),set([]),subset
+wasm_loader.c,wasm_loader_find_block_addr-1,"set(['117', '126', '7'])","set(['117', '126', '7'])",set([]),set([]),subset
+wasm_loader.c,wasm_loader_find_block_addr-8,set(['60']),set(['60']),set([]),set([]),subset
+wasm_loader.c,wasm_loader_find_block_addr-9,"set(['126', '22', '7'])","set(['126', '22', '7'])",set([]),set([]),subset
+wasm_loader.c,load_table-0,set(['38']),set(['38']),set([]),set([]),subset
+wasm_loader.c,load_table-1,"set(['11', '30', '22'])","set(['11', '30', '22'])",set([]),set([]),subset
+wasm_loader.c,load_data_segment_section-1,"set(['27', '4', '16'])","set(['27', '4', '16'])",set([]),set([]),subset
+wasm_loader.c,reserve_block_ret-8,"set(['60', '37'])","set(['60', '37'])",set([]),set([]),subset
+wasm_loader.c,reserve_block_ret-9,{},{},set([]),set([]),subset
+wasm_loader.c,wasm_loader_prepare_bytecode-18,"set(['3', '1267', '13', '330'])","set(['3', '1267', '13', '330'])",set([]),set([]),subset
+wasm_loader.c,reserve_block_ret-2,{},{},set([]),set([]),subset
+wasm_loader.c,reserve_block_ret-3,{},{},set([]),set([]),subset
+wasm_loader.c,reserve_block_ret-0,"set(['102', '106', '35'])","set(['102', '106', '35'])",set([]),set([]),subset
+wasm_loader.c,reserve_block_ret-1,{},{},set([]),set([]),subset
+wasm_loader.c,reserve_block_ret-6,"set(['102', '72', '35'])","set(['102', '72', '35'])",set([]),set([]),subset
+wasm_loader.c,reserve_block_ret-7,{},{},set([]),set([]),subset
+wasm_loader.c,reserve_block_ret-4,{},{},set([]),set([]),subset
+wasm_loader.c,reserve_block_ret-5,"set(['60', '76', '63', '90', '83'])","set(['60', '76', '63', '90', '83'])",set([]),set([]),subset
+wasm_loader.c,load_init_expr-2,"set(['46', '34'])","set(['46', '34'])",set([]),set([]),subset
+wasm_loader.c,load_init_expr-3,"set(['46', '34'])","set(['46', '34'])",set([]),set([]),subset
+wasm_loader.c,load_init_expr-0,set(['69']),set(['69']),set([]),set([]),subset
+wasm_loader.c,load_init_expr-1,"set(['54', '12', '22'])","set(['54', '12', '22'])",set([]),set([]),subset
+wasm_loader.c,check_stack_push-1,set(['5']),set(['5']),set([]),set([]),subset
+wasm_loader.c,check_stack_push-0,set(['10']),set(['10']),set([]),set([]),subset
+wasm_shared_memory.c,shared_memory_inc_reference-0,set(['3']),set(['3']),set([]),set([]),subset
+wasm_shared_memory.c,shared_memory_dec_reference-2,{},{},set([]),set([]),subset
+wasm_shared_memory.c,wasm_shared_memory_init-0,set(['5']),set(['5']),set([]),set([]),subset
+wasm_shared_memory.c,shared_memory_dec_reference-0,set(['5']),set(['5']),set([]),set([]),subset
+wasm_shared_memory.c,shared_memory_dec_reference-1,{},{},set([]),set([]),subset
+wasm_shared_memory.c,wasm_runtime_atomic_wait-0,"set(['10', '26', '12', '31', '4', '6'])","set(['10', '26', '12', '31', '4', '6'])",set([]),set([]),subset
+wasm_shared_memory.c,wasm_runtime_atomic_wait-1,"set(['10', '26', '4'])","set(['10', '26', '4'])",set([]),set([]),subset
+wasm_shared_memory.c,wasm_runtime_atomic_wait-2,set(['30']),set(['30']),set([]),set([]),subset
+wasm_shared_memory.c,is_wait_node_exists-0,set(['6']),set(['6']),set([]),set([]),subset
+wasm_shared_memory.c,is_wait_node_exists-1,{},{},set([]),set([]),subset
+wasm_shared_memory.c,acquire_wait_info-1,{},{},set([]),set([]),subset
+wasm_shared_memory.c,shared_memory_inc_reference-1,{},{},set([]),set([]),subset
+wasm_shared_memory.c,acquire_wait_info-3,"set(['12', '2'])","set(['12', '2'])",set([]),set([]),subset
+wasm_shared_memory.c,wasm_runtime_atomic_notify-0,set(['3']),set(['3']),set([]),set([]),subset
+wasm_shared_memory.c,acquire_wait_info-2,set(['12']),set(['12']),set([]),set([]),subset
+wasm_shared_memory.c,shared_memory_set_memory_inst-1,{},{},set([]),set([]),subset
+wasm_shared_memory.c,shared_memory_set_memory_inst-0,set(['5']),set(['5']),set([]),set([]),subset
+wasm_shared_memory.c,is_wait_node_exists-2,set(['1']),set(['1']),set([]),set([]),subset
+wasm_shared_memory.c,search_module-2,set(['1']),set(['1']),set([]),set([]),subset
+wasm_shared_memory.c,search_module-1,{},{},set([]),set([]),subset
+wasm_shared_memory.c,search_module-0,set(['6']),set(['6']),set([]),set([]),subset
+wasm_shared_memory.c,notify_wait_list-4,set(['6']),set(['6']),set([]),set([]),subset
+wasm_shared_memory.c,acquire_wait_info-0,set(['13']),set(['13']),set([]),set([]),subset
+wasm_shared_memory.c,destroy_wait_info-0,set(['2']),set(['2']),set([]),set([]),subset
+wasm_shared_memory.c,notify_wait_list-3,set(['6']),set(['6']),set([]),set([]),subset
+wasm_shared_memory.c,notify_wait_list-2,set(['3']),set(['3']),set([]),set([]),subset
+wasm_shared_memory.c,notify_wait_list-1,{},{},set([]),set([]),subset
+wasm_shared_memory.c,wasm_runtime_atomic_notify-1,{},{},set([]),set([]),subset
+wasm_shared_memory.c,notify_wait_list-0,set(['10']),set(['10']),set([]),set([]),subset
+ems_alloc.c,gci_is_heap_valid-0,set(['5']),set(['5']),set([]),set([]),subset
+ems_alloc.c,remove_tree_node-1,{},{},set([]),set([]),subset
+ems_alloc.c,gc_alloc_vo-4,{},{},set([]),set([]),subset
+ems_alloc.c,remove_tree_node-0,set(['41']),set(['41']),set([]),set([]),subset
+ems_alloc.c,gc_alloc_vo-0,set(['13']),set(['13']),set([]),set([]),subset
+ems_alloc.c,gc_alloc_vo-1,{},{},set([]),set([]),subset
+ems_alloc.c,gc_alloc_vo-2,{},{},set([]),set([]),subset
+ems_alloc.c,gc_alloc_vo-3,set(['12']),set(['12']),set([]),set([]),subset
+ems_alloc.c,gci_add_fc-4,{},{},set([]),set([]),subset
+ems_alloc.c,gci_add_fc-5,{},{},set([]),set([]),subset
+ems_alloc.c,gci_add_fc-0,set(['23']),set(['23']),set([]),set([]),subset
+ems_alloc.c,gci_add_fc-1,{},{},set([]),set([]),subset
+ems_alloc.c,gci_add_fc-2,{},{},set([]),set([]),subset
+ems_alloc.c,gci_add_fc-3,"set(['11', '19'])","set(['11', '19'])",set([]),set([]),subset
+ems_alloc.c,alloc_hmu-4,{},{},set([]),set([]),subset
+ems_alloc.c,gc_realloc_vo-1,{},{},set([]),set([]),subset
+ems_alloc.c,gc_realloc_vo-0,set(['44']),set(['44']),set([]),set([]),subset
+ems_alloc.c,gc_realloc_vo-3,set(['8']),set(['8']),set([]),set([]),subset
+ems_alloc.c,gc_realloc_vo-2,{},{},set([]),set([]),subset
+ems_alloc.c,gc_realloc_vo-5,{},{},set([]),set([]),subset
+ems_alloc.c,gc_realloc_vo-4,set(['30']),set(['30']),set([]),set([]),subset
+ems_alloc.c,gc_realloc_vo-7,{},{},set([]),set([]),subset
+ems_alloc.c,gc_realloc_vo-6,set(['8']),set(['8']),set([]),set([]),subset
+ems_alloc.c,gc_realloc_vo-8,set(['30']),set(['30']),set([]),set([]),subset
+ems_alloc.c,alloc_hmu-6,{},{},set([]),set([]),subset
+ems_alloc.c,alloc_hmu-0,set(['53']),set(['53']),set([]),set([]),subset
+ems_alloc.c,alloc_hmu-5,"set(['9', '4'])","set(['9', '4'])",set([]),set([]),subset
+ems_alloc.c,remove_tree_node-2,set(['12']),set(['12']),set([]),set([]),subset
+ems_alloc.c,alloc_hmu-1,{},{},set([]),set([]),subset
+ems_alloc.c,alloc_hmu-2,"set(['46', '2', '22'])","set(['46', '2', '22'])",set([]),set([]),subset
+ems_alloc.c,alloc_hmu-10,set(['30']),set(['30']),set([]),set([]),subset
+ems_alloc.c,alloc_hmu-11,set(['30']),set(['30']),set([]),set([]),subset
+ems_alloc.c,gci_dump-4,set(['1']),set(['1']),set([]),set([]),subset
+ems_alloc.c,alloc_hmu-3,{},{},set([]),set([]),subset
+ems_alloc.c,gci_dump-1,set(['1']),set(['1']),set([]),set([]),subset
+ems_alloc.c,gci_dump-0,set(['17']),set(['17']),set([]),set([]),subset
+ems_alloc.c,gci_dump-3,"set(['1', '8', '9', '10'])","set(['1', '8', '9', '10'])",set([]),set([]),subset
+ems_alloc.c,gci_dump-2,{},{},set([]),set([]),subset
+ems_alloc.c,alloc_hmu-8,{},{},set([]),set([]),subset
+ems_alloc.c,alloc_hmu-9,{},{},set([]),set([]),subset
+ems_alloc.c,gc_free_vo-4,"set(['24', '25'])","set(['24', '25'])",set([]),set([]),subset
+ems_alloc.c,gc_free_vo-5,{},{},set([]),set([]),subset
+ems_alloc.c,gc_free_vo-6,"set(['19', '18'])","set(['19', '18'])",set([]),set([]),subset
+ems_alloc.c,alloc_hmu-7,set(['4']),set(['4']),set([]),set([]),subset
+ems_alloc.c,gc_free_vo-0,set(['34']),set(['34']),set([]),set([]),subset
+ems_alloc.c,gc_free_vo-1,{},{},set([]),set([]),subset
+ems_alloc.c,gc_free_vo-2,set(['33']),set(['33']),set([]),set([]),subset
+ems_alloc.c,gc_free_vo-3,"set(['19', '18', '25', '24'])","set(['19', '18', '25', '24'])",set([]),set([]),subset
+ems_alloc.c,remove_tree_node-3,set(['25']),set(['25']),set([]),set([]),subset
+ems_alloc.c,unlink_hmu-1,set(['4']),set(['4']),set([]),set([]),subset
+ems_alloc.c,unlink_hmu-0,"set(['22', '16'])","set(['22', '16'])",set([]),set([]),subset
+ems_alloc.c,unlink_hmu-3,set(['16']),set(['16']),set([]),set([]),subset
+ems_alloc.c,unlink_hmu-2,set(['4']),set(['4']),set([]),set([]),subset
+aot_intrinsic.c,aot_intrinsic_f64_cmp-0,set(['27']),set(['27']),set([]),set([]),subset
+aot_intrinsic.c,aot_intrinsic_popcnt_i64-0,set(['1']),set(['1']),set([]),set([]),subset
+aot_intrinsic.c,aot_intrinsic_popcnt_i64-1,set(['1']),set(['1']),set([]),set([]),subset
+aot_intrinsic.c,aot_intrinsic_ctz_i64-2,set(['3']),set(['3']),set([]),set([]),subset
+aot_intrinsic.c,aot_intrinsic_ctz_i64-3,{},{},set([]),set([]),subset
+aot_intrinsic.c,aot_intrinsic_ctz_i64-0,set(['6']),set(['6']),set([]),set([]),subset
+aot_intrinsic.c,aot_intrinsic_ctz_i64-1,set(['3']),set(['3']),set([]),set([]),subset
+aot_intrinsic.c,aot_intrinsic_ctz_i32-3,{},{},set([]),set([]),subset
+aot_intrinsic.c,aot_intrinsic_ctz_i32-2,set(['3']),set(['3']),set([]),set([]),subset
+aot_intrinsic.c,aot_intrinsic_ctz_i32-1,set(['3']),set(['3']),set([]),set([]),subset
+aot_intrinsic.c,aot_intrinsic_ctz_i32-0,set(['6']),set(['6']),set([]),set([]),subset
+aot_intrinsic.c,aot_intrinsic_clz_i32-3,{},{},set([]),set([]),subset
+aot_intrinsic.c,aot_intrinsic_clz_i32-2,set(['3']),set(['3']),set([]),set([]),subset
+aot_intrinsic.c,aot_intrinsic_clz_i32-1,set(['3']),set(['3']),set([]),set([]),subset
+aot_intrinsic.c,aot_intrinsic_clz_i32-0,set(['6']),set(['6']),set([]),set([]),subset
+aot_intrinsic.c,aot_intrinsic_fmax_f64-1,{},{},set([]),set([]),subset
+aot_intrinsic.c,aot_intrinsic_fmax_f64-0,set(['11']),set(['11']),set([]),set([]),subset
+aot_intrinsic.c,aot_intrinsic_fmax_f32-0,set(['13']),set(['13']),set([]),set([]),subset
+aot_intrinsic.c,aot_intrinsic_get_symbol-2,set(['1']),set(['1']),set([]),set([]),subset
+aot_intrinsic.c,aot_intrinsic_get_symbol-1,{},{},set([]),set([]),subset
+aot_intrinsic.c,aot_intrinsic_get_symbol-0,set(['7']),set(['7']),set([]),set([]),subset
+aot_intrinsic.c,aot_intrinsic_fmin_f64-1,{},{},set([]),set([]),subset
+aot_intrinsic.c,aot_intrinsic_fmin_f64-0,set(['11']),set(['11']),set([]),set([]),subset
+aot_intrinsic.c,aot_intrinsic_clz_i64-2,set(['3']),set(['3']),set([]),set([]),subset
+aot_intrinsic.c,aot_intrinsic_clz_i64-3,{},{},set([]),set([]),subset
+aot_intrinsic.c,aot_intrinsic_clz_i64-0,set(['6']),set(['6']),set([]),set([]),subset
+aot_intrinsic.c,aot_intrinsic_clz_i64-1,set(['3']),set(['3']),set([]),set([]),subset
+aot_intrinsic.c,aot_intrinsic_f32_cmp-0,set(['27']),set(['27']),set([]),set([]),subset
+aot_intrinsic.c,aot_intrinsic_fmin_f32-0,set(['13']),set(['13']),set([]),set([]),subset
+aot_intrinsic.c,aot_intrinsic_popcnt_i32-1,set(['1']),set(['1']),set([]),set([]),subset
+aot_intrinsic.c,aot_intrinsic_popcnt_i32-0,set(['1']),set(['1']),set([]),set([]),subset
+bh_assert.c,bh_assert_internal-0,set(['6']),set(['6']),set([]),set([]),subset
+bh_assert.c,bh_assert_internal-1,set(['4']),set(['4']),set([]),set([]),subset
+FinalResults,Total,2435,2435,0,****
