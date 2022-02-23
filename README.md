@@ -39,7 +39,10 @@ This tool performs intraprocedural analysis of source code written in C language
 
 <strong> Limitations: </strong>
 - The computation of phi nodes does not consider the liveness of program variables. 
-- It generates only phi nodes, but does not transform high-level code to its SSA form. However, <strong> SmartSSA </strong> transform LLVM IR code to its SSA form.
+- It generates only phi nodes, but does not transform high-level code to its SSA form. 
+However, the above limitations are resolved in <strong> SmartSSA </strong> which transforms any LLVM IR code to its SSA form.
+
+
 <h2>  Usage of  SmartSSA</h2>
 
 
