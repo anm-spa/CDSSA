@@ -1,0 +1,8 @@
+duallivestats.txt: TotalInst: 42556 PhiInst: 2251
+dualstats.txt: TotalInst: 43146 PhiInst: 2721
+
+
+duallivestats.txt: TotalInst: 42556 PhiInst: 2251
+dualstats.txt: TotalInst: 43146 PhiInst: 2721
+
+
