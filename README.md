@@ -11,11 +11,11 @@ Both are implemented and tested in LLVM/Clang version 11.
 
 <strong> WCCPhiAnal </strong> can run as a standalone tool built using the [Libtooling](https://clang.llvm.org/docs/LibTooling.html) library support. To build WCCPhiAnal, do the following:
 1. Copy <strong> WCCPhiAnal </strong> in <code >(your llvm directory)/clang/tools </code> directory,
-2. Add the instruction <code>add_clang_subdirectory(WCCPhiAnal) </code> in the <strong>CMakeLists.txt </strong> file in the tools directory,
+2. Add the instruction <code>add_clang_subdirectory(WCCPhiAnal) </code> in the <strong>CMakeLists.txt </strong> file in the <code>tools</code> directory,
 3. Build the WCCPhiAnal project by building LLVM (or selectively build projects in LLVM)  which will generate the <strong> wccphigen </strong> executable. See the details of how to build [Clang/LLVM](https://llvm.org/docs/GettingStarted.html).
 
 
 <strong> SSA </strong> is an LLVM pass which can be built as follows:
-1. Copy <strong> SSA </strong> to the directory  <code >(your llvm directory)/llvm/lib/Transforms </code> directory,
-2. Add the instruction <code>add_subdirectory(SSA) </code> in the <strong>CMakeLists.txt </strong> file in the Transforms directory,
-3. Build SSA by building LLVM (or selectively build projects in LLVM)  which will generate the <strong> SSA.dylib </strong> library in the Debug/lib/ directory of your LLVM build directory. 
+1. Copy <strong> SSA </strong> to the directory  <code >(your llvm directory)/llvm/lib/Transforms </code> directory and rename SSA by SmartSSA (just to resolve naming conflict),
+2. Add the instruction <code>add_subdirectory(SmartSSA) </code> in the <strong>CMakeLists.txt </strong> file in the <code> Transforms </code> directory,
+3. Build SSA by building LLVM (or selectively build projects in LLVM)  which will generate the <strong> SmartSSA.dylib </strong> library in the <code> Debug/lib/ </code> directory of your LLVM's build directory. 
