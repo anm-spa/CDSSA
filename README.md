@@ -4,3 +4,7 @@ This repository contains the following two subdirectories:
 
 1. SSA - It is implemented as an LLVM pass to transform any LLVM IR program to the SSA form
 2. WCCPhi - It is a Clang-based program analysis tool that computes control dependencies, weak control closure, and phi nodes (required for SSA computation)
+
+Both are implemented and tested in LLVM/Clang version 11.
+
+<h3> Setup of SSA and WCCPhi </h3>
