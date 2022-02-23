@@ -33,6 +33,9 @@ This tool performs intraprocedural analysis of source code written in C language
    - Compute Phi nodes using RD-based method discussed in SCAM 2019 [6] and JSS 2020 [7]. Usage option: <code> -alg=PhiRD </code> 
    - Compute Phi nodes using the duality-based fixpoint method [4]. Usage option: <code> -alg=PhiDual </code> 
    - Compare the computation of Phi nodes using all the above methods. Usage option: <code> -alg=CompPhi </code>
+3. Use the option <code> -proc=(Procedure name) </code> if you want to analyze a specific procedure. Then, you can use <code> -cfg</code> or <code> -cdg </code> to see the CFG or the control dependency information of the analyzed procedure.
+4. Usually, WCC is computed with respect to a set of CFG nodes. By default, this set is obtained randomly from the set of CFG nodes. However, this option can be overridden by using the option <code> -np </code> which will then allow to get a subset of CFG nodes from console.
+5. Dominance frontier based computation such as [5] of Phi nodes assumes that all program variables are defined at the beginning and introduces spuriousness in computing phi nodes. However, theis assumption is relaxed in [4,6,7] by assuming that only global variables and formal parameters are beginning at the beginning. Thus, the implementation of the methods in [4,6,7] produces precise phi nodes. However, the option  <code> -defs-at-start </code> forces these methods to assume that all program variables are definied at the beginning, and then the set of phi nodes in all computations are same.
 
 <h2>  References of implemented algorithms </h2>
 
