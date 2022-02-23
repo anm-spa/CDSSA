@@ -1,0 +1,15 @@
+m2rlivestats.txt: TotalInst: 270116 PhiInst: 6929
+m2rstats.txt: TotalInst: 283606 PhiInst: 14183
+duallivestats.txt: TotalInst: 270070 PhiInst: 6875
+duallivedefstartstats.txt: TotalInst: 270116 PhiInst: 6929
+dualstats.txt: TotalInst: 274911 PhiInst: 9674
+
+
+TotalTime: m2rlivetime.txt 1196.52 294.05 10.17
+TotalTime: m2rtime.txt 1193.45 295.95 9.9
+TotalTime: duallivetime.txt 1231.95 331.27 10.03
+TotalTime: duallivedefstarttime.txt 1244.52 340.89 10.11
+TotalTime: dualtime.txt 1233.62 331.59 10.21
+ (m2rlive, duallive, diff) = 6091 6038 53
+ (m2r, dual, diff) = 12066 8247 3819
+(m2rlive, duallivedefstart, diff) = 6091 6091 0
