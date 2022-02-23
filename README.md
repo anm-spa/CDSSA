@@ -24,17 +24,30 @@ Both are implemented and tested in LLVM/Clang version 11.
 This tool performs intraprocedural analysis of source code written in C language and can be used to compute the following:
 
 1. Compute the weak control closure of each procedure with respect to a given subset of CFG nodes. These subset of CFG nodes can be taken randomly or given as input. WCC can be computed using various state-of-the-art methods and a novel duality-based algorithm.
-  (i) Compute WCC using the method of Danicic et al.
- (ii) Computte WCC using reaching definition-based analysis
- (iii) Computte WCC using novel duality-based algorithm
+   - Compute WCC using the method of Danicic et al.[1]. Usage option: <code> -alg=CDDanicic </code> 
+   - Computte WCC using reaching definition-based analysis [2,3]. Usage option: <code> -alg=CDSAS </code> 
+   - Computte WCC using novel duality-based algorithm [4]. Usage option: <code> -alg=CDDual </code>
+   - Compare the computation of WCC using all the above three methods.  Usage option: <code> -alg=CompCD </code>
 2. Compute the set of PHI nodes from the CFG of each procedure and for each program variable. 
+   - Compute Phi nodes using the dominance frontier based method (Cytron's algorithm [5]). Usage option: <code> -alg=PhiDF </code> 
+   - Compute Phi nodes using RD-based method discussed in SCAM 2019 [6] and JSS 2020 [7]. Usage option: <code> -alg=PhiRD </code> 
+   - Compute Phi nodes using the duality-based fixpoint method [4]. Usage option: <code> -alg=PhiDual </code> 
+   - Compare the computation of Phi nodes using all the above methods. Usage option: <code> -alg=CompPhi </code>
 
 <h2>  References of implemented algorithms </h2>
 
-[1] Danicic, Sebastian et al. “A unifying theory of control dependence and its application to arbitrary program structures.” Theor. Comput. Sci. 412 (2011): 6809-6842.
+[1] Danicic, Sebastian et al. “A unifying theory of control dependence and its application to arbitrary program structures.” Theor. Comput. Sci. 412 (2011): 6809-6842. 
 
-[2] Abu Naser Masud. Efficient computation of minimal weak and strong control closure. J. Syst. Softw. 184, C (Feb 2022). DOI:https://doi.org/10.1016/j.jss.2021.111140
+[2] Abu Naser Masud. Efficient computation of minimal weak and strong control closure. J. Syst. Softw. 184, C (Feb 2022). DOI:https://doi.org/10.1016/j.jss.2021.111140 
 
-[3] Abu Naser Masud. Simple and Efficient Computation of Minimal Weak Control Closure. in proceeding of the 27th Intl. conf. in static analysis (SAS) (2020).
+[3] Abu Naser Masud. Simple and Efficient Computation of Minimal Weak Control Closure. in proceeding of the 27th Intl. conf. in static analysis (SAS) (2020). 
 
 [4] Abu Naser Masud. The Duality in Computing SSA Programs and Control Dependency, under review in transactions on software engineering (TSE).
+
+[5] Ron Cytron, Jeanne Ferrante, Barry K. Rosen, Mark N. Wegman,
+and F. Kenneth Zadeck. Efficiently computing static single as- signment form and the control dependence graph. ACM Trans.
+Program. Lang. Syst., 13(4):451–490, October 1991.
+
+[6] A. N. Masud and F. Ciccozzi. Towards constructing the ssa form using reaching definitions over dominance frontiers. In 2019 19th International Working Conference on Source Code Analysis and Manipulation (SCAM), pages 23–33, 2019.
+
+[7] Abu Naser Masud and Federico Ciccozzi. More precise con- struction of static single assignment programs using reaching definitions. Journal of Systems and Software, 166:110590, 2020.
