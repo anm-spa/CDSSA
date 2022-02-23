@@ -36,6 +36,7 @@ cl::opt<AType> AlgType("alg", cl::desc("Choose Algorithms:"),
 cl::opt<bool> DumpCFG("cfg", cl::desc("Dump CFG if a specific function is analyzed"));
 cl::opt<bool> DumpCDG("cdg", cl::desc("Dump CDG if a specific function is analyzed"));
 cl::opt<bool> DefsAtStart("defs-at-start", cl::desc("Set all definitions of program variables at the start node in computing phi nodes"));
+cl::opt<bool> UserNP("np", cl::desc("Use this option if the NP sets are to be given manually (the default is to select NP randomly from the CFG nodes)"));
 cl::opt<string> ProcName("proc", cl::desc("Specify function name to be analyzed"), cl::value_desc("function name"), cl::init("none"));
 
 #endif

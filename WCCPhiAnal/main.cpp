@@ -163,14 +163,34 @@ public:
         return vDefs;
     }
     
+    
+    std::set<unsigned> getSubsetOfCFGNodesfromConsole(unsigned size)
+    {
+        std::set<unsigned> Np;
+        outs()<<"\nRequires a set of CFG basic block id numbers (range from 0 to "<<size-1<<"):";
+        std::string line;
+        std::getline(std::cin, line);
+        std::istringstream os(line);
+        unsigned i;
+        while(os >> i)
+            if(i>=0 && i< size)
+                Np.insert(i);
+        return Np;
+    }
+    
+    
+    
     void computeCDDanicic(FunctionDecl *f,std::set<unsigned> *Npp=NULL)
     {
         Stmt *funcBody = f->getBody();
         std::unique_ptr<CFG> sCFG = CFG::buildCFG(f, funcBody, &context, CFG::BuildOptions());
         unsigned size=sCFG->size();
-        std::set<unsigned> Np=*Npp;
-        if(!Npp)
-            Np=getSubsetOfCFGNodes(sCFG->size());
+        std::set<unsigned> Np;
+        if(!Npp){
+            if(UserNP) Np=getSubsetOfCFGNodesfromConsole(sCFG->size());
+            else Np=getSubsetOfCFGNodes(sCFG->size());
+        }
+        else Np=*Npp;
         ExecTime<std::chrono::microseconds> timer;
         CDAnalysisDanicic *cDanicic=new CDAnalysisDanicic(std::move(sCFG),context,Np);
         std::set<unsigned> wcc=cDanicic->computeWCCDanicic(Np);
@@ -183,8 +203,12 @@ public:
     {
         Stmt *funcBody = f->getBody();
         std::unique_ptr<CFG> sCFG = CFG::buildCFG(f, funcBody, &context, CFG::BuildOptions());
-        std::set<unsigned> Np=*Npp;
-        if(!Npp) Np=getSubsetOfCFGNodes(sCFG->size());
+        std::set<unsigned> Np;
+        if(!Npp){
+            if(UserNP) Np=getSubsetOfCFGNodesfromConsole(sCFG->size());
+            else Np=getSubsetOfCFGNodes(sCFG->size());
+        }
+        else Np=*Npp;
         unsigned size=sCFG->size();
         ExecTime<std::chrono::microseconds> timer;
         CDAnalysis *cdanal=new CDAnalysis(std::move(sCFG),context,Np);
@@ -198,8 +222,12 @@ public:
     {
         Stmt *funcBody = f->getBody();
         std::unique_ptr<CFG> sCFG = CFG::buildCFG(f, funcBody, &context, CFG::BuildOptions());
-        std::set<unsigned> Np=*Npp;
-        if(!Npp) getSubsetOfCFGNodes(sCFG->size());
+        std::set<unsigned> Np;
+        if(!Npp){
+            if(UserNP) Np=getSubsetOfCFGNodesfromConsole(sCFG->size());
+            else Np=getSubsetOfCFGNodes(sCFG->size());
+        }
+        else Np=*Npp;
         unsigned size=sCFG->size();
         ExecTime<std::chrono::microseconds> timer;
         CDSSA *cd=new CDSSA(std::move(sCFG),context,false);
