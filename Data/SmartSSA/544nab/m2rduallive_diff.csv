@@ -1,0 +1,9 @@
+FileName,FuncName and Var Id,M2R-Dual,Dual-M2R
+prm.c,readparm-3,"set(['300', '249'])",set([])
+nblist.c,buildkdtree-0,set(['26']),set([])
+nblist.c,buildkdtree-3,set(['26']),set([])
+regcomp.c,findmust-4,"set(['3', '21', '6'])",set([])
+regcomp.c,p_ere-1,set(['1']),set([])
+regcomp.c,regcomp-0,set(['14']),set([])
+regcomp.c,p_ere-2,set(['1']),set([])
+FinalResults,Total,10
